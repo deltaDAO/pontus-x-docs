@@ -1,6 +1,6 @@
-Governance Meeting November 10, 2022
+## Governance Meeting November 10, 2022
 
-###Focus
+### Focus
 - Accept Exoscale as new validator
 
 ### Agenda
