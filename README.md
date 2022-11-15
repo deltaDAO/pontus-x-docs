@@ -7,6 +7,7 @@ Current Participants (continuously updated):
 - EuproGigant, represented by TU Darmstadt/EIT Manufacturing/TU Wien, Austria & Germany
 - Exoscale, Switzerland
 - Arsys, Spain
+- IONOS Cloud, Germany
 
 Gaia-X Trust Framework Participant Identification and Self-Descriptions:
 - deltaDAO: https://www.delta-dao.com/.well-known/participantDeltadao.json
@@ -21,7 +22,7 @@ Current Validator Set:
 - EuProGigant: 0x2960C40843dCCC9f34F1932d10af13d3AB5B258a
 - Exoscale: 0x56eA3Cc92144Db3bA2bdE25131F40c7B98F7eD32
 - Arsys: 0x50C452ba6040f5F81E309eBF2F2b0D6A0EDd1302
-- IONOS: tbd
+- IONOS Cloud: 0x7d0fb02DFd5537AA5F27a0320e03F1D7E2346d88
 - WOBCOM: tbd
 
 Full nodes: 
