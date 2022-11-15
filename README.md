@@ -1,104 +1,42 @@
-![Build Status](https://gitlab.com/pages/gitbook/badges/master/build.svg)
+GEN-X Governance & Meeting Notes
 
----
+Current Members & Representatives
 
-Example [GitBook] website using GitLab Pages.
+Current Participants (continuously updated):
+- deltaDAO AG, Germany, 
+- EuproGigant, represented by TU Darmstadt/EIT Manufacturing/TU Wien, Austria & Germany
+- Exoscale, Switzerland
+- Arsys, Spain
 
-Learn more about GitLab Pages at https://pages.gitlab.io and the official
-documentation https://docs.gitlab.com/ce/user/project/pages/.
+Gaia-X Trust Framework Participant Identification and Self-Descriptions:
+- deltaDAO: https://www.delta-dao.com/.well-known/participantDeltadao.json
+- EuProGigant: https://ptw.tu-darmstadt.euprogigant.io/sd/participant.json
+- Exoscale: https://a1.digital.euprogigant.io/sd/participant.json
+- Arsys: https://arlabdevelopments.com/.well-known/ArsysParticipant.json
+- IONOS Cloud: https://delta-dao.com/.well-known/participantIONOS.json
+- WOBCOM: tbd
 
----
+Current Validator Set:
+- deltaDAO: 0x7D765CE9B18c2B2DB8C49d663351096F2639D5aA, 0xED8dfD6Dd61222618EFE07846efe78b6CAE25933,  0x4918d64413DA7763Eb674E2aA1c6B4e6B2E29f79
+- EuProGigant: 0x2960C40843dCCC9f34F1932d10af13d3AB5B258a
+- Exoscale: 0x56eA3Cc92144Db3bA2bdE25131F40c7B98F7eD32
+- Arsys: 0x50C452ba6040f5F81E309eBF2F2b0D6A0EDd1302
+- IONOS: tbd
+- WOBCOM: tbd
 
-<!-- START doctoc generated TOC please keep comment here to allow auto update -->
-<!-- DON'T EDIT THIS SECTION, INSTEAD RE-RUN doctoc TO UPDATE -->
-**Table of Contents**  *generated with [DocToc](https://github.com/thlorenz/doctoc)*
+Full nodes: 
+- deltaDAO: 0xf5bFEC3a99E25931DD198585d93E3022a5EB6A20
 
-- [GitLab CI](#gitlab-ci)
-- [Building locally](#building-locally)
-- [GitLab User or Group Pages](#gitlab-user-or-group-pages)
-- [Did you fork this project?](#did-you-fork-this-project)
-- [Troubleshooting](#troubleshooting)
+Proposed future Validators:
+- IONOS: ready
+- WOBCOM: setup
+- SBB: tbd
 
-<!-- END doctoc generated TOC please keep comment here to allow auto update -->
-
-## GitLab CI
-
-This project's static Pages are built by [GitLab CI][ci], following the steps
-defined in [`.gitlab-ci.yml`](.gitlab-ci.yml):
-
-```yaml
-# requiring the environment of NodeJS 8.9.x LTS (carbon)
-image: node:8.9
-
-# add 'node_modules' to cache for speeding up builds
-cache:
-  paths:
-    - node_modules/ # Node modules and dependencies
-
-before_script:
-  - npm install gitbook-cli -g # install gitbook
-  - gitbook fetch latest # fetch latest stable version
-  - gitbook install # add any requested plugins in book.json
-  #- gitbook fetch pre # fetch latest pre-release version
-  #- gitbook fetch 2.6.7 # fetch specific version
-
-# the 'pages' job will deploy and build your site to the 'public' path
-pages:
-  stage: deploy
-  script:
-    - gitbook build . public # build to public path
-  artifacts:
-    paths:
-      - public
-  only:
-    - master # this job will affect only the 'master' branch
-```
-
-## Building locally
-
-To work locally with this project, you'll have to follow the steps below:
-
-1. Fork, clone or download this project
-1. [Install][] GitBook `npm install gitbook-cli -g`
-1. Fetch GitBook's latest stable version `gitbook fetch latest`
-1. Preview your project: `gitbook serve`
-1. Add content
-1. Generate the website: `gitbook build` (optional)
-1. Push your changes to the master branch: `git push`
-
-Read more at GitBook's [documentation][].
-
-## GitLab User or Group Pages
-
-To use this project as your user/group website, you will need one additional
-step: just rename your project to `namespace.gitlab.io`, where `namespace` is
-your `username` or `groupname`. This can be done by navigating to your
-project's **Settings**.
-
-Read more about [user/group Pages][userpages] and [project Pages][projpages].
-
-## Did you fork this project?
-
-If you forked this project for your own use, please go to your project's
-**Settings** and remove the forking relationship, which won't be necessary
-unless you want to contribute back to the upstream project.
-
-## Troubleshooting
-
-1. CSS is missing! That means two things:
-
-    Either that you have wrongly set up the CSS URL in your templates, or
-    your static generator has a configuration option that needs to be explicitly
-    set in order to serve static assets under a relative URL.
-
-----
-
-Forked from @virtuacreative
-
-[ci]: https://about.gitlab.com/gitlab-ci/
-[GitBook]: https://www.gitbook.com/
-[host the book]: https://gitlab.com/pages/gitbook/tree/pages
-[install]: http://toolchain.gitbook.com/setup.html
-[documentation]: http://toolchain.gitbook.com
-[userpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#user-or-group-pages
-[projpages]: https://docs.gitlab.com/ce/user/project/pages/introduction.html#project-pages
+Current Portals:
+- Pontus-X Gaia-X Web3 Ecosystem Portal: https://portal.minimal-gaia-x.eu/
+- EuProGigant Portal: https://euprogigant.portal.minimal-gaia-x.eu/
+- Gaia-X 4 Future Mobility moveID Portal: https://portal.moveid.eu/
+- State Library of Berlin Portal: https://sbb.portal.minimal-gaia-x.eu/    
+- Future Mobility Data Marketplace: https://marketplace.future-mobility-alliance.org/
+- PEAQ Portal: https://gaia-x.portal.peaq.network/
+- University of Lleida Open Science Portal: https://udl.portal.minimal-gaia-x.eu/
