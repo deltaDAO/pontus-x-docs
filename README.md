@@ -8,6 +8,7 @@ Current Participants (continuously updated):
 - Exoscale, Switzerland
 - Arsys, Spain
 - IONOS Cloud, Germany
+- WOBCOM, Germany
 
 Gaia-X Trust Framework Participant Identification and Self-Descriptions:
 - deltaDAO: https://www.delta-dao.com/.well-known/participantDeltadao.json
@@ -24,13 +25,13 @@ Current Validator Set:
 - Arsys: 0x50C452ba6040f5F81E309eBF2F2b0D6A0EDd1302
 - IONOS Cloud: 0x7d0fb02DFd5537AA5F27a0320e03F1D7E2346d88
 - WOBCOM: 0x9c6a497fDc252E1D7150585EA9bDEddAE1dC53D1
+
 See: https://logging.genx.minimal-gaia-x.eu/ 
 
 Full nodes: 
 - deltaDAO: 0xf5bFEC3a99E25931DD198585d93E3022a5EB6A20
 
 Proposed future Validators:
-- WOBCOM: vote on November 16, 2022
 - SBB: tbd
 
 Current Portals:
