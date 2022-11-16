@@ -1,0 +1,23 @@
+## Governance Meeting November 15, 2022
+
+### Focus:
+- Accept IONOS as new validator
+
+Agenda:
+- Introduction to the meeting and overall scope (Kai)
+- Introduction of participants (all)
+  - New participant - Rainer Sträter, IONOS
+- Acceptance of agenda (all)
+  - Accepted
+- Status update on the network and participants (Kai)
+  - Status of current validators and portals - everything up and running as expected
+- Facilitate governance (Albert)
+  - All members voted in favour of adding IONOS Cloud to the network
+- Assess and document the outcome of governance (Kai)
+  - IONOS has been added to the network
+- AOB (all)
+  - Social Media Communication
+  - Repository created, to be populated https://gitlab.com/web3-ecosystem/gen-x-network
+  - Press release, to be release on November 16
+  - Last meeting before Summit tomorrow on November 16
+  - Participant and Onboarding requests (SBB and others)
