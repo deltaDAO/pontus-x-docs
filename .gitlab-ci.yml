@@ -16,9 +16,9 @@ test:
   script:
     - gitbook build . public # build to public path
   only:
-    - branches # this job will affect every branch except 'master'
+    - branches # this job will affect every branch except 'main'
   except:
-    - master
+    - main
     
 # the 'pages' job will deploy and build your site to the 'public' path
 pages:
@@ -30,4 +30,4 @@ pages:
       - public
     expire_in: 1 week
   only:
-    - master # this job will affect only the 'master' branch
+    - main # this job will affect only the 'main' branch
