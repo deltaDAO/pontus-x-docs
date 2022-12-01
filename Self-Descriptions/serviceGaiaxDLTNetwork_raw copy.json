@@ -1,0 +1,67 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://registry.gaia-x.eu/v2206/api/shape"
+    ],
+    "type": [
+        "VerifiableCredential",
+        "ServiceOfferingExperimental"
+    ],
+    "id": "https://delta-dao.com/.well-known/serviceGaiaxDLTNetwork.json",
+    "credentialSubject": {
+        "id": "https://delta-dao.com/.well-known/serviceGaiaxDLTNetwork.json",
+        "gx-service-offering:providedBy": "https://delta-dao.com/.well-known/participantDeltaDAO.json",
+        "gx-service-offering:name": "GEN-X Gaia-X Web3 Ecosystem Network",
+        "gx-service-offering:description": "GEN-X The Gaia-X Web3 Ecosystem POA network and Ethereum Virtual Machine (EVM) on Polygon Edge.",
+        "gx-service-offering:serviceModel": "pay per use",
+        "gx-service-offering:serviceEndpoint": "https://rpc.genx.minimal-gaia-x.eu",
+        "gx-service-offering:chainSymbol": "GX",
+        "gx-service-offeering:DLTnetwork": {
+            "gx-service-offering:chainID": "100",
+            "gx-service-offering:name": "GEN-X",
+            "gx-service-offering:exampleQuery": "https://gitlab.com/web3-ecosystem/gen-x-network/-/blob/main/static/examples.md",
+            "gx-service-offering:engine": {
+                "gx-service-offering:consensus": "ibft",
+                "gx-service-offering:type": "PoA",
+                "gx-service-offering:validator_type": "bls"
+            }
+        },
+        "gx-service-offering:chainExplorer": "https://logging.genx.minimal-gaia-x.eu/",
+        "gx-service-offering:nodeClient": "Polygon Edge",
+        "gx-service-offering:nodeClientVersion": "0.6.1",
+        "gx-service-offering:termsAndConditions": [
+            {
+                "gx-service-offering:url": "http://www.apache.org/licenses/LICENSE-2.0",
+                "gx-service-offering:hash": "115b40095d99fcca1f026bd6702d168b8065ec4e853e6279df4d947601222058"
+            }
+        ],
+        "gx-service-offering:gdpr": [
+            {
+                "gx-service-offering:imprint": "https://www.delta-dao.com/imprint/"
+            },
+            {
+                "gx-service-offering:privacyPolicy": "https://www.delta-dao.com/privacy/"
+            }
+        ],
+        "gx-service-offering:aggreationOf": [
+            "https://delta-dao.com/.well-known/serviceDLTvalidatorDeltaDAO1.json",
+            "https://delta-dao.com/.well-known/serviceDLTvalidatorDeltaDAO2.json",
+            "https://delta-dao.com/.well-known/serviceDLTvalidatorDeltaDAO3.json",
+            "https://delta-dao.com/.well-known/serviceDLTvalidatorEuProGigant.json",
+            "https://delta-dao.com/.well-known/serviceDLTvalidatorExoscale.json",
+            "https://delta-dao.com/.well-known/serviceDLTvalidatorIonos.json",
+            "https://delta-dao.com/.well-known/serviceDLTvalidatorArsys.json",
+            "https://delta-dao.com/.well-known/serviceDLTvalidatorWobcom.json"
+        ],
+        "gx-service-offering:dataProtectionRegime": [
+            "GDPR2016"
+        ],
+        "gx-service-offering:dataExport": {
+            "gx-service-offering:requestType": "email",
+            "gx-service-offering:accessType": "digital",
+            "gx-service-offering:formatType": "mime/png"
+        }
+    },
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2022-12-01T23:23:23.235Z"
+}
