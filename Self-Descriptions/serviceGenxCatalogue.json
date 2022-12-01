@@ -8,9 +8,9 @@
             "VerifiableCredential",
             "ServiceOfferingExperimental"
         ],
-        "id": "https://delta-dao.com/.well-known/serviceGenxCatalogue.json",
+        "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceGenxCatalogue.json?inline=false",
         "credentialSubject": {
-            "id": "https://delta-dao.com/.well-known/serviceGenxCatalogue.json",
+            "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceGenxCatalogue.json?inline=false",
             "gx-service-offering:providedBy": "https://delta-dao.com/.well-known/participantDeltaDAO.json",
             "gx-service-offering:name": "Catalogue of the Gaia-X Web3 Ecosystem",
             "gx-service-offering:description": "The catalogue allows participants to store Self-Descriptions and pointers to Self-Descriptions.",
@@ -59,13 +59,13 @@
             }
         },
         "issuer": "did:web:delta-dao.com",
-        "issuanceDate": "2022-09-25T23:23:23.235Z",
+        "issuanceDate": "2022-12-01T23:23:23.235Z",
         "proof": {
             "type": "JsonWebSignature2020",
-            "created": "2022-12-01T14:38:07.373Z",
+            "created": "2022-12-01T23:12:57.711Z",
             "proofPurpose": "assertionMethod",
             "verificationMethod": "did:web:delta-dao.com",
-            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..o-_T5Zfal4f-vrcowqHyNzA_Dek9OXhmD43KYyEzM7XZGL3YIXf4E7VLHAPMyN1INstZJ9YRH-cIOrj3eo6JrVrgYZqhafDnIgAPzIeL6W0X8BjuLYo7P87fdrSit_D_CptA8NkhCygSJDEUn8DsejM8NRVEAjdQX2LvLQDcMnvMCo6-ztKxLasacF6yY8Cvu6VVIVcmcmNYIBzQSm2xBQQTwFHaBLPKLkRpuMhCqgu_TkyKAG7NhhE42HVEGfqONyP-7_UZGLf_u3ekmh8Rf2fcXc0LnXszElVb7OWuq7l6HVe0FrSv81Liya5UAt9osRBQxNQ_8Pbt9Go1k83MKA"
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ZyU3IOAqTfC3Jm7OP13htmhCNtWpdlh9nMi454sSOcbqEJkhDFnBDEQAX9zFIku3IR85QKDvLXT_SRpt2Ye6xtAVgj7Ne48xct-PGpGCHDkq5tPLtWV67-36mpk1Or4UApP1EG2fopS8XMeKOn87ZtRkHpdR-SCmFwrnTJA9iu35cykc5_CPYlrixi3yH5-SXMfnxVu1-oUFp4xXk7xDI2abJEl0tFKeYBatz_jYU-_G7LLa8_0W1jymlHC7r8tPr6LwN2jucQ-BDwGDQy3AIGyOXGRn00y643LRya8A5aGl4ECksW3jS7Fq5RAuwGo_zmzSH5_Qk2Ph69rgXwxEuQ"
         }
     },
     "complianceCredential": {
@@ -76,18 +76,18 @@
             "VerifiableCredential",
             "ServiceOfferingCredentialExperimental"
         ],
-        "id": "https://catalogue.gaia-x.eu/credentials/ServiceOfferingCredentialExperimental/1669905492786",
+        "id": "https://catalogue.gaia-x.eu/credentials/ServiceOfferingCredentialExperimental/1669936383122",
         "issuer": "did:web:compliance.gaia-x.eu",
-        "issuanceDate": "2022-12-01T14:38:12.786Z",
+        "issuanceDate": "2022-12-01T23:13:03.122Z",
         "credentialSubject": {
-            "id": "https://delta-dao.com/.well-known/serviceGenxCatalogue.json",
-            "hash": "446c44e6bf31a2aaf6d3acb7545ce52a076c659d3c2c54e68d3e511c5fcf15f5"
+            "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceGenxCatalogue.json?inline=false",
+            "hash": "4ad47952a2f39654b12d288c84c725eac2993b35c2b5cd3b8f5d17e4aeae3634"
         },
         "proof": {
             "type": "JsonWebSignature2020",
-            "created": "2022-12-01T14:38:12.786Z",
+            "created": "2022-12-01T23:13:03.122Z",
             "proofPurpose": "assertionMethod",
-            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..pPU_XwFVb9Snfr8X8hHIl7ZieboPq2oCOeAnOT6jyEgWxI4sUis_knFi4hwGXbWl98Qxebg194YFKNRLYIlzG3MrJ5Ksa8ex3cz0wCnSX5Mw98CDtbWJgx82UN-AQVzAw6JnN41OBiJavYy3L3Vl-D0CZoDNTwAaKXsH-r5TbieT7SaZVhXRfoEAa69C2BLJXedZ5rrIxt3xDQN2h7rKLvC9MnoH4c54ptTfwYXhczk2SKO-oGmBynQVMrwvipjN_pmXxA5UKkLrh3xPxt9i3nsSDCQYNds47iMW1SqL75-oOPUM1CElxs72AjEtAGDm3w-N7gcXN7CB5tSgorMoKg",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Rbbw_ozb7jt7X6cBCk9UqOok7P2-GgtIdqEXuDnU3B0pNVaEFw468gZd3qLDUbEbBcBVMNgc4UXMVZdpfYI9y0MoxcHzc-YVjXwd3DwHCQ_3m5I2kBVW8ojhAFFIjL7tDP-pGkRLq8bfAem-IZfdCLpZFjC6WJMS7stu2cbwN74mzZCR3RhdyupJppZNqeFDtk3-dOpRp8rQLqnLLC5MkM4Rf-GCdrQWkc0qIfFNx9QsDLRPFyRLXYF9v06ggMy6vuW_5SVE2nXZ1uxiBJxe9UiT6MJCO6RhfmYb04yoJuQbaKFcJMWd96BeQON7KLzTyYIaxQ1Ox6Ye8NX66YDjBg",
             "verificationMethod": "did:web:compliance.gaia-x.eu"
         }
     }

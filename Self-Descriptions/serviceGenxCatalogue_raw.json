@@ -7,9 +7,9 @@
         "VerifiableCredential",
         "ServiceOfferingExperimental"
     ],
-    "id": "https://delta-dao.com/.well-known/serviceGenxCatalogue.json",
+    "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceGenxCatalogue.json?inline=false",
     "credentialSubject": {
-        "id": "https://delta-dao.com/.well-known/serviceGenxCatalogue.json",
+        "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceGenxCatalogue.json?inline=false",
         "gx-service-offering:providedBy": "https://delta-dao.com/.well-known/participantDeltaDAO.json",
         "gx-service-offering:name": "Catalogue of the Gaia-X Web3 Ecosystem",
         "gx-service-offering:description": "The catalogue allows participants to store Self-Descriptions and pointers to Self-Descriptions.",
@@ -58,5 +58,5 @@
         }
     },
     "issuer": "did:web:delta-dao.com",
-    "issuanceDate": "2022-09-25T23:23:23.235Z"
+    "issuanceDate": "2022-12-01T23:23:23.235Z"
 }
