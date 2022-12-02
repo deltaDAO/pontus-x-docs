@@ -7,15 +7,14 @@
         "VerifiableCredential",
         "ServiceOfferingExperimental"
     ],
-    "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceDLTvalidatorDeltaDAO1.json?inline=false",
+    "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceDLTvalidatorDeltaDAO3.json?inline=false",
     "credentialSubject": {
-        "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceDLTvalidatorDeltaDAO1.json?inline=false",
+        "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceDLTvalidatorDeltaDAO3.json?inline=false",
         "gx-service-offering:providedBy": "https://delta-dao.com/.well-known/participantDeltaDAO.json",
         "gx-service-offering:name": "GEN-X Validator deltaDAO 1",
         "gx-service-offering:description": "GEN-X network validator node for the Gaia-X Web3 Ecosystem",
         "gx-service-offering:serviceEndpoint": "https://rpc.genx.minimal-gaia-x.eu",
         "gx-service-offering:chainSymbol": "GX",
-        "gx-service-offering:blockchainAccountID": "0x4918d64413DA7763Eb674E2aA1c6B4e6B2E29f79",
         "gx-service-offering:chainExplorer": "https://logging.genx.minimal-gaia-x.eu/",
         "gx-service-offeering:DLTnetwork": {
             "gx-service-offering:chainID": "100",
@@ -59,5 +58,5 @@
         }
     },
     "issuer": "did:web:delta-dao.com",
-    "issuanceDate": "2022-12-02T11:50:55.235Z"
+    "issuanceDate": "2022-12-02T11:53:05.136Z"
 }
