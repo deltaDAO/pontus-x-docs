@@ -1,0 +1,63 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://registry.gaia-x.eu/v2206/api/shape"
+    ],
+    "type": [
+        "VerifiableCredential",
+        "ServiceOfferingExperimental"
+    ],
+    "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceDLTvalidatorExoscale.json?inline=false",
+    "credentialSubject": {
+        "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceDLTvalidatorExoscale.json?inline=false",
+        "gx-service-offering:providedBy": "https://a1.digital.euprogigant.io/sd/participant.json",
+        "gx-service-offering:name": "GEN-X Validator A1 Exoscale",
+        "gx-service-offering:description": "GEN-X network validator node for the Gaia-X Web3 Ecosystem",
+        "gx-service-offering:serviceEndpoint": "https://rpc.genx.minimal-gaia-x.eu",
+        "gx-service-offering:chainSymbol": "GX",
+        "gx-service-offering:blockchainAccountID": "0x56eA3Cc92144Db3bA2bdE25131F40c7B98F7eD32",
+        "gx-service-offering:chainExplorer": "https://logging.genx.minimal-gaia-x.eu/",
+        "gx-service-offeering:DLTnetwork": {
+            "gx-service-offering:chainID": "100",
+            "gx-service-offering:name": "GEN-X",
+            "gx-service-offering:exampleQuery": "https://gitlab.com/web3-ecosystem/gen-x-network/-/blob/main/static/examples.md",
+            "gx-service-offering:engine": {
+                "gx-service-offering:consensus": "ibft",
+                "gx-service-offering:type": "PoA",
+                "gx-service-offering:validator_type": "bls"
+            }
+        },
+        "gx-service-offering:nodeClient": {
+            "gx-service-offering:nodeClientName": "polygon-edge",
+            "gx-service-offering:nodeClientVersion": "0.6.1",
+            "gx-service-offering:nodeClientRepository": "https://github.com/0xPolygon/polygon-edge"
+        },
+        "gx-service-offering:termsAndConditions": [
+            {
+              "gx-service-offering:url": "https://www.exoscale.com/terms/",
+              "gx-service-offering:hash": "898B0434716EBBD2C237BAE1BB6C892B0341C3C6B9D078D17637C8AC279FB58A"
+            }
+          ],
+        "gx-service-offering:gdpr": [
+            {
+                "gx-service-offering:imprint": "https://www.a1.digital/impressum/"
+            },
+            {
+                "gx-service-offering:privacyPolicy": "https://www.exoscale.com/privacy/"
+            }
+        ],
+        "gx-service-offering:dependsOn": [
+            "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceVirtualMachineExoscale.json?inline=false"
+        ],
+        "gx-service-offering:dataProtectionRegime": [
+            "GDPR2016"
+        ],
+        "gx-service-offering:dataExport": {
+            "gx-service-offering:requestType": "email",
+            "gx-service-offering:accessType": "digital",
+            "gx-service-offering:formatType": "mime/png"
+        }
+    },
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2022-12-02T12:12:16.845Z"
+}
