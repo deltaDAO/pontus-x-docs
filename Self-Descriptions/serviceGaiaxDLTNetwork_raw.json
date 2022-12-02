@@ -44,14 +44,14 @@
             }
         ],
         "gx-service-offering:aggreationOf": [
-            "https://delta-dao.com/.well-known/serviceDLTvalidatorDeltaDAO1.json",
-            "https://delta-dao.com/.well-known/serviceDLTvalidatorDeltaDAO2.json",
-            "https://delta-dao.com/.well-known/serviceDLTvalidatorDeltaDAO3.json",
-            "https://delta-dao.com/.well-known/serviceDLTvalidatorEuProGigant.json",
-            "https://delta-dao.com/.well-known/serviceDLTvalidatorExoscale.json",
-            "https://delta-dao.com/.well-known/serviceDLTvalidatorIonos.json",
-            "https://delta-dao.com/.well-known/serviceDLTvalidatorArsys.json",
-            "https://delta-dao.com/.well-known/serviceDLTvalidatorWobcom.json"
+            "https://gitlab.com/web3-ecosystem/gen-x-network/-/blob/main/Self-Descriptions/serviceDLTvalidatorDeltaDAO1.json",
+            "https://gitlab.com/web3-ecosystem/gen-x-network/-/blob/main/Self-Descriptions/serviceDLTvalidatorDeltaDAO2.json",
+            "https://gitlab.com/web3-ecosystem/gen-x-network/-/blob/main/Self-Descriptions/serviceDLTvalidatorDeltaDAO3.json",
+            "https://gitlab.com/web3-ecosystem/gen-x-network/-/blob/main/Self-Descriptions/serviceDLTvalidatorEuProGigant.json",
+            "https://gitlab.com/web3-ecosystem/gen-x-network/-/blob/main/Self-Descriptions/serviceDLTvalidatorExoscale.json",
+            "https://gitlab.com/web3-ecosystem/gen-x-network/-/blob/main/Self-Descriptions/serviceDLTvalidatorIonos.json",
+            "https://gitlab.com/web3-ecosystem/gen-x-network/-/blob/main/Self-Descriptions/serviceDLTvalidatorArsys.json",
+            "https://gitlab.com/web3-ecosystem/gen-x-network/-/blob/main/Self-Descriptions/serviceDLTvalidatorWobcom.json"
         ],
         "gx-service-offering:dataProtectionRegime": [
             "GDPR2016"
@@ -63,5 +63,5 @@
         }
     },
     "issuer": "did:web:delta-dao.com",
-    "issuanceDate": "2022-12-01T23:23:23.235Z"
+    "issuanceDate": "2022-12-02T13:18:16.154Z"
 }

@@ -45,14 +45,14 @@
                 }
             ],
             "gx-service-offering:aggreationOf": [
-                "https://delta-dao.com/.well-known/serviceDLTvalidatorDeltaDAO1.json",
-                "https://delta-dao.com/.well-known/serviceDLTvalidatorDeltaDAO2.json",
-                "https://delta-dao.com/.well-known/serviceDLTvalidatorDeltaDAO3.json",
-                "https://delta-dao.com/.well-known/serviceDLTvalidatorEuProGigant.json",
-                "https://delta-dao.com/.well-known/serviceDLTvalidatorExoscale.json",
-                "https://delta-dao.com/.well-known/serviceDLTvalidatorIonos.json",
-                "https://delta-dao.com/.well-known/serviceDLTvalidatorArsys.json",
-                "https://delta-dao.com/.well-known/serviceDLTvalidatorWobcom.json"
+                "https://gitlab.com/web3-ecosystem/gen-x-network/-/blob/main/Self-Descriptions/serviceDLTvalidatorDeltaDAO1.json",
+                "https://gitlab.com/web3-ecosystem/gen-x-network/-/blob/main/Self-Descriptions/serviceDLTvalidatorDeltaDAO2.json",
+                "https://gitlab.com/web3-ecosystem/gen-x-network/-/blob/main/Self-Descriptions/serviceDLTvalidatorDeltaDAO3.json",
+                "https://gitlab.com/web3-ecosystem/gen-x-network/-/blob/main/Self-Descriptions/serviceDLTvalidatorEuProGigant.json",
+                "https://gitlab.com/web3-ecosystem/gen-x-network/-/blob/main/Self-Descriptions/serviceDLTvalidatorExoscale.json",
+                "https://gitlab.com/web3-ecosystem/gen-x-network/-/blob/main/Self-Descriptions/serviceDLTvalidatorIonos.json",
+                "https://gitlab.com/web3-ecosystem/gen-x-network/-/blob/main/Self-Descriptions/serviceDLTvalidatorArsys.json",
+                "https://gitlab.com/web3-ecosystem/gen-x-network/-/blob/main/Self-Descriptions/serviceDLTvalidatorWobcom.json"
             ],
             "gx-service-offering:dataProtectionRegime": [
                 "GDPR2016"
@@ -64,13 +64,13 @@
             }
         },
         "issuer": "did:web:delta-dao.com",
-        "issuanceDate": "2022-12-01T23:23:23.235Z",
+        "issuanceDate": "2022-12-02T13:18:16.154Z",
         "proof": {
             "type": "JsonWebSignature2020",
-            "created": "2022-12-01T23:10:41.477Z",
+            "created": "2022-12-02T12:28:35.227Z",
             "proofPurpose": "assertionMethod",
             "verificationMethod": "did:web:delta-dao.com",
-            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..RUfgGAQ8tsaxHSJfQRBpjCAJ2Oa2cuGkWLLo-pY73llWST4Gj2pmGgjW0b_rYqwf7C7myogPcmfnNBgf0gr_-T787xiyAb7qzRXLjyHzABQw7okbXSi8JbzN_W3DhJoI7oJtZ203q9YskH-fxkgMnbvWPQOpgTTv2BsSjwZGau_oV2hgn_PyGpNrxyENCXibAwuCRiNKebDY1AgizMIdsmRkj_c1K1EkSFQYkVNvMrPqKjdqMLYqO4CP0EVOiC1qIc1cjIRCW00kLmWASoQMxzKfJ1bhijTI409ft8gKXcIOL-ZcQEM19LAHnRJfUiG-NCMcJyhbBV5kmmNpIze7AA"
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Y5-TxT_oD3QwRpH_o6OvDfLkXP1wP06mk1dOzwZphugOcMBrafCmJKQ3GAl3mBQq_sN2m43u01dX4is2Iyk3kV7G_aNh_QYLwg3ylY0WAHhmk7z710qgxvmCWU0IrTh9DCFHO6L29orWQ-EjRyvX00Ll8mH2LdsttedYBDY9KXMtJttsaUaDSCRSwuAuI8Tlxp8FNiItrdtxrn4S-Vq_5hJf9DXzCBKfYD4YYgvBZM_Dl5GOW3DHRMs6jI5w3UFqV-lBcjRG4Oabjwy3CL3RX3xZvabreB7-WTVF_0QFsg-p3AsIReN581AsWtZ9POTD7xnCLJ5tQc4C8W1ZavcVrg"
         }
     },
     "complianceCredential": {
@@ -81,18 +81,18 @@
             "VerifiableCredential",
             "ServiceOfferingCredentialExperimental"
         ],
-        "id": "https://catalogue.gaia-x.eu/credentials/ServiceOfferingCredentialExperimental/1669936247013",
+        "id": "https://catalogue.gaia-x.eu/credentials/ServiceOfferingCredentialExperimental/1669984120251",
         "issuer": "did:web:compliance.gaia-x.eu",
-        "issuanceDate": "2022-12-01T23:10:47.013Z",
+        "issuanceDate": "2022-12-02T12:28:40.251Z",
         "credentialSubject": {
             "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceGaiaxDLTNetwork.json?inline=false",
-            "hash": "ace4061d62f345622bc75251e92b7173f95995a6d2d128391d8b196eb536965e"
+            "hash": "e9538404887a1f5a2cf69d3558ee76cb8e3614911ed36640aecebd50ab36849c"
         },
         "proof": {
             "type": "JsonWebSignature2020",
-            "created": "2022-12-01T23:10:47.014Z",
+            "created": "2022-12-02T12:28:40.251Z",
             "proofPurpose": "assertionMethod",
-            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..aRpMIWJ-0CJe8W-wCf4Yf_tc7DF0tG8sndLZby_2YY0hHOnKc6-Xa_NZjK2vHgE_pmW0MI_w78vw3zx_j7eIe1Gn2Aw8oInia5regcl4nZsRqKT6wXQRp-vR4_XfsFy9EB35T-AfzzB0WCuQqwlR0o_oMfgwLfJ1mifMoTskCT15H059B7pk46LA9D-LpT2ix6WX2t9kfeWV7z5HASobzpfQejZB-H6tEmXjxQJro6RAldVuf6Rpiy-RTG2ZsqSCeFPc8aLPXnx81GH_apqpC48r7N1mTMzNFN59YIEOYMQy5g4HyjIrYFRUdKLwJZoO1kNmNBGg-u5zMkXkSRYyHQ",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..OGcLNngxjGkeSPnhNgRrNM6tOEYeanAmaJ96gKbsRKWWGUCe4nQgHlMOnD0CfnZNq5-b3oJBUf1obmBT-omUMM5TzsX3a6EHkn99H2mj5XvwtX4sWTTvilkxTnOmhZmfxBbWcPkEYUAYKGqHCPXyGPXYcDcwEVfEhL9FGGcJLtbdpKeU6X-vWjQJ8XfofFKwbGGveTZ_BBKtZLLsYJBynGYjOHX_au_l-5CDO4kchy-r1Q-RamXGsX6x_cq53nTrQokDJbrU8k2DeRsjCUj7z1MoR87PVrwU_EIf01e4tnG9_kl8NkCjv0xScFuVDMkDY7tVBlWz4rOXSdAunkbDUQ",
             "verificationMethod": "did:web:compliance.gaia-x.eu"
         }
     }
