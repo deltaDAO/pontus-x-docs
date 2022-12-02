@@ -47,7 +47,7 @@
             }
         ],
         "gx-service-offering:dependsOn": [
-            "https://delta-dao.com/.well-known/serviceVirtualMachine1.json"
+            "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceVirtualMachine1.json?inline=false"
         ],
         "gx-service-offering:dataProtectionRegime": [
             "GDPR2016"
