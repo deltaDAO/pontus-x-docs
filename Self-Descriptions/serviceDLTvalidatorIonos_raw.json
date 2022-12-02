@@ -7,15 +7,15 @@
         "VerifiableCredential",
         "ServiceOfferingExperimental"
     ],
-    "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceDLTvalidatorEuProGigant.json?inline=false",
+    "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceDLTvalidatorIonos.json?inline=false",
     "credentialSubject": {
-        "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceDLTvalidatorEuProGigant.json?inline=false",
-        "gx-service-offering:providedBy": "https://ptw.tu-darmstadt.euprogigant.io/sd/participant.json",
-        "gx-service-offering:name": "GEN-X Validator EuProGigant",
+        "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceDLTvalidatorIonos.json?inline=false",
+        "gx-service-offering:providedBy": "https://delta-dao.com/.well-known/participantIONOS.json",
+        "gx-service-offering:name": "GEN-X Validator IONOS Cloud",
         "gx-service-offering:description": "GEN-X network validator node for the Gaia-X Web3 Ecosystem",
         "gx-service-offering:serviceEndpoint": "https://rpc.genx.minimal-gaia-x.eu",
         "gx-service-offering:chainSymbol": "GX",
-        "gx-service-offering:blockchainAccountID": "0x2960C40843dCCC9f34F1932d10af13d3AB5B258a",
+        "gx-service-offering:blockchainAccountID": "0x7d0fb02DFd5537AA5F27a0320e03F1D7E2346d88",
         "gx-service-offering:chainExplorer": "https://logging.genx.minimal-gaia-x.eu/",
         "gx-service-offeering:DLTnetwork": {
             "gx-service-offering:chainID": "100",
@@ -40,14 +40,14 @@
         ],
         "gx-service-offering:gdpr": [
             {
-                "gx-service-offering:imprint": "https://www.ptw.tu-darmstadt.de/impressum.de.jsp"
+                "gx-service-offering:imprint": "https://cloud.ionos.de/impressum"
             },
             {
-                "gx-service-offering:privacyPolicy": "https://www.tu-darmstadt.de/datenschutzerklaerung.de.jsp"
+                "gx-service-offering:privacyPolicy": "https://www.ionos.de/terms-gtc/datenschutzerklaerung"
             }
         ],
         "gx-service-offering:dependsOn": [
-            "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceVirtualMachineExoscale2.json?inline=false"
+            "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceVirtualMachineIonos.json?inline=false"
         ],
         "gx-service-offering:dataProtectionRegime": [
             "GDPR2016"
@@ -59,5 +59,5 @@
         }
     },
     "issuer": "did:web:delta-dao.com",
-    "issuanceDate": "2022-12-02T12:24:18.536Z"
+    "issuanceDate": "2022-12-02T13:20:28.124Z"
 }
