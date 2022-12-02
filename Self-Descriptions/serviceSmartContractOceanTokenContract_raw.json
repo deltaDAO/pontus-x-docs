@@ -7,15 +7,15 @@
         "VerifiableCredential",
         "ServiceOfferingExperimental"
     ],
-    "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceSmartContractTemplateDataTokenFactory.json?inline=false",
+    "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceSmartContractOceanTokenContract_raw.json?inline=false",
     "credentialSubject": {
-        "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceSmartContractTemplateDataTokenFactory.json?inline=false",
+        "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceSmartContractOceanTokenContract_raw.json?inline=false",
         "gx-service-offering:providedBy": "https://delta-dao.com/.well-known/participantDeltaDAO.json",
-        "gx-service-offering:name": "ERC-20 Data Token Contract Factory",
+        "gx-service-offering:name": "ERC-20 Ocean Token Contract",
         "gx-service-offering:description": "The Data Token Factory smart contracts provides a template for ERC-20 data tokens for service offerings.",
         "gx-service-offering:serviceEndpoint": "https://rpc.genx.minimal-gaia-x.eu",
         "gx-service-offering:chainSymbol": "GX",
-        "gx-service-offering:smartContractEndpoint": "0x325c09E2093C56AbDc86c5ccD68c77952e8034Af",
+        "gx-service-offering:smartContractEndpoint": "0x0995527d3473b3A98C471f1ED8787ACD77fBF009",
         "gx-service-offering:chainExplorer": "https://logging.genx.minimal-gaia-x.eu/",
         "gx-service-offeering:DLTnetwork": {
             "gx-service-offering:chainID": "100",
@@ -26,11 +26,6 @@
                 "gx-service-offering:type": "PoA",
                 "gx-service-offering:validator_type": "bls"
             }
-        },
-        "gx-service-offering:smartContract": {
-            "gx-service-offering:smartContractName": "template",
-            "gx-service-offering:pragmaSolidity": "0.5.7",
-            "gx-service-offering:smartContractRepository": "https://github.com/oceanprotocol/contracts/blob/v3/contracts/templates/DataTokenTemplate.sol"
         },
         "gx-service-offering:termsAndConditions": [
             {
@@ -59,5 +54,5 @@
         }
     },
     "issuer": "did:web:delta-dao.com",
-    "issuanceDate": "2022-12-02T11:50:55.235Z"
+    "issuanceDate": "2022-12-02T17:42:00.156Z"
 }
