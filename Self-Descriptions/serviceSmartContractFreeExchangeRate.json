@@ -8,9 +8,9 @@
             "VerifiableCredential",
             "ServiceOfferingExperimental"
         ],
-        "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceSmartContractTemplateDataTokenFactory.json?inline=false",
+        "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceSmartContractFreeExchangeRate.json?inline=false",
         "credentialSubject": {
-            "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceSmartContractTemplateDataTokenFactory.json?inline=false",
+            "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceSmartContractFreeExchangeRate.json?inline=false",
             "gx-service-offering:providedBy": "https://delta-dao.com/.well-known/participantDeltaDAO.json",
             "gx-service-offering:name": "Free Exchange Dispenser Contract",
             "gx-service-offering:description": "The Free Exchange Dispenser Contract is used for free services.",
@@ -63,10 +63,10 @@
         "issuanceDate": "2022-12-02T11:50:55.235Z",
         "proof": {
             "type": "JsonWebSignature2020",
-            "created": "2022-12-02T20:32:27.442Z",
+            "created": "2022-12-02T20:56:13.791Z",
             "proofPurpose": "assertionMethod",
             "verificationMethod": "did:web:delta-dao.com",
-            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..dS2K9_eornnBTfU5VSDdqdUpBFctIKZNsc3hefO6BwrQ1Df22p5nIw7uUNoydu8Gem8pw3uSQ_P4GeHRObSV3TMZOckUdslo3X0BbX1Atsaw73GZoxexScAm5q7IIpFBTO5TLxCF2RQHQ_DCUrNgu0XKbSBXF4c-oFet58vmQ1UlQLsL6GMOOq6CrjFaPObqjIiaf8ZSHBf7Ljv03KjBcz3DIsv7dzReJcXFPKfOD-_Jd10zUyeX7-7BqxsCKBf0Iu-KAsk_j6pdT7i-n2Dj1RhcguBNCLkcozXg50NmRkW9Ka0W5_cRnCWfxanG6MqStMjGmP5ojjdyQFRzhZ_Wiw"
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..JhhiCHmMNNCzUU09Xof5YLwPqcGokNRfQWVTkSKKGT_Xurid2FkX5HR2PxPPeF2ccXp-ZbgG31y1ndLiZnHvC1ge3c1iuRd4D2sj02k_unAzll_s_7lWxuBOC032ZezCOCIci8xpg67Vwlni-X1tAxrsTKQI_NuFHvC8kMAIQwCTqthNEgAxDIM-NTiyco5j5akl-MmsKxUo_O40Q_pryehElBDCtFLJRJHGz0FOfntRThGgnqU_cjEk9tLFjj2KofwSG0eSvm96YZ89CvmJrj3MF_R2rCxKmWIu0lA-zTOLGF6gp_Bw7oEIy-qrzweZA6SRjkR3A31ouT2W1s022g"
         }
     },
     "complianceCredential": {
@@ -77,18 +77,18 @@
             "VerifiableCredential",
             "ServiceOfferingCredentialExperimental"
         ],
-        "id": "https://catalogue.gaia-x.eu/credentials/ServiceOfferingCredentialExperimental/1670013153076",
+        "id": "https://catalogue.gaia-x.eu/credentials/ServiceOfferingCredentialExperimental/1670014579010",
         "issuer": "did:web:compliance.gaia-x.eu",
-        "issuanceDate": "2022-12-02T20:32:33.076Z",
+        "issuanceDate": "2022-12-02T20:56:19.010Z",
         "credentialSubject": {
-            "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceSmartContractTemplateDataTokenFactory.json?inline=false",
-            "hash": "8ca8f6759fb200b432363e8bdab5115a3cb9d69f0f9407fbcb0f1c701c8764e9"
+            "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceSmartContractFreeExchangeRate.json?inline=false",
+            "hash": "2d9913ab5bde4b4b73aa9053c0f46ee06f3532750d4ac34405b5c3a1f9772a4b"
         },
         "proof": {
             "type": "JsonWebSignature2020",
-            "created": "2022-12-02T20:32:33.076Z",
+            "created": "2022-12-02T20:56:19.010Z",
             "proofPurpose": "assertionMethod",
-            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..BXt45CQaOwTsX8koXD-YQn9eSV4wZ5EXFkpnmuFCUfxpDMWqmGEaO67shRTeC4IRGDR_icaggBhqSNllwOcDAsEFYNQ6YgPaURmpsC-2TM69qSmj4nx6B15BJmlqUctNkQWD5x_qIeR37qF942bZHPtdm_Qj3NaVRnK1VXE4h78Z6SYZeF9WSwIFQTGyJH2iiHWkD2nMjaHWYyFGTR34hUvu7JaeNjkCkTkh11aeahugVkfCDlD6LFcCAR866fj3m5jywM614nNruKezYNeSdjcwRzlZlUpqxnf8Ah0seWs-QFYrQPTpH_lCagro5Lq8Id-b7FaWtwPtbBcx8seTMQ",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..kIYma43xonA4nK4NLIpILUSjHe12qydzsJjlOcr6983AhCr9aG17-mchoX2312MzaVlpD_nnbzo575cXr0Frdwut3Sfm7AoiOsJ_WYe0ZCqiZFFqeb5w8cYGVKrn-mpBTeyJP5smPXydXUVNhbrRr_JEWxISWTCWQcBM8SjcSwdI8jSVuRMmmSISRZiSKOz_DQKtvKfg1LXQh-5rc8DfS6ZWfDcKwhWQW5QFcD2ktTGYEUzt-Ysa3tcKXwMGtuKxES9gO0XII-TLa16gw9itMWyLV-RXhkHfQIk4-E6ouZ5Zi1TnDf8w1azU7EImq5sgazdodpzIiJ65hxjkXxXFaA",
             "verificationMethod": "did:web:compliance.gaia-x.eu"
         }
     }

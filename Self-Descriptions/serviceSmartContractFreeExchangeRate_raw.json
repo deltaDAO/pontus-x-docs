@@ -7,9 +7,9 @@
         "VerifiableCredential",
         "ServiceOfferingExperimental"
     ],
-    "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceSmartContractTemplateDataTokenFactory.json?inline=false",
+    "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceSmartContractFreeExchangeRate.json?inline=false",
     "credentialSubject": {
-        "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceSmartContractTemplateDataTokenFactory.json?inline=false",
+        "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceSmartContractFreeExchangeRate.json?inline=false",
         "gx-service-offering:providedBy": "https://delta-dao.com/.well-known/participantDeltaDAO.json",
         "gx-service-offering:name": "Free Exchange Dispenser Contract",
         "gx-service-offering:description": "The Free Exchange Dispenser Contract is used for free services.",
