@@ -1,0 +1,63 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://registry.gaia-x.eu/v2206/api/shape"
+    ],
+    "type": [
+        "VerifiableCredential",
+        "ServiceOfferingExperimental"
+    ],
+    "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceDLTfullnodeDeltaDAO.json?inline=false",
+    "credentialSubject": {
+        "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceDLTfullnodeDeltaDAO.json?inline=false",
+        "gx-service-offering:providedBy": "https://delta-dao.com/.well-known/participantDeltaDAO.json",
+        "gx-service-offering:name": "GEN-X Fullnode deltaDAO",
+        "gx-service-offering:description": "GEN-X network fullnode for the Gaia-X Web3 Ecosystem",
+        "gx-service-offering:serviceEndpoint": "https://rpc.genx.minimal-gaia-x.eu",
+        "gx-service-offering:chainSymbol": "GX",
+        "gx-service-offering:blockchainAccountID": "0xf5bFEC3a99E25931DD198585d93E3022a5EB6A20",
+        "gx-service-offering:chainExplorer": "https://logging.genx.minimal-gaia-x.eu/",
+        "gx-service-offeering:DLTnetwork": {
+            "gx-service-offering:chainID": "100",
+            "gx-service-offering:name": "GEN-X",
+            "gx-service-offering:exampleQuery": "https://gitlab.com/web3-ecosystem/gen-x-network/-/blob/main/static/examples.md",
+            "gx-service-offering:engine": {
+                "gx-service-offering:consensus": "ibft",
+                "gx-service-offering:type": "PoA",
+                "gx-service-offering:validator_type": "bls"
+            }
+        },
+        "gx-service-offering:nodeClient": {
+            "gx-service-offering:nodeClientName": "polygon-edge",
+            "gx-service-offering:nodeClientVersion": "0.6.1",
+            "gx-service-offering:nodeClientRepository": "https://github.com/0xPolygon/polygon-edge"
+        },
+        "gx-service-offering:termsAndConditions": [
+            {
+                "gx-service-offering:url": "https://www.delta-dao.com/privacy/",
+                "gx-service-offering:hash": "728e3b4142ac729f21dabb45a016fb1397aefe1f8fee2e29b666f501193f9cef"
+            }
+        ],
+        "gx-service-offering:gdpr": [
+            {
+                "gx-service-offering:imprint": "https://www.delta-dao.com/imprint/"
+            },
+            {
+                "gx-service-offering:privacyPolicy": "https://www.delta-dao.com/privacy/"
+            }
+        ],
+        "gx-service-offering:dependsOn": [
+            "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceVirtualMachine0.json?inline=false"
+        ],
+        "gx-service-offering:dataProtectionRegime": [
+            "GDPR2016"
+        ],
+        "gx-service-offering:dataExport": {
+            "gx-service-offering:requestType": "email",
+            "gx-service-offering:accessType": "digital",
+            "gx-service-offering:formatType": "mime/png"
+        }
+    },
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2022-12-02T11:50:55.235Z"
+}
