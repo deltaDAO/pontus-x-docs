@@ -1,0 +1,95 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ServiceOfferingExperimental"
+        ],
+        "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceDLTvalidatorWobcom.json?inline=false",
+        "credentialSubject": {
+            "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceDLTvalidatorWobcom.json?inline=false",
+            "gx-service-offering:providedBy": "https://delta-dao.com/.well-known/participantWobcom.json",
+            "gx-service-offering:name": "GEN-X Validator Wobcom",
+            "gx-service-offering:description": "GEN-X network validator node for the Gaia-X Web3 Ecosystem",
+            "gx-service-offering:serviceEndpoint": "https://rpc.genx.minimal-gaia-x.eu",
+            "gx-service-offering:chainSymbol": "GX",
+            "gx-service-offering:blockchainAccountID": "0x9c6a497fDc252E1D7150585EA9bDEddAE1dC53D1",
+            "gx-service-offering:chainExplorer": "https://logging.genx.minimal-gaia-x.eu/",
+            "gx-service-offeering:DLTnetwork": {
+                "gx-service-offering:chainID": "100",
+                "gx-service-offering:name": "GEN-X",
+                "gx-service-offering:exampleQuery": "https://gitlab.com/web3-ecosystem/gen-x-network/-/blob/main/static/examples.md",
+                "gx-service-offering:engine": {
+                    "gx-service-offering:consensus": "ibft",
+                    "gx-service-offering:type": "PoA",
+                    "gx-service-offering:validator_type": "bls"
+                }
+            },
+            "gx-service-offering:nodeClient": {
+                "gx-service-offering:nodeClientName": "polygon-edge",
+                "gx-service-offering:nodeClientVersion": "0.6.1",
+                "gx-service-offering:nodeClientRepository": "https://github.com/0xPolygon/polygon-edge"
+            },
+            "gx-service-offering:termsAndConditions": [
+                {
+                    "gx-service-offering:url": "https://www.wobcom.de/service-news/agb/",
+                    "gx-service-offering:hash": "5F014F5D15BAFE120CBB813E543969989B6C45D1423AFAC3CCBBBCDB74B04C79"
+                }
+            ],
+            "gx-service-offering:gdpr": [
+                {
+                    "gx-service-offering:imprint": "https://www.wobcom.de/impressum/"
+                },
+                {
+                    "gx-service-offering:privacyPolicy": "https://www.wobcom.de/datenschutz/"
+                }
+            ],
+            "gx-service-offering:dependsOn": [
+                "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceVirtualMachineWobcom.json?inline=false"
+            ],
+            "gx-service-offering:dataProtectionRegime": [
+                "GDPR2016"
+            ],
+            "gx-service-offering:dataExport": {
+                "gx-service-offering:requestType": "email",
+                "gx-service-offering:accessType": "digital",
+                "gx-service-offering:formatType": "mime/png"
+            }
+        },
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2022-12-02T13:20:28.124Z",
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2022-12-02T12:46:57.413Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..sTMWQ6EMTwumtkl0lsJZdb-sre04YE5-Ck1YuU-oLzDz5iSEBTbDCDLJxjRM92uhYrubOTBQKhRwUIop31GtWdeTHgQntuwdvhlQGKITjN9WU02E66vL_BECdUJrsdzqFLJivvqTIaPHYiVKvsEJuwtDYpVC7WxIQfEg3eO5FEOxdK-loyIqPQJ8qRNUPOfymaiKOCgJTSOqzZOt7KXXFFghBqTJE5QeWa0FFzl2xuMe07XRGEi4v4eBksLDkvCYWEnnH204sEdRPmx0cyMJ0i1puqbtb2km6LU12HvssSYop6Tzw7fZpGmAvbpYpmeX5tePYHTVfgWPGQFK69zHMw"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ServiceOfferingCredentialExperimental"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ServiceOfferingCredentialExperimental/1669985222899",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2022-12-02T12:47:02.899Z",
+        "credentialSubject": {
+            "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceDLTvalidatorWobcom.json?inline=false",
+            "hash": "6dc098937280dea733ecc6e3e3481f0812bd44aeb9aac9a59c21276c5d35213b"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2022-12-02T12:47:02.899Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..A9cCrNZqGDwbilAoJAnYm1MQG62i5v8bjDjWngCR637SEXp0K8BolSvxs_fN3xJA7geyQgQ8Te2Kkloo4bB6XftHeBxfUgvvCu0MIy8b9O0Pju6yE65m5kJ9bEnbvKIMDcmpxV_74Y9RharWS0JlnL2Leh0unXDNAwVSXIBixlZEx4Yg4ZAAU0KrEFPCLTP_wyAjCGtJEXDBGuSuWnf2zk8PJ9sqCf-scDuS1cHFNNoQOHX_S7ArdFRRjKCV7rficn6K56jkTTqpOrEjHNdPhB-MfdFQ7lQrXjMCFKFw4pbeqMHMcJve9i7UwbDuhnabxWlvA9DegBDfyd_SOlVoUw",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

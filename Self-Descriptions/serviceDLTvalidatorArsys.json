@@ -1,0 +1,95 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ServiceOfferingExperimental"
+        ],
+        "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceDLTvalidatorIonos.json?inline=false",
+        "credentialSubject": {
+            "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceDLTvalidatorArsys.json?inline=false",
+            "gx-service-offering:providedBy": "https://arlabdevelopments.com/.well-known/ArsysParticipant.json",
+            "gx-service-offering:name": "GEN-X Validator Arsys",
+            "gx-service-offering:description": "GEN-X network validator node for the Gaia-X Web3 Ecosystem",
+            "gx-service-offering:serviceEndpoint": "https://rpc.genx.minimal-gaia-x.eu",
+            "gx-service-offering:chainSymbol": "GX",
+            "gx-service-offering:blockchainAccountID": "0x50C452ba6040f5F81E309eBF2F2b0D6A0EDd1302",
+            "gx-service-offering:chainExplorer": "https://logging.genx.minimal-gaia-x.eu/",
+            "gx-service-offeering:DLTnetwork": {
+                "gx-service-offering:chainID": "100",
+                "gx-service-offering:name": "GEN-X",
+                "gx-service-offering:exampleQuery": "https://gitlab.com/web3-ecosystem/gen-x-network/-/blob/main/static/examples.md",
+                "gx-service-offering:engine": {
+                    "gx-service-offering:consensus": "ibft",
+                    "gx-service-offering:type": "PoA",
+                    "gx-service-offering:validator_type": "bls"
+                }
+            },
+            "gx-service-offering:nodeClient": {
+                "gx-service-offering:nodeClientName": "polygon-edge",
+                "gx-service-offering:nodeClientVersion": "0.6.1",
+                "gx-service-offering:nodeClientRepository": "https://github.com/0xPolygon/polygon-edge"
+            },
+            "gx-service-offering:termsAndConditions": [
+                {
+                    "gx-service-offering:url": "https://www.arsys.net/terms/condiciones-especificas-cloud-avanzado",
+                    "gx-service-offering:hash": "5F014F5D15BAFE120CBB813E543969989B6C45D1423AFAC3CCBBBCDB74B04C79"
+                }
+            ],
+            "gx-service-offering:gdpr": [
+                {
+                    "gx-service-offering:imprint": "https://www.arsys.net/legal"
+                },
+                {
+                    "gx-service-offering:privacyPolicy": "https://www.arsys.net/legal"
+                }
+            ],
+            "gx-service-offering:dependsOn": [
+                "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceVirtualMachineArsys.json?inline=false"
+            ],
+            "gx-service-offering:dataProtectionRegime": [
+                "GDPR2016"
+            ],
+            "gx-service-offering:dataExport": {
+                "gx-service-offering:requestType": "email",
+                "gx-service-offering:accessType": "digital",
+                "gx-service-offering:formatType": "mime/png"
+            }
+        },
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2022-12-02T13:20:28.124Z",
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2022-12-02T12:49:58.351Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..qzismxO1jhnOvcpkH3g8vYwmdeunXLbriyqDrX555vPOfq1VEsyJFo54XU6s1pp6FL5H9_-Hmk8oLEwrJj-P550-OcnfNhffTcQjG49xVzgq0D9-aEhs0UQsD8xZlBaBqxVXEpHfNuEk7sMq9cJfwAXZZQKKvyyFRMQi9DvRKKIXEApftlsBvkgryL-vhkHZt0PqqTZ4OWdaoocvZc7nagVw5qfRLLrwzF9p29am-pAIFSnVnBq5Rt708WcPzfdwL45dv2fu_Hhl5I8n1wvkkjjc5ennMUvE8kIbbIaGQCm9L1DiRhG51GEEZD5OzkPZd8ww0JV_ENfhjIFW-ERS1w"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ServiceOfferingCredentialExperimental"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ServiceOfferingCredentialExperimental/1669985403342",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2022-12-02T12:50:03.342Z",
+        "credentialSubject": {
+            "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceDLTvalidatorArsys.json?inline=false",
+            "hash": "526eddbdf005101746db627ef2138cc36c2ca89f43661abdb8c33fc6c65c3518"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2022-12-02T12:50:03.342Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..jdXXTNCDCvMfv_5lmTf_B58NLqcSJbI8GiwUVlvcEhSfdPlbIdJByNoSb2E8W5B0B7A7yBAtSrSwDcALuK3lskvQbn1W0CahXDrqNGRfHxrDsEI_mwVh4XCdEOcE2MGsFdgyY82uEZUXm9XVhiJ6hpVT61wcFWjMod5fGgR05P9URLjeHzhYu7IDmVGOtfBQOGlAjSK1fGxbGrezt5j7cY6hNH3XQloDsSaeqD8S-IvrCXW-g0ZPiRdptaOe31RQn8qB-_0cR7t-oVUq2ViAGThpC_W1yuAteoMV2lGnHOHON1OySuEbkKvBnunOwciRzSQZq6Fa2-9hqA8fEPC2fA",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}
