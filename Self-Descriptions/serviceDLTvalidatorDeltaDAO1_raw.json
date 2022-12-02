@@ -7,9 +7,9 @@
         "VerifiableCredential",
         "ServiceOfferingExperimental"
     ],
-    "id": "https://delta-dao.com/.well-known/serviceDLTvalidatorDeltaDAO.json",
+    "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceDLTvalidatorDeltaDAO1.json?inline=false",
     "credentialSubject": {
-        "id": "https://delta-dao.com/.well-known/serviceDLTvalidatorDeltaDAO.json",
+        "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceDLTvalidatorDeltaDAO1.json?inline=false",
         "gx-service-offering:providedBy": "https://delta-dao.com/.well-known/participantDeltaDAO.json",
         "gx-service-offering:name": "GEN-X Validator deltaDAO 1",
         "gx-service-offering:description": "GEN-X network validator node for the Gaia-X Web3 Ecosystem",
