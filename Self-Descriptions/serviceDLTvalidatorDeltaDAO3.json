@@ -47,7 +47,7 @@
                 }
             ],
             "gx-service-offering:dependsOn": [
-                "https://delta-dao.com/.well-known/serviceVirtualMachine1.json"
+                "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceVirtualMachine3.json?inline=false"
             ],
             "gx-service-offering:dataProtectionRegime": [
                 "GDPR2016"
@@ -62,10 +62,10 @@
         "issuanceDate": "2022-12-02T11:53:05.136Z",
         "proof": {
             "type": "JsonWebSignature2020",
-            "created": "2022-12-02T10:53:33.740Z",
+            "created": "2022-12-02T11:00:04.040Z",
             "proofPurpose": "assertionMethod",
             "verificationMethod": "did:web:delta-dao.com",
-            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..dM4tslkOzsBXYuLEiURUpV-emBkwsbYA3nPWKIE3p63F8uJ4FbLP3k4X83GFG6UQQ3VnDIXgA5PXAFgeZYHPv86zt4nGNfRRDhIyeaRKgLntQjBxZA9TpiSqjI9e0CSnk7iCi-M0YZxXbKIMIqVrYF6Pg13tgudg7aUQUkV_0G2PK0gSVoq6ShCf2yUBMpaV2DZZjg5eocIOg-h6gFINilkitUfOuCWFaOIqefsLn2nrMBSCbwmyU_FP22ab_YJTXb7Z5W3wf1rBxIU4CIofZUi8r4tqRQ18tbQapu_IQ5kErg00OxPCC-Y5JRKXYNd-QkXVixF-GVW7B3lJpgtWDw"
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..OVZ81FBCCq0AOFUp0V1XAj9fJRSbUbDuti10S_5dGL1LzxNZzHesYDpjIjEg0C8bnTqut1vNfa1X-j56_6fcZgyS7YNyfnxph3ISQqsALd5GWRyPudNJmfZiUMmOsg7ByVri0WtAREJSyxRt-kAkmWmNNu9blkoqRIxsuNiZtIqTiTIAc-PuoxJRCx1xQ8bkeiEnDsq0Gy7-m3xYKQ0Z3uT904gLRuP83z2a1ehHMolHAr3lO2ABSjxAVccn0NUWiU8qYzeJzteawzPFDIj3eQeGx0fr7JY9m6SmU7fgklhSk4Th8_r3gqg6B-zZgXIGnA6TFG67FS69f3TUSaDoCQ"
         }
     },
     "complianceCredential": {
@@ -76,18 +76,18 @@
             "VerifiableCredential",
             "ServiceOfferingCredentialExperimental"
         ],
-        "id": "https://catalogue.gaia-x.eu/credentials/ServiceOfferingCredentialExperimental/1669978419059",
+        "id": "https://catalogue.gaia-x.eu/credentials/ServiceOfferingCredentialExperimental/1669978809525",
         "issuer": "did:web:compliance.gaia-x.eu",
-        "issuanceDate": "2022-12-02T10:53:39.059Z",
+        "issuanceDate": "2022-12-02T11:00:09.525Z",
         "credentialSubject": {
             "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceDLTvalidatorDeltaDAO3.json?inline=false",
-            "hash": "1338a05d972f28beac37622557d7e28d8ddb48d044081a9ec91758dd366145c2"
+            "hash": "16977787154124f9bb7c76051f7d7bac02b4e7ae3af4b44d9fc0ffc84b732c01"
         },
         "proof": {
             "type": "JsonWebSignature2020",
-            "created": "2022-12-02T10:53:39.059Z",
+            "created": "2022-12-02T11:00:09.525Z",
             "proofPurpose": "assertionMethod",
-            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..dbzlTAfqce_CpRP2HHU1JDpOb6yKEu5R5TmVuQSNDeqpGdNqDhXTg1E5S6q4OcwlcttLO541mcEoVLFGRdqEclSsYldNqpJx34j1hEqn17hJ3b8EHrNlniMO7m27tsNyVbCSh_vHL_FJozyXiPyE1cDqt5ys8kiRhizwfqQw1qs8ta4ezi1tdLKeO27o9y3gQyps48Dbb3hTI5lhhbnnhTB3gCJtCkWUjJvpCF85ZB4qoHOyc04YgAPFh-2Jv-WduX6jqmHEMOt6oM6ezIwrDsMIDEsDZ0--0UcCPGp54luzqCH2Rd6hguV6r7h06027gcn8nOT5rRkEZg9fJ2Z5wQ",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..KSX0QMDr_wmtcFrBxMRaGwtLIQmgBSaFV9Vbj3-eoyc61jmFoHPsGcSb0i_AXVBNM0BS2_nT_m1bEuTXJEYROsK99y-GDNcX9dvr1VXhHctWz-lzMuWXw1G7ZTSahVb93xEAZVGVeIblBp-Xxu4sdwQqN4-uF26dLlwJ3U5r1y0xPIg5pdRKc7K67rgFwD4eJtkg-res9Dxok9a8WHCLfU1OQkWE53H3ZavTOeCw3QPQE_RqKhfep6eeXMQzE1q8c_jGY5AVWsM8LiSX34iACpAJ9d4PiE-3Yk7BXtLpR5AuiNCx9WcGFdi2Zhg2eNNOSLVpUHwDPFYfizTQYikhfw",
             "verificationMethod": "did:web:compliance.gaia-x.eu"
         }
     }
