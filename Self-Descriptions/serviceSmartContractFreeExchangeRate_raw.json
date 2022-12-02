@@ -1,0 +1,63 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://registry.gaia-x.eu/v2206/api/shape"
+    ],
+    "type": [
+        "VerifiableCredential",
+        "ServiceOfferingExperimental"
+    ],
+    "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceSmartContractTemplateDataTokenFactory.json?inline=false",
+    "credentialSubject": {
+        "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceSmartContractTemplateDataTokenFactory.json?inline=false",
+        "gx-service-offering:providedBy": "https://delta-dao.com/.well-known/participantDeltaDAO.json",
+        "gx-service-offering:name": "Free Exchange Dispenser Contract",
+        "gx-service-offering:description": "The Free Exchange Dispenser Contract is used for free services.",
+        "gx-service-offering:serviceEndpoint": "https://rpc.genx.minimal-gaia-x.eu",
+        "gx-service-offering:chainSymbol": "GX",
+        "gx-service-offering:smartContractEndpoint": "0x2a39940D98A4f9D01Ff0738c8420F360435b6A59",
+        "gx-service-offering:chainExplorer": "https://logging.genx.minimal-gaia-x.eu/",
+        "gx-service-offeering:DLTnetwork": {
+            "gx-service-offering:chainID": "100",
+            "gx-service-offering:name": "GEN-X",
+            "gx-service-offering:exampleQuery": "https://gitlab.com/web3-ecosystem/gen-x-network/-/blob/main/static/examples.md",
+            "gx-service-offering:engine": {
+                "gx-service-offering:consensus": "ibft",
+                "gx-service-offering:type": "PoA",
+                "gx-service-offering:validator_type": "bls"
+            }
+        },
+        "gx-service-offering:smartContract": {
+            "gx-service-offering:smartContractName": "dispenser",
+            "gx-service-offering:pragmaSolidity": "0.5.7",
+            "gx-service-offering:smartContractRepository": "https://github.com/oceanprotocol/contracts/blob/v3/contracts/dispenser/Dispenser.sol"
+        },
+        "gx-service-offering:termsAndConditions": [
+            {
+                "gx-service-offering:url": "http://www.apache.org/licenses/LICENSE-2.0",
+                "gx-service-offering:hash": "728e3b4142ac729f21dabb45a016fb1397aefe1f8fee2e29b666f501193f9cef"
+            }
+        ],
+        "gx-service-offering:gdpr": [
+            {
+                "gx-service-offering:imprint": "https://www.delta-dao.com/imprint/"
+            },
+            {
+                "gx-service-offering:privacyPolicy": "https://www.delta-dao.com/privacy/"
+            }
+        ],
+        "gx-service-offering:dependsOn": [
+            "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceGaiaxDLTNetwork.json?inline=false"
+        ],
+        "gx-service-offering:dataProtectionRegime": [
+            "GDPR2016"
+        ],
+        "gx-service-offering:dataExport": {
+            "gx-service-offering:requestType": "email",
+            "gx-service-offering:accessType": "digital",
+            "gx-service-offering:formatType": "mime/png"
+        }
+    },
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2022-12-02T11:50:55.235Z"
+}
