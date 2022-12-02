@@ -1,0 +1,74 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ServiceOfferingExperimental"
+        ],
+        "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceVirtualMachine1.json?inline=false",
+        "credentialSubject": {
+            "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceVirtualMachine1.json?inline=false",
+            "gx-service-offering:providedBy": "https://delta-dao.com/.well-known/participantDeltaDAO.json",
+            "gx-service-offering:name": "Managed Virtual Machine",
+            "gx-service-offering:description": "Managed Virtual Ubuntu 20.04 Machine w. >2 CPU, 8GB RAM, >50GB SDD",
+            "gx-service-offering:serviceModel": "subscription",
+            "gx-service-offering:termsAndConditions": [
+                {
+                    "gx-service-offering:url": "https://www.delta-dao.com/privacy/",
+                    "gx-service-offering:hash": "728e3b4142ac729f21dabb45a016fb1397aefe1f8fee2e29b666f501193f9cef"
+                }
+            ],
+            "gx-service-offering:gdpr": [
+                {
+                    "gx-service-offering:imprint": "https://www.delta-dao.com/imprint/"
+                },
+                {
+                    "gx-service-offering:privacyPolicy": "https://www.delta-dao.com/privacy/"
+                }
+            ],
+            "gx-service-offering:dataProtectionRegime": [
+                "GDPR2016"
+            ],
+            "gx-service-offering:dataExport": {
+                "gx-service-offering:requestType": "email",
+                "gx-service-offering:accessType": "digital",
+                "gx-service-offering:formatType": "mime/png"
+            }
+        },
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2022-12-03T00:50:12.154Z",
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2022-12-02T22:55:09.414Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..NXteFf_KUd6K-EmDwvVMELxfeg7NB5ppshKqwUHkVmXos23ljoLQTr6vSX3CB2zOQz5XKPe2pqoE6gSSGOezfsFiTAri2BLSWNNq0gAdN-m_nFSshKunF_q1lByfLRc8OcsqU50tpcDn0AtrKOp3PLrgJF_sx_3TSeP1TZbfZ3FNAl6s8keV2xFnXp7osGYCQvqVhx0kPSTr0rSkZ8Cm0YTTtHhNm9VuSPyL1PgmL53_72FUhcR4Rwbp3xSE11wCzH3k2a47pH2YQ-n5lAVsEUqK8Q4Km0bn6c0LHabgKb9e_TPLA7g_t6gxI5qJqP_O6EhD_HPG5Zrsnw4oewVFvQ"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ServiceOfferingCredentialExperimental"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ServiceOfferingCredentialExperimental/1670021714793",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2022-12-02T22:55:14.793Z",
+        "credentialSubject": {
+            "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceVirtualMachine1.json?inline=false",
+            "hash": "58e83ca887f34f89f522d31d9e187cd85afe507b49934ae2872e76b1cd532ea3"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2022-12-02T22:55:14.793Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..LDF_bDzmLziOpn4xnHqLrgSYuxwGPjroNmda8bmbUSPjC0B8ikgEiu1vQxdJrHaSMd8pdXfvq_MXJ1rvQ-Ei2gPMmei11zyd7fwToBsd8Lr9zJNvSLJgiFnsAtMAHnaKa4wJdSuo8Xk_P7Tlk3ulGsMMuSI3lS4qSxjuACS1ylwNq1l-eN6VcHmPw3RbX3pSS3msX0EZhl4LXENqivTf_Squ6mQOTPXN_LpoIdmrgAe_Dt0JHoKzCZaztCpvdT2UNCcqfe5mMwMf7ap-P0mdge0g8-duuqYbkgJ6RyVFVPj_G8PdSKVYCxXG7e6k8GJnyltK5BSRTLG0WvIr5OGObA",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}
