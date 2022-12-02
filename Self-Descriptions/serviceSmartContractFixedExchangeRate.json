@@ -1,0 +1,95 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ServiceOfferingExperimental"
+        ],
+        "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceSmartContractTemplateDataTokenFactory.json?inline=false",
+        "credentialSubject": {
+            "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceSmartContractTemplateDataTokenFactory.json?inline=false",
+            "gx-service-offering:providedBy": "https://delta-dao.com/.well-known/participantDeltaDAO.json",
+            "gx-service-offering:name": "Fixed Exchange Rate Contract",
+            "gx-service-offering:description": "The Fixed Exchange Rate Contract Template creates new exchange pairs between tokens.",
+            "gx-service-offering:serviceEndpoint": "https://rpc.genx.minimal-gaia-x.eu",
+            "gx-service-offering:chainSymbol": "GX",
+            "gx-service-offering:smartContractEndpoint": "0x69Df9594E6A30a5751D170093059E7adb3Bf5e92",
+            "gx-service-offering:chainExplorer": "https://logging.genx.minimal-gaia-x.eu/",
+            "gx-service-offeering:DLTnetwork": {
+                "gx-service-offering:chainID": "100",
+                "gx-service-offering:name": "GEN-X",
+                "gx-service-offering:exampleQuery": "https://gitlab.com/web3-ecosystem/gen-x-network/-/blob/main/static/examples.md",
+                "gx-service-offering:engine": {
+                    "gx-service-offering:consensus": "ibft",
+                    "gx-service-offering:type": "PoA",
+                    "gx-service-offering:validator_type": "bls"
+                }
+            },
+            "gx-service-offering:smartContract": {
+                "gx-service-offering:smartContractName": "fixedRate",
+                "gx-service-offering:pragmaSolidity": "0.5.7",
+                "gx-service-offering:smartContractRepository": "https://github.com/oceanprotocol/contracts/blob/v3/contracts/fixedRate/FixedRateExchange.sol"
+            },
+            "gx-service-offering:termsAndConditions": [
+                {
+                    "gx-service-offering:url": "http://www.apache.org/licenses/LICENSE-2.0",
+                    "gx-service-offering:hash": "728e3b4142ac729f21dabb45a016fb1397aefe1f8fee2e29b666f501193f9cef"
+                }
+            ],
+            "gx-service-offering:gdpr": [
+                {
+                    "gx-service-offering:imprint": "https://www.delta-dao.com/imprint/"
+                },
+                {
+                    "gx-service-offering:privacyPolicy": "https://www.delta-dao.com/privacy/"
+                }
+            ],
+            "gx-service-offering:dependsOn": [
+                "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceGaiaxDLTNetwork.json?inline=false"
+            ],
+            "gx-service-offering:dataProtectionRegime": [
+                "GDPR2016"
+            ],
+            "gx-service-offering:dataExport": {
+                "gx-service-offering:requestType": "email",
+                "gx-service-offering:accessType": "digital",
+                "gx-service-offering:formatType": "mime/png"
+            }
+        },
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2022-12-02T11:50:55.235Z",
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2022-12-02T16:55:32.367Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..W_ZUvIQ5MY1--JvGN4kDVwAeK9tNG4r9BqIDp3wVaceFp4AzMINMcsDSjwVBorFbmSyl9nJ16FSs0bNaecQnF02e5gnHeNBC8YjDATvGUUNvKhLSpSKGbqqS3DT3Cl9dItzN50FNuA1GdgssEPlrfr7F1XGTmXf57xn67Vw6k_0PNm3krOM2qcyI3DTXy6vYsaX8gUPfw9n0aM0zrk5MKQaI5itHW9plrWmjTzTcCd5l4U0Rt53o0K3wEkYru9wRzUEH9ZfC5QHJ5U79A8sGCD5qNb8pcsDemVtXGbblGni59w2C9X4jLq3hbU-Ou1zfaFYgu_YCmepa1DrS5TyyDw"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ServiceOfferingCredentialExperimental"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ServiceOfferingCredentialExperimental/1670000138339",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2022-12-02T16:55:38.339Z",
+        "credentialSubject": {
+            "id": "https://gitlab.com/web3-ecosystem/gen-x-network/-/raw/main/Self-Descriptions/serviceSmartContractTemplateDataTokenFactory.json?inline=false",
+            "hash": "fd3430544bc7828728fd37dbf93ba32696d3d218764c1f1b10c0c8eee9a33daa"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2022-12-02T16:55:38.339Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..PbdA_oWMDZgcUADt5GbKsyMUeaLSilxgk9sLCU2Q3E-93v1_B8cCIy_hig9r85D_w00cccD5AZQ0Sfc0lOTrm0CWlTKWrPQe6439ZkpLEe1P3yGmonKcKKzk1X9kWFVx-7Xpq9w_CtPC3iJJLD6EqZyYFeSwEAAFa30cYQZ666qPclo64fq0it7tDJ2qDMkA0wP9jRKlPy-mP56YIxvUSQMMw8mS5GQvB1TaAD6l-Qs206YuGnv4esKcDuru5xpfaJ0RzfMwlrUC1Vqcq9pbPpc3FuoAVRarVWcCs11HEc8gA2xFP8-GyOaDAOLM94JTqZJVreXVcs3uLSUS-vWqEg",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}
