@@ -1,6 +1,10 @@
-# Voting Tutorial
+---
+sidebar_position: 2
+title: How to Vote
+---
 
-All of GEN-X validators make up a dynamic validator-set, where validators can be added to or removed from the set by employing a voting mechanism. This means that validators can be voted in/out from the validator set if the majority (51%) of the validator nodes vote to add/drop a certain validator to/from the set. In this way, malicious validators can be recognized and removed from the network, while new trusted validators can be added to the network.
+## Governance 
+The GEN-X validators make up a dynamic validator-set, where validators can be added to or removed from the set by employing a voting mechanism. This means that validators can be voted in/out from the validator set if the majority (51%) of the validator nodes vote to add/drop a certain validator to/from the set. In this way, malicious validators can be recognized and removed from the network, while new trusted validators can be added to the network.
  
 ## How to add a new validator 
 1.	Login into your node server
