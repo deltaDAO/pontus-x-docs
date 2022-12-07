@@ -12,7 +12,7 @@
 **Gaia-X Trust Framework Participant Identification and Self-Descriptions**:
 - deltaDAO: https://www.delta-dao.com/.well-known/participantDeltadao.json
 - EuProGigant: https://ptw.tu-darmstadt.euprogigant.io/sd/participant.json
-- Exoscale: https://a1.digital.euprogigant.io/sd/participant.json
+- Exoscale: https://www.exoscale.com/.well-known/participantExoscale.json
 - Arsys: https://arlabdevelopments.com/.well-known/ArsysParticipant.json
 - IONOS Cloud: https://delta-dao.com/.well-known/participantIONOS.json
 - WOBCOM: https://delta-dao.com/.well-known/participantWobcom.json
