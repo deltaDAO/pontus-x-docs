@@ -3,7 +3,7 @@ sidebar_position: 1
 title: Introduction
 ---
 
-## How to join GEN-X as a Validator?
+## How to join GEN-X as a validator?
 If you are interested in joining our GEN-X network and contributing to the first federated Gaia-X ecosystem with community-driven governance,  you are welcome to contact us (contact@delta-dao.com) or any other partner from the network. As a prerequisite, you must commit to the Gaia-X Trust Framework and display W3C-compliant verifiable credentials for your identity and infrastructure. These Gaia-X compliant Self-Descriptions allow other participants of the Gaia-X Web3 ecosystem to decide if they trust you and your services. 
 
 If you want to learn more about Gaia-X compliance and the Gaia-X Trust Framework, you will find a great starting point [here](https://compliance.gaia-x.eu/). You can also read the basic technical requirements, including [step-by-step](https://gitlab.com/gaia-x/lab/compliance/gx-compliance) instructions on creating Gaia-X-compliant Self-Descriptions.
