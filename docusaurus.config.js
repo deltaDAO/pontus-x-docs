@@ -70,6 +70,11 @@ const config = {
             label: 'Docs',
           },
           {
+            "to": "/blog",
+            "label": "Blog",
+            "position": "right"
+          },
+          {
             href: 'https://gitlab.com/web3-ecosystem/gen-x-network/',
             label: 'GitLab',
             position: 'right',
@@ -92,13 +97,9 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'LinkedIn',
-                href: 'https://www.linkedin.com/company/deltadao/',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/deltaDAO',
-              },
+                label: 'Pontus-X Portal',
+                href: 'https://portal.minimal-gaia-x.eu/',
+              }
             ],
           },
           {
