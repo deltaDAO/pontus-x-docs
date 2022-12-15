@@ -10,7 +10,7 @@ The GEN-X validators make up a dynamic validator-set, where validators can be ad
 1.	Login into your node server
 2.	Copy the public key (address) and BLS Public key of the new validator 
 3.	Switch to the folder where the genesis.json is stored (cd /mnt/node) 
-4.	Vote for the new validator by executing the following command: `polygon-edge ibft propose –addr ADDRESS –bls BLS_PUBLIC_KEY`
+4.	Vote for the new validator by executing the following command: `polygon-edge ibft propose -–addr ADDRESS -–bls BLS_PUBLIC_KEY`
 5.	This results in a message that looks like this: `Successfully voted for the addition of address [ADDRESS] to the validator set`
 
 *Example*: `polygon-edge ibft propose --addr 0xC0E3B447c1e7B22769952E89389Ef2cD9B812Cc5 --bls 0x9952735ca14734955e114a62e4c26a90bce42b4627a393418372968fa36e73a0ef8db68bba11ea967ff883e429b3bfdf --vote auth`
