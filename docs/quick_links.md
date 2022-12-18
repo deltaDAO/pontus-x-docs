@@ -13,4 +13,4 @@ title: Quick Links
 - University of Lleida Open Science Portal: https://udl.portal.minimal-gaia-x.eu/
 
 ## Logging Service
-- GEN-X Blockscout Explorer: https://logging.genx.minimal-gaia-x.eu/ 
+- GEN-X Testnet Explorer: https://logging.genx.minimal-gaia-x.eu/ 
