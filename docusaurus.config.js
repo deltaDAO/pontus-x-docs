@@ -8,7 +8,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 const config = {
   title: 'GEN-X Network',
   tagline: 'Gaia-X Web3 Ecosystem',
-  url: 'https://your-docusaurus-test-site.com',
+  url: 'https://docs.genx.minimal-gaia-x.eu/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://gitlab.com/web3-ecosystem/gen-x-network/-/tree/main/',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+            'https://gitlab.com/web3-ecosystem/gen-x-network/-/tree/main/',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -58,15 +58,15 @@ const config = {
     ({
       navbar: {
         title: 'GEN-X Network',
-        // logo: {
-        //   alt: 'GEN-X Logo',
-        //   src: 'img/logo.svg',
-        // },
+        logo: {
+          alt: 'GEN-X Logo',
+          src: 'img/genx_logo.png',
+        },
         items: [
           {
             type: 'doc',
             docId: 'intro',
-            position: 'left',
+            position: 'right',
             label: 'Docs',
           },
           {
