@@ -20,7 +20,7 @@ title: Current Participants
 | Detecon                             | 0x8fBF860883BB71D691053A4363030Dc1c65f7017 | Participant   | https://delta-dao.com/.well-known/participantDetecon.json            |
 | Perpetuum Progress                  | 0x2ee3c4F19f90237B7C45cfAD6B5dC4b5840563Ec | Participant   | https://delta-dao.com/.well-known/participantPerpetuumProgress.json  |
 | Wobcom                              | 0x9Dc6aDA184fc98012D74F1C4f3f223183A4745D4 | Federator     | https://delta-dao.com/.well-known/participantWobcom.json             |
-| TU Darmstadt                        |                                            | Federator     | https://ptw.tu-darmstadt.euprogigant.io/sd/participant.json          |
+| PTW - TU Darmstadt                        | 0x4A806a4851472F7cFd579d3FF5465F03c3c2B5d4 | Federator     | https://ptw.tu-darmstadt.euprogigant.io/sd/participant.json          |
 | IONOS Cloud                         |                                            | Federator     | https://delta-dao.com/.well-known/participantIONOS.json              |
 | Exoscale                            |                                            | Federator     | https://a1.digital.euprogigant.io/sd/participant.json                |
 | Arsys                               |                                            | Federator     | https://arlabdevelopments.com/.well-known/ArsysParticipant.json      |
