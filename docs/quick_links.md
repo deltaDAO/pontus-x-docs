@@ -12,5 +12,6 @@ title: Quick Links
 - PEAQ Portal: https://gaia-x.portal.peaq.network/
 - University of Lleida Open Science Portal: https://udl.portal.minimal-gaia-x.eu/
 
-## Logging Service
+## GEN-X Services
 - GEN-X Testnet Explorer: https://logging.genx.minimal-gaia-x.eu/ 
+- GEN-X Faucet: https://faucet.genx.minimal-gaia-x.eu/
