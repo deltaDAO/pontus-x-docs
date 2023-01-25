@@ -49,4 +49,6 @@ title: Current Participants
 | Bigchain DB                         | 0x61DB12d8b636Cb49ea09eCa58a893dA9480E1F33 | Participant   | https://delta-dao.com/.well-known/participantBigchainDB.json         |
 | 51 Nodes                            |                                            | Participant   | https://delta-dao.com/.well-known/participant51nodes.json            |
 | Perpetuum Progress GmbH             | 0x2ee3c4F19f90237B7C45cfAD6B5dC4b5840563Ec | Participant   | https://delta-dao.com/.well-known/participantPerpetuumProgress.json  |
+| Mercedes-Benz Singapore Pte. Ltd. | 0x203C7AA993EED06932FA327a192de9A8370b5Ab4 | Participant   | https://www.delta-dao.com/.well-known/participantMercedesBenzLtd.json  |
+| Mercedes-Benz Singapore Pte. Ltd. | 0x4d6240C7Ef355a2E85c13B26A49A35908ce853E5 | Participant   | https://www.delta-dao.com/.well-known/participantMercedesBenzLtd.json  |
 
