@@ -1,0 +1,99 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://registry.gaia-x.eu/v2206/api/shape"
+    ],
+    "type": [
+        "VerifiableCredential",
+        "LegalPerson"
+    ],
+    "id": "https://delta-dao.com/.well-known/01.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2023-02-03T09:00:00.000Z",
+    "credentialSubject": {
+        "id": "https://delta-dao.com/.well-known/01.json",
+        "gx-participant:legalName": "full legal name",
+        "gx-participant:registrationNumber":[
+            {
+                "gx-participant:registrationNumberType": "leiCode",
+                "gx-participant:registrationNumberNumber": "xxxxxx"
+            },
+            {
+                "gx-participant:registrationNumberType": "EUID",
+                "gx-participant:registrationNumberNumber": "xxxxxx"
+            },
+            {
+                "gx-participant:registrationNumberType": "local",
+                "gx-participant:registrationNumberNumber": "xxxxxx"
+            },
+            {
+                "gx-participant:registrationNumberType": "vatID",
+                "gx-participant:registrationNumberNumber": "xxxxxx"
+            },
+            {
+                "gx-participant:registrationNumberType": "EORI",
+                "gx-participant:registrationNumberNumber": "xxxxxx"
+            }
+        ],
+        "gx-participant:blockchainAccountId": [
+            {
+                "gx-participant:blockchainAccountId": "0x6bF77769e84045a9EAC64573e70a5562457C52ad"
+            }
+        ],
+        "gx-participant:headquarterAddress": {
+            "gx-participant:addressCountryCode": "xx",
+            "gx-participant:addressCode": "xx-xx",
+            "gx-participant:streetAddress": "xxxxxx",
+            "gx-participant:postalCode": "xxxxxx",
+            "gx-participant:locality": "xxxxxx"
+        },
+        "gx-participant:legalAddress": {
+            "gx-participant:addressCountryCode": "xx",
+            "gx-participant:addressCode": "xx-xx",
+            "gx-participant:streetAddress": "xxxxxx",
+            "gx-participant:postalCode": "xxxxxx",
+            "gx-participant:locality": "xxxxxx"
+        },
+        "gx-participant:parentOrganisation": {
+            "gx-participant:legalName": "xxxxxx",
+            "gx-participant:registrationNumber":[
+                {
+                    "gx-participant:registrationNumberType": "leiCode",
+                    "gx-participant:registrationNumberNumber": "xxxxxx"
+                },
+                {
+                    "gx-participant:registrationNumberType": "EUID",
+                    "gx-participant:registrationNumberNumber": "xxxxxx"
+                },
+                {
+                    "gx-participant:registrationNumberType": "local",
+                    "gx-participant:registrationNumberNumber": "xxxxxx"
+                },
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "xxxxxx"
+                },
+                {
+                    "gx-participant:registrationNumberType": "EORI",
+                    "gx-participant:registrationNumberNumber": "xxxxxx"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "xx",
+                "gx-participant:addressCode": "xx-xx",
+                "gx-participant:streetAddress": "xxxxxx",
+                "gx-participant:postalCode": "xxxxxx",
+                "gx-participant:locality": "xxxxxx"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "xx",
+                "gx-participant:addressCode": "xx-xx",
+                "gx-participant:streetAddress": "xxxxxx",
+                "gx-participant:postalCode": "xxxxxx",
+                "gx-participant:locality": "xxxxxx"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+    }
+}
