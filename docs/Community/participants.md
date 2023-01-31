@@ -47,7 +47,7 @@ title: Current Participants
 | acatech                             | 0xF62bF6371Ee020Cb2164Ac3C338514DBbb93A0D4 | Participant   | https://delta-dao.com/.well-known/participantAcatech.json            |
 | Spanish Ministry of Economic Affairs and Digital Transformation| 0x6E1cE3530A12F89cF567788C132454E5dC7D3cCE |Participant| https://delta-dao.com/.well-known/participantspanishministryofeconomicaffairs.json.json               |
 | ATOS                                | 0x943CaA8afCAdd2F64a7cE9E53A91d5ea0BEb40c1 | Participant   | https://delta-dao.com/.well-known/participantATOS.json               |
-| TU Delft                            | 0x9391291b0Df512B20810183744De8272774b6655 | Participant   | https://delta-dao.com/.well-known/participantTUDelft.json               |
+| To Delft                            | 0x9391291b0Df512B20810183744De8272774b6655 | Participant   | https://delta-dao.com/.well-known/participantTUDelft.json               |
 | Bigchain DB                         | 0x61DB12d8b636Cb49ea09eCa58a893dA9480E1F33 | Participant   | https://delta-dao.com/.well-known/participantBigchainDB.json         |
 | Perpetuum Progress GmbH             | 0x2ee3c4F19f90237B7C45cfAD6B5dC4b5840563Ec | Participant   | https://delta-dao.com/.well-known/participantPerpetuumProgress.json  |
 | Mercedes-Benz Singapore Pte. Ltd. | 0x203C7AA993EED06932FA327a192de9A8370b5Ab4 | Participant   | https://www.delta-dao.com/.well-known/participantMercedesBenzLtd.json  |
