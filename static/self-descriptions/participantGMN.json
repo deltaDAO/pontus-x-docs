@@ -1,0 +1,84 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantGMN.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantGMN.json",
+            "gx-participant:legalName": "GMN Paul Müller Industrie GmbH & Co. KG",
+            "gx-participant:website": "https://www.gmn.de",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "leiCode",
+                    "gx-participant:registrationNumberNumber": "529900OGMB1BXV554N33"
+                },
+                {
+                    "gx-participant:registrationNumberType": "local",
+                    "gx-participant:registrationNumberNumber": "HRA 11827"
+                },
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE812819744"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x7209bd8fDd841358a3CF9E7DaD8D9dCe2E4BbBB8"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BY",
+                "gx-participant:streetAddress": "Äußere Bayreuther Straße 230",
+                "gx-participant:postalCode": "90411",
+                "gx-participant:locality": "Nürnberg"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BY",
+                "gx-participant:streetAddress": "Äußere Bayreuther Straße 230",
+                "gx-participant:postalCode": "90411",
+                "gx-participant:locality": "Nürnberg"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T21:31:25.488Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UnW9Gpu8aRFcolt1V7JwCXM2LiYAaTwfMpDnEiA-x1O6n7S0ueAJq_e82cx4knB8tZBSTFMOk-9k8vWJMlNGFP9-efeDS3NE_Qp4eDMsv5gcI79Dd1UMuNQl1EfLVtTmfa-n8RRqPwNUBJLfCLnI_YZJBvtLTmgcbVFvQR8tXHYwrAkehzFXk0KONlc0YFGmwfNkbJ-oKrVgnY74YPsTC7BLiqL4Z4gTSC-nxFAy655HdhpWUXFqj9ZNzYRzaEzHjIm9kCmhZY6mY1JpfpwuUThGYVkUNNcbOcqxuoofte_oHd0HR2qM7j9RclfbRNQ1Ox7DQ7ytF6_sA8mgjf-rwQ"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675459903463",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T21:31:43.463Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantGMN.json",
+            "hash": "615ad4be41e397618786289921eaaa7d9e063c158430a759e54e0bdbe40d1ec5"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T21:31:43.463Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..MYzAr-yjVviQBnqx7Ddxi8O3y7iTZSTwv835EfiFP-JooxuDwEuwIVpblYHBcsAozBotV4vjQ_Ccl23NmLN2uZk-a68RQd6LvrcTupZbqgWdBoIRhUiIgE2Gfplwx-tRGcdxPN8BPfWl-QbQXMykSuwNB0GZC97aexHMzJv5bNdwKfeFYjlXvf4dEbZ7fQQ0ii7B_NEvSu7-j-Ni02mYvL8heXxIxuTKv2BqF7YF_EynlzHHEhdylW9wzA9B9KkxIXK_vTuD-H0f_0Iovq023qfR_be-3acgWn4vwP3l8uONEXGHzzJFfil1kNvmykjbXjKj5RkOdYyC1bwrk-VSAg",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

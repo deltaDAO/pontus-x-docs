@@ -1,0 +1,79 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantDatarella2.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantDatarella2.json",
+            "gx-participant:legalName": "Datarella GmbH",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE291729812"
+                },
+                {
+                    "gx-participant:registrationNumberType": "EORI",
+                    "gx-participant:registrationNumberNumber": "DE688833648102879"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0xB21282F443EB0D490819d98F2976758af5C979B3"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BY",
+                "gx-participant:streetAddress": "Oskar-von-Miller-Ring 36",
+                "gx-participant:postalCode": "80333",
+                "gx-participant:locality": "München"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BY",
+                "gx-participant:streetAddress": "Oskar-von-Miller-Ring 36",
+                "gx-participant:postalCode": "80333",
+                "gx-participant:locality": "München"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T21:36:17.386Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..gvhI-HnnQi69oeU_gkkOAqpmNvfwpWI-RyqvPVP18COb-_chng-aN__drVVKr1PE-OnCTSpizPSaFaVXCOFk6rBFt5YoA4uGFDhJnWlsvTpkv_LR508p_lW__fqGRaJsMf8Ch7SPRLsIwTPPz7HIVSGDXH6tZCq3fnmo6emBGksEGtHhotkGGsK8gosXqPjocAlCKDh6UZ-1F8z_5K7Bwld1Cue7csjF_NtMF2YB5aFM_KScfzXPUXJP_Ywtu_b6Mz4zl_ypW9pGXszPWcY0EkMn_IqOdJhlBIo8ghx8wjg4KAs0C65Lop_ORhoA5Xi8e6hx9S-VMpvRdU5SwqPMMg"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675460195016",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T21:36:35.016Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantDatarella2.json",
+            "hash": "b2a57e60d1da1cefbe133bedf9dc2fbac2ee0e0b770193e6a2ac76bdd403bdef"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T21:36:35.016Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..d3MCs891fZxzPvvgu7z-4JXfVOAFC9NGai47tYDH1qjSAwSdenyr14RjPR5NfGjay-BM5imMY0TvcwF6vjh58cH4vd6myBWDTlvGzxOu8CVXJODhk4Nh4fhyP6TZT6oZzlBQBtuauBCiBkI88AU8_xZOYYw1iuSRSK9X9zYdUXYNhnNtKihQajq6pVlE0yJVxv28P3jwUeGFKBCbY7zOhRgFC7QNSAPYJhR9N1DdBHCFzoygdXa7WcZz61vlXStN7Sz0DN8eFJ9xK0kGlCoUy6a-ogL8Ubk8bZNOBR-Bt7gd91Avw5--CEysswuy8FW7AVvup18f4lbqBCE2Iluacg",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

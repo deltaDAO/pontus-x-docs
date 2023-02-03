@@ -1,0 +1,76 @@
+{
+  "selfDescriptionCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://registry.gaia-x.eu/v2206/api/shape"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "LegalPerson"
+    ],
+    "id": "https://delta-dao.com/.well-known/participantFurtwangenUniversity.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2023-02-03T23:23:23.235Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantFurtwangenUniversity.json",
+      "gx-participant:legalName": "Hochschule Furtwangen",
+      "gx-participant:website": "https://hs-furtwangen.de",
+      "gx-participant:registrationNumber": [
+        {
+          "gx-participant:registrationNumberType": "vatID",
+          "gx-participant:registrationNumberNumber": "DE141908415"
+        }
+      ],
+      "gx-participant:blockchainAccountId": [
+        {
+          "gx-participant:blockchainAccountId": "0x1153265057782e8C57292CA590E50acC36037204"
+        }
+      ],
+      "gx-participant:headquarterAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-BW",
+        "gx-participant:streetAddress": "Robert-Gerwig-Platz 1",
+        "gx-participant:postalCode": "78120",
+        "gx-participant:locality": "Furtwangen"
+      },
+      "gx-participant:legalAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-BW",
+        "gx-participant:streetAddress": "Robert-Gerwig-Platz 1",
+        "gx-participant:postalCode": "78120",
+        "gx-participant:locality": "Furtwangen"
+      },
+      "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-03T09:36:39.803Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:delta-dao.com",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..N1oNgB0Gv8OZlk4VKLi1StZz5-QvCi7I-w34SiB8ce8tTvlM56ReBtRWVsm68oukni2DiD6mtv57DQsKUimepMSdS8gjvKnZ9kLUyXXuCCD-AJl6-2WWbeNk7isfqM0MCs_KD8mJ0Po2Edf4WYHSTqWMzFbtndErrLwvd5OlIshYK2f9vooDHtQPDPeJQzpNHEcL8anVp8SZMgljjT_h__r9tMW2KOi3UYeHaw7Gvy-3AfzSuxKTsQao6oiyvQ2AmwCSKbaveKkfPgTOyfY51XCx-gn4WQhw7umMe0M-xuyFmW-uytYiVGN_CLnIhINNHO6d6exctwH89-U12nKCTA"
+    }
+  },
+  "complianceCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "ParticipantCredential"
+    ],
+    "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675417019088",
+    "issuer": "did:web:compliance.gaia-x.eu",
+    "issuanceDate": "2023-02-03T09:36:59.088Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantFurtwangenUniversity.json",
+      "hash": "cd8f7b4749e38bf384fe414315cdcb21b69f6634f289689614ed059dfe84258a"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-03T09:36:59.088Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..TP4OpgGH5-YaBKdVtMKThEDGl7-eCMIebB7tyMQs66kQtVLPYbYQ1TTqdH-V3WM-F_AodEnxIC3ZiYff2bjmMb7Qy6TvEMafrlBPiKKfNH4XdyCvINLKRLAruoNpbQFmjpSb_kL8RWCFpNlOFy3wML70MuwwYxV-cqrA_Sc2fuuW_h8d4ugkuYHqNmkLs2tr-5wbjb-R1pelv5VnNN1NWRErd4QA-o1QfX0jbFX75aObrpNm-pRtLS9iGEwUICq-qYhpd2_Zbk-xK21hMoDq_PIvxEEZ4uUWbwh2-JOHjXVWwhcggIe2hw0HJxEDSIdt5V-Z784ZBkgcQ0yyUSpPoQ",
+      "verificationMethod": "did:web:compliance.gaia-x.eu"
+    }
+  }
+}
