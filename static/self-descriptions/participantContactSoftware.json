@@ -1,0 +1,80 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantContactSoftware.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantContactSoftware.json",
+            "gx-participant:legalName": "CONTACT Software GmbH",
+            "gx-participant:website": "https://www.contact-software.com/",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE114406552"
+                },
+                {
+                    "gx-participant:registrationNumberType": "leiCode",
+                    "gx-participant:registrationNumberNumber": "391200LQZAQNQHBSJN24"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x3560626F234eD181E807E4e31ded56D9aca1ac58"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-HB",
+                "gx-participant:streetAddress": "Wiener Str. 1-3",
+                "gx-participant:postalCode": "28359",
+                "gx-participant:locality": "Bremen"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-HB",
+                "gx-participant:streetAddress": "Wiener Str. 1-3",
+                "gx-participant:postalCode": "28359",
+                "gx-participant:locality": "Bremen"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T11:52:55.089Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..p4jS4wD7M30F0fQVjw0cYstuthFxmjCxf9arIfosESN5wtH9YDghbFbgRE5rV5JTlyoFJJmFmBs4fGwz-qyX6XUvLFPWAch3Xmk38C7Pkd4UTBEpfjx8q6kWZGkqKuJpU-L-cpgBaWfnqStGLRXRygNdcNwijd-cYTmb5Pjq-OD9VDZ6c8NAyISWGgIudV-ITYy50QB2RYm2OPqLddmYRZpWeXToi7mvup-r9stQeoDkY271SUZgt_TtjFAp7SObgL0fYAtS8KktyK4lIWHqqbYamFXo0rlfdKOlu0jhISZ4hjf-3xtcMA49ADfXU7OukA1wIjH7vsS55Y19Rl2PHQ"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675425193432",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T11:53:13.432Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantContactSoftware.json",
+            "hash": "008d2096cc2b5e47abb4b31dd4cdbe88af5e83d7322351f29a84c076caf164fe"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T11:53:13.432Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..tcU_EBrNdwoizIY_q9D0lgI744uuxhr35X0--FgeHDDQxVh8SdGg7I0E0vuP8UVu91FP8LWTnE5S4TTmFdPf1MYj61cSWcVtjbMy8Varb9asxKzAfVcEgBk2Z_WfPMOoPCun4IA_EBu6jul5XIF98Rb2pgsiUQUzT3DE-dVkCm1hzaB3gB6WP44WP9gFjhdYK4vj1Cf3OW154BBtc606ixwuUvcp3FjSvIiEHL4JdcuzZ7h2ipIYVHv8dmY4h6JxUi24oLSF-sAwA8I3K0ewSCFVAqzADZ6-iqlrA4PRtywg1ocVnGAVYiVKLndvQl69rW1XIYW6ICot2sFqHul_1w",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

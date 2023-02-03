@@ -1,0 +1,75 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantHSKempten.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T11:30:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantHSKempten.json",
+            "gx-participant:legalName": "Hochschule für angewandte Wissenschaften Kempten",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE272696642"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0xb11124Dfa40E44b3283068fd07bf6FdE60caf06A"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BY",
+                "gx-participant:streetAddress": "Bahnhofstraße 61",
+                "gx-participant:postalCode": "87435",
+                "gx-participant:locality": "Kempten"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BY",
+                "gx-participant:streetAddress": "Bahnhofstraße 61",
+                "gx-participant:postalCode": "87435",
+                "gx-participant:locality": "Kempten"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T12:57:51.809Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..n5ACccBx0MPw8s6SBeExZKjnRemqw-190z3oDhO1oYN4WeDRfvKGETbMWt-dSfOfYTCOAXhCXOfTvDGpCOoSoTqySVgF62r5LS7sbR4Lcl-9rYGoaskBEX9YIVedfDAm-AdhXyL95jbjl2_dmNNj3GpJxWmcDIeLUPHSxY7r9902fFBpEgaED987ZD3JRYY35eFTLQto01ihOEsip6OXBebmoZ4SnRa8_fgzjpPcXpbBvksA532XmqWnIT_zR_gv4x1fLBnVpno4nsCztLq-YN1infBANC_STKKucM738pYIva5xNij4ElAvvyuYaHEhRXMaucnC4LTydMtzwAPLog"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675429090217",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T12:58:10.217Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantHSKempten.json",
+            "hash": "9b3c08ec27943c74054fc0bdf803280374d4b753f8898b46a02da63d90a7e03f"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T12:58:10.217Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Q3uhMKNhEMwfUxAddlOxiRwVWEkbNmwRlKc48olRAyHhvmqyqcoWyUWwxmIGDHyH3_enMCJxEoveDJ16wcUyyMbAxQXc1A5a7ZkCoHyRpquwUOdFj4XlBvs-815AxYZmjhjeVv7dTeGyncr3VPfwPKdrKbZZf_5er-0F2k99MAfKTHH3AsV_fvhUQGkiaiymFecljEcB9XdGA8PnaQ4r5mlZlO2vYo9-7dy1d_gmlX9AYuG8_sF2fpaC0iqMVOboAQpOTcsd1I1tLsR_5QL3fAwUif_KxcndYhnZb_6w2Axtu9sSxCBJFsvy7MP3EXw1XlqKrxkCR8XK4VD2QIzGUA",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

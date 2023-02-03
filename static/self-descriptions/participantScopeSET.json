@@ -1,0 +1,83 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://scopeset.de/.well-known/participantScopeSET.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://scopeset.de/.well-known/participantScopeSET.json",
+            "gx-participant:legalName": "ScopeSET Technology GmbH",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "EUID",
+                    "gx-participant:registrationNumberNumber": "DED2601V.HRB138237"
+                },
+                {
+                    "gx-participant:registrationNumberType": "local",
+                    "gx-participant:registrationNumberNumber": "HRB138237"
+                },
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE217532858"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x746d4715c24fc4d26D02A558ACF98dC717C68E1e"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BY",
+                "gx-participant:streetAddress": "Im Rothmoos 5",
+                "gx-participant:postalCode": "83730",
+                "gx-participant:locality": "Fischbachau"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BY",
+                "gx-participant:streetAddress": "Im Rothmoos 5",
+                "gx-participant:postalCode": "83730",
+                "gx-participant:locality": "Fischbachau"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T16:32:37.799Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..NTCjfaHg-MuzfwkHdiLqh_PJ_ctofEE8bo57cF5cwgtYOaZZf48XwTfMh6d4X_h-eColYV_gMnHBWIr6IS5OPnX2BOGWMhu2Il3ZI9sBdRwL6TAeeXFFyN40bLxBzUQmZZg5VvgaHXDDVBMOD0m5K1yQSW6qo8ic0eT6biLSvCEikP9grPO-WPnI2xb6MhKHP-e9QO93uzqhv5kK2Nat0zr8LghWttfLd3pUmnowp7Y8g8jKm6Ybr6eQLUBa2vBI1stGSK-mnfqPZq9AfsV7gw8HYbY1WupUwJRwaaoeFP-w9F30o9dCaJjlPucX_7zvasHJ-4SrDK64iZFUr2gUuQ"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675441976659",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T16:32:56.659Z",
+        "credentialSubject": {
+            "id": "https://scopeset.de/.well-known/participantScopeSET.json",
+            "hash": "d5361f849bcff9feae33680972a8a7e7323b0741e6f2edf92ef8427ef67899d0"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T16:32:56.659Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..WKc8-aOCQ3q_Tn3APQ7iItsUQpWj-rfsESaKlePxVDWKVzbr9BWejnnR0T5vmC9moTGZoI7OoQ_b3hN-B9CO_6JuIpiXPNWNdyTpip_oVNlXuBnE49E6uMngAU-43bbxMEElqsCwOxZhbIUiUVTAJ7UKNHKAJ_qzY0ZKQ0E1Ob8eCTLZkQt8-GmWpHwOUBFOUi7l77NDke0FVzAM8pKcu4Aphn8BG2xj1Ev5LmVABUaO2LCwT2p_e0F7lY8zK5XiZZmguZZqHL3PtWzoU155rZnbZjodTkdT6d0VhsWAHKY0TEZvK8FnvhuDXqtVoSfINatzGcki1fcky9p0Vsi6MA",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

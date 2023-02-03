@@ -1,0 +1,77 @@
+{
+  "selfDescriptionCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://registry.gaia-x.eu/v2206/api/shape"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "LegalPerson"
+    ],
+    "id": "https://delta-dao.com/.well-known/participantTrueOcean.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2023-02-03T10:25:00.000Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantTrueOcean.json",
+      "gx-participant:name": "TrueOcean",
+      "gx-participant:legalName": "TrueOcean GmbH",
+      "gx-participant:website": "https://www.trueocean.io",
+      "gx-participant:registrationNumber": [
+        {
+          "gx-participant:registrationNumberType": "vatID",
+          "gx-participant:registrationNumberNumber": "DE 327703920"
+        }
+      ],
+      "gx-participant:blockchainAccountId": [
+        {
+          "gx-participant:blockchainAccountId": "0xDFa29AE20eac7f203DdDbe15E1830985e99143B8"
+        }
+      ],
+      "gx-participant:headquarterAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-SH",
+        "gx-participant:streetAddress": "Einsteinstraße 1",
+        "gx-participant:postalCode": "24118",
+        "gx-participant:locality": "Kiel"
+      },
+      "gx-participant:legalAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-SH",
+        "gx-participant:streetAddress": "Einsteinstraße 1",
+        "gx-participant:postalCode": "24118",
+        "gx-participant:locality": "Kiel"
+      },
+      "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-03T09:50:20.857Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:delta-dao.com",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..rrXvtegRGXP0U0LtyLwf3NM2C8cTKfbe191IBQ3JJf7_GdPAUPzfYZTxuFFmBwZ7fkfdSiKgc70xUKwa7YmMcOzCzXwgXvF7rr2kxjkMqMsoq9XO7kfgOC9GldCrLchWQJ3wo-YZXCD2Igf1k8aKS_A4iIJ1bw251o5Rt5JeA1PmZKheKmpKbvEBnzvyGwbvhS63IRapcRdvGvvCEXsZEnAxCHYDpKmO6uiBjD0V91_dN-NbsF6RDBw282fGFgHE-INKRyjG5MCEqbvVfsjvR0GsTVFgP9yu4W1b8u3sSx-IEWX4SIMFdn9TvWyXCHwm3pxpIiVKow-MOWQkD8iXwA"
+    }
+  },
+  "complianceCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "ParticipantCredential"
+    ],
+    "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675417839396",
+    "issuer": "did:web:compliance.gaia-x.eu",
+    "issuanceDate": "2023-02-03T09:50:39.396Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantTrueOcean.json",
+      "hash": "7e0b0e0b3765c2798d81a35c82ea5c4bf794cd7b1308e76f4af8509db4287f49"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-03T09:50:39.396Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..T6X0X24KO9ntKjY0pNIIUhTGg2BNr1RIH72X6g5vRN3fMRewSscAFaqaxLS31qhCYyFz9_5_Swq5Rb9decCqLlb_ju6kE11O3OAWsY1pB4uUll52j7oelcwjh3OMgeObD5T8BDgEwGDA7WlCQDcUpcefRT5nDbdwGb5JhcUh4y4SUjjchF7uqVB_42biJTCbgZMGqphsKxgibUmShd7_aKKB4rnVdXJkzdzDa3NctFnN7s-waexJL5ILZadccSe03fK5wUgnhX-xlp4kfJcfRr2x8OYLxvxjhspVHsr5Abu1z0WdFpr1WzxV7OLP_-4jLPzDbIBWp25yf5ItLmo77w",
+      "verificationMethod": "did:web:compliance.gaia-x.eu"
+    }
+  }
+}

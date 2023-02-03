@@ -1,0 +1,80 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participant52north.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T10:25:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participant52north.json",
+            "gx-participant:legalName": "52°North Spatial Information Research GmbH",
+            "gx-participant:website": "https://www.52north.org",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "local",
+                    "gx-participant:registrationNumberNumber": "HRB10849"
+                },
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE253303206"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x1f65110b63B6044f1E92543C09231842131798C7"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-NW",
+                "gx-participant:streetAddress": "Martin-Luther-King-Weg 24",
+                "gx-participant:postalCode": "48155",
+                "gx-participant:locality": "Münster"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-NW",
+                "gx-participant:streetAddress": "Martin-Luther-King-Weg 24",
+                "gx-participant:postalCode": "48155",
+                "gx-participant:locality": "Münster"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T13:02:42.048Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..F9U0aEI0JHIQZ8fE4kGEDDMa-qYhLMzK9bJegj-h5s7VrOeUuCCwmAzDaKVjXBA9KjDeWw0UsaOvERygvfLWsvmH5OYjCMKNspXipUBG6axfc5KjfQ1UZFGTOHJigAt8Y9I2NFygJYjJXM2v7TPefRAUSS1b7Zj0An93eqHotOo37kbWIes1bisxC-zzS2Uiu34ROQXsR854WVgtXy1BwSWt09Qrb2H1ggvMSwN1wyWUW-mgUOA9UrT196kMqlfMPG20d7bxdfXs_mYB6jwaEoHrIp9Iu4HztQr4qTi6-DOCNY_xj6SoScUPQoL-G6giYEba4QkSs2reihoY690tYw"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675429381190",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T13:03:01.190Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participant52north.json",
+            "hash": "e210f8345e8eab59c319e82af8a5392adb7dbd4b9e841599168fabc3848594e0"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T13:03:01.190Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Y3Li3rn4hO_tZfSwNbGuW_F5eF9oqpbHWLUTZAph5MVVijrnJRhlxgF6ShdtzzGQPdxsPFv0c4Xd3JOeLaHdjH4OcjbK5j6v6LabbWVf5EfLXoa-s6lUle6bzE91YF5rwJvQsaZ59t-BBpANBM5tF3GdAjQiCg9dqHLhnWAt-S0V0wmt6Mo06rfNzGk5F69VvLCa1159oYInDGU0rdNr4EvDLrJQEzS4iVDlYCsatYR8MlmiEecDgTOrOF2hsry9t2vgM0LVBBMFBhM5aCMjyPG7Vimw2ZHTte9v1hDofQDon25XodzzhZ3yDUTyoJvkQnpn46HDPHA-dZsM_zDToQ",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}
