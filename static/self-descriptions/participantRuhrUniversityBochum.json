@@ -1,0 +1,67 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantRuhrUniversityBochum.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T20:05:20.997Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantRuhrUniversityBochum.json",
+            "gx-participant:legalName": "Ruhr-Universität Bochum",
+            "gx-participant:registrationNumber": {
+                "gx-participant:registrationNumberType": "vatID",
+                "gx-participant:registrationNumberNumber": "DE127056261"
+            },
+            "gx-participant:blockchainAccountId": "0x17c8D253443F9E7305A2539d7aF177B21aAD3355",
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-NW",
+                "gx-participant:streetAddress": "Universitätsstraße 150",
+                "gx-participant:postalCode": "44801"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-NW",
+                "gx-participant:streetAddress": "Universitätsstraße 150",
+                "gx-participant:postalCode": "44801"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T20:59:13.041Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..jaPuFwz6mMP5pcvrJppbPooL2xQ9BXvRlxYzqo53mJr2Ejyd8AoRyeXUwPmdywHceGKIBXvWZugFPyATL2GD8IjRlAIVv4aXeKG64f1U9RYiXZm-eGKxAvAoNtD2EbJAUqx5gf8nxQ9uvfV4Mr7S83Nu-RrLDnH9g4leygbwbCy5bsdPC6EINMQGkuJ5BLETE8Uy7J1mAKqE_DJdDBjlNvZAEnmZJO80u96gHDF0BFEhfPyCXu5wsG2jO9PKanYB5sNeeSro2v2VQdmi9uCzcIsZwRXHTAmKA_u8acngR8W8ZTycf8Z_IWR2iBEFUmGAuIRiZ2DF_p-1q6mBCpPcJQ"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675457970644",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T20:59:30.644Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantRuhrUniversityBochum.json",
+            "hash": "58c61a31968481ed1fe96066283e2df0a2e3fdc393cc48a3b245320e809ed61a"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T20:59:30.644Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..HRMRBjdquYPkJatsw3Uo9CLNlf-XBk9v76mYHZShvLK7GtL0dg4pv2XtDGFbhv5j-KBdhhngLod0o6jIvWPBiqC5uUqMhrg1RGoDbkhgztwaPRijpVTFcBNvXzZ8fadhYdK_UcfaAUk0_LKwtsAysUKKdZPHJxpJ6rJfR_QM3Kwc2XRYkWXOASxVlrB8sM06krfE9TZ7ImBpQ9QLpbb44r0u2t9SgkxD5qUqt_mGQ-bKUSwuh0V2UlaNJo6FWwH2QJTcMSgPZ2ntBXQZJQdxATWE_U5iG6Q1NPNRkXPw_zazNEJMr3aW1VdwoP4er0pHhLe8X8vkXJm3ItnntCeS0g",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

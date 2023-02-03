@@ -1,0 +1,81 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantStackable.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T10:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantStackable.json",
+            "gx-participant:name": "Stackable",
+            "gx-participant:legalName": "Stackable GmbH",
+            "gx-participant:website": "https://stackable.tech/",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "local",
+                    "gx-participant:registrationNumberNumber": "HRB 15351 PI"
+                },
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE334447979"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x5880C2C30C922FE700fc079e1b6BBa7e9E7DE577"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-SH",
+                "gx-participant:streetAddress": "Thomas-Mann-Straße 8",
+                "gx-participant:postalCode": "22880",
+                "gx-participant:locality": "Wedel"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-SH",
+                "gx-participant:streetAddress": "Thomas-Mann-Straße 8",
+                "gx-participant:postalCode": "22880",
+                "gx-participant:locality": "Wedel"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T17:57:52.880Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..i9sg02HQI-2gXKYKzNFWSej3EUv-21Z8ub8L3q8JLTKz-F_WqRVzBsr8TKAFbZAa1HoOnGnEQ8DS8Fr-XvgmXfWekYxaSQfflCoIZiRzpNAxdkQQAmmsW61-QnpwldKY2ejZJL8HuCiqBJVs4jbQ4PWtBxuhhh3hwg4bJ62bIDCDwBnC00rLDwHbDKGm1dpvK1mkPVwe5fQFRJJSU99LYTPYS-NJzr7Eyl_dUkEoUwv3FEm3qJrFzoSVioQiAJUsvXLlUlMI5Mbg80xczQWWWf9qIs1gP7-heWeBrNDixEyi3Y6NOJ3AGcKgK8v3Kmq5Oh0wBW7Sx0WOF8Dn6ZoDIQ"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675447091981",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T17:58:11.981Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantStackable.json",
+            "hash": "1813eb0c279cce9c5cb8ba34a96671fa82a43fc8113eb7e1ea6cc64b8b6fff23"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T17:58:11.981Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ecYxMXBDRPhP1l5YjaPpXIbPmXUjAWEUjNf9V3QUvjRxmhxrHQiCgyIau-pQz7gWLv-5gD8Hzk_jqZaOlkMHhYq1XryJ6D_V2-Onfqh5u3Ry3yrsaLtBGL_RvnTZptX7rMUt9qo88pluyyTrWBbFy6YJz-pKVYwS2YttM6VuTuS6kyIQY2OzAWsvtxP-HLPysVf60w-z5G22_e88GSxBs8FqCixaWN_vsCuN_hK9o8ZMA0eaUvNKiCkbv45nVUD8z-W18ho3Rd-uIptt1Zlb-irmNNDU7Zw8VOhlgEHhjyyQj9Gyp429HSLGkcKeiLi-pfpCASGhsBmvy_EsSkyDQQ",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

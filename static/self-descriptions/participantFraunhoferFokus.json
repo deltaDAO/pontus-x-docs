@@ -1,0 +1,103 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantFraunhoferFokus.json",
+        "issuer": "did:web:ids.fokus.fraunhofer.de",
+        "issuanceDate": "2023-02-03T20:05:20.997Z",
+        "credentialSubject": {
+            "id": "did:web:ids.fokus.fraunhofer.de",
+            "gx-participant:legalName": "Das Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE129515865"
+                },
+                {
+                    "gx-participant:registrationNumberType": "leiCode",
+                    "gx-participant:registrationNumberNumber": "391200FJBNU0YW987L26"
+                }
+            ],
+            "gx-participant:blockchainAccountId": "0xDB5807EacA2937f6264c5725538f8Ec357b4d3b2",
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BE",
+                "gx-participant:streetAddress": "Kaiserin-Augusta-Allee 31",
+                "gx-participant:postalCode": "10589",
+                "gx-participant:locality": "Berlin"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BE",
+                "gx-participant:streetAddress": "Kaiserin-Augusta-Allee 31",
+                "gx-participant:postalCode": "10589",
+                "gx-participant:locality": "Berlin"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700",
+            "gx-participant:parentOrganisation": {
+                "gx-participant:legalName": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.",
+                "gx-participant:registrationNumber": [
+                    {
+                        "gx-participant:registrationNumberType": "vatID",
+                        "gx-participant:registrationNumberNumber": "DE129515865"
+                    },
+                    {
+                        "gx-participant:registrationNumberType": "leiCode",
+                        "gx-participant:registrationNumberNumber": "529900IU48N7TF5QC051"
+                    }
+                ],
+                "gx-participant:headquarterAddress": {
+                    "gx-participant:addressCountryCode": "DE",
+                    "gx-participant:addressCode": "DE-BY",
+                    "gx-participant:streetAddress": "Hansastraße 27c",
+                    "gx-participant:postalCode": "80686  ",
+                    "gx-participant:locality": "München"
+                },
+                "gx-participant:legalAddress": {
+                    "gx-participant:addressCountryCode": "DE",
+                    "gx-participant:addressCode": "DE-BY",
+                    "gx-participant:streetAddress": "Hansastraße 27c",
+                    "gx-participant:postalCode": "80686  ",
+                    "gx-participant:locality": "München"
+                },
+                "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+            }
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T21:45:36.621Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..KbXfVqRLmAxkVHyHUZQdFKMftECLEEvYBHhS8P0qcADIFkEDed6fU7BaK4rzKAlfT28QiV1qtxxqegE_qIDTRLMVMbqob-dhopYF8QXWnyJ_cut4Q2V2tN-dkdfpVIyjlSBh867ihyo3cbUGwo-SO4mPofIYzNp1rREl-jyotybjv01aq5TWrbsfTewOy7ISQ5RGw5b3LWRPY_FMESqmd2t5aDowiG1KpwG0Bp1YsP6JW-azyEtUxVJO1Q0UsE44ZfT5QcTRg5WD3OxZ6OkSc7N0dNMtUrkQ52vCVsQZh51Skz6kgqngZMycCZBBzST9NgoPqkWynUvrCUgE8cXlZA"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675460755049",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T21:45:55.050Z",
+        "credentialSubject": {
+            "id": "did:web:ids.fokus.fraunhofer.de",
+            "hash": "41d8179339d38b61078aa38af522e1c648968567c47b51fff9d14c069f2d1356"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T21:45:55.050Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..iAWi89N7GmVEyZFDyIzB1fXRvC7sYQ2LypAKcQzc3dvuZZl2TT345MMd3shD1RNczAbDHwGteuVAPOZvv4v0Q05ycD-EZmGd8JOHyKeZpsud4xDhnzcHvh7__RYxjwbkMW38jftbNQfwMq2xji-R1ufsP6_8zjR6PjFJkeDXxFSX579Xqnk0lb3RRQYJdGi2LKv-3jnDQfkG-xKWrqlh_lWi0ZZhSEAQDK3N-9ZBIdLb-JBmGyBvHRoAhcVRe8AEhgUsNMffVIi66ipHM4kXgCHL9QPqhwgpjdbgxOOs9AuJtdFtkYqkl0zh7wGiBvUrOSJ9pJplmS1fcm3gTzOPug",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}
