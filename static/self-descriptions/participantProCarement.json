@@ -1,0 +1,79 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantProCarement.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantProCarement.json",
+            "gx-participant:legalName": "ProCarement GmbH",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "local",
+                    "gx-participant:registrationNumberNumber": "HRB9742"
+                },
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE326556652"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x0c85Cd08E6643Fa3E4B75268431d19CcFC99C916"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BY",
+                "gx-participant:streetAddress": "Äußere Nürnberger Straße 62",
+                "gx-participant:postalCode": "91301",
+                "gx-participant:locality": "Forchheim"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BY",
+                "gx-participant:streetAddress": "Äußere Nürnberger Straße 62",
+                "gx-participant:postalCode": "91301",
+                "gx-participant:locality": "Forchheim"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T20:34:15.385Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..XVWlaEJcAtfha6hi6AYWKq7Zw5BioTBtQbPOUJew8d27NbcYTj0CGKnHPcp_UaYrQMhaa093glQ4TKC1pEbM4hF5D-b6x-pJPjJ46YOgJUUMgW6egHn0rDkFNvyyRSY5uaxhHlGAOCQbefbSKCqKqbBd-WKGoI2ekhEcCcv6cxJJg-wT8IFoG5pyfFsaQlHNVgkvT3fl9nFhKMfgW8D7ipAPdBqBbTvxAloMuNW28EXVGvHN1NWKCsgR6pJOxalEESzHeh2u6B_a1Jr4zu7qFAsYQbaYbCEEJNtRmtnKf0kctHFswaZRLsMJ6qD5aUKv0AGEUmFdv1aDTsRJ-lxPUA"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675456473405",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T20:34:33.405Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantProCarement.json",
+            "hash": "5b98448ac0b2f27b0537e6743c35479de9c8c33d718d0355c5d407a94a1330f2"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T20:34:33.405Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..sxe062FYnVEYJ2PfehY95xp2N-J3qeFF3dd0QhutC0Qvww2I66bK_gDtfdvftoBu1AP5XeNuWikc_Hc5LBezqBxu0wke_k11sgStHtz0mdrsLEsgjgj_31I2lkJfEan6qbAlJtl--hzzRLO56mqPnlfPCdz5WAZCMThkgohzBRm5VO5N1X3fBNnVGYdJuXiJ89VMzv0xw5J8qfzFtHsBR0vSYew9CTttDjkn2YtyCaENw75pg2okAEX_WfiPF5G99-ogsMxXCnx7O6yTzIGpArOl97UlHX2_VL5VnWB6P3pjNy5B4iprCqKHyJ07dhiD9u0ixvWlCoBRETLOTYDMHQ",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

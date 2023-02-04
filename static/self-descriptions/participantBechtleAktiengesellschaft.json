@@ -1,0 +1,89 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantBechtleAktiengesellschaft.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T10:34:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantBechtleAktiengesellschaft.json",
+            "gx-participant:name": "Bechtle AG",
+            "gx-participant:legalName": "Bechtle Aktiengesellschaft",
+            "gx-participant:website": "https://www.bechtle.com/",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "leiCode",
+                    "gx-participant:registrationNumberNumber": "529900HA2QT774RUXW59"
+                },
+                {
+                    "gx-participant:registrationNumberType": "EUID",
+                    "gx-participant:registrationNumberNumber": "DEB8534.HRB723856"
+                },
+                {
+                    "gx-participant:registrationNumberType": "local",
+                    "gx-participant:registrationNumberNumber": "HRB723856"
+                },
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE143849458"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x8482256AC35fcA568a53CfD77Af9538FEC0691bb"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BW",
+                "gx-participant:streetAddress": "Bechtle Platz 1",
+                "gx-participant:postalCode": "74172",
+                "gx-participant:locality": "Neckarsulm"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BW",
+                "gx-participant:streetAddress": "Bechtle Platz 1",
+                "gx-participant:postalCode": "74172",
+                "gx-participant:locality": " Neckarsulm"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T21:53:48.794Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..S9IwJR8WbUSNn6sG3YafMJbJHzqVB_Y3BIzEpcXtSy1Te1n02ZZoEXHAgZ4TtVJuOdot_rEvLeybTlWdRg6K87scLendGiKTONjTpxL0SStYHTo95jxs2pZbK36UcUh3yfM_hlUcP1VkTqZqLaJZKGMQrvGY15Mf075nDzrng4xjEH8esI_KWuXa-dM652iHtq80WIcRM1R7ZfXBerDkveNfOaNvN5BPpKLr7k3qhMy3-dSSFsxk4fijnVrlsALzLkOe4ZjFCKG1vxSwZxoJxew6Z_U3b0aW7DQNiNskChBCOHbYQAVBEJtqxZ_6kC0B7uS7Hna2H6SCQmIlD025zw"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675461246745",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T21:54:06.745Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantBechtleAktiengesellschaft.json",
+            "hash": "e7b9d4d010d469c4d626846aa222dc05f8d837ebf2a1fbe79f02d247ae52e193"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T21:54:06.745Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..OjZYcMaBglWAFjiu3EJLEMAwCgK1yY4PCP8q-ex2aM6kraiMYqYEFYuSxf9R9rRJJN20x1XtvNKFK4MFZ1WJfrSSOnzuoYjSzVC-cnNhW6Y88VkhKwQWdAtIkN6xe--Yh7qXWWL5hmyN1EJu5arcmNVxLiQ3gbZqYf_AF5jc1XShglkaoVxGXogyZ1fb0MEXrFNCQMWq2npZdFyPtIAykB10cirf-HsYJIXBiQWWIijxNR_SnwZws72AqGagqf_XGpWv4mOwlOl0EGo2f4U-OCku-R7mX35n64f2eom-4NN6sssYH9Ok7UV1Jy3kQDaGrF1787Z3GCmDb988zVsHdA",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

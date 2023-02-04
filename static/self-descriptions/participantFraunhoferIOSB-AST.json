@@ -1,0 +1,106 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantFraunhoferIOSB-AST.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:23:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantFraunhoferIOSB-AST.json",
+            "gx-participant:name": "Fraunhofer IOSB-AST",
+            "gx-participant:legalName": "Fraunhofer-Institut für Optronik, Systemtechnik und Bildauswertung IOSB",
+            "gx-participant:website": "https://www.iosb-ast.fraunhofer.de/",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE129515865"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x99c030936B5E7381E65B645d3762A93147EB15F7"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BW",
+                "gx-participant:streetAddress": "Fraunhoferstraße 1",
+                "gx-participant:postalCode": "76131",
+                "gx-participant:locality": "Karlsruhe"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BW",
+                "gx-participant:streetAddress": "Fraunhoferstraße 1",
+                "gx-participant:postalCode": "76131",
+                "gx-participant:locality": "Karlsruhe"
+            },
+            "gx-participant:parentOrganisation": {
+                "gx-participant:legalName": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V.",
+                "gx-participant:website": "https://www.fraunhofer.de/",
+                "gx-participant:registrationNumber": [
+                    {
+                        "gx-participant:registrationNumberType": "vatID",
+                        "gx-participant:registrationNumberNumber": "DE129515865"
+                    },
+                    {
+                        "gx-participant:registrationNumberType": "local",
+                        "gx-participant:registrationNumberNumber": "VR4461"
+                    }
+                ],
+                "gx-participant:headquarterAddress": {
+                    "gx-participant:addressCountryCode": "DE",
+                    "gx-participant:addressCode": "DE-BY",
+                    "gx-participant:streetAddress": "Hansastraße 27c",
+                    "gx-participant:postalCode": "80686",
+                    "gx-participant:locality": "München"
+                },
+                "gx-participant:legalAddress": {
+                    "gx-participant:addressCountryCode": "DE",
+                    "gx-participant:addressCode": "DE-BY",
+                    "gx-participant:streetAddress": "Hansastraße 27c",
+                    "gx-participant:postalCode": "80686",
+                    "gx-participant:locality": "München"
+                },
+                "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T23:33:08.490Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..eH7yaRWg7_NZtjRl9hTxaHNPTLcIob6xt0neY8BHdEXBvidHCfdGJuSWalcyZo4vexrB8-uNoGPw3o6IpPLqYfBikupWpUxaCLP4sCrUvTUCBY-Gxr_WMLV1anzu1I120J-4NtyLip2ydgqui-Uy5rCKsAvvH6-3fO_kJY5j_jijfNF4VudExoviwrFwN1-jooo32VTOU0kYNeyXoTWdLevWrzaT_-MImLTNqrDdqfEc_GrWOa7dXpOw3LVUeXQPriShkArtMmYCc4liGdTk-U2VA_W6iRQCTy-kdxS0qNVXIIu1_CFzKNboMYArzyiveGzdrL2dBVsw1yTIwg1mLg"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675467206573",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T23:33:26.573Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantFraunhoferIOSB-AST.json",
+            "hash": "a0a8e0f466ab825dd2e8f9e7d65f2f06128cae1e25826dc7506c74fed60f7b80"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T23:33:26.573Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..MBVR7IJES9abND4fVpy563PUKe-iXY6UWqRthkAJc2B_FZBff-bkDQ0XnXT_H84S_AkENwUxXzWCPmZxUk8zvgEXPwG32XOLK6dyXFVkrXLl3vQ8FV2xCtfhdByfyA2gpEdaO-mtBioXcnzxqpTT2CpWq4XH-nuTNbIdCTlu9J6_ocF1aRVp0wEyyEj7tLCpdgnTvJsimfIesfu4pfLIcrmRfkJsDiIjvV548JCGlOK-Hf6QxGD8q9DMJYPiYuK8n11u4BAwq0iSp078LslyuMXFhxFXcEwpRSP8MPpkmrNwHK54IHQSssYr6aFX2zvLn3hjzboRrxt7HMN9JGXrKw",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

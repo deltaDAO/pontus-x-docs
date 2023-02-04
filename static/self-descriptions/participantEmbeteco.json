@@ -1,0 +1,79 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantEmbeteco.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantEmbeteco.json",
+            "gx-participant:legalName": "embeteco GmbH & Co. KG",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "local",
+                    "gx-participant:registrationNumberNumber": "HRA203693"
+                },
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE290078965"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x7104a77Ca5FfC6D3f0840048C307d05EA3b529C0"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-NI",
+                "gx-participant:streetAddress": "Achtern Grode Feldhus 23",
+                "gx-participant:postalCode": "26180",
+                "gx-participant:locality": "Rastede"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-NI",
+                "gx-participant:streetAddress": "Achtern Grode Feldhus 23",
+                "gx-participant:postalCode": "26180",
+                "gx-participant:locality": "Rastede"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T23:46:06.779Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..FE94QDDhqw_azUMouCkMmCLKKiuSBAhZaAJ1Ez2bkk2P9OIPrOuOkwNr8_MZA5GE3Io9GS2Qb6u3t5J_AvlFPFT4-qYIvUcn4Elab3qQdzZmOvO1m4AYT99CDV2csQti08OX-eup8lUZb6YqrAMMoNqGkip-IdFkJhSrpcYsRdjUDIFIkwhtHyVGpL5Yyjq4DrrjF907Qqjevg1e_s8L5ph62NtzAvRlSg3joHH4YkmJTJSPCOq0kFOCLeeytCYfV4FIhHmOQk3wxdJr4pz7jb_whZiWCjzHak_oF9UtiZitaoI4JPFi0T9S3QsZqGQEtQyQU9tHzgUtFaHd-acybg"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675467985304",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T23:46:25.305Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantEmbeteco.json",
+            "hash": "d6b82f5cb3427b807c89725286948640eca59656126f09bb3c7660cfe1a3a54d"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T23:46:25.305Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ggkkDAVmqJ47u_d_BEN6D88nxNUOnui_nBKx0UVmvJqa0-Ui3nomUSBOGlrsfpsl4PdT2ZEfdYv_Y_M-nqM2AJJe70tqL5ORsKTBB9CsclbkhQOGKSmVnbkIiKcheaOlTwuhY4-XgZLy7Aew9mtU5NRQ6nSivQTdZquagFsWxjK9kJZauQhfXsicW4mu8i8Krr8AMBzeDCndBMf0ROC9LfIGqedmX7xFAAQ1fe7RKIdZNi41goruAIkV8xvtSTTkN8LizYmNFO1g6w0UCcX8FoZ5f4zkFKOCshdfzNF8PKQBWmm_yTtVn-wQ8Cl8WUG9gQLaDmUaxfChMJYnLJujRg",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

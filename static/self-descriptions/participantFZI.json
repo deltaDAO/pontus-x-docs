@@ -1,0 +1,76 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantFZI.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantFZI.json",
+            "gx-participant:legalName": "FZI Forschungszentrum Informatik",
+            "gx-participant:website": "https://www.fzi.de/",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE143608453"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0xc2350eA5913511A95c1aBED51de377A0b92846Be"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BW",
+                "gx-participant:streetAddress": "Haid-und-Neu-Str. 10-14",
+                "gx-participant:postalCode": "76131",
+                "gx-participant:locality": "Karlsruhe"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BW",
+                "gx-participant:streetAddress": "Haid-und-Neu-Str. 10-14",
+                "gx-participant:postalCode": "76131",
+                "gx-participant:locality": "Karlsruhe"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T18:23:05.290Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..IvGRxjFPmr7KXzGHRKCFVRZjr6cRm_Zd7gHDqHsfextwoUPWaz3lKglYW0ZJ017H9IyoNzEWxa_5FSCfiT-ArjPqFr8vp8hge5tCvOfILAbblms8ZaIwnR7A1lxycCDhNll4g8ucftJzVFGKehDbBmEkXuqrbUiBqVVGMXijy_AFF-hWe1oft4bAtvQFWBIEyimqIFlBPSxc2uoOtIlcvNC6uz67efZaUC0-unO8bb9XBTR7lZTxXS736vXKr6yEVdDMu7EVOnSVyFO97Wr--huIK407Ul6BjhSBlTezuCi_MJ4C4Hlh7mJXdfo4plJ4_ust9AJV5-OgRZLCOcl7Gw"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675448603218",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T18:23:23.219Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantFZI.json",
+            "hash": "e22863b1b9860ee88721c52524929de32f9b35a29226cc8b979837dff6b91258"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T18:23:23.219Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Gx15GfWOIkf1LjSHvaY7fxHX3QVDWjA87xWGP-Ebho5-IWm6oduSB1iHRXFYt7OuBS8gxsWiLpmwxB8jBh7qIixMVSWH0Wkwf6kfL-tz_iMjujqdyQ0zSg5Si6s9cdBa7Bm0t011VhbdWMA2EXPtsP04QE547edZGVpBNk8Cw4mcZiKDEQ43TUpbcFxr4171gYWrhKL18aHUM1HetRY-dgdg7hP4O6I8AJLVKXZ2rgeHVFsWp0YbUEusiXQ77vLPsVuyKOf5cYYk5mzaueKwy0A8cxdyLypPqYBqqCBolyyMlkZujCQXulbJn_XXdLRu6OmFtTjua_FZeWGH28nFIA",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

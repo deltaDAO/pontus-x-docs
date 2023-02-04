@@ -1,0 +1,80 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantDKSR.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantDKSR.json",
+            "gx-participant:legalName": "Daten-Kompentenzzentrum Städte und Regionen DKSR GmbH",
+            "gx-participant:website": "https://www.dksr.city",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE342267182"
+                },
+                {
+                    "gx-participant:registrationNumberType": "local",
+                    "gx-participant:registrationNumberNumber": "HRB 227659 B"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0xF211efa0C51559e6730db3Ba6FE1f1D46A68BE14"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BE",
+                "gx-participant:streetAddress": "Karlsbad 16",
+                "gx-participant:postalCode": "10785",
+                "gx-participant:locality": "Berlin"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BE",
+                "gx-participant:streetAddress": "Karlsbad 16",
+                "gx-participant:postalCode": "10785",
+                "gx-participant:locality": "Berlin"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T20:47:27.762Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..b2f4W80P6jTwpDGKqhW22QQmYU2aZTLK2o1DFfHskECZ_SvC82x1Bz-0y0CHZBBlwInQ9sYxBoiA21w5KAvnnVR2Q-IikNtq-Kig8O8SICa83Vo-0TLEeOp8Dj_tKb1itJyY4hiK6cV-isac4RQ11UMiQZqRIMo2BMhry_I1DdzE2d-IAHBTbt7UgxiV1vKvgT9t1_sZM0OMFakkgQlvOCmsRi-45S00bC26ifviXFBtadIjstTAhX9EPeHTx9-s_G8hCzevcZGmr8YIb2f3ddtHsOPYjumCTDXr5-SpoQnTVp6NgrX54mKEIKB7l2-3odmiLRCcUvjMSx-iE_iAbw"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675457265461",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T20:47:45.461Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantDKSR.json",
+            "hash": "472d0405444d717013a87c2395d8b5d90c63e84f3b6bfb24128a2a10d864bc8c"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T20:47:45.461Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..th2U06HQ2jGuQgyAkSX1x1rxGhHZkfXSwRryhZyvIrWEbJ4SrwGw0pdwB45B0spNYimuNJNlOg-XfbGRfXQueLIQcwFHisMiMbfdXyik7O2q7UGQyytKXP0E3nFbOM2bhBzZ_4Rdd2nn2vCvx2fJ1Ia0zmFrTD7uYM9iSA6CWmsHkUFtVp-mUctbHyccfY4DeVOfHVq9aPTNu8KTjblup1P4e1fw8TdXv_c6iLHAQqiE9OCw2K5NKAB84OdkaYvSa8172GrPEw_-BvuRIQNNhqkMDpJwYEZcplYlkmD_tPqFOtxJWaM7pWVuYOwn1TQFuykcY5Ih5gtBxBdC3Gn0ng",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}
