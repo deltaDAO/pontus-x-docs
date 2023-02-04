@@ -1,0 +1,79 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantElektroSolar.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantElektroSolar.json",
+            "gx-participant:legalName": "Elektra Solar GmbH",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE284064287"
+                },
+                {
+                    "gx-participant:registrationNumberType": "local",
+                    "gx-participant:registrationNumberNumber": "HRB30925"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x3EAbA16E4Ac451D85839A42eb9e7C61F157C88b7"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BY",
+                "gx-participant:streetAddress": "Am Penzinger Feld 15",
+                "gx-participant:postalCode": "86899",
+                "gx-participant:locality": "Landsberg am Lech"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BY",
+                "gx-participant:streetAddress": "Am Penzinger Feld 15",
+                "gx-participant:postalCode": "86899",
+                "gx-participant:locality": "Landsberg am Lech"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T17:47:20.974Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..KhA2HgBVVDwf2RA8UQorfu9bwm6Z2Wb3qvDvQJ0AkKfrLOgxXl6m7GF82N4lk6fy_hlkDXfoauwcPPqMLYDbDyc7ubC3Lum3LXudETP1DY7sYmrcYRhrHTUesjzbsL8tYGVftmJ74lcxx-mxApBw0_Otbpkm3mT_szkqlXIosYyqS_21QuCvheFJjuAsPWR-b2A3c912xuVV6adaDB0JDK7pvuHqrABganFZNWvR2YaDsHRBE6JoTnZdB-N1KzXneHDaXXvKaVbEfhxTCJmDW_q0P3Kp3ViZqgwI6JoFtGSBIptiNmgPReFHe6_V3bapddQgtOfLglDflCJjNnXrEQ"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675532859273",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-04T17:47:39.273Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantElektroSolar.json",
+            "hash": "1f9f0b130065c828c3eb39f3c6183db1fe771ba53bad88c81cfd35c04f5be0d4"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T17:47:39.273Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..TmBwR4T1APbRaebY0PVIiTeno2m__iIZOIKN_yJj25d5BlXKRPIIA33QZqKfCQn6n8MbRPnLeMB2EdLl-5z_F1ZcWmyhfSnc17PBOnt2ODKj0hFnw5M8QAXwmpQoA9SuCHRUmrDWXslk8QY7E8jPT63vhb-SSFK02YRgwHhR7vOTVG6B-R3KfPAiYJhvFa3Kevyfs93ihhrGMgPWzBXSnR3B_j9lrrO-qYUXY2bB6XHu44p80ye0sSXH1lhoSmK0p3hPAP-AIOIfd9cQ_TrIBeQMw9XPbv-fkarcrJN0V70o1KMWf36haW-x5-S1FmyYTumTc_uyq8bkiTTS2FcJYA",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

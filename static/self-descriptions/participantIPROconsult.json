@@ -1,0 +1,83 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantIPROconsult.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantIPROconsult.json",
+            "gx-participant:legalName": "IPROconsult GmbH",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "EUID",
+                    "gx-participant:registrationNumberNumber": "DEU1104.HRB32340"
+                },
+                {
+                    "gx-participant:registrationNumberType": "local",
+                    "gx-participant:registrationNumberNumber": "HRB 32340"
+                },
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE289953437"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x8FAF0702C51c94b5848774129047d75cEe49EE87"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-SN",
+                "gx-participant:streetAddress": "Schnorrstraße 70",
+                "gx-participant:postalCode": "01069",
+                "gx-participant:locality": "Dresden"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-SN",
+                "gx-participant:streetAddress": "Schnorrstraße 70",
+                "gx-participant:postalCode": "01069",
+                "gx-participant:locality": "Dresden"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T17:39:25.847Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..dgSC4w5bJdOiOYcGhDrjF3XP4zl_zZqw8WRkqCkLt3pyV8t0S31vTR78KwkR93jVNYlnds1jkWYkFmje7wrbZF7w6eEUW0FJFgyrbDOAct5UiAknN02ZZWAp7O_IOJfeYCLBQ13MXJutS16DWLvDTmyXmJjl-RmhBXM3BGeClUrUXS-CZEr5KvCDLZnSNkBb69gkQKoeqXRceR29BzGK9GDq9d7LbxrU84CJayMABzEmOA7Smwyj7vNN3mG4eVLgrV-FYgbh1MflC6k2cOBOERhGGhFXLcYWe826S2-VahaEFF7NWJFqFtW_YQXqJXoeZ50AiZgBkkrwSVZmJQoTmA"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675532384127",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-04T17:39:44.127Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantIPROconsult.json",
+            "hash": "23428a761c51200f741ef4b076fec9d37332c02c63f58798b6c5e8583f7ef17e"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T17:39:44.127Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..VwEp3VbpmqZw8uuxVOOOEgOHCHlxYWu9fXYrTcV2vnFohf0Zfm08LznMpZkpHZMegPCBq29W1DzADjvIkJdKfwvpgkUn_ecb2ci6zzqFKtwKnk-buUWQQZpiRi5XcfSJT5SWIrs9rjd89bgDqo8hbqII_7aghJ61PQsAAqmdSzqiprcUwmC63RYcIIX1sVZJdnO80pfh_71xuxX_PR_DOsRtgxF-fVQX5BvP9zEL-Oa5cGrb3G6BOlj-ViW42TAWbP63VG_K9bX88jHy7yN6E90osgxUHtKSWWBkU7a7kdCpnQhGcFd97J593mS8x4UQa3jxmA2m3dVwWLVRjnOtmQ",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

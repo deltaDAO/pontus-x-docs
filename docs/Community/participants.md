@@ -33,19 +33,19 @@ title: Current Participants
 | Perpetuum Progress                  | 0x2ee3c4F19f90237B7C45cfAD6B5dC4b5840563Ec | Participant   | https://delta-dao.com/.well-known/participantPerpetuumProgress.json  |
 | SINTEF                              | 0x7DF1674a1e3449778eEB324652d3FF3Cb5046753 | Participant   |                                                                      |
 | Peaq                                | 0xe3Df4851c094f5F6F1AC9AbfA4FC2075276195Ec | Participant   | https://delta-dao.com/.well-known/participantPeaq.json               |
-| Datarella                           | 0x0aec046a558F13Ff18aAEc5E6f76084185358cdf | Participant   | https://delta-dao.com/.well-known/participantDatarella.json          |
+| Datarella                           | 0xB21282F443EB0D490819d98F2976758af5C979B3 | Participant   | https://delta-dao.com/.well-known/participantDatarella2.json         |
 | Bosch                               | 0x6fE8aD445AD86b3d1325F79955Ef28d6e9cb2258 | Participant   | https://delta-dao.com/.well-known/participantBosch.json              |
 | TU Dortmund                         | 0x51Decd187744bCfAD1BAb0A3E71dD68fAC0ba478 | Participant   |                                                                      |
 | RWS                                 | 0xa98A6eefbAE870b88a9C7A43f4b50066A01c93b6 | Participant   | https://delta-dao.com/.well-known/participantRijkswaterstaat.json    |
-| Craftworks                          | 0x9dfbda23b65efB1c836828D74a96eB8528A60f3C | Participant   | https://craftworks.euprogigant.io/sd/participant.json                 |
-| Concircle                           |                                            | Participant   |                                                                      |
-| Software AG                         |                                            | Participant   |                                                                      |
+| Craftworks                          | 0x9dfbda23b65efB1c836828D74a96eB8528A60f3C | Participant   | https://craftworks.euprogigant.io/sd/participant.json                |
+| Concircle Österreich GmbH           | 0xb2AF8b92bFaC5299Cb6EDEf16150BFD1d4d26a93 | Participant   | https://delta-dao.com/.well-known/participantConcircleAustria.json   |
+| Software AG                         | 0xa702032E187E6A53EAddC28a735B414220712689 | Participant   | https://sagresearch.de/.well-known/participantSoftwareAG.json        |
 | DENSO AUTOMOTIVE Deutschland GmbH   | 0x2b92BF0496B7B41ea2d723325DDE96651795c784 | Participant   |                                                                      |
 | Struggle Creative Oy                | 0x895975869261A215813e33568a295F94A3F301ed | Participant   | https://delta-dao.com/.well-known/participantStruggle.json           |
 | Sphereon                            |                                            | Participant   |                                                                      |
-| Austrian Institute of Technology    | 0xfc739f2F91921eb710878ad2Ca38C147a784C96f | Participant   | https://delta-dao.com/.well-known/participantait.json                                                                     |
+| Austrian Institute of Technology    | 0xfc739f2F91921eb710878ad2Ca38C147a784C96f | Participant   | https://delta-dao.com/.well-known/participant.json                   |
 | acatech                             | 0xF62bF6371Ee020Cb2164Ac3C338514DBbb93A0D4 | Participant   | https://delta-dao.com/.well-known/participantAcatech.json            |
-| Spanish Ministry of Economic Affairs and Digital Transformation| 0x6E1cE3530A12F89cF567788C132454E5dC7D3cCE |Participant| https://delta-dao.com/.well-known/participantspanishministryofeconomicaffairs.json.json               |
+| Spanish Ministry of Economic Affairs and Digital Transformation| 0x6E1cE3530A12F89cF567788C132454E5dC7D3cCE |Participant| https://delta-dao.com/.well-known/participantspanishministryofeconomicaffairs.json.json |
 | ATOS                                | 0x943CaA8afCAdd2F64a7cE9E53A91d5ea0BEb40c1 | Participant   | https://delta-dao.com/.well-known/participantATOS.json               |
 | TU Delft                            | 0x9391291b0Df512B20810183744De8272774b6655 | Participant   | https://delta-dao.com/.well-known/participantTUDelft.json               |
 | Bigchain DB                         | 0x61DB12d8b636Cb49ea09eCa58a893dA9480E1F33 | Participant   | https://delta-dao.com/.well-known/participantBigchainDB.json         |
@@ -75,34 +75,33 @@ title: Current Participants
 | Christoph Kroschke GmbH            | 0x224482ebcf914b9FA9E312036B377e26B676E534 | Participant   | https://kroschke.de/.well-known/participantKroschke.json  |
 | Brinkhaus GmbH            | 0xD580c01E2f503287006138a94eBBc537Fe7eBD25 | Participant   | https://delta-dao.com/.well-known/participantBrinkhausGmbH.json |
 | Gühring KG            | 0x4B107057aB8278c7d9436bf76230d16e5F7BaD16 | Participant   | https://delta-dao.com/.well-known/participantGuehring.json  |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
+| Fraunhofer-Institut für Werkzeugmaschinen und Umformtechnik IWU            | 0x7bf493b142AB0bb37c7f766A1585245901891685 | Participant   | https://delta-dao.com/.well-known/participantFraunhoferIWU.json  |
+| imc information multimedia communication AG | 0x1c0c9211E8Ec8E0253A53880D5481e4580B62125 | Participant   | https://delta-dao.com/.well-known/participantIMC.json  |
+| SAP Fioneer GmbH | 0xEEe803bEFd2B4f229E57523Edb11CDE38DD1a23E | Participant   | https://delta-dao.com/.well-known/participantSAPFioneer.json  |
+| NT Neue Technologie AG | 0xb828bA1850aA11daA1890896573Aa6008221A671 | Participant   | https://delta-dao.com/.well-known/participantNeueTechnologie.json   |
+| IONOS SE | 0x005d24698bF41c398ECF15a93455621932a6e19F | Participant   | https://delta-dao.com/.well-known/participantIONOS2.json  |
+| ScopeSET GmbH | 0x746d4715c24fc4d26D02A558ACF98dC717C68E1e | Participant   | https://scopeset.de/.well-known/participantScopeSET.json  |
+| RIB Software GmbH  | 0x1Bf21DCb771Aba18B1D23AA6D8a619C1AB1811a4 | Participant   | https://delta-dao.com/.well-known/participantRIBSoftware.json  |
+| msg DAVID GmbH | 0x04FEA446847c3539d35Cca0a74Cb82Da811BAfc3 | Participant   | https://delta-dao.com/.well-known/participantmsgDAVID_2.json  |
+| Arvato Systems GmbH | 0x69bF63B2Bb6A93fc4ff434595A72a4ED313E5698 | Participant   | https://delta-dao.com/.well-known/participantArvatoSystemsGmbH.json  |
+| Fraunhofer-Institut für Produktionsanlagen und Konstruktionstechnik | 0xEdfd506dd449Cd06c91f51Fe9DfE4e3E57B2F8f5 | Participant   | https://delta-dao.com/.well-known/participantFHGIPK.json  |
+| OSISM GmbH | 0x0763BfBcBfA0126b5A5509fB1185b7b6476BdAd8 | Participant   | https://delta-dao.com/.well-known/participantOSISM.json  |
+| Netcompany-Intrasoft S.A. | 0x54d2946677CC16E06Efd6161A4abFA17fc98Afc3 | Participant   | https://delta-dao.com/.well-known/participantNetcompanyInfrasoft.json |
+| Stackable GmbH | 0x5880C2C30C922FE700fc079e1b6BBa7e9E7DE577 | Participant   | https://delta-dao.com/.well-known/participantStackable.json |
+| FZI Forschungszentrum Informatik | 0xc2350eA5913511A95c1aBED51de377A0b92846Be | Participant | https://delta-dao.com/.well-known/participantFZI.json  |
+| ProCarement GmbH | 0x0c85Cd08E6643Fa3E4B75268431d19CcFC99C916 | Participant   | https://delta-dao.com/.well-known/participantProCarement.json |
+| Hochschule Furtwangen University (HFU) | 0x1153265057782e8C57292CA590E50acC36037204 | Participant   | https://delta-dao.com/.well-known/participantFurtwangenUniversity.json |
+| Daten-Kompetenzzentrum Städte und Regionen DKSR GmbH | 0xF211efa0C51559e6730db3Ba6FE1f1D46A68BE14 | Participant   | https://delta-dao.com/.well-known/participantDKSR.json |
+| GMN Paul Müller Industrie GmbH & Co. KG | 0x7209bd8fDd841358a3CF9E7DaD8D9dCe2E4BbBB8 | Participant   | https://delta-dao.com/.well-known/participantGMN.json |
+| Fraunhofer-Institut für Offene Kommunikationssysteme FOKUS | 0xDB5807EacA2937f6264c5725538f8Ec357b4d3b2 | Participant   | https://delta-dao.com/.well-known/participantFraunhoferFokus.json |
+| Bechtle Aktiengesellschaft | 0x8482256AC35fcA568a53CfD77Af9538FEC0691bb | Participant   | https://delta-dao.com/.well-known/participantBechtleAktiengesellschaft.json |
+| Bundesdruckerei Gruppe GmbH | 0x985f314171DFc0Ec3443E32b262c3135E094eD72 | Participant   | https://delta-dao.com/.well-known/participantBundesdruckerei.json |
+| Fraunhofer IOSB | 0x99c030936B5E7381E65B645d3762A93147EB15F7 | Participant   | https://delta-dao.com/.well-known/participantFraunhoferIOSB-AST.json |
+| embeteco GmbH & Co. KG | 0x7104a77Ca5FfC6D3f0840048C307d05EA3b529C0 | Participant   | https://delta-dao.com/.well-known/participantEmbeteco.json |
+| T-Systems International GmbH | 0x9c373e9f125497281f37AeF603fa99572856Bc38 | Participant   | https://delta-dao.com/.well-known/participantTSystemsInternational.json |
+| IPROconsult GmbH | 0x8FAF0702C51c94b5848774129047d75cEe49EE87 | Participant   | https://delta-dao.com/.well-known/participantIPROconsult.json |
+| Elektra Solar GmbH | 0x3EAbA16E4Ac451D85839A42eb9e7C61F157C88b7 | Participant   | https://delta-dao.com/.well-known/participantElektroSolar.json |
+| Setlabs Research | 0x1c99F7C29EE0e79CAAD8E4d0Cc0b95D5Ece62294 | Participant   | https://delta-dao.com/.well-known/participantSetlabs.json |
 |             |  | Participant   |   |
 |             |  | Participant   |   |
 |             |  | Participant   |   |

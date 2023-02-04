@@ -1,0 +1,99 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantmsgDAVID_2.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantmsgDAVID_2.json",
+            "gx-participant:legalName": "msg DAVID GmbH",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE114884769"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x04FEA446847c3539d35Cca0a74Cb82Da811BAfc3"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-NI",
+                "gx-participant:streetAddress": "Mittelweg 7",
+                "gx-participant:postalCode": "38106",
+                "gx-participant:locality": "Brunswick"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-NI",
+                "gx-participant:streetAddress": "Mittelweg 7",
+                "gx-participant:postalCode": "38106",
+                "gx-participant:locality": "Brunswick"
+            },
+            "gx-participant:parentOrganisation": {
+                "gx-participant:legalName": "msg systems ag",
+                "gx-participant:registrationNumber": [
+                    {
+                        "gx-participant:registrationNumberType": "vatID",
+                        "gx-participant:registrationNumberNumber": "DE129420400"
+                    }
+                ],
+                "gx-participant:headquarterAddress": {
+                    "gx-participant:addressCountryCode": "DE",
+                    "gx-participant:addressCode": "DE-BY",
+                    "gx-participant:streetAddress": "Robert-Bürkle-Straße 1",
+                    "gx-participant:postalCode": "85737",
+                    "gx-participant:locality": "Ismaning"
+                },
+                "gx-participant:legalAddress": {
+                    "gx-participant:addressCountryCode": "DE",
+                    "gx-participant:addressCode": "DE-BY",
+                    "gx-participant:streetAddress": "Robert-Bürkle-Straße 1",
+                    "gx-participant:postalCode": "85737",
+                    "gx-participant:locality": "Ismaning"
+                },
+                "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T16:46:22.744Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..XaI1l7E5KSOUh5fDcO4Nz8z2yE9vU8gI6wKz9FEwO-KUhv-t22D8RbCKHwOhz1Ez8x0AdlOZJgOr8gBdwI0EhO9d6Rx3ROyO4VWTTXZC_Nayf2GAZpzlmL5lH5T3WAHWpKbx3s8W-OjLfWqLiEqAZmpAy6X-VIh2O-YPL96rx3dBQUukidWYKGO0DuB2exZp2QGiSWPhTVE_qa6OD_iDpDZERW8KjrIuc_n37F2Ihw209fNR-xkllfretkkXzwyNM6JUBsUvwljBNQ2FXgfxJbTbdmqTvY5mRaJnEM94qzTg8gsYtpYGus1eWvak-FD1nIAbTEmfNYLJTwVo7dNiyQ"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675442800945",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T16:46:40.945Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantmsgDAVID_2.json",
+            "hash": "bc024b9447f94b2cbeb631af3d52e0b52ca6870fb80052e7fae24f1c11ad8739"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T16:46:40.945Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Gg0yLsL80n0dKiOknLZR6Wpnvkt_2dtOgZFCIcQJ4Bt5OHogCyubs_inzXAfqsfOIhpjbNMnqM0_A3vhz6czshehssaf8fn8pXGqifNGJWbNMiL7QFLCsgbbvcYdfCT_C19_ylm0RpaQmC0rmHuijnU7-s324EqVCiqI91neL9czHpR22RRqfrCNYv4c5vvFyZn3Ay_rfo8QXqP2rWTL26NKtIpQVK3ofZJMzR4ZqGDzrf8avbf-DEt9-jblOwWP9hxXqLvl4YdKYsKtas1a8H3uO8v1FR0Mnt1gvzuquXCBB3HwzJvEnx9vBnj3QiFOmzSZXXgFgGsy--h9faZL_g",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}
