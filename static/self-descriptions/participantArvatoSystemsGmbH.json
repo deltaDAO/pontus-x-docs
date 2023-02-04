@@ -1,0 +1,79 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantArvatoSystemsGmbH.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantArvatoSystemsGmbH.json",
+            "gx-participant:legalName": "Arvato Systems GmbH",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "leiCode",
+                    "gx-participant:registrationNumberNumber": "529900R9S2XL44B0A814"
+                },
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE811147981"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x69bF63B2Bb6A93fc4ff434595A72a4ED313E5698"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-NW",
+                "gx-participant:streetAddress": "Reinhard-Mohn-Straße 18",
+                "gx-participant:postalCode": "33333",
+                "gx-participant:locality": "Gütersloh"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-NW",
+                "gx-participant:streetAddress": "Reinhard-Mohn-Straße 18",
+                "gx-participant:postalCode": "33333",
+                "gx-participant:locality": "Gütersloh"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T16:51:25.989Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..FEbibwF9PiCJmB9y-senFbewo_KT4bwYhbA8CMtDeFE5-rD2IEPfuU6603kA5XOHNdtkoXln4wG0Ndn0y6XjfporP64sFfofTv9sfFuRCFbYMPkrOETaRQjrzH3lIqtbk8Ry-jBEjlSMM9Ps7yJN_hi3NbbNgnZKY2PBoaQXIHLa1P9gmVXnHIf-dA3AJFIh9xZhaaTZpVLBgs-9VHNqitY16AnzBAEi9yGwuO5mv_NrJsTRFXPpho-QaGOX40yVSAqsaSmf1YASJ1lhoqePDHk_XDfODx6kkELPLURYsLALBlNdSo1XmXr_-7qaNsFFFoG097tiRzsy4VR47vCM7Q"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675443103774",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T16:51:43.774Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantArvatoSystemsGmbH.json",
+            "hash": "8a082cc8277e65b524a64fc981a6e782136072256ee66ebe3e5b3922228fbf4c"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T16:51:43.774Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..EtmzmwNNit0s8zwuOc0km2z06yuo6Ztll1n4pqUEsNxQG4xZ0wI9dO0CPB0sqJ7nsKQnz5KsulcP_1OsMpY0uKSgmrmE3v73DnkNDxsWJnAqM_vmXre19Xbr-XK0gDae1QtX51cehHObNHIfC3cbNdXdYUJ9aTyPXY4axVyVDWsPJlyLIHrrQrQqY0q1Wl2jNKrhiIL5cVhQauMve6BM75DZYeCvI4XzpawC4XFqfU6MKl2Wk7iLCqzQVJDd8nChqm7WdgY_BgnRn7UrcN25i1tCOO-URH3OUw7MlWnx6A1-kAuO9eIWM1Rl_iH-wPvdkRRJyxGXN6MkXkVKPsXHDQ",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

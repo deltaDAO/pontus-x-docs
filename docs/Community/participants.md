@@ -52,53 +52,75 @@ title: Current Participants
 | Perpetuum Progress GmbH             | 0x2ee3c4F19f90237B7C45cfAD6B5dC4b5840563Ec | Participant   | https://delta-dao.com/.well-known/participantPerpetuumProgress.json  |
 | Mercedes-Benz Singapore Pte. Ltd. | 0x203C7AA993EED06932FA327a192de9A8370b5Ab4 | Participant   | https://www.delta-dao.com/.well-known/participantMercedesBenzLtd.json  |
 | Mercedes-Benz Singapore Pte. Ltd. | 0x4d6240C7Ef355a2E85c13B26A49A35908ce853E5 | Participant   | https://www.delta-dao.com/.well-known/participantMercedesBenzLtd.json  |
-| Gaia-X Workshop 01 | 0x6bF77769e84045a9EAC64573e70a5562457C52ad | Participant   | https://www.delta-dao.com/.well-known/01.json  |
-| Gaia-X Workshop 02 | 0x17c8D253443F9E7305A2539d7aF177B21aAD3355 | Participant   | https://www.delta-dao.com/.well-known/02.json  |
-| Gaia-X Workshop 03 | 0xFDF411B7A23182e7F0a635bdF0d25f0fCb2aAf74 | Participant   | https://www.delta-dao.com/.well-known/03.json  |
-| Gaia-X Workshop 04 | 0x3560626F234eD181E807E4e31ded56D9aca1ac58 | Participant   | https://www.delta-dao.com/.well-known/04.json  |
-| Gaia-X Workshop 05 | 0xF0926FbE8e60E54aFB4fD296B2698230ab32799b | Participant   | https://www.delta-dao.com/.well-known/05.json  |
-| Gaia-X Workshop 06 | 0xD59f8A2B75A9817e77a4b30e105C85F908142D38 | Participant   | https://www.delta-dao.com/.well-known/06.json  |
-| Gaia-X Workshop 07 | 0xAA782a260Ad773bca5Ff0535356CB0F7B94Cd254 | Participant   | https://www.delta-dao.com/.well-known/07.json  |
-| Gaia-X Workshop 08 | 0x2aC6802160A74677B7cEC1aaD7E41Ec968D57896 | Participant   | https://www.delta-dao.com/.well-known/08.json  |
-| Gaia-X Workshop 09 | 0xFd1BEC7E551fAeA6102045D720dD693c4e9C8E06 | Participant   | https://www.delta-dao.com/.well-known/09.json  |
-| Gaia-X Workshop 10 | 0xa2199E3f60fC244037Efd5A77714CC05F604F855 | Participant   | https://www.delta-dao.com/.well-known/10.json  |
-| Gaia-X Workshop 11 | 0x5101ea56E29f5dc03285809b6157f0588ff255D0 | Participant   | https://www.delta-dao.com/.well-known/11.json  |
-| Gaia-X Workshop 12 | 0x8B7f2b75B7F87D3125C8B0eDB85639B441BBcE21 | Participant   | https://www.delta-dao.com/.well-known/12.json  |
-| Gaia-X Workshop 13 | 0xb11124Dfa40E44b3283068fd07bf6FdE60caf06A | Participant   | https://www.delta-dao.com/.well-known/13.json  |
-| Gaia-X Workshop 14 | 0x632460b14aDd90aD9430e381B4662779cC1ab7a6 | Participant   | https://www.delta-dao.com/.well-known/14.json  |
-| Gaia-X Workshop 15 | 0x1f65110b63B6044f1E92543C09231842131798C7 | Participant   | https://www.delta-dao.com/.well-known/15.json  |
-| Gaia-X Workshop 16 | 0x7A6246e02B2aA276203469Cfb839a2666520D8b5 | Participant   | https://www.delta-dao.com/.well-known/16.json  |
-| Gaia-X Workshop 17 | 0x37e01308d6A0E322dECc457a13E0B2b2086D84B1 | Participant   | https://www.delta-dao.com/.well-known/17.json  |
-| Gaia-X Workshop 18 | 0xDFa29AE20eac7f203DdDbe15E1830985e99143B8 | Participant   | https://www.delta-dao.com/.well-known/18.json  |
-| Gaia-X Workshop 19 | 0xFfA05d656465568BE83B11bf274c5458AC8401AC | Participant   | https://www.delta-dao.com/.well-known/19.json  |
-| Gaia-X Workshop 20 | 0xb500BfE3d89b5D6b0d2b91841c3A3aD568Cb0FdC | Participant   | https://www.delta-dao.com/.well-known/20.json  |
-| Gaia-X Workshop 21 | 0x8BF36BEFC22a7b9c1a546139bFd4ae8420bcFf0e | Participant   | https://www.delta-dao.com/.well-known/21.json  |
-| Gaia-X Workshop 22 | 0x2dB30B996C0E2990F836685Cf1A2939b3299f8e5 | Participant   | https://www.delta-dao.com/.well-known/22.json  |
-| Gaia-X Workshop 23 | 0x224482ebcf914b9FA9E312036B377e26B676E534 | Participant   | https://www.delta-dao.com/.well-known/23.json  |
-| Gaia-X Workshop 24 | 0xD580c01E2f503287006138a94eBBc537Fe7eBD25 | Participant   | https://www.delta-dao.com/.well-known/24.json  |
-| Gaia-X Workshop 25 | 0x4B107057aB8278c7d9436bf76230d16e5F7BaD16 | Participant   | https://www.delta-dao.com/.well-known/25.json  |
-| Gaia-X Workshop 26 | 0x7bf493b142AB0bb37c7f766A1585245901891685 | Participant   | https://www.delta-dao.com/.well-known/26.json  |
-| Gaia-X Workshop 27 | 0x1c0c9211E8Ec8E0253A53880D5481e4580B62125 | Participant   | https://www.delta-dao.com/.well-known/27.json  |
-| Gaia-X Workshop 28 | 0xa702032E187E6A53EAddC28a735B414220712689 | Participant   | https://www.delta-dao.com/.well-known/28.json  |
-| Gaia-X Workshop 29 | 0xEEe803bEFd2B4f229E57523Edb11CDE38DD1a23E | Participant   | https://www.delta-dao.com/.well-known/29.json  |
-| Gaia-X Workshop 30 | 0xb828bA1850aA11daA1890896573Aa6008221A671 | Participant   | https://www.delta-dao.com/.well-known/30.json  |
-| Gaia-X Workshop 31 | 0x005d24698bF41c398ECF15a93455621932a6e19F | Participant   | https://www.delta-dao.com/.well-known/31.json  |
-| Gaia-X Workshop 32 | 0xF0956a2D1fE80E58d3532926Ba232317D6E12007 | Participant   | https://www.delta-dao.com/.well-known/32.json  |
-| Gaia-X Workshop 33 | 0x746d4715c24fc4d26D02A558ACF98dC717C68E1e | Participant   | https://www.delta-dao.com/.well-known/33.json  |
-| Gaia-X Workshop 34 | 0x1F05b3A352C2FCdE0DBdA6A74717Dc79C09c4765 | Participant   | https://www.delta-dao.com/.well-known/34.json  |
-| Gaia-X Workshop 35 | 0x1Bf21DCb771Aba18B1D23AA6D8a619C1AB1811a4 | Participant   | https://www.delta-dao.com/.well-known/35.json  |
-| Gaia-X Workshop 36 | 0x04FEA446847c3539d35Cca0a74Cb82Da811BAfc3 | Participant   | https://www.delta-dao.com/.well-known/36.json  |
-| Gaia-X Workshop 37 | 0x69bF63B2Bb6A93fc4ff434595A72a4ED313E5698 | Participant   | https://www.delta-dao.com/.well-known/37.json  |
-| Gaia-X Workshop 38 | 0xEdfd506dd449Cd06c91f51Fe9DfE4e3E57B2F8f5 | Participant   | https://www.delta-dao.com/.well-known/38.json  |
-| Gaia-X Workshop 39 | 0xb2AF8b92bFaC5299Cb6EDEf16150BFD1d4d26a93 | Participant   | https://www.delta-dao.com/.well-known/39.json  |
-| Gaia-X Workshop 40 | 0x0763BfBcBfA0126b5A5509fB1185b7b6476BdAd8 | Participant   | https://www.delta-dao.com/.well-known/40.json  |
-| Gaia-X Workshop 41 | 0x54d2946677CC16E06Efd6161A4abFA17fc98Afc3 | Participant   | https://www.delta-dao.com/.well-known/41.json  |
-| Gaia-X Workshop 42 | 0x5880C2C30C922FE700fc079e1b6BBa7e9E7DE577 | Participant   | https://www.delta-dao.com/.well-known/42.json  |
-| Gaia-X Workshop 43 | 0xc2350eA5913511A95c1aBED51de377A0b92846Be | Participant   | https://www.delta-dao.com/.well-known/43.json  |
-| Gaia-X Workshop 44 | 0x0c85Cd08E6643Fa3E4B75268431d19CcFC99C916 | Participant   | https://www.delta-dao.com/.well-known/44.json  |
-| Gaia-X Workshop 45 | 0x1153265057782e8C57292CA590E50acC36037204 | Participant   | https://www.delta-dao.com/.well-known/45.json  |
-| Gaia-X Workshop 46 | 0xF211efa0C51559e6730db3Ba6FE1f1D46A68BE14 | Participant   | https://www.delta-dao.com/.well-known/46.json  |
-| Gaia-X Workshop 47 | 0x1c99F7C29EE0e79CAAD8E4d0Cc0b95D5Ece62294 | Participant   | https://www.delta-dao.com/.well-known/47.json  |
-| Gaia-X Workshop 48 | 0x7209bd8fDd841358a3CF9E7DaD8D9dCe2E4BbBB8 | Participant   | https://www.delta-dao.com/.well-known/48.json  |
-| Gaia-X Workshop 49 | 0xDB5807EacA2937f6264c5725538f8Ec357b4d3b2 | Participant   | https://www.delta-dao.com/.well-known/49.json  |
-| Gaia-X Workshop 50 | 0xB21282F443EB0D490819d98F2976758af5C979B3 | Participant   | https://www.delta-dao.com/.well-known/50.json  |
+| Höchstleistungsrechenzentrum Stuttgart (HLRS)            | 0x6bF77769e84045a9EAC64573e70a5562457C52ad | Participant   | https://hlrs.de/.well-known/participantHLRS01.json  |
+| Ruhr-Universität Bochum            | 0x17c8D253443F9E7305A2539d7aF177B21aAD3355 | Participant   | https://delta-dao.com/.well-known/participantRuhrUniversityBochum.json |
+| north.io GmbH            | 0x6bF77769e84045a9EAC64573e70a5562457C52ad | Participant   | https://delta-dao.com/.well-known/participantNorthIO.json  |
+| CONTACT Software GmbH            | 0x3560626F234eD181E807E4e31ded56D9aca1ac58 | Participant   | https://delta-dao.com/.well-known/participantContactSoftware.json  |
+| Universität Siegen            | 0xF0926FbE8e60E54aFB4fD296B2698230ab32799b | Participant   |  https://delta-dao.com/.well-known/participantUniversitaetSiegen.json |
+| AWS-Institut für digitale Produkte und Prozesse gGmbH            | 0xAA782a260Ad773bca5Ff0535356CB0F7B94Cd254 | Participant   | https://delta-dao.com/.well-known/participantAWSi.json  |
+| 5D Institut GmbH            | 0x2aC6802160A746770B7cEC1aaD7E41Ec968D57896 | Participant   | https://delta-dao.com/.well-known/participant5DInstitut.json  |
+| Accenture            | 0xFd1BEC7E551fAeA6102045D720dD693c4e9C8E06 | Participant   | https://delta-dao.com/.well-known/participantAccenture.json  |
+| Airbus Defence and Space GmbH            | 0xa2199E3f60fC244037Efd5A77714CC05F604F855 | Participant   | https://delta-dao.com/.well-known/participantAIRBUS_DEFENCE_AND_SPACE_GMBH.json  |
+| Bernard Technologies GmbH            | 0x5101ea56E29f5dc03285809b6157f0588ff255D0 | Participant   | https://delta-dao.com/.well-known/participantBernardTechnologies.json  |
+| Deutsches Forschungszentrum für Künstliche Intelligenz GmbH            | 0x8B7f2b75B7F87D3125C8B0eDB85639B441BBcE21 | Participant   | https://delta-dao.com/.well-known/participantDFKI.json  |
+| Hochschule für angewandte Wissenschaften Kempten      | 0xb11124Dfa40E44b3283068fd07bf6FdE60caf06A | Participant   | https://delta-dao.com/.well-known/participantHSKempten.json |
+| Fraunhofer-Institut für Graphische Datenverarbeitung IGD            | 0x632460b14aDd90aD9430e381B4662779cC1ab7a6 | Participant   | https://delta-dao.com/.well-known/participantFraunhoferIGD.json  |
+| 52°North GmbH            | 0x1f65110b63B6044f1E92543C09231842131798C7 | Participant   | https://delta-dao.com/.well-known/participant52north.json |
+| Atos Information Technology GmbH            | 0x7A6246e02B2aA276203469Cfb839a2666520D8b5 | Participant   | https://delta-dao.com/.well-known/participantAtosInformationTechnology.json  |
+| TrueOcean GmbH            | 0xDFa29AE20eac7f203DdDbe15E1830985e99143B8 | Participant   | https://delta-dao.com/.well-known/participantTrueOcean.json  |
+| Institute for Language and Speech Processing            |  | Participant   | https://delta-dao.com/.well-known/participantILSP.json  |
+| Vicomtech            | 0xb500BfE3d89b5D6b0d2b91841c3A3aD568Cb0FdC | Participant   | https://delta-dao.com/.well-known/participantVicomtech.json  |
+| Fraunhofer IAIS  | 0x8BF36BEFC22a7b9c1a546139bFd4ae8420bcFf0e | Participant   |  participantFraunhoferIAIS.json |
+| Berger Holding GmbH & Co. KG     | 0x2dB30B996C0E2990F836685Cf1A2939b3299f8e5 | Participant   | https://delta-dao.com/.well-known/participantBergerHolding.json  |
+| Christoph Kroschke GmbH            | 0x224482ebcf914b9FA9E312036B377e26B676E534 | Participant   | https://kroschke.de/.well-known/participantKroschke.json  |
+| Brinkhaus GmbH            | 0xD580c01E2f503287006138a94eBBc537Fe7eBD25 | Participant   | https://delta-dao.com/.well-known/participantBrinkhausGmbH.json |
+| Gühring KG            | 0x4B107057aB8278c7d9436bf76230d16e5F7BaD16 | Participant   | https://delta-dao.com/.well-known/participantGuehring.json  |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |
+|             |  | Participant   |   |

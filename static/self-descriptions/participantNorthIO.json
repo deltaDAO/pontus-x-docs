@@ -1,0 +1,81 @@
+{
+  "selfDescriptionCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://registry.gaia-x.eu/v2206/api/shape"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "LegalPerson"
+    ],
+    "id": "https://delta-dao.com/.well-known/participantNorthIO.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2023-02-03T10:23:00.000Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantNorthIO.json",
+      "gx-participant:name": "north.io",
+      "gx-participant:legalName": "north.io GmbH",
+      "gx-participant:website": "https://www.north.io/",
+      "gx-participant:registrationNumber": [
+        {
+          "gx-participant:registrationNumberType": "vatID",
+          "gx-participant:registrationNumberNumber": "DE277816248"
+        },
+        {
+          "gx-participant:registrationNumberType": "local",
+          "gx-participant:registrationNumberNumber": "HRB 23538 KI"
+        }
+      ],
+      "gx-participant:blockchainAccountId": [
+        {
+          "gx-participant:blockchainAccountId": "0xFDF411B7A23182e7F0a635bdF0d25f0fCb2aAf74"
+        }
+      ],
+      "gx-participant:headquarterAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-SH",
+        "gx-participant:streetAddress": "Einsteinstr. 1",
+        "gx-participant:postalCode": "24118",
+        "gx-participant:locality": "Kiel"
+      },
+      "gx-participant:legalAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-SH",
+        "gx-participant:streetAddress": "Einsteinstr. 1",
+        "gx-participant:postalCode": "24118",
+        "gx-participant:locality": "Kiel"
+      },
+      "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-03T09:24:04.352Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:delta-dao.com",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..c1WFdyIi7qivPtjQhxynyU-ESmlvMpSUWzkSYz_eCS_MZYcRCLu1PSHcTBx9KJ0Bbr3XI3Awl9_I8rN-CytXMbRPh-Q09j2fYloL8rkajbkxsZ5J8YOb2Uf6EgCXNo_baUQkrb0dNLiCVxbVLc-14H-ILQnHiD_luVJNY3haz_6cVb_ewhVF1-uw133IA5dI1sM9dfwEAvhUrDyV4BOFHivJUWAX8a_Tc1dZO6_P7tXHiPa3r9yby10TBYuwocbhToq2k196VgIrrVCzkyASOk7C0i8cFPQS_ciL2KebncGbgKikgiEt7EcMXq0jIxnKDrJb0ByPbelZmf-f04rC6A"
+    }
+  },
+  "complianceCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "ParticipantCredential"
+    ],
+    "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675416263329",
+    "issuer": "did:web:compliance.gaia-x.eu",
+    "issuanceDate": "2023-02-03T09:24:23.329Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantNorthIO.json",
+      "hash": "820c904f39e45551265c5fa44621360cbb665e5fb65208851f30f94bc85a887e"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-03T09:24:23.329Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..knNAsmLJpk_V5mXGG7Ln4OnC9Bd9NJY9qD-Vu-TnoPH2n89ZgSMquRBzYozGh_BFUaje_lIoYiE8vqNzdy-_TWfC6CAcYZodZV9nXlTh-PKLWibk3Fu-I9d0utOdqe6Sc1jSZ1hD9_BUA1inhi2-wlPsMp5aE2sKKmS-ae2cW8QoDwGcvsRYlEbFQl6waLhF9JEIPgdYENFSr17aV4rRg6Oea7w-2wh8whKaihjz3NB8esibjXPBqoveCZxz0t_nqfhw08YAMwiwDMhed0lkW55uPRuiTxKhvr4LDR5lVL1SpoEgB7aAVdo3NsxbzL5LrFYovZJW39TbISw0K8C0Xg",
+      "verificationMethod": "did:web:compliance.gaia-x.eu"
+    }
+  }
+}

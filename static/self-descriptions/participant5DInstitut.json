@@ -1,0 +1,83 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participant5DInstitut.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participant5DInstitut.json",
+            "gx-participant:legalName": "5D Institut GmbH",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "EUID",
+                    "gx-participant:registrationNumberNumber": "DEM1405.HRB8339"
+                },
+                {
+                    "gx-participant:registrationNumberType": "local",
+                    "gx-participant:registrationNumberNumber": "HRB8339"
+                },
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE307075867"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x2aC6802160A746770B7cEC1aaD7E41Ec968D57896"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-HE",
+                "gx-participant:streetAddress": "Wilhelm-Leuschner-Straße 13",
+                "gx-participant:postalCode": "61169",
+                "gx-participant:locality": "Friedberg"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-HE",
+                "gx-participant:streetAddress": "Wilhelm-Leuschner-Straße 13",
+                "gx-participant:postalCode": "61169",
+                "gx-participant:locality": "Friedberg"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T12:14:32.453Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..AnC5WCpgOOjcDHwAXSdFBd256OKQftXLRBeYGP-9Hv0ntxXUoPf447DfL4GjI4NSvy7P0o_rgi0hx79zdJZUw2PXekaGzDs9uX0K_xG5tL836JaoURWodE6ZmyLUhdMV1tEpOYV5NuaSSCZTeP9ipQJqLXVNFiA75EIo3f2UrJQzF5BSgc7_hc1IQd6_f6D1ZNxup2vd2BtR7jor8udoycSa3P4x8xFvTvLvvf15Cc9zysG5MzooCffdiixise9AaeuNUjg-fLOoePJTHLdEWYzXlPQkPURvzh8V6MJSIrnUU13FKT_RDbdKXpYNbuN0Am86vbjQ3VnTwEOmFC904w"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675426490922",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T12:14:50.922Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participant5DInstitut.json",
+            "hash": "ba6d9adf87ee9d5a3ab80d3435252cf188d2f5e69e1fb68e5661139338fe4678"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T12:14:50.922Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..dfyoeU1NmFeMxmWSe9QfuZIeEvUE_nwaUY7LyFCym9fexIo4byDeS6JD8tHQZWAYRWeq7oXSrziRRL_zVjS50gISBSmtIc7qm1wUFkm2IjOzXM1iHvR6QTuYagxuR0tN2C8PCpalyGmC4cholevJ-T16wkL48K6Iznnl6U6ZBLE0NtysmBbkTMidcYf6QIFU0RTvRKYpoVgFYed1pxFxchxqPlqg-CBDRqU8u4lOH4DGLsOhcT3RtuvhFSTlZemhWyVGVFaxIohXvYD7cwzp0cuHOR4OGzucPsDrkmrgWUuOmTnKe83QtUel5Z15bP9CQvGfFPGHmTT0AAIxh0-qiA",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

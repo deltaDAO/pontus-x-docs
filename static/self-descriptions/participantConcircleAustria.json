@@ -1,0 +1,79 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantConcircleAustria.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantConcircleAustria.json",
+            "gx-participant:legalName": "Concircle Österreich GmbH",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "ATU65204334"
+                },
+                {
+                    "gx-participant:registrationNumberType": "EUID",
+                    "gx-participant:registrationNumberNumber": "ATBRA.333525-000"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0xb2AF8b92bFaC5299Cb6EDEf16150BFD1d4d26a93"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "AT",
+                "gx-participant:addressCode": "AT-9",
+                "gx-participant:streetAddress": "Wienerbergstraße 11",
+                "gx-participant:postalCode": "1100",
+                "gx-participant:locality": "Wien"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "AT",
+                "gx-participant:addressCode": "AT-9",
+                "gx-participant:streetAddress": "Wienerbergstraße 11",
+                "gx-participant:postalCode": "1100",
+                "gx-participant:locality": "Wien"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T17:10:40.322Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..RcNZVYr8z1c9Mx1l_ZzsyCLApFte-DEBaC3F6xHHUEWsZ4hGRUkx8-ErbIjBtEDf1oW9xY1byLWur_MxATS_vqQChLY1AyzLZ--oexzbw9k9POSfqsDQ6PhQza2JBUXn3evl7a4fnHsdeAa8hIVyPCAOqowl-Jdwnr_KZteb4NsZkwPN1avpS1-p36Q4dY0mLN61D3qB4-VuQsDP1wOExl7f8mQ8z3KiIx-b_6WCgDvNKOgbajT5Fpm4eqkzDu_-Q3AOXnrcwdnX4-TaP1QqoY2lTUTaTJ_9uSfmLt-lpTYDWZMgJvRc4-v1gnUMAsqL18RF94iDJqRhiTTdd8HOxQ"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675444259029",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T17:10:59.029Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantConcircleAustria.json",
+            "hash": "f490f12ea10bf8f6cb3a9bf927b0cd402773b44423c099b4ed0cf25e0a1d0dfe"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T17:10:59.029Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..mHtsgLio1Q0JouCY3X82eiZ0q6ARGJYX_YQExtBpHsW7OmwcNz6uIZ5iwbQcJpG3jyRdW4sTFJSU2ZzXtmfFdAL8uaamcz7jLkTJWbJ67eJjMlLjjLjkJnB4h-ZWYmz_qvSV3CYaUSNarxeyHYPFugEeFTApvitBoZag6-hNAaUYU910hQSYWIds4alM-pC0fQf9630SVheqeWD5g2oSB4dnMptjJMc7Owbb93y58DBNif6B6sAwRKYO6ynvDMtVZzAbxHMJdiiiskK8DZbowO21zroBxi6GtCY09K61xPR0FABhhASrQnTyLGfDk8_vpkWA1fAW8FBqMMLxczE7Ow",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

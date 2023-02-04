@@ -1,0 +1,107 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantFHGIPK.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T11:16:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantFHGIPK.json",
+            "gx-participant:legalName": "Fraunhofer-Institut für Produktionsanlagen und Konstruktionstechnik",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "leiCode",
+                    "gx-participant:registrationNumberNumber": "529900IU48N7TF5QC051"
+                },
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE129515865"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0xEdfd506dd449Cd06c91f51Fe9DfE4e3E57B2F8f5"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BE",
+                "gx-participant:streetAddress": "Pascalstraße 8-9",
+                "gx-participant:postalCode": "10587",
+                "gx-participant:locality": "Berlin"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BE",
+                "gx-participant:streetAddress": "Pascalstraße 8-9",
+                "gx-participant:postalCode": "10587",
+                "gx-participant:locality": "Berlin"
+            },
+            "gx-participant:parentOrganisation": {
+                "gx-participant:legalName": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e. V",
+                "gx-participant:registrationNumber": [
+                    {
+                        "gx-participant:registrationNumberType": "leiCode",
+                        "gx-participant:registrationNumberNumber": "529900IU48N7TF5QC051"
+                    },
+                    {
+                        "gx-participant:registrationNumberType": "vatID",
+                        "gx-participant:registrationNumberNumber": "DE 129515865"
+                    }
+                ],
+                "gx-participant:headquarterAddress": {
+                    "gx-participant:addressCountryCode": "DE",
+                    "gx-participant:addressCode": "DE-BY",
+                    "gx-participant:streetAddress": "Hansastraße 27c",
+                    "gx-participant:postalCode": "80686",
+                    "gx-participant:locality": "München"
+                },
+                "gx-participant:legalAddress": {
+                    "gx-participant:addressCountryCode": "DE",
+                    "gx-participant:addressCode": "DE-BY",
+                    "gx-participant:streetAddress": "Hansastraße 27c",
+                    "gx-participant:postalCode": "80686",
+                    "gx-participant:locality": "München"
+                },
+                "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T16:58:39.164Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ePg6fjQWH_Wqggm5RTYrbIXdD1MHq0pd4GNzyLaQZHHUrqQvKHN1dzCBpLZLwMIZQ5eUH58r0_qbCQzEfINJXywBppWi6EyZaqMCG7b5R92vwbf1FGbo4Q5NXIx2jgQibhCRDcGDnlPdp-KN1Er7vDLJyD23ZtxzKWacjzeRyWhShOF6Iaq6ZcA3qyz75v7axSerKJgc_zInQGnN_hg9xXBdIYKoT84lsyk2RY3IiY_4AGe0NS34v8eSPmVD22xoqyaRHI8eR4_aNkoGTKx_fPRB-lA9zbEUPBxSBit_s0j-pif0DwllVjQFzMBwHAtGPE9mWBrcgWugEpRx1fVnwg"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675443537068",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T16:58:57.068Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantFHGIPK.json",
+            "hash": "7f064d0a3df7824927695cbaefc0e65af6a62a830902e3c5c7d1ccbcceccbd3d"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T16:58:57.068Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ZnQ7LmYaJT_WsKxwNQQCu0R7b_riGZxEPCz_HCagmVV1GP-bO-qEcmIAY6K-MMTPxzvt2mEY917KPDXP7P1QUj8duPWUsNIgDoCGguAke5Za_8sNrcXa4Jj35h2YEce_KvrB5B9c4wmFXV4Kvx2QrlgEEBYlFuecL9zdm37Lcr0mvtuNf_moeZ7aMnTDMgk_d8tRwckyq8nenrRcXh1aF41eXVfP2z7GlzMj7ORToLL1BL6OVWdT4hEd9Te04KJGhrLI_OeE2OepXoJNMuCfOg5m4zX9_SLl6__FzVPkw0siahwozbG8zpMFqIR00vN8aujglVR1ZHQSyrEhgiPfHg",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

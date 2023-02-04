@@ -1,0 +1,86 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantOSISM.json",
+        "issuer": "did:web:osism.tech",
+        "issuanceDate": "2023-02-03T09:55:10.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantOSISM.json",
+            "gx-participant:name": "OSISM",
+            "gx-participant:legalName": "OSISM GmbH",
+            "gx-participant:legalForm": "Gesellschaft mit beschränkter Haftung (GmbH)",
+            "gx-participant:website": "https://osism.tech/",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "EUID",
+                    "gx-participant:registrationNumberNumber": "DEB8534.HRB756139"
+                },
+                {
+                    "gx-participant:registrationNumberType": "local",
+                    "gx-participant:registrationNumberNumber": "HRB756139"
+                },
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE305903231"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x0763BfBcBfA0126b5A5509fB1185b7b6476BdAd8"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BW",
+                "gx-participant:streetAddress": "Teckstraße 62",
+                "gx-participant:postalCode": "70190",
+                "gx-participant:locality": "Stuttgart"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BW",
+                "gx-participant:streetAddress": "Teckstraße 62",
+                "gx-participant:postalCode": "70190",
+                "gx-participant:locality": "Stuttgart"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T17:14:55.102Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..PCHlwH1UXmH_Sw6BRPx01C1ymV9dHi-6AVWJztQsSVzL1dBL4mSVHlOcofoFjhfZq_OrVdrnGoYGNr0K82BiznOlAi6saVoHdMKa7pmjbiSKSTacWbVnL0qyF2BlYXBmCUSIe_vT-lmlMJf_VuqBEsuPNKqECYCc8qfQ-5-Hm79vycO8Zv1ceGZqgrUr72z5jPNEzP5AH1g9EjoHCXqoZlsqkr88AjZWaIso6dZGxn_d6guw-rmsKkkn6beKy7h0arOBe7sXQ-BqSOmcZVMsZuDxrgUwCKpYmAoBWU4e1AwYS-YVUWsGJYgQTAs4ABTx4Yy3AwdcI85hen5IkQTgoQ"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675444513410",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T17:15:13.410Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantOSISM.json",
+            "hash": "07b0ec146176aee711308e3cd2b224bacb826c61932db02009fd2a29d9288c7b"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T17:15:13.410Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..O_YaPqvkMIl0aKjFiZ0JP55zcEv7-Tk38bnmqeYbqr1R1p73XukabVORyz-UjUJJbigx4LmPlAUvj4a9eH4dwQwSJ1Z7YuFdTzM1f_kcsX4dZqpRpz0x5bMdPYw1Dy_XfVGmvlbEZ8IQ_vB0n6WrHmL_jsQ9y9TTrCR4I_UjAl_hFnPSIM-k6wL2tnMxWPnDlz6JNJdCu52HJrL6ehKh_8nvnbf6qBeDkpc5Hy0s4POAjJYv7CFsqN4fEY5ko5Ya2g4Hv3Y-a3-ffbwk75weDbDKb0GZwtFVMcLGVdnuZMMgtJ2Ukb2M8S8I1AZoWeV1qPGOQ7wKZSSIGUdIiRXjNg",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

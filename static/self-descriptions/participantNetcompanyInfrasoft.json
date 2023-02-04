@@ -1,0 +1,83 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantNetcompanyInfrasoft.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantNetcompanyInfrasoft.json",
+            "gx-participant:legalName": "Netcompany-Intrasoft S.A.",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "LU16853659"
+                },
+                {
+                    "gx-participant:registrationNumberType": "EUID",
+                    "gx-participant:registrationNumberNumber": "LURCSL.B56565"
+                },
+                {
+                    "gx-participant:registrationNumberType": "leiCode",
+                    "gx-participant:registrationNumberNumber": "2138006XVWJIIO6XKS09"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x54d2946677CC16E06Efd6161A4abFA17fc98Afc3"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "LU",
+                "gx-participant:addressCode": "LU-LU",
+                "gx-participant:streetAddress": "2b, rue Nicolas Bové",
+                "gx-participant:postalCode": "1253",
+                "gx-participant:locality": "Luxemburg"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "LU",
+                "gx-participant:addressCode": "LU-LU",
+                "gx-participant:streetAddress": "2b, rue Nicolas Bové",
+                "gx-participant:postalCode": "1253",
+                "gx-participant:locality": "Luxemburg"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T17:22:27.988Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..sV-0O8e6n6r8ZCq3vpkxJGwX56PNKOfSCZJew4SDq76OeAoGtru8QvLD6nyczFHlg4qKQm2_klM_Lj-UQZfZgCEKvE5S_z0WYAHcGww2WKeO_ipgANUeahNxz0kVOjREABjHYZf8a1tlwpzwRNlR3FYfjC8KH7r1Tmm-tbbFqVRt6oYm-gHDKSLlvGSWwAKBXJGpUG4oS008NLj4vbQbtAhHtq5kD3JEQxW1bBWx-WFdUXqUeylWgQBsPfqEQlL8r1TD2Hw97PX84SABI5evGwCChNKdfU7FP1cT9RT-0LNbItSdwtEiABpOs4do9o9ssenu-SrUSXJOQSkpwbrB-A"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675444966407",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T17:22:46.407Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantNetcompanyInfrasoft.json",
+            "hash": "9b6ac4b3ebbdd7c99c56e30172c4445d5311c41f688c2032bc47baa6ec05c69d"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T17:22:46.407Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..b1rq0Ju5uBpTJbWjHFfcibur7XqJJkShRreYqKXOygy1GZ2Uae7nShUh80Xh4-SwTpUDz7vEOeAYX-VuTAJvG7lgRSu4QcXztPR2GOQyiTWTMQoLU-_MxFYPlzY1awfqF9mbU6TQRcgC4mDbd71O5QUq4aWQwRNo-tcSWL_oEYjIoTxprdk5hOwkP_l-J-J1MRUaUq_FCEDoQUNoU730MbK48INZZvB_n9jserShyPt2FiKps-PPVcZQR_Pkt4VonvcD_gjnMU6nn3ZHbrSjlCAX_cHL71wbKUOEFa_yB_uJ2I0DF1dELPuo26B2Qq2VQvlFqbTWxaKgnfZwWvEeqw",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

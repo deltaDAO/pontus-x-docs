@@ -1,0 +1,79 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantAWSi.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantAWSi.json",
+            "gx-participant:legalName": "AWS-Institut für digitale Produkte und Prozesse gGmbH",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "local",
+                    "gx-participant:registrationNumberNumber": "HRB101867"
+                },
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE294310231"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0xAA782a260Ad773bca5Ff0535356CB0F7B94Cd254"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-SL",
+                "gx-participant:streetAddress": "Uni-Campus D 5 1",
+                "gx-participant:postalCode": "66123",
+                "gx-participant:locality": "Saarbrücken"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-SL",
+                "gx-participant:streetAddress": "Uni-Campus D 5 1",
+                "gx-participant:postalCode": "66123",
+                "gx-participant:locality": "Saarbrücken"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T12:07:19.356Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UvPglwX5GD-TZIt1vTJTmfkxLU_RqwPeswnlExMJGcwe53Efbp7HIoxfhqZfSORPRcCWTaBOCDDqq253kcb6n5iMCgyYGES0x1cetQnlPo1snRh0JxnT0OvNw2uqGSE1NIPO2K36UdvDpL-x2vvj4bxVCa-9QeTlUeHygJBj97bqeuFwv4fXPoRztOb0qHSfhxv_dzb4htVshr-QAwBPimKgvrSlghOrs1nmPcnv8_Q0dFzpRI5j1MvM-xMk8Yi8gqm_NYjQrG62w8S5fXovLnqS29msVP7HgAcwCEEnOxl-VXbMTLfqFTyLHD9zVw_5-BpbyLoEtduvOFPQurROBw"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675426057818",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T12:07:37.818Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantAWSi.json",
+            "hash": "3ea942b99be6db0298bf3a68301277366384cfb9f44d1037edb2c4542c773db5"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T12:07:37.818Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..nZqxhnQWnQ-Zc-hV4hAVw1dkVANPBoYqMiNoOZBDzp4qmwdrWgfsqGSa3JGGVrzg0xJAiUJrdXOdd0ysYArrnZuPmtfLEtK_CzeusWdeNKzOD8gAU8M23Fr0bakpKohJGVF1NTP6JZ4g5sc1kit7rY6c0GviIcDJw44VgdggFX3dcJTa-9RqKNdfe4d171G0TRiFf7KxLz-fX8Pw_1HRz6xo8af4PQEgYxIc-Ep1v1HDqRYUk401nmZ1XC9qIdDMMCRpVAXxu8_2sspJWcpPIzbTg82U45emyzBcClVqIkdZrbqn1hUyHYKx_xNbNwXo3gKr1saASZLVCBHS6RNB5w",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

@@ -1,0 +1,89 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://sagresearch.de/.well-known/participantSoftwareAG.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "did:web:sagresearch.de",
+            "gx-participant:name": "Software AG",
+            "gx-participant:legalName": "Software Aktiengesellschaft",
+            "gx-participant:website": "https://www.softwareag.com/",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "leiCode",
+                    "gx-participant:registrationNumberNumber": "529900M1LIO0SLOBAS50"
+                },
+                {
+                    "gx-participant:registrationNumberType": "EUID",
+                    "gx-participant:registrationNumberNumber": "DEM1103.HRB1562"
+                },
+                {
+                    "gx-participant:registrationNumberType": "local",
+                    "gx-participant:registrationNumberNumber": "HRB 1562"
+                },
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE 111 660 314"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0xa702032E187E6A53EAddC28a735B414220712689"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-HE",
+                "gx-participant:streetAddress": "Uhlandstraße 12",
+                "gx-participant:postalCode": "64297",
+                "gx-participant:locality": "Darmstadt"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-HE",
+                "gx-participant:streetAddress": "Uhlandstraße 12",
+                "gx-participant:postalCode": "64297",
+                "gx-participant:locality": "Darmstadt"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T13:51:05.347Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..rj7rw9UQM7tJALxEQxrALpwkKk9t08wLtSlruz8NDQst2NCaY-p_Uu1d9gAKA3VBBllogltiM3KhVDleC88qannwQ0MWXIrlPyN2HZIWMOjCK1UTThBXl7zFZ4tSmtY3h79AP6aNXd72dmpE0kxJX7NRLWje3ZTVD1JEefPn0GFmErsyqYXxp5Z3K4_hayr4pViCJuo-GB0N0pLGuEkb89TOnG0w22R4l5XUMcuy6Yzis6jgTdUdFsuJRxKXSVdtivDJpM5bPuYzBFJanw1dfNPRygwLTwQRF47u17OJgzYmfJhie3db_DHsG59zIpuyJOnhIPmrj4Mc7zez7Elv4A"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675432283736",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T13:51:23.736Z",
+        "credentialSubject": {
+            "id": "did:web:sagresearch.de",
+            "hash": "59f5466f50d349b2e904cbd71aa90ced239315c9c285f7acba12dbd9e80ac36d"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T13:51:23.736Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ECOArzf3cuJBzASrZsOE7Lnfd-mdwdqzQidxVUBDLTL2wiFuSAdeKxLCT34tbk1ImduwzO8HF57lUpHwyjwICiFNEN7CSUtTs01CKf2Wq-__a1uetBFZxjEgCR5PA83R3s33cBWbIJK5n2C9Co7ZUESDTCNYwPcAUB36aH5f30NwRjjMVcx-RDmz-qVDeJ2apensvlR-CZNq_j08Rc4Yo5HuwFkjDTjfQmTeg17xu3CmvkyvNae18KyqsmQR-dck8HP6-7V5SEhrEN0LbXscYwVlWdtQrP8Nyhu6009Br8bHdU1VzXqHldoZIiM5KYsmdWz7y9dnKGCEYIpBvbeP1g",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}
