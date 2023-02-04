@@ -68,7 +68,7 @@ title: Current Participants
 | 52°North GmbH            | 0x1f65110b63B6044f1E92543C09231842131798C7 | Participant   | https://delta-dao.com/.well-known/participant52north.json |
 | Atos Information Technology GmbH            | 0x7A6246e02B2aA276203469Cfb839a2666520D8b5 | Participant   | https://delta-dao.com/.well-known/participantAtosInformationTechnology.json  |
 | TrueOcean GmbH            | 0xDFa29AE20eac7f203DdDbe15E1830985e99143B8 | Participant   | https://delta-dao.com/.well-known/participantTrueOcean.json  |
-| Institute for Language and Speech Processing            |  | Participant   | https://delta-dao.com/.well-known/participantILSP.json  |
+| Institute for Language and Speech Processing            | 0xFfA05d656465568BE83B11bf274c5458AC8401AC | Participant   | https://delta-dao.com/.well-known/participantILSP.json  |
 | Vicomtech            | 0xb500BfE3d89b5D6b0d2b91841c3A3aD568Cb0FdC | Participant   | https://delta-dao.com/.well-known/participantVicomtech.json  |
 | Fraunhofer IAIS  | 0x8BF36BEFC22a7b9c1a546139bFd4ae8420bcFf0e | Participant   |  participantFraunhoferIAIS.json |
 | Berger Holding GmbH & Co. KG     | 0x2dB30B996C0E2990F836685Cf1A2939b3299f8e5 | Participant   | https://delta-dao.com/.well-known/participantBergerHolding.json  |
@@ -102,24 +102,14 @@ title: Current Participants
 | IPROconsult GmbH | 0x8FAF0702C51c94b5848774129047d75cEe49EE87 | Participant   | https://delta-dao.com/.well-known/participantIPROconsult.json |
 | Elektra Solar GmbH | 0x3EAbA16E4Ac451D85839A42eb9e7C61F157C88b7 | Participant   | https://delta-dao.com/.well-known/participantElektroSolar.json |
 | Setlabs Research | 0x1c99F7C29EE0e79CAAD8E4d0Cc0b95D5Ece62294 | Participant   | https://delta-dao.com/.well-known/participantSetlabs.json |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
-|             |  | Participant   |   |
+| Schüßler-Plan Digital GmbH | 0xb9C596E9eC598a865b51f3F53ae7d122B7b7a937 | Participant   | https://delta-dao.com/.well-known/participantSchuesslerPlanDigitalGmbH.json |
+| Data Machine Intelligence Solutions GmbH | 0xb7cF56a08F2B6ccF250B431125850968b7f6a950 | Participant   | https://delta-dao.com/.well-known/participantDMIS.json |
+| Deutsches Zentrum für Luft- und Raumfahrt e. V. (DLR) | 0x4476123c4B4706cf88CbfA055b72726Baa1e8041 | Participant   | https://delta-dao.com/.well-known/ParticipantDLR.json |
+| OHB System AG | 0x9309Ce467475DbB0a9c549B988F6571EB024507C | Participant   | https://delta-dao.com/.well-known/participantOHB.json |
+| C&S Computer und Software GmbH | 0xb51d556E910Dd1887602034bbB66DA63EaA80ce2 | Participant   | https://delta-dao.com/.well-known/participantComputerUndSoftware.json |
+| eco - Verband der Internetwirtschaft e.V. | 0x007dB3DC8De9ae0F8AfeeBf1f7C92CcbD1A75Fd7 | Participant   | https://delta-dao.com/.well-known/participantEco.json |
+| Institut für Automation und Kommunikation e. V. | 0xe70bBA7bC033Bf1Ce6Fa3328eCFAAc8966E66966 | Participant   | https://delta-dao.com/.well-known/participantIfak.json |
+| Fujitsu Services GmbH | 0xE4EE92b3a6B661b7148305Fa3A8d96062CBFAFc5 | Participant   | https://delta-dao.com/.well-known/participantFujitsuServices.json |
+| RADIUSMEDIA KG | 0x37e01308d6A0E322dECc457a13E0B2b2086D84B1 | Participant   | https://delta-dao.com/.well-known/participantRadiusMedia.json |
+| ahu GmbH Wasser Boden Geomatik |  | Participant   | https://delta-dao.com/.well-known/participantAhu.json |
+| Hochschule Offenburg (HSO) | 0xE64872A181F0695DA0660fE0B809a89A3bA359AA | Participant   | https://delta-dao.com/.well-known/participantHSO.json |

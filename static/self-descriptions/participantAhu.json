@@ -1,0 +1,108 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantAhu.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantAhu.json",
+            "gx-participant:legalName": "ahu GmbH Wasser Boden Geomatik",
+            "gx-participant:": "https://www.ahu.de/",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "local",
+                    "gx-participant:registrationNumberNumber": "HRB 22355"
+                },
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE191861431"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x9Adf8e343ec1C7dB2B44e420bB8F4Cc51dEbFb7a"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-NW",
+                "gx-participant:streetAddress": "Kirberichshofer Weg 6",
+                "gx-participant:postalCode": "52066",
+                "gx-participant:locality": "Aachen"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-NW",
+                "gx-participant:streetAddress": "Kirberichshofer Weg 6",
+                "gx-participant:postalCode": "52066",
+                "gx-participant:locality": "Aachen"
+            },
+            "gx-participant:parentOrganisation": {
+                "gx-participant:legalName": "Neuguss Verwaltungsgesellschaft mbH",
+                "gx-participant:registrationNumber": [
+                    {
+                        "gx-participant:registrationNumberType": "local",
+                        "gx-participant:registrationNumberNumber": "HRB20392KI"
+                    },
+                    {
+                        "gx-participant:registrationNumberType": "vatID",
+                        "gx-participant:registrationNumberNumber": "DE136713743"
+                    }
+                ],
+                "gx-participant:headquarterAddress": {
+                    "gx-participant:addressCountryCode": "DE",
+                    "gx-participant:addressCode": "DE-SH",
+                    "gx-participant:streetAddress": "Borsigstraße 7",
+                    "gx-participant:postalCode": "24568",
+                    "gx-participant:locality": "Kaltenkirchen"
+                },
+                "gx-participant:legalAddress": {
+                    "gx-participant:addressCountryCode": "DE",
+                    "gx-participant:addressCode": "DE-SH",
+                    "gx-participant:streetAddress": "Borsigstraße 7",
+                    "gx-participant:postalCode": "24568",
+                    "gx-participant:locality": "Kaltenkirchen"
+                },
+                "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T22:36:59.912Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..IAMeu3yPygANpu4AiF3_XPmPQUjO7he5mnk_8jnEQ0y1rYdoN6-wu1pAgbVYj7KVgSJLAOJUdop4hq04M3B38W70auilFj8ebZN8cOX793QdY9DZHnjJDG5evqSUT3m5DU3DA4TIJ-msNhoyICWqkv1_oqRGLGFmKLpj5nGOKMrZDYpGcKBlS0TwSO64PWH_DZ-rtyHDgW7UrcXQC0Y-8lMNvz4b0hSqCgojEeRRC7L5AuI36U7N1MY55PNuPE8wpRNx5QbZZB8_4nGtctIF_zAG0tRxjq4chwDylqq9_pP_wqQEeh30c7RCE-kvUkSrbOmgk_gtDmZvKMYho5Yuog"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675550238283",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-04T22:37:18.283Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantAhu.json",
+            "hash": "1c2cb6c04fc073dd2b5db5e86c41648af6f6e60bae171bfb555a5fa57116317a"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T22:37:18.283Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..SjabDCED58nSLKjIUAdjSMZFSywfLzvTHZ1vyFX-frsNT_u2LTerIJVZU4TfOqCuqq0O73vW3hw0t4phs0HPoDdgY-Cb1xKLcUYCK9Kcie-6UJGHFbe0WA3JRuHyzm7A_reNR98SNcTaTgq8rtX2-ZZcpDvwEEa4mTBdmqQJClYr2FSa1a9LBo4N_PSACtA7tVZyddjCZ1TkAJWfl8K20YRn9WKTAMxwGRjP6jwmevDsK5EBLStypsYhJV3wOXhb_lZzwF6xF8MnSJ_OzrAnZ6K2A4XQB1dpJEX6pBLkJlFjn0ikYSBDp0YQkfKnv4awNVgoY901YvwQC7KR3TaG1w",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

@@ -1,0 +1,75 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://www.eco.de/.well-known/participant.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "did:web:eco.de",
+            "gx-participant:legalName": "eco - Verband der Internetwirtschaft e.V.",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE182676944"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x007dB3DC8De9ae0F8AfeeBf1f7C92CcbD1A75Fd7"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-NW",
+                "gx-participant:streetAddress": "Lichtstraße 43h",
+                "gx-participant:postalCode": "50825",
+                "gx-participant:locality": "Köln/Cologne"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-NW",
+                "gx-participant:streetAddress": "Lichtstraße 43h",
+                "gx-participant:postalCode": "50825",
+                "gx-participant:locality": "Köln/Cologne"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T21:56:31.618Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..rOr7FkAQE1QZwsNS5IXi_xmZ3gRXvbV-40M5VN52Q4CtwiAPcpNKVGuRtOVySEFfQd8x6yHsNXChRMm2nJOlXAs6G8W_C1KLgYns_WELEtFVw-QYczzXNjwZ7OPLd-5yZwYI2VAGR0VtzocEnOpLyniBcbx0sU05vp85PaPa0bg9iTD5xsU9xzsSIfKny0cCNt9xN7llG7DvF7ay5FtAX8HyIaLiSUtWNpI-zOmiywFvS_uvEFFFMMU7Eq6pvj8L9T86V7Mr1DO5V66GIkO99NoBDX9qRoBaL39Tfhi0qfRACii-LMWLcbFmCJ6LP0GEfvWHt0ZRaQ_KvxQ5d_hXtQ"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675547809464",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-04T21:56:49.464Z",
+        "credentialSubject": {
+            "id": "did:web:eco.de",
+            "hash": "b272e31de12a9b70fb8cb85aa155e1076667542d2dee944898ec3170fecb508a"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T21:56:49.464Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..HLunNFGTr5qKYBWQeEoFuAlwmCWv3bXVG-NNxuuVPVfcypAZ0bZyRSh1NpxaNyIhvYwNxbq5fAwZxwr3z0jIwFMSUocOUNvzZzcd6VmuaF4s5QNjzgE3WMQl4vZzvDaNo89rUXmh0LW-PF4YhEhal5qCcZgacxS0iaQpdMvAfCVBQYxj7CLgz2WjlgoeC3Xl4otNzLkpklT6VwwdBoNKR6a7YkOT6R39GVLeUtU86Xh63Rq6v5_SnAtM9q3WXQUP49X6M0MpEvL4c3R4rDRAK0evmKwCRayLN9mSfZBbCAOmtrsEJ2ii8nr0dig80q8mAMXfT1-NWgVpLESHFlRd6A",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

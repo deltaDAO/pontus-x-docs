@@ -1,0 +1,79 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantFujitsuServices.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantFujitsuServices.json",
+            "gx-participant:legalName": "Fujitsu Services GmbH",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "local",
+                    "gx-participant:registrationNumberNumber": "HRB 219577"
+                },
+                {
+                    "gx-participant:registrationNumberType": "leiCode",
+                    "gx-participant:registrationNumberNumber": "529900NR7U59ZUI2DM11"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0xE4EE92b3a6B661b7148305Fa3A8d96062CBFAFc5"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BY",
+                "gx-participant:streetAddress": "Mies-van-der-Rohe-Straße 8",
+                "gx-participant:postalCode": "80807",
+                "gx-participant:locality": "München"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BY",
+                "gx-participant:streetAddress": "Mies-van-der-Rohe-Straße 8",
+                "gx-participant:postalCode": "80807",
+                "gx-participant:locality": "München"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T22:16:32.762Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..dq2izp7nZn59dqxsEYbqcceJDS9mjzXfc39uPESaA89IqD3xlZQQOSEasUaXXRdmPDDcuVvz6-0fllytDsOG3Y21h9iIe4XuqKaoUfsQ11U1aE73kjmV_KquX1NokufvtQtbazszfOZp5G0O2hRtCQb8TeP6t57DUQ0zIMHry8Iz3a7korX2q0ukq96fZhsZQv4jZiF0Yv5OwVYYadP1LzrxwGmPMPB6rdL2sAwvNWVwcyonog0sgTkaW8l81y4UVh_3PbDNFGHwdy83dyL_jJESSt4RLx4W8vbhqmClITeNbMucqazdUqdApQNJHR72Q40Y4EM-_YYuH4j3LPT_FQ"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675549010853",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-04T22:16:50.853Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantFujitsuServices.json",
+            "hash": "3d361a782dbeb7a215e87636398ba6edecfe98583e1c33e513ed8ba1ce24be84"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T22:16:50.853Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..UVVZW7k_E5xbVoPnk1mdaIkVwPKVv_LJYPx_MeayDkMsl4_VufHJ3OlQV5JFJypmb9LMPHkPcaXNWjVsslrelgLX1VKX3qomi6E6S3CDPH1ml8-7lnfyd5HbdheNRcujXQVT7jz5bEsnuKS9jn9BK9ePhcAfm74PqQfTkCh209-us8pBVCNARInAciUsfTWFZiT2NaJBm3mkx5NYdsWAqZvzYmratDiL6QdkohktlP0OoEWFMLkCnXhT7I9KHCO456_3Azn6tQWTwQ4MrkIRqRLc-e0iq2JHY5NgHdsq0AHGWuwXi2Z8_VLUXGk3HfCKsQM-u8wvszEo6nKf3Sr2Hw",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

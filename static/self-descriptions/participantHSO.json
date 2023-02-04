@@ -1,0 +1,76 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantHSO.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantHSO.json",
+            "gx-participant:legalName": "Hochschule Offenburg",
+            "gx-participant:website": "https://www.hs-offenburg.de",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE142581733"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0xE64872A181F0695DA0660fE0B809a89A3bA359AA"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BW",
+                "gx-participant:streetAddress": "Badstraße 24",
+                "gx-participant:postalCode": "77652",
+                "gx-participant:locality": "Offenburg"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BW",
+                "gx-participant:streetAddress": "Badstraße 24",
+                "gx-participant:postalCode": "77652",
+                "gx-participant:locality": "Offenburg"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T22:46:48.116Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..fukshzKKbfcx8DA5wyTOLD4MvA_JmV0LCVR_IVLu6IroZEV0THZX_iBGlRemzWJDDQ-nBhWP-zPaqxHPeHl_fY0z4xcRWM8S-l0EsD02S7FEuV4xsCpt6EUel9pbet3Md3hBKzTDjPrs-sHieduMj5LO8fIn6AH4fsssNZ3--MIauDw14jvhMndtEQD3T6bFk85yHGQ5TkcEvV-SsG0AKdYkOv3D_9q3SoHyM_H2a03JJGo7TyLQX9b4qULhWWIYk8nP9wF5Lk4sfdY_dAIzr9LcpxVz6i3tEK3-7NNPQ4Mr6s7-9Q7G2khye48PiwfakEOWnMDUqiAXjLNxH0EqCA"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675550826100",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-04T22:47:06.100Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantHSO.json",
+            "hash": "61b7aeaf5bc7b9b53b38946657ca3eb8827a75641194d6c69f17d29bcabb1842"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T22:47:06.100Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..oz76RJHNEcoVTScwQ6JCF2drPDtLqOQN8wvbafYa562Yjr3q4tVWcAAdl8zzqiA60BAY2zzch9REL8I_phGhnIyEe3nBIoODKTOF6gmn0BVjgKgBgLIlCiIGHv-XeeXPd5sw-ZgykAO0sEklw94w7TmxF-SO0REliuhORMwWCooFkjKKJ1uQPRxjk_oJpunqBSVH9MaHhJHa0sO9NYycjHhIoKv38JbO-3CaILrcCUgB8YQCnYZzwqbEq10ZDnrLXnLmFvlp9gjO_A7WaEp-yh5mvH1mVK65Jn__udH8kxXaWF2kEE9Jr_zY3LttBia_hI9akSuKzhS6_S84r90LaQ",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

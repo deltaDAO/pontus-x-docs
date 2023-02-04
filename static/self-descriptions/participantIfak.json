@@ -1,0 +1,75 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantIfak.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantIfak.json",
+            "gx-participant:legalName": "Institut für Automation und Kommunikation e. V.",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE154349216"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0xe70bBA7bC033Bf1Ce6Fa3328eCFAAc8966E66966"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-ST",
+                "gx-participant:streetAddress": "Werner-Heisenberg-Str. 1",
+                "gx-participant:postalCode": "39106",
+                "gx-participant:locality": "Magdeburg"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-ST",
+                "gx-participant:streetAddress": "Werner-Heisenberg-Str. 1",
+                "gx-participant:postalCode": "39106",
+                "gx-participant:locality": "Magdeburg"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T22:04:56.722Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Y0sMfNSMpt8SqQYCvH-xnv8VAb8uyP_9pkvbPKChXIoriSPoroMUGdoAHvyAnGtoazXcdf9twpZF4FuvYeMC0kvvPR21dm7lxZV8nR5XLXthbqB8A9HMbjI4t9bW2cE1gAgCWGlxsarti_W8j3nS00oyx6oqOusqE26ajsJjdqfKhHhLTKmiatBp2WOROip1jvHS_saoLbcZmTWHfFmGPl0zAkZCQ2bgi52KdxGlxC2b1l1nXnD6KmnmgFoAqGw6-tR0na02PrMsjit8SNsdTQUHBZMlSlz-G6B0HRghmWpwVd4gaC-0_rLxzdXd7p2-5aYC_zJAFoOxgGxqGwYg3w"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675548314781",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-04T22:05:14.781Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantIfak.json",
+            "hash": "4ea0727bc25641d740edb537b16f4cfb7f780df4ccdbc49af2192f7b984cfc23"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T22:05:14.781Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Ll472fBTsy3mPs9c3OpGzoqxQTDt3UMtO7FsgnOKEAglszFWkBNyHu1ZP5DmgOBlHcEkmRBNHiHZ24N77Lo-OV_kabbIR7TYVjJJhNUP2trYlFo6njhaaEwm2Hk286jfCZtajDzgBRYQKJYe9ZKOW7muU6E_wYSIJJsHpRcPHy1LmbFmCUiVbrqETBfUIXBxPNIECjeFrS0dpamdJNxPx740VjKEE8X6znEsYPWqv1uaIyMDzGk-ziGvZUJifRJrKNsKMdLCZI_prqwvSrU8CRFhzFqI6kjX5lOH5zJ3PwB1ndEd_LLAjod650YDqndbONT6Z0uv6gEQ-pCfCxSlGQ",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

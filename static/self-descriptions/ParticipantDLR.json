@@ -1,0 +1,76 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantDLR.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantDLR.json",
+            "gx-participant:legalName": "Deutsches Zentrum für Luft- und Raumfahrt e. V., Köln",
+            "gx-participant:website": "https://www.dlr.de",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE 121965658"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x4476123c4B4706cf88CbfA055b72726Baa1e8041"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-NW",
+                "gx-participant:streetAddress": "Linder Höhe",
+                "gx-participant:postalCode": "51147",
+                "gx-participant:locality": "Köln"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-NW",
+                "gx-participant:streetAddress": "Linder Höhe",
+                "gx-participant:postalCode": "51147",
+                "gx-participant:locality": "Köln"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T21:21:17.010Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..f5lJTY6A9Bar4B6ISJ7w9GPBVXytWPTs0aSwGNAvrLRHVXrTQ4nnAfYj8X85C__PP7yKEjPew-lYPjhpqkofNLZge53ENkkVZgGVmEm9FSXfqMZ4QzuhlBqXnaxfjnzsGnpiTPpcQEwt-ssVvsE-baUmsAkIjwxHA4Wj7ytKemPsmjodhL9HLHlUsMDGziLfspNHRNO43R7gyutyqUb19-tqe3I51191nooLUZhNLZ1GX_2IljzcNt2qYXAKkcF_MhpqCP2EScf6g93MTJHswnJn59S8JbAF09WNbuhI724MojIR0XSU6pNSzHP9flN1YpeZWcs_MJ9vi39GQPybBQ"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675545694773",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-04T21:21:34.773Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantDLR.json",
+            "hash": "c9316236fb54c6b1180951ae8b4d65c9ef491582a23782fbdb7dc6b826e3563f"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T21:21:34.773Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..CCyz7igM9j7RG50owWOvN0au1QCqW0MXd2jb5tuFH8HN2zLtSgMWLfMq-K4gF1f-m7s1neCo7kT2JA3YmT1tdv1yNkQTiHZRmyjqvYbFmCO6ZpPt5OAFwJwc3DZNnu7Xevq74A0QJRQsm2H3o1PRzEnZ3LwljyZrEDAJ2XUo5FJePhDEZoe0ho21I2KqiLrwpVQPz0wVIf0vxxLvx8hCRm34Flx3lGen6Vzu24AKFYQmnV8QUcwK1fFjmd8fKRtMDTxXKBpTtX4H55IrbAFQwOeGxAzW1frlM4uuZJF2gRIdP7nOn2wjGN9cw0_GxqlUk-MWH2y7xkvZx6gsDhWuXg",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

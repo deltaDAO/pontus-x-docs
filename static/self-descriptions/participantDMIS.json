@@ -1,0 +1,83 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantDMIS.json",
+        "issuer": "did:web:datamachineintelligence.eu",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantDMIS.json",
+            "gx-participant:legalName": "Data Machine Intelligence Solutions GmbH",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "EUID",
+                    "gx-participant:registrationNumberNumber": "DED2601V.HRB257785"
+                },
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE270420172"
+                },
+                {
+                    "gx-participant:registrationNumberType": "local",
+                    "gx-participant:registrationNumberNumber": "HRB 257785"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0xb7cF56a08F2B6ccF250B431125850968b7f6a950"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BY",
+                "gx-participant:streetAddress": "Eduard-Ziegler-Straße 29",
+                "gx-participant:postalCode": "85221",
+                "gx-participant:locality": "Dachau"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BY",
+                "gx-participant:streetAddress": "Eduard-Ziegler-Straße 29",
+                "gx-participant:postalCode": "85221",
+                "gx-participant:locality": "Dachau"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T21:07:59.636Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..mLRqIkHCoYE87lzJ5xjAl8MJGISwq_1YZlbj2Z55ZqX_x95YxRqA5cQDCqIRxGunL-t61hVYaoVWEyR6LqHCHWQobEO548nhOUYK3UMVlqQJ9-naSYkvJXLRDDZIoTHgPDTV0g02jY6HjVhRrWpnaEbhJbAzbsRaiiPmnfwZwdcYNb7TMgBdCa3aO9a7JE0ma-8MXH4dJmvYyjA5fodScaoUPYdo9NZbI0xUc7nktuhWGZrcrf6h8xKNeNzmp5_Ispw5oNnmeWJK77I37twEDUNfsCkm3ExrozI5HbvqaqZmKpSgoFhzakf9xjaCD1qVsoJzE3-h4w6heCNTgXmCSQ"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675544898457",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-04T21:08:18.457Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantDMIS.json",
+            "hash": "3eec88b21efd1a964c92bce74a699ce433d2c66bc9abc697d8037d714e8d66db"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T21:08:18.457Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..QnLzYPs0AXv1SPbqmg9S0p5OyQdGN2skisuX1-ULVEGgCVMoQfw8gyyLYd9z2jELKeYwm--KSCoEbb2jgeCmubG2JFGNNRaiEDGaQjwS1vIYPjWGS68esr6Cy5drZByC8Ix-ScQLJn9qY5IgFLoNokXt8Wn2jojs2E2PZUxv2QyP6h64wptbSeonJAAztaBP49ZuswxnV8Qomgy3WEkPxQ48Rklvso_Cctmj3a9-WkvyyITTfY0Q_9OQOCZ4s-h3b0Zg6XuSUUAeVf6CYU0K7kcJqK7CCYUKvTgeErVn0V9e49xCUbo2BVmNW8qSTEdt_IO3_uHrkL9NwpzK5o2gcQ",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}
