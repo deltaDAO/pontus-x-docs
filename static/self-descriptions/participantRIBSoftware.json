@@ -1,0 +1,83 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantRIBSoftware.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantRIBSoftware.json",
+            "gx-participant:legalName": "RIB Software GmbH",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "leiCode",
+                    "gx-participant:registrationNumberNumber": "549300TXKMFBJ0ECRO90"
+                },
+                {
+                    "gx-participant:registrationNumberType": "EUID",
+                    "gx-participant:registrationNumberNumber": "DEB8534.HRB783426"
+                },
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE812921551"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x1Bf21DCb771Aba18B1D23AA6D8a619C1AB1811a4"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BW",
+                "gx-participant:streetAddress": "Vaihinger Straße 151",
+                "gx-participant:postalCode": "70567",
+                "gx-participant:locality": "Stuttgart"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BW",
+                "gx-participant:streetAddress": "Vaihinger Straße 151",
+                "gx-participant:postalCode": "70567",
+                "gx-participant:locality": "Stuttgart"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T16:38:04.295Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..WSQDR6YO1ufd5eivm_Lup3zGOBT5di-A8hbcE2CSjFRMBRxRDS01_M1TLcK7zlielGTO3KW5060mIC2fO16jzCefcvx7JJnVgRVUkpgmYyyVnXmBJ4attylVxpwuTOD9Ey3dSnKNc36Fx-FWa7L2jabFWHSm8U3P31L22uH2kVNxQwgIyv4y6wnPidUKTat4hO_h5H9zNv6wMRz7X2oGSbQ60BRMe7SLPeo1ixdnyzwMEHSIziwmf9Ixnr2DAF28vrjMEqDFuzAYatspL4-6hfji-U-TQh1w4o5ymalGxZM0qhgviidnOQPBD97Q8PjFgOgBfLhllkQcyBduMHqqKA"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675528702293",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-04T16:38:22.293Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantRIBSoftware.json",
+            "hash": "562c6460d18a45a50f9abf4dac3db1dfccfcae8bc6862693bc607128f7532d2b"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T16:38:22.293Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..AKyE9gUHHhD60rtyct45LMrj6TIbGs-Xwhut7snrgyAjRTX5LOnRb-YjI0JqDNsxLvzT6gnwcmqzHGQCqGsNi-cwntMFBZR5EBAONZbqWxAELE7L9rPSsFpxG_REC0WpNlylKTHF-CjWfR7cIm5hH_Bn1QkLn7YefWqDVNXi9ZG66VI322MOfQfKIIZBFVFHIysfyusQWXzYVAYzFQI35KXFHJKnFT2IczkfYZkYNcV9DHlDwjLFa7blOWaojoTvtC91V2ht8adukgWYO_qCwCe5KdEJxIY7AwMzEfRP-2GO0y6cgMwNBy3oo3qU9--Mb6snw4Kzgd-Ck-_U9SDlhw",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

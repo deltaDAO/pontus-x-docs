@@ -1,0 +1,105 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantIMC.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantIMC.json",
+            "gx-participant:name": "imc AG",
+            "gx-participant:website": "https://www.im-c.com/de/",
+            "gx-participant:legalName": "information multimedia communication AG",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "leiCode",
+                    "gx-participant:registrationNumberNumber": "529900YFT1JI6RS8AK69"
+                },
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE 812 187 208"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x1c0c9211E8Ec8E0253A53880D5481e4580B62125"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-SL",
+                "gx-participant:streetAddress": "Scheer Tower, Uni-Campus Nord",
+                "gx-participant:postalCode": "66123",
+                "gx-participant:locality": "Saarbrücken"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-SL",
+                "gx-participant:streetAddress": "Scheer Tower, Uni-Campus Nord",
+                "gx-participant:postalCode": "66123",
+                "gx-participant:locality": "Saarbrücken"
+            },
+            "gx-participant:parentOrganisation": {
+                "gx-participant:legalName": "Scheer Holding GmbH",
+                "gx-participant:registrationNumber": [
+                    {
+                        "gx-participant:registrationNumberType": "vatID",
+                        "gx-participant:registrationNumberNumber": "DE 277909804"
+                    }
+                ],
+                "gx-participant:headquarterAddress": {
+                    "gx-participant:addressCountryCode": "DE",
+                    "gx-participant:addressCode": "DE-SL",
+                    "gx-participant:streetAddress": "Uni-Campus Nord",
+                    "gx-participant:postalCode": "66123",
+                    "gx-participant:locality": "Saarbrücken"
+                },
+                "gx-participant:legalAddress": {
+                    "gx-participant:addressCountryCode": "DE",
+                    "gx-participant:addressCode": "DE-SL",
+                    "gx-participant:streetAddress": "Uni-Campus Nord",
+                    "gx-participant:postalCode": "66123",
+                    "gx-participant:locality": "Saarbrücken"
+                },
+                "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T16:08:27.371Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..lftBZX1JAl9x47YPfOV7vAiaTdATe_l-Eu5aze_PU8x7Kbh6fxwXRj_ZwjNHKjzPQdHLeIoiIb8x9egwSZDRWoRhDDJ0Lj_U_RF0xNz3xHGYhpzJdtMh3TkJFLqZ8GHG-nYIGoOm-XlZGicXGTJFYzv8j-hT9ZRqgqPBVeGbGnWvB-I0a57WG5IohJTTBeW8_fqsRw5vIJchFzFZhYYRlh7b2_GB-18Dp-eOOmro_bCGuCbEn-8tEQ6dFcR_zY4-LA74zbHFayZ2BsTO8D9247P81Vh8zZZecOr_tEQzxvOlYa7WrxeE3WWe5t3uGVprWIaDmWKEtzayKuRIyHqguA"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675526925287",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-04T16:08:45.287Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantIMC.json",
+            "hash": "8221db4b718ac40e1bb941efbf6b37b37ee7b1459d8fad3351e1410913587516"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T16:08:45.287Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..TB3LwgofPUNgg3dTi1TNNoLKY94GFDD0EulCjkQDFsXGe7BO5CWxpZKbYfRSy7C4osk2Bv0EVD_-YLzZ5UcKMYOqbfIYsyZwOXeopDKcC-Bl79k0F9whUgNb12knE29OaTb3Y0PePbhb-xh02RKJhzqw9WdA__MBKBSakGo4SOxhz5N2Oi5coYpDfBom_7to-pVWqLGUVeKg4u7g1HFxhVqRuCuXwG6TwTOHu3yPA6qeMoH58MTMsdmF8m8MUhFg85hzLaIZosBL6bPz_v7Rg3kX7T-fa-Mx0s66dgChsVnFIodKBHiQqOVhGHHHRBIUW2mJ8MZTKfmhCW3tg4uiTg",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

@@ -1,0 +1,93 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantIONOS2.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantIONOS2.json",
+            "gx-participant:name": "IONOS",
+            "gx-participant:legalName": "IONOS SE",
+            "gx-participant:website": "https://www.ionos.com",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "leiCode",
+                    "gx-participant:registrationNumberNumber": "54930038KPLOYRDHV375"
+                },
+                {
+                    "gx-participant:registrationNumberType": "EUID",
+                    "gx-participant:registrationNumberNumber": "DET2214V.HRB24498"
+                },
+                {
+                    "gx-participant:registrationNumberType": "local",
+                    "gx-participant:registrationNumberNumber": "HRB 24498"
+                },
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE815563912"
+                },
+                {
+                    "gx-participant:registrationNumberType": "EORI",
+                    "gx-participant:registrationNumberNumber": "DE784176544074315"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x005d24698bF41c398ECF15a93455621932a6e19F"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-RP",
+                "gx-participant:streetAddress": "Elgendorfer Str. 57",
+                "gx-participant:postalCode": "56410",
+                "gx-participant:locality": "Montabaur"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-RP",
+                "gx-participant:streetAddress": "Elgendorfer Str. 57",
+                "gx-participant:postalCode": "56410",
+                "gx-participant:locality": "Montabaur"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T14:03:22.011Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..rAEr4zrdsJknnSfoxrpUfQ3yDWanRmKXvPcXPYuC6ykYf0OppeTkTgdQiheFtZY700dtM39PWnV8qegJ15fvdDXGpQerUAGFfgCBibV4LcsQeXMJv7rO798Ekpup7nw37Ddl8Rlm97AspGo6xsyDAs0SwkTc-aomxhzP24NP2Yw5qNGOruHNXvw7aaDqsKur7n7eoMhtFCopI-4mxOPcf2AFyHAYEtodPxAnDbzlDQmEwHQPW4AajJkqwO3mbbEuripse_YbKsz-lKaulF6TEZg02Hc4VTzE_M4BWrDM3Xq9UmCUYbQo3YzuHfaWUCJtMb5lajPOi4125rYqmFE32A"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675433020448",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T14:03:40.448Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantIONOS2.json",
+            "hash": "34f75379ac2f0afea5a0d068978c2efee7807592603c0751e5b1a52ba91a84de"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T14:03:40.448Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ZSaSF3SE7kJE97gg9XKNGR86PgM16q2aTtLnxhts0ngdE7-G_m1gpnaXIhoq2f2YHph1szL_tgZrs-SuU89mDvZsSOzyY55M5-4y14DblOfN8MMYC9OsHZ988_k3r0eArRqAoGM97w8I0Bvdvl6H0qQRjM_CrFFb4JauXHmT2WVsOqz9euP3R_jtARoA7FTRiWonezECxg6RqK6wjZfNVQ7FtnN2uT3LQAniypiRfKOBaK1Dqq62N8XHGsC-R5qzZo2st2tLm1v5ve0PcIwdSYHQLPAQz80aKsjtat_hTFJP8G-ptzsRcnHSXEuFOX-xzN7kfEQ2JlAz6sQPkMQ27Q",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

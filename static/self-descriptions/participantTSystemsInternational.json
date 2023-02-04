@@ -1,0 +1,79 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantTSystemsInternational.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-04T18:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantTSystemsInternational.json",
+            "gx-participant:legalName": "RIB Software GmbH",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "leiCode",
+                    "gx-participant:registrationNumberNumber": "5299004XPX8GS3AHAV34"
+                },
+                {
+                    "gx-participant:registrationNumberType": "local",
+                    "gx-participant:registrationNumberNumber": "HRB 55933"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x9c373e9f125497281f37AeF603fa99572856Bc38"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-HE",
+                "gx-participant:streetAddress": "Hahnstraße 43 d",
+                "gx-participant:postalCode": "60528",
+                "gx-participant:locality": "Frankfurt am Main"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-HE",
+                "gx-participant:streetAddress": "Hahnstraße 43 d",
+                "gx-participant:postalCode": "60528",
+                "gx-participant:locality": "Frankfurt am Main"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T17:28:26.351Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..bNS_OH80brn6c86W0eKKbJG1nn_o6al0cVex77juuYjT3E-VfsHQyaDW8EBID2gxuRSZnk4x15dXAv-cYuirOFkoasfaBTbiA5X0VRBnAWtWCd9h6iM7HsBudd4Y9aGcL3DGxLBNZ1AJfi28VBQLrVo0dZgJ5qO3mUPFmnzLmmENIgukZc6WhITlilG8UTShlGtSaxT2L2EZL7XE1LOzfHvSnjumahyvsTo6_skyDc4D9xvF1fi9cPbU1DKY71WO0_QsrZfequ7BDPswRIc6MZIKd1BaV3YGsWIjkLeNLcc1FbTvxwQasbmEM4nWcJ3JzPJa6Rlt2-STzgz_XqatDw"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675531724990",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-04T17:28:44.990Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantTSystemsInternational.json",
+            "hash": "1cf1daefe0d5c49101b3220934aaef40be05e8ce97dbdf6d9bbe49bba5c2fc01"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T17:28:44.990Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..K60-sgXgQTBPMqtkACkbScVEj3GeOsW1J7djGxs1rFN7uUizfTZ2djo63c0AcJIhWTEhpWT0_ARPYugVAzzUgX0DBKmGjdXC5zYsC9ef0CNOM-pDkQOdrHMgcsGrQErdvtjHZ5cdAFxEi7ZeLXyrPNLvLXbXAEQVDBT-iVMVoSrcKMnjqwH0y2Urdia38lranyYnfHRElhssMDNmgJFGiUQ8xaPqK8JLUf-3Idwzcxv0hzA-2PDRbt2n9l8kfWoObyeypNXSbeCrddmLa3I6ZeGv3nT31hiTbpH07v_6fX9GCCQTBc7CXPof_JjNz5wrwOkGD4JiFtEDp1n_QoFtaQ",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}
