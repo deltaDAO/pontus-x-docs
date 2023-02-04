@@ -1,0 +1,75 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantRadiusMedia.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantRadiusMedia.json",
+            "gx-participant:legalName": "RADIUSMEDIA KG",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE289700644"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x37e01308d6A0E322dECc457a13E0B2b2086D84B1"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-HB",
+                "gx-participant:streetAddress": "Konsul-Smidt-Straße 8u",
+                "gx-participant:postalCode": "28217",
+                "gx-participant:locality": "Bremen"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-HB",
+                "gx-participant:streetAddress": "Konsul-Smidt-Straße 8u",
+                "gx-participant:postalCode": "28217",
+                "gx-participant:locality": "Bremen"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T22:25:19.686Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..sVpADOuPYjoVwSIAJfdNHxFwcDxobYfs8wr9lg2d8_APvXWrCKV1TGSx13_IJaLywhu3HhIrxpimB9iCWgBm_ZYq0d-osS6wtF6-0n9e6ztk1QotIW6vvUYNMeZGDXQRUxWhcFBMyhiCZJZRD1zAyZjgpuJwE9qNMtI8Nqd6qVuPv1UYfadwFXOfM_qX93EevJGA2z7mi6h7QEMFk1ULr-SjULgXnspVNKz6L9LR_aY8HO-esPJ8EtapPH2zLpKBeDms5BosotlAFICjs-09AbGVg2DBq8WbLTCYSAiy9A_VRKUXa6Qu7p8JL5icjokO3e76rPYB-90ZB1UizeG1rg"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675549537476",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-04T22:25:37.476Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantRadiusMedia.json",
+            "hash": "bca8651f68271739628cc06fb98eef38328d8b070b0b2ac4e8ef5be57523bef8"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T22:25:37.476Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..iwERqinFulVE4QAbq15-lD_8UFdNu7KmfNS7XYuh72F797AnsHwVXWA8wfnSEah1T_QuxLslO3or2o0wIQ7sj2BAou1C6n3w38syzOxxa7dXFPRDhadMbRU76yvhar7hJAQBQt32OigHW5TBpxDL8g4MPsLl9DwHN-diTR_ZIioO3gEKma6_xRO79I1qTYss8bpHis6MMNHnzOtORmHlEcPHiXSgzUYA-svz2Vl1LQe3hiJCtKPwaCDScBIJrIJXlVuKC8J8i5i0ec0JAjIBpBBSFFp1TN8xMxmIwAybdCATDw5uyZK_TL2HyMI2srzTXjizE_9yFAw3Eq2z6P1F-A",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

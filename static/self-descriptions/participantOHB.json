@@ -1,0 +1,79 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantOHB.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantOHB.json",
+            "gx-participant:legalName": "OHB System AG",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "leiCode",
+                    "gx-participant:registrationNumberNumber": "9676006S1Q4BSJGBOP56"
+                },
+                {
+                    "gx-participant:registrationNumberType": "local",
+                    "gx-participant:registrationNumberNumber": "HRB 20411"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x9309Ce467475DbB0a9c549B988F6571EB024507C"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-HB",
+                "gx-participant:streetAddress": "Universitätsallee 27-29",
+                "gx-participant:postalCode": "28359",
+                "gx-participant:locality": "Bremen"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-HB",
+                "gx-participant:streetAddress": "Universitätsallee 27-29",
+                "gx-participant:postalCode": "28359",
+                "gx-participant:locality": "Bremen"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T21:35:25.714Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..j7Y8Dt82gjU7KOdP-64llDFfw9i9jMm7m-66GSUdlaFL4xw1XLrI2L8a2oQJtyNsNpLVliuwI0TKKaaYnmet_yJrykU2X7oIO17Jhy8eM7Kz-anT6m5209brg3Uwfo3T7F1enEDsGI6BPU_dYvm6FVl5iKFDWQ4FGVbZ3NgQ9SzMBI7xZD6--77fzQYXFY5K_bQfB7rzYc86Z_BgEfj3dCUNO_bWgKp6HQ-vrgxeXe2LuK3AW3LPB4lPODB9O5No9w4gLAibv909jEc8-bh_UldZczblK9FmAfvMELgvL5shw5mUtmchaWArCvEGjBEyreKQhYeqAJf3oRQ3riZ2dQ"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675546543879",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-04T21:35:43.879Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantOHB.json",
+            "hash": "26d408244e997302781532b8fb7c170215db73646fad602911bb5b585174740a"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T21:35:43.879Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..KknI5mdudog9RngQnBRAuRxKTwUKBN86S2HiFuGGgqk34OLmTO3gq_uZiLJPsr52auTQHcWdRnDjaDoW08lQmiQtHXbPUWs4NGKPYCpxX02HGJWaq8Ti0Y1B9EBnAXd5UwTbU_7P2hvTuZTns0VL4j8moUhhwdjYWuIARN_9iVc8LUocSiWRYlTCJttO8Qnbk2L1qS6DmmbucflL4sfy5FXPwklq9UM0F1aWcraVheoIvolF982y3bYZkfyI-mwrMq9DBvGzu_t7DdFT9aRGbUjlpbAXOdDhU6XdHGntI43lrvPTEFsGiboG-dJ2JLP7pSnNUfMkzs5QlCOaeqvZmA",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

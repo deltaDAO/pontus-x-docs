@@ -1,0 +1,104 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantSetlabs.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantSetlabs.json",
+            "gx-participant:legalName": "Setlabs Research",
+            "gx-participant:website": "https://www.setlabs.de",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "local",
+                    "gx-participant:registrationNumberNumber": "HRB266079"
+                },
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE342771626"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x1c99F7C29EE0e79CAAD8E4d0Cc0b95D5Ece62294"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BY",
+                "gx-participant:streetAddress": "Grosjeansstraße 2",
+                "gx-participant:postalCode": "81925",
+                "gx-participant:locality": "Munich"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BY",
+                "gx-participant:streetAddress": "Grosjeansstraße 2",
+                "gx-participant:postalCode": "81925",
+                "gx-participant:locality": "Munich"
+            },
+            "gx-participant:parentOrganisation": {
+                "gx-participant:legalName": "Virtual Vehicle Research GmbH",
+                "gx-participant:registrationNumber": [
+                    {
+                        "gx-participant:registrationNumberType": "leiCode",
+                        "gx-participant:registrationNumberNumber": "529900T0NXTF4MVQ0486"
+                    }
+                ],
+                "gx-participant:headquarterAddress": {
+                    "gx-participant:addressCountryCode": "AT",
+                    "gx-participant:addressCode": "AT-6",
+                    "gx-participant:streetAddress": "Inffeldgasse 21A",
+                    "gx-participant:postalCode": "8010",
+                    "gx-participant:locality": "Graz"
+                },
+                "gx-participant:legalAddress": {
+                    "gx-participant:addressCountryCode": "AT",
+                    "gx-participant:addressCode": "AT-6",
+                    "gx-participant:streetAddress": "Inffeldgasse 21A",
+                    "gx-participant:postalCode": "8010",
+                    "gx-participant:locality": "Graz"
+                },
+                "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T18:05:19.723Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..dlfCTaxc4-QcvaGIHsb0zpRbIhWcAiKEAUH6jzqCVqOtCNpTNVbFJvpWSl00W3ukTUbl1N2raH6iIWGZeSh9lpXroNrwjSXvcRLMuBZXJuIASOJrZKmYQKc_k1j994-hHazr0oMs7XvLG9f3GkxeUokKqpbtGRoxbsrr2G2BHc5VPoSAg4yQ5ngaOcAUZn_H2Pbx2h5vB0Sgcetyy5Xo3CkbMUBoCYGjY959tbhusNYtmLQhw4qSOAYxnXFJcre-ZJ2PploRq3Fj82CWyoF1puQwZZ4kpoVNCQN69uXAFCnnBhMu5te6ppqtfsO3i1YDrflVnEFGFHn1XCdTnd_MSw"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675533937931",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-04T18:05:37.931Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantSetlabs.json",
+            "hash": "cd38b2be16c33335076442cd6ab41bbaf868b7ce07f93517d5240ac8f634bbdc"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T18:05:37.931Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..WNcASDSlpzCUD_4FRei1YEjsCO4-ivcHmXP6Txo6axw_R2doQpknESioo0lR9M0FekhzPX_uEPJZQ9nb6RDgeQT55S0mU0UNglGQCWdbLgO8eu9RKK_TLpx0vdoiZUL3fScPhYR3ZP0Z6MakcWhtTPyWc47KhIpjuYtRl9W_BFY0xi0GM6oSNkiS6EhQoaoy9m1y2dK8rAx_e90sIMl2by-ZIhWXtSQMjzsUpgfd5AUiu6LLCoXm333wq-5DL7j6YY1HAEqllAPPBXneyGv0glpz-XmYu2amQVzV2IhPKdA2DCU8O4o2qEGkqZ-jH8zt61MDqBaST9hseDnWGeim4Q",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

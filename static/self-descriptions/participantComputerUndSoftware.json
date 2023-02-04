@@ -1,0 +1,75 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantComputerUndSoftware.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantComputerUndSoftware.json",
+            "gx-participant:legalName": "C & S Computer und Software GmbH",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "local",
+                    "gx-participant:registrationNumberNumber": "HRB 8645"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0xb51d556E910Dd1887602034bbB66DA63EaA80ce2"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BY",
+                "gx-participant:streetAddress": "Wolfsgäßchen 1",
+                "gx-participant:postalCode": "86153",
+                "gx-participant:locality": "Augsburg"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-BY",
+                "gx-participant:streetAddress": "Wolfsgäßchen 1",
+                "gx-participant:postalCode": "86153",
+                "gx-participant:locality": "Augsburg"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T21:44:48.970Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..f4vnUX0m_F-lYAccB178NfKpCdEIccupv1LkxJ0mEmagX8NKLv_Gia-LSXfcT_9ssOVa_XpfdoOlG4yj77wcWPa39bGU1DWFMBrsfW7MK60p3O9pr1hsArclnWM81ymmpvh80RFNnDLN0j9QpWLZ0MmjHvvHQIK_t5a3tcEr0QX8MfZ5VybzBVwfcHfwIYsNLGpk0svjbRKLvj4LiUt14OSQJbMZ50XjtekU30D8MIHVL7_BuFAd98KsXfU5q3tRK8tQFRM4x9JSosIu7itzVW5z2d9GbIpIOVJOv7eCXCaJxRuGZjZLDx2PwLmif5UJ9nUqOMTZHyI8mAVXJyxp2g"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675547107179",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-04T21:45:07.179Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantComputerUndSoftware.json",
+            "hash": "474e7205aacd6cf2428df33c7b597c1d63fdffc42ab6405f65f197fcb94a6575"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T21:45:07.179Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..HAP6FwsgdX08-o9fAsInCCB5get109ppYRyGUKF1bpudFnfE0zO3Z7OZHd_WqeV50jDvB0XVm1cWWghJYjO4wDOq_b6mKyviL2SYdOxvx4-hduAX81TGb4Wn5JT6i4oRXO8aoL1SkMeOjbb4YDuGm9g-qZPxrx-l8E3iw5hSxom4fKU2cgxEr9iNOO7i0N4OCGT4lX-FQAowptpuIIy5Ey-4GNVGFDiT3tm18TCHN_Yf8crFYBj4hEqhAtaJcYcnXOPBcJPkJhc3dHb6z4hxf33quyLHrmkT6Q8dL5HfQrv4yBUfihX6TJvXZ9z14bxS81YdQIR9C4p8zgxwGmZmOQ",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}

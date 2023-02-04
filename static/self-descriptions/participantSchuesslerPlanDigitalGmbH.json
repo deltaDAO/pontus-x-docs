@@ -1,0 +1,100 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantSchuesslerPlanDigitalGmbH.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantSchuesslerPlanDigital.json",
+            "gx-participant:legalName": "Schüßler-Plan Digital GmbH",
+            "gx-participant:website": "https://www.schuessler-plan.digital",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "local",
+                    "gx-participant:registrationNumberNumber": "HRB 97729"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0xb9C596E9eC598a865b51f3F53ae7d122B7b7a937"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-NW",
+                "gx-participant:streetAddress": "Grafenberger Allee 293",
+                "gx-participant:postalCode": "40237",
+                "gx-participant:locality": "Düsseldorf"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-NW",
+                "gx-participant:streetAddress": "Grafenberger Allee 293",
+                "gx-participant:postalCode": "40237",
+                "gx-participant:locality": "Düsseldorf"
+            },
+            "gx-participant:parentOrganisation": {
+                "gx-participant:legalName": "Schüßler-Plan GmbH",
+                "gx-participant:registrationNumber": [
+                    {
+                        "gx-participant:registrationNumberType": "local",
+                        "gx-participant:registrationNumberNumber": "HRB 27778"
+                    }
+                ],
+                "gx-participant:headquarterAddress": {
+                    "gx-participant:addressCountryCode": "DE",
+                    "gx-participant:addressCode": "DE-NW",
+                    "gx-participant:streetAddress": "Grafenberger Allee 293",
+                    "gx-participant:postalCode": "40237",
+                    "gx-participant:locality": "Düsseldorf"
+                },
+                "gx-participant:legalAddress": {
+                    "gx-participant:addressCountryCode": "DE",
+                    "gx-participant:addressCode": "DE-NW",
+                    "gx-participant:streetAddress": "Grafenberger Allee 293",
+                    "gx-participant:postalCode": "40237",
+                    "gx-participant:locality": "Düsseldorf"
+                },
+                "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T21:01:22.120Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..eQNXqPpieMaTrLHQnwZW7_bimREe36p9XoL2keRH-h1KhTu8M7FhAuTwhhqlibWhdyidDQjYzLVtBUXxpRRFeoH6IIgES9EXWYXpJZ1RsxgczICihBOXwlmNglYS1CIfjzXd_7BcQirJ1AYuhFLI6EXZDqb5VYZGij_lkPMDHNvkrDSUW3H5pddmFkcVZQ70ZOAru-7MN9b3hoN5XUjuoO7mEfaqk1JIwhV6gvPQOLrHCkRDoK9_ugnK9LHJEwo2o2E0veIiNdIAbf878AamTnAAxfMbZW0FCvPB_u9POABwOMoaeo4OedSS9vVA7A2F7_LQoSXXEG7Hx-bjajh-YQ"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675544500246",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-04T21:01:40.246Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantSchuesslerPlanDigital.json",
+            "hash": "a7e7fb18b0aaac9ce95d2c25e248e1f6301d8692d07a2da1571c3b36a0e66170"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-04T21:01:40.246Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..sEErfQycZ3PDV1AKwyck0Tfb86PqrUPrIy-pkVPyEFrMJxBin5loFCIc3BfCi1lOAJkpkwboqL7TyC3NxVxpS4qQTmafE5-E0Z-trqURTZNlDrQKik7mnZzwvxDhPC4iUS9aj8IluuPEkGsI-hZ8mOdBLPGi4Yf9ns92HlxyBEKEQK309RYklmc1FRBHtX9zzkk2Lil--loK2h1oPuQFmztDudJoRhct9g7--7wbycM86V5qPw_Un9Ko09x4R1hbauU9RPs9UWJBsQNLy8x3D8DCmO_rpYgBSxFR_wM_GsM9Lbqtqkuy1sC0q0spHWwOBHDs2pEnPY_DF82U9OK_Qg",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}
