@@ -1,0 +1,101 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantILSP.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantILSP.json",
+            "gx-participant:legalName": "Institute for Language and Speech Processing",
+            "gx-participant:website": "https://www.ilsp.gr/",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "EL999723442"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0xFfA05d656465568BE83B11bf274c5458AC8401AC"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "GR",
+                "gx-participant:addressCode": "GR-I",
+                "gx-participant:streetAddress": "Epidavrou & Artemidos",
+                "gx-participant:postalCode": "15125",
+                "gx-participant:locality": "Maroussi"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "GR",
+                "gx-participant:addressCode": "GR-I",
+                "gx-participant:streetAddress": "Epidavrou & Artemidos",
+                "gx-participant:postalCode": "15125",
+                "gx-participant:locality": "Maroussi"
+            },
+            "gx-participant:parentOrganisation": {
+                "gx-participant:legalName": "Athena Research and Innovation Center In Information Communication & Knowledge Technologies",
+                "gx-participant:website": "https://www.athenarc.gr/",
+                "gx-participant:registrationNumber": [
+                    {
+                        "gx-participant:registrationNumberType": "vatID",
+                        "gx-participant:registrationNumberNumber": "EL999723442"
+                    }
+                ],
+                "gx-participant:headquarterAddress": {
+                    "gx-participant:addressCountryCode": "GR",
+                    "gx-participant:addressCode": "GR-I",
+                    "gx-participant:streetAddress": "Epidavrou & Artemidos",
+                    "gx-participant:postalCode": "15125",
+                    "gx-participant:locality": "Maroussi"
+                },
+                "gx-participant:legalAddress": {
+                    "gx-participant:addressCountryCode": "GR",
+                    "gx-participant:addressCode": "GR-I",
+                    "gx-participant:streetAddress": "Epidavrou & Artemidos",
+                    "gx-participant:postalCode": "15125",
+                    "gx-participant:locality": "Maroussi"
+                },
+                "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T13:42:06.327Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..EwI4gPXwMt-CSunS4FcrtwRhy9LxP2jwxScfhsm5v9uryX-kwpA83rNLwUt6fk7GadmY_aiBeKSItELPgU_1d-gJFx1qcgN4zpxyxU3Ndud2LPkwrgaTB_4Nzx_YkKMeyR-0CBtxCE4ojZA7NDsLp-tZVDI-U-aJZNxEwka_8hAT2bR5QwTgUs4BsSC3qMxahn507DVaMbKTFthdK57C3-s1D6Vu2qWgmHMSU1DKEdNnxgJg32tF2sBekPChfHE1qq91Tml6mMvb_8slCcZl8jKyx6NJNKFjI8TwKSWTRQfbinZtuLY0_WPu-R0HNT7jXalPkrzTKdgTYMW_cBRv0w"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675431744680",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T13:42:24.681Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantILSP.json",
+            "hash": "44a051b1c5ee152e4b456728a032c52097562b3597325b2df443985b75ee2bc9"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T13:42:24.681Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..nV6hP6nK5s2P5OU0p0goS2pzAo_nyMBz8tBidiGd17bi0sVf01gWN6VS_pa_gjQnIz-geAo4tHaHKbpoyHGV3Sc1kzuuUmkY14U7rGqZEpUD6031d4ElYtQFvBNekZmFUq5L-EHhFtFh1eK4YdTf2WsPCkvZVVRBZOS1VyZ_IC5ijn9PwChrlZk73Yip0dKwznCFdjv7GQTpmQlrOn-9tx0nCpfaHUeyv_fDBxUyXHRKiNDvyer5IJlVxkDR23enJ9pMmtfrRLlx0XoFvs6jxITh_N7Bk49yHGhaTGEDONnTvhlBd2Z4pNobmBsssRYrllEi_yWbbCwOuxp7j3UlrA",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}
