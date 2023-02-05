@@ -1,0 +1,79 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantUniversitaetSiegen.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-03T09:00:00.000Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantUniversitaetSiegen.json",
+            "gx-participant:legalName": "Universität Siegen",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "leiCode",
+                    "gx-participant:registrationNumberNumber": "967600DTDNTXAW9V0946"
+                },
+                {
+                    "gx-participant:registrationNumberType": "vatID",
+                    "gx-participant:registrationNumberNumber": "DE154854171"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0xF0926FbE8e60E54aFB4fD296B2698230ab32799b"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-NW",
+                "gx-participant:streetAddress": "Adolf-Reichwein-Straße 2a",
+                "gx-participant:postalCode": "57076",
+                "gx-participant:locality": "Siegen"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "DE",
+                "gx-participant:addressCode": "DE-NW",
+                "gx-participant:streetAddress": "Adolf-Reichwein-Straße 2a",
+                "gx-participant:postalCode": "57076",
+                "gx-participant:locality": "Siegen"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T12:03:36.982Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..eCmYX6gPkXy1jt7z8RKVxphP8Y8XnXlvwou7MhbCS8RmJ_DN6WnnYWEiKJU_gtxnK0Ma2VC68YK9urXyt5FbMFeYobeqy9YcayouYxMhHO5I2iNyK6DehSYe4_apuGprkzj3kBEdhx-Nos_bMXUJf5p8dim55YamcSW926gLUggFSK_RpxxQRWCkuMxbYh_nPmcL195riwzvDkfvZ44vekiFdS9PG5HYEMXrOIuWlQWkGjG3CNqgOl-DtbhIHoS9Up_li5ZwY36tgYMNqwBnND61B5JgRtClhfOQVBCwbzAuM_-ZwY59JdRY04KswtQ3IJ4E6ku8-T12YGnxF5iU9w"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675425834922",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-03T12:03:54.922Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantUniversitaetSiegen.json",
+            "hash": "074bfcb2229224d9b740deafc87386754afda6987b12e24ccfe2397459b1e894"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-03T12:03:54.922Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..JWPrpiSxGfIgvDIJ0Un9jR7-PbMDQ8EnB9ciGNQ7bQZAvrfgvGHD7DnZUak7V-usJfsDlsfVoHc9pVX1jOgEG0tPy0coTeIKP17wrIhN6q8TLaFgvnf7WSoLPmTWK0IyuE2pSkVpfaXgR8OU_ILuQbD8-ZghIaivb-Z-7XNU2T043obHoc6feZNQ-s1uI5KHPWxkEMBORmsW6Lov-D-6kx0mA2IYm4Uvfv7RauFCoHW-p7GH2WyrzQM-g_0JzCJu5yQ6O-wb5Wo77fkeF8gyYPMoe3dROr12xrY-bMF80xdD45FbuEFRlXbUXGfpuzcKxJfYkTynEJnAEz5AupipDw",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}
