@@ -1,0 +1,87 @@
+{
+  "selfDescriptionCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://registry.gaia-x.eu/v2206/api/shape"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "LegalPerson"
+    ],
+    "id": "https://delta-dao.com/.well-known/participantAccenture.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2023-02-03T09:00:00.000Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantAccenture.json",
+      "gx-participant:legalName": "Accenture",
+      "gx-participant:registrationNumber": [
+        {
+          "gx-participant:registrationNumberType": "leiCode",
+          "gx-participant:registrationNumberNumber": "5493002OB4JCY0EO1N91"
+        },
+        {
+          "gx-participant:registrationNumberType": "EUID",
+          "gx-participant:registrationNumberNumber": "BEKBOBCE.0438.675.669"
+        },
+        {
+          "gx-participant:registrationNumberType": "local",
+          "gx-participant:registrationNumberNumber": "HRB 5920"
+        },
+        {
+          "gx-participant:registrationNumberType": "vatID",
+          "gx-participant:registrationNumberNumber": "DE 811 669 950"
+        }
+      ],
+      "gx-participant:blockchainAccountId": [
+        {
+          "gx-participant:blockchainAccountId": "0xFd1BEC7E551fAeA6102045D720dD693c4e9C8E06"
+        }
+      ],
+      "gx-participant:headquarterAddress": {
+        "gx-participant:addressCountryCode": "BE",
+        "gx-participant:addressCode": "BE-BRU",
+        "gx-participant:streetAddress": "Rue Picard 11",
+        "gx-participant:postalCode": "1000",
+        "gx-participant:locality": "Brussel"
+      },
+      "gx-participant:legalAddress": {
+        "gx-participant:addressCountryCode": "BE",
+        "gx-participant:addressCode": "BE-BRU",
+        "gx-participant:streetAddress": "Rue Picard 11",
+        "gx-participant:postalCode": "1000",
+        "gx-participant:locality": "Brussel"
+      },
+      "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T14:14:40.908Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:delta-dao.com",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..TiqLVvGGn2cfiPpw_XRHF5qnEdCf15vNcQFSpELYFQdegu9pVLCbQKmvh3Sm-7F6182CndKfvLpgSvtRC--xq26HcdFmAwE-lyTJMJz_Jj_-qCPqMOckineOB7mHsH28LwUlooZN4JCZ5H-9n5LdiTVIOcInO3Sq1dENSosomWRDRWXOt7U0aRpISeDx5_S0IH9JbL8KUNr7JQzNzn7bVOMiTOUtwGpT9O_mC7Yd4c4IMZnLqT0claQ1pdFl8qVwu_wnpXLl9Ujkre3IRhdTTAzAHVMCx0r8Qg0ehysYfOJ5mrRTG9rucz9MiWCJOx85j1RGjHA4bosqfyAn9ugI2w"
+    }
+  },
+  "complianceCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "ParticipantCredential"
+    ],
+    "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675520098909",
+    "issuer": "did:web:compliance.gaia-x.eu",
+    "issuanceDate": "2023-02-04T14:14:58.909Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantAccenture.json",
+      "hash": "ee9ff8bda11a55a97222e78e9185842da2a2e58e00407558e7e5185dd77970ed"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T14:14:58.909Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..GoCyBjlptGovclROwGLSabjcSGkxCKpPhWI3FzZHxf30J4pHwiwrEfJmEGLAU1V0l2e3oOrsrvAetMjizj5-UjjJ-7uuIsakClVCz9T9wCwYLkef9kcCAdeChL46znwBRHkn7yVP-pkymTLKSNaV-3c0ygw1nwOMkk3RAxYb59-4J6vBTnc9CpZ-ZF9KFHeNETPv17zCP3PEX7ewRxyyB2vXXetwMAyAP2S0R1RPNHe2fpuqSJRdh-0psh8FE67VpTfHIQI79xuYPCTi-uMGJJdhXM8R_CJdvYFC48Z2kEyctnWLW72s8YdZkHjJJhOPr__jbpQo-ncpVsoohH-zFw",
+      "verificationMethod": "did:web:compliance.gaia-x.eu"
+    }
+  }
+}
