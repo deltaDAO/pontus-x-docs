@@ -1,0 +1,83 @@
+{
+  "selfDescriptionCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://registry.gaia-x.eu/v2206/api/shape"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "LegalPerson"
+    ],
+    "id": "https://delta-dao.com/.well-known/participantBergerHolding.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2023-02-03T09:00:00.000Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantBergerHolding.json",
+      "gx-participant:legalName": "Berger Holding GmbH & Co. KG",
+      "gx-participant:registrationNumber": [
+        {
+          "gx-participant:registrationNumberType": "leiCode",
+          "gx-participant:registrationNumberNumber": "529900HQEMIHZOEDGK57"
+        },
+        {
+          "gx-participant:registrationNumberType": "local",
+          "gx-participant:registrationNumberNumber": "HRA10146"
+        },
+        {
+          "gx-participant:registrationNumberType": "vatID",
+          "gx-participant:registrationNumberNumber": "DE813000032"
+        }
+      ],
+      "gx-participant:blockchainAccountId": [
+        {
+          "gx-participant:blockchainAccountId": "0x2dB30B996C0E2990F836685Cf1A2939b3299f8e5"
+        }
+      ],
+      "gx-participant:headquarterAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-BY",
+        "gx-participant:streetAddress": "In der Neuen Welt 14",
+        "gx-participant:postalCode": "87700",
+        "gx-participant:locality": "Memmingen"
+      },
+      "gx-participant:legalAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-BY",
+        "gx-participant:streetAddress": "In der Neuen Welt 14",
+        "gx-participant:postalCode": "87700",
+        "gx-participant:locality": "Memmingen"
+      },
+      "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T15:32:14.273Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:delta-dao.com",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..JGf_Qaga-PQSYE9jfDcscXt1FukA9EOi_PyexhNsJZRnxSFCHpBQaUAWtx6-E3uOcsCMIOm1kY83rV9YCuit7QPGoqbRj2wrjxqDBNbIbXG9qVqjDP2HZA2wz9WMM1_Mz9CllqfaCtEXihRfRJsaXotpiB59JdxbCIaCkMZRiuA1-KTj6rVur91c_ZEnRXhrt7dkkjWaQ_EFIAitumgSY9ZifrzOtsqPJYt2JuVGyuKBcQAvXCadvw2J6cfu-XU0d6dXzZByVqrH7U5waKCiwcg6leo7XA7x2aYGJMjW6vJtRDS6E_DS_P9wGtrkDwdKc34Ep5S5dZVGIG-u5ulikA"
+    }
+  },
+  "complianceCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "ParticipantCredential"
+    ],
+    "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675524752517",
+    "issuer": "did:web:compliance.gaia-x.eu",
+    "issuanceDate": "2023-02-04T15:32:32.517Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantBergerHolding.json",
+      "hash": "d42490068f90ad3ec01989dd8f78124ef272bb7021ae9043a0b74ead160d2b6b"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T15:32:32.517Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..WIWgWL1AZZl02IAyBl0FPMdPhdLmp-p9w0xE-qJamX9-s9uyMmViWHlGT4VPJ8s1wPD8M5-wHiq64_FcVOwPU_OdT1YfPSSend65bQdYv4cVmxKfcIGzvp2tJajAkC7odl8dcc6xo1B7yHiqM3Jfk8fk81ZHxdAlMEtQRA6W468Nh3g2Ipreqn4jyY3uHmZrCl_iZI6OuhgWJBPKiLIr18Xq6J1VsRuJSxEPmmTpGX32CVO5f9wsz8JsaAiwweW-RiLejQo9HauwZI-CcRLqpdvHaUeAxKE82BEEhyQo21OO3C_2lilm6hPgzQROUsBuJR594OwYzwLAXgBhKq0Ofw",
+      "verificationMethod": "did:web:compliance.gaia-x.eu"
+    }
+  }
+}
