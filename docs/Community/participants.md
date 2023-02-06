@@ -52,7 +52,7 @@ title: Current Participants
 | Perpetuum Progress GmbH             | 0x2ee3c4F19f90237B7C45cfAD6B5dC4b5840563Ec | Participant   | https://delta-dao.com/.well-known/participantPerpetuumProgress.json  |
 | Mercedes-Benz Singapore Pte. Ltd.   | 0x203C7AA993EED06932FA327a192de9A8370b5Ab4 | Participant   | https://www.delta-dao.com/.well-known/participantMercedesBenzLtd.json |
 | Mercedes-Benz Singapore Pte. Ltd.   | 0x4d6240C7Ef355a2E85c13B26A49A35908ce853E5 | Participant   | https://www.delta-dao.com/.well-known/participantMercedesBenzLtd.json |
-| Höchstleistungsrechenzentrum Stuttgart (HLRS) | 0x6bF77769e84045a9EAC64573e70a5562457C52ad | Participant | https://hlrs.de/.well-known/participantHLRS01.json           |
+| Höchstleistungsrechenzentrum Stuttgart (HLRS) | 0x6bF77769e84045a9EAC64573e70a5562457C52ad | Participant | https://delta-dao.com/.well-known/participantHLRS.json        |
 | Ruhr-Universität Bochum             | 0x17c8D253443F9E7305A2539d7aF177B21aAD3355 | Participant   | https://delta-dao.com/.well-known/participantRuhrUniversityBochum.json |
 | north.io GmbH                       | 0xFDF411B7A23182e7F0a635bdF0d25f0fCb2aAf74 | Participant   | https://delta-dao.com/.well-known/participantNorthIO.json             |
 | CONTACT Software GmbH               | 0x3560626F234eD181E807E4e31ded56D9aca1ac58 | Participant   | https://delta-dao.com/.well-known/participantContactSoftware.json     |
