@@ -1,0 +1,99 @@
+{
+  "selfDescriptionCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://registry.gaia-x.eu/v2206/api/shape"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "LegalPerson"
+    ],
+    "id": "https://delta-dao.com/.well-known/participantFraunhoferIAIS.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2023-02-03T09:00:00.000Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantFraunhoferIAIS.json",
+      "gx-participant:legalName": "Fraunhofer-Institut für Intelligente Analyse- und Informationssysteme IAIS",
+      "gx-participant:registrationNumber": [
+        {
+          "gx-participant:registrationNumberType": "local",
+          "gx-participant:registrationNumberNumber": "VR 4461"
+        }
+      ],
+      "gx-participant:blockchainAccountId": [
+        {
+          "gx-participant:blockchainAccountId": "0x8BF36BEFC22a7b9c1a546139bFd4ae8420bcFf0e"
+        }
+      ],
+      "gx-participant:headquarterAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-BY",
+        "gx-participant:streetAddress": "Hansastraße 27c",
+        "gx-participant:postalCode": "80686",
+        "gx-participant:locality": "München"
+      },
+      "gx-participant:legalAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-NW",
+        "gx-participant:streetAddress": "Schloss Birlinghoven 1",
+        "gx-participant:postalCode": "53757",
+        "gx-participant:locality": "Sankt Augustin"
+      },
+      "gx-participant:parentOrganisation": {
+        "gx-participant:legalName": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung eingetragener Verein",
+        "gx-participant:registrationNumber": [
+          {
+            "gx-participant:registrationNumberType": "leiCode",
+            "gx-participant:registrationNumberNumber": "529900IU48N7TF5QC051"
+          }
+        ],
+        "gx-participant:headquarterAddress": {
+          "gx-participant:addressCountryCode": "DE",
+          "gx-participant:addressCode": "DE-BY",
+          "gx-participant:streetAddress": "Hansastraße 27c",
+          "gx-participant:postalCode": "80686",
+          "gx-participant:locality": "München"
+        },
+        "gx-participant:legalAddress": {
+          "gx-participant:addressCountryCode": "DE",
+          "gx-participant:addressCode": "DE-BY",
+          "gx-participant:streetAddress": "Hansastraße 27c",
+          "gx-participant:postalCode": "80686",
+          "gx-participant:locality": "München"
+        },
+        "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+      },
+      "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T15:26:16.685Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:delta-dao.com",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..NUMro0we1awOip89nqJwgGv-H1o4fskHn_UpzCv2bLxhq2isaGS8LvKxY29Jdgagfk6qcR7vAXODbU3MeB9JM-NpoKgEKuN0aGJslm_FnXDamaUWvu8gOO6AAZXsIi0kw16QY98eDBfzCuOn2YmL6sWYF7v-bMO9L1HbQgltrz5z49x-qBfXctnFPyI313-ejPCJTA13RdTaVVkzWxWeesZ5ll10QtF4_TPB6ERd3tbYmQm2fnFis51Bza2d7AbL9yoRuknH524eq6sXamtwQXHsGG8XZsXRwVs44abgAlrh00h-bDAnTXhsV5kfq3niWCQc64sfi98JVBnWTdXs3g"
+    }
+  },
+  "complianceCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "ParticipantCredential"
+    ],
+    "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675524394669",
+    "issuer": "did:web:compliance.gaia-x.eu",
+    "issuanceDate": "2023-02-04T15:26:34.669Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantFraunhoferIAIS.json",
+      "hash": "d7306784fcd768a10a92f999b272a0fde3c5947ecadb7aade2a2b89f677adffc"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T15:26:34.669Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..dHuxPHArOZVJqj7Ks_cfNaar_JnvPtwbI90kYyk3cqqyvySlT7rGSv31giBctTFrRHQ8-Y3P57ioCOVn-8XrcXASRn6pkiGtM3c2iKPeDgabepOORSyz1AQIhz2apXT9HR6ClOnd8Rx46SjG3I56BU3XdYpH_1fXOVAVfI31ePw8eNbxN0t9eam2OW1rv459gXVRa_uGQbTERpCi6mYr5uHqgZvMd80lAeFAKKJUR175zI7jreERKI5rVQ4Uj87xtudm2Ngezrp0LizwlL81pJS8UjAyxZR1axd-DJh3QE3C1UcdCy3rs8xLleTuWUkCm7W5BzjCmsGodp1MF-FQww",
+      "verificationMethod": "did:web:compliance.gaia-x.eu"
+    }
+  }
+}
