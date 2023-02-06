@@ -54,7 +54,7 @@ title: Current Participants
 | Mercedes-Benz Singapore Pte. Ltd.   | 0x4d6240C7Ef355a2E85c13B26A49A35908ce853E5 | Participant   | https://www.delta-dao.com/.well-known/participantMercedesBenzLtd.json |
 | Höchstleistungsrechenzentrum Stuttgart (HLRS) | 0x6bF77769e84045a9EAC64573e70a5562457C52ad | Participant | https://hlrs.de/.well-known/participantHLRS01.json           |
 | Ruhr-Universität Bochum             | 0x17c8D253443F9E7305A2539d7aF177B21aAD3355 | Participant   | https://delta-dao.com/.well-known/participantRuhrUniversityBochum.json |
-| north.io GmbH                       | 0x6bF77769e84045a9EAC64573e70a5562457C52ad | Participant   | https://delta-dao.com/.well-known/participantNorthIO.json             |
+| north.io GmbH                       | 0xFDF411B7A23182e7F0a635bdF0d25f0fCb2aAf74 | Participant   | https://delta-dao.com/.well-known/participantNorthIO.json             |
 | CONTACT Software GmbH               | 0x3560626F234eD181E807E4e31ded56D9aca1ac58 | Participant   | https://delta-dao.com/.well-known/participantContactSoftware.json     |
 | Universität Siegen                  | 0xF0926FbE8e60E54aFB4fD296B2698230ab32799b | Participant   |  https://delta-dao.com/.well-known/participantUniversitaetSiegen.json |
 | AWS-Institut für digitale Produkte und Prozesse gGmbH | 0xAA782a260Ad773bca5Ff0535356CB0F7B94Cd254 | Participant | https://delta-dao.com/.well-known/participantAWSi.json |
