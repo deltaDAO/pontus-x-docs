@@ -1,0 +1,107 @@
+{
+  "selfDescriptionCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://registry.gaia-x.eu/v2206/api/shape"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "LegalPerson"
+    ],
+    "id": "https://delta-dao.com/.well-known/participantFraunhoferIGD.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2023-02-03T09:00:00.000Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantFraunhoferIGD.json",
+      "gx-participant:legalName": "Fraunhofer IGD",
+      "gx-participant:registrationNumber": [
+        {
+          "gx-participant:registrationNumberType": "vatID",
+          "gx-participant:registrationNumberNumber": "DE129515865"
+        },
+        {
+          "gx-participant:registrationNumberType": "leiCode",
+          "gx-participant:registrationNumberNumber": "529900IU48N7TF5QC051"
+        }
+      ],
+      "gx-participant:blockchainAccountId": [
+        {
+          "gx-participant:blockchainAccountId": "0x632460b14aDd90aD9430e381B4662779cC1ab7a6"
+        }
+      ],
+      "gx-participant:headquarterAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-HE",
+        "gx-participant:streetAddress": "Fraunhoferstraße 5",
+        "gx-participant:postalCode": "64283",
+        "gx-participant:locality": "Darmstadt"
+      },
+      "gx-participant:legalAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-HE",
+        "gx-participant:streetAddress": "Fraunhoferstraße 5",
+        "gx-participant:postalCode": "64283",
+        "gx-participant:locality": "Darmstadt"
+      },
+      "gx-participant:parentOrganisation": {
+        "gx-participant:legalName": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung e.V",
+        "gx-participant:registrationNumber": [
+          {
+            "gx-participant:registrationNumberType": "vatID",
+            "gx-participant:registrationNumberNumber": "DE129515865"
+          },
+          {
+            "gx-participant:registrationNumberType": "leiCode",
+            "gx-participant:registrationNumberNumber": "529900IU48N7TF5QC051"
+          }
+        ],
+        "gx-participant:headquarterAddress": {
+          "gx-participant:addressCountryCode": "DE",
+          "gx-participant:addressCode": "DE-BY",
+          "gx-participant:streetAddress": "Hansastraße 27c",
+          "gx-participant:postalCode": "80686",
+          "gx-participant:locality": "München"
+        },
+        "gx-participant:legalAddress": {
+          "gx-participant:addressCountryCode": "DE",
+          "gx-participant:addressCode": "DE-BY",
+          "gx-participant:streetAddress": "Hansastraße 27c",
+          "gx-participant:postalCode": "80686",
+          "gx-participant:locality": "München"
+        },
+        "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+      },
+      "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T15:03:30.383Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:delta-dao.com",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..rL7PDBWQtrzhBVDcItWFkI0zOZ0S6BkXY-RxYt9dUOZrI7MThxH0mnEigt4gO9f4goZeln_SXVzDeggvDPju8F9eSw2RKsSi3ELMO34tYySgom4qrApsC2e2-7f8sOrPFk1QYSP6MslobT2ubkNbozdsvXRbjXZ72eLNTsiocMcyjotNE6rYxIye07dCMNKeNeT3uQXcgInIBVttpG-urtLZyOYL_-mbx_MqVbB4yRrbQYUA28N1wIsgs_6Z7oZ753kkul25DhBGrBPsvUtEJbSbU8zf5uzWc0yDH0WaJYQbE2a-ezU5GoTY5Dr8n8qXnXRbhsnKWHS5UCypSLmY-A"
+    }
+  },
+  "complianceCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "ParticipantCredential"
+    ],
+    "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675523028682",
+    "issuer": "did:web:compliance.gaia-x.eu",
+    "issuanceDate": "2023-02-04T15:03:48.683Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantFraunhoferIGD.json",
+      "hash": "8e13942e397b97de5e2b86fff11a9747f674b2cd4f0520e243d8b31fe4bee145"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T15:03:48.683Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..h3JPCfU025aTSLq8FY0-yMFZjbn1WIcHL26mHbSUrtz2xWQCKMH-bQ0mXjrBd220qamf_hWrXT9k64gJo-Tft0SOp8PdwgVe3emTNhaFFKGL4_dfAjZmintobgQRP6TeZ72xPdKZXr3p1IEhxchncXNFU_AVq68cz8XePDuPVlxmX4A6CHL_L_uJKPKxdW3MEkgYsjo4JX5F81h1gWrsLSc218AsUR36PfEoaOSkLrTKM7CBjdt6Wfx5x1XzoK-HPS2X1r7S6PRnOgvHSG1dgte_3P4AscGSfM-e2pCshdJzoQi5RHfMi_szOggqziGN-PWPnwCVll5t7pQzA-BM0A",
+      "verificationMethod": "did:web:compliance.gaia-x.eu"
+    }
+  }
+}
