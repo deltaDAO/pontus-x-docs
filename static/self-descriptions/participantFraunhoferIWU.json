@@ -1,0 +1,115 @@
+{
+  "selfDescriptionCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://registry.gaia-x.eu/v2206/api/shape"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "LegalPerson"
+    ],
+    "id": "https://delta-dao.com/.well-known/participantFraunhoferIWU.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2023-02-03T09:00:00.000Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantFraunhoferIWU.json",
+      "gx-participant:legalName": "Fraunhofer-Institut für Werkzeugmaschinen und Umformtechnik IWU",
+      "gx-participant:registrationNumber": [
+        {
+          "gx-participant:registrationNumberType": "leiCode",
+          "gx-participant:registrationNumberNumber": "529900IU48N7TF5QC051"
+        },
+        {
+          "gx-participant:registrationNumberType": "vatID",
+          "gx-participant:registrationNumberNumber": "DE129515865"
+        },
+        {
+          "gx-participant:registrationNumberType": "local",
+          "gx-participant:registrationNumberNumber": "VR 4461"
+        }
+      ],
+      "gx-participant:blockchainAccountId": [
+        {
+          "gx-participant:blockchainAccountId": "0x7bf493b142AB0bb37c7f766A1585245901891685"
+        }
+      ],
+      "gx-participant:headquarterAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-SN",
+        "gx-participant:streetAddress": "Reichenhainer Strasse 88",
+        "gx-participant:postalCode": "09126",
+        "gx-participant:locality": "Chemnitz"
+      },
+      "gx-participant:legalAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-BY",
+        "gx-participant:streetAddress": "Hansastraße 27 c",
+        "gx-participant:postalCode": "80686",
+        "gx-participant:locality": "München"
+      },
+      "gx-participant:parentOrganisation": {
+        "gx-participant:legalName": "Fraunhofer-Gesellschaft zur Förderung der angewandten Forschung eingetragener Verein",
+        "gx-participant:registrationNumber": [
+          {
+            "gx-participant:registrationNumberType": "leiCode",
+            "gx-participant:registrationNumberNumber": "529900IU48N7TF5QC051"
+          },
+          {
+            "gx-participant:registrationNumberType": "vatID",
+            "gx-participant:registrationNumberNumber": "DE129515865"
+          },
+          {
+            "gx-participant:registrationNumberType": "local",
+            "gx-participant:registrationNumberNumber": "VR 4461"
+          }
+        ],
+        "gx-participant:headquarterAddress": {
+          "gx-participant:addressCountryCode": "DE",
+          "gx-participant:addressCode": "DE-BY",
+          "gx-participant:streetAddress": "Hansastraße 27 c",
+          "gx-participant:postalCode": "80686",
+          "gx-participant:locality": "München"
+        },
+        "gx-participant:legalAddress": {
+          "gx-participant:addressCountryCode": "DE",
+          "gx-participant:addressCode": "DE-BY",
+          "gx-participant:streetAddress": "Hansastraße 27 c",
+          "gx-participant:postalCode": "80686",
+          "gx-participant:locality": "München"
+        },
+        "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+      },
+      "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T15:49:23.150Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:delta-dao.com",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ntPRTa0vGuKCMMaNCM6KFG56ehaw3-0YbfQzpzxIQ_pi4u1VSbz86UBthP8rv0CKxacdIQlVpKzdi-lS3903vt1yL04OennjAbeHwbKRClhh9ht9o17am4m25G7-ICAZ9Pvuz_0zvkDfo8iLuqAA8DHqcorMrHBKiruklB3ybSkMA_4ih1bqRI8Aooz5FMV4AO4MJvkJPrg8tphj_xtFFsYQkcr1qqjNVHJfI5UWN1BJkIU1sxO2mNxHM_BvDiU-v0Pqpknzi9rtZZMvDVN0XQ2nZppT3hDmJWhKeYW7-ImAPJpHnnyqOWxx2lOBSpMjPAzX6fL3hXWPEFFON4rdIQ"
+    }
+  },
+  "complianceCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "ParticipantCredential"
+    ],
+    "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675525780667",
+    "issuer": "did:web:compliance.gaia-x.eu",
+    "issuanceDate": "2023-02-04T15:49:40.667Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantFraunhoferIWU.json",
+      "hash": "207b8886332f6948788191cd9cb2393e430453a5c8c305974f79aa1fb34e17ab"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T15:49:40.667Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..CWjaIWbWMxMFLHxh4axMnFxlI39tJJrjbiu-VfDdmAVj51DIzoopY7juMm-bGhTF3GEE44hzWxD6gTSROztFtZBvPPL1qqfapZCSyjybUZYh23iX1phIQerOWQoPBDfDsuPbZ3zWodFH9I5TxKG7_nzVxZiGQLAqk-sVciDjUTHPQcmQ22LlFIHE9IXZtAbneeXt4EblcLTvOwRLGKgn504Icr7B3k5zZTCS5Woc_6DelFAXBC34pTI7mS411Q3fyN8lo5fxGPa8M2CMLoIi82LFXCZpYG9NTkUl_a8jRrqO1KbfplowYOWFv87NOwMdB5khYILpKDRsWaVmLL8yhA",
+      "verificationMethod": "did:web:compliance.gaia-x.eu"
+    }
+  }
+}
