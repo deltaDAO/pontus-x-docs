@@ -70,7 +70,7 @@ title: Current Participants
 | TrueOcean GmbH                      | 0xDFa29AE20eac7f203DdDbe15E1830985e99143B8 | Participant   | https://delta-dao.com/.well-known/participantTrueOcean.json              |
 | Institute for Language and Speech Processing | 0xFfA05d656465568BE83B11bf274c5458AC8401AC | Participant   | https://delta-dao.com/.well-known/participantILSP.json          |
 | Vicomtech                           | 0xb500BfE3d89b5D6b0d2b91841c3A3aD568Cb0FdC | Participant   | https://delta-dao.com/.well-known/participantVicomtech.json              |
-| Fraunhofer IAIS                     | 0x8BF36BEFC22a7b9c1a546139bFd4ae8420bcFf0e | Participant   |  participantFraunhoferIAIS.json                                          |
+| Fraunhofer IAIS                     | 0x8BF36BEFC22a7b9c1a546139bFd4ae8420bcFf0e | Participant   | https://delta-dao.com/.well-known/participantFraunhoferIAIS.json         |
 | Berger Holding GmbH & Co. KG        | 0x2dB30B996C0E2990F836685Cf1A2939b3299f8e5 | Participant   | https://delta-dao.com/.well-known/participantBergerHolding.json          |
 | Christoph Kroschke GmbH             | 0x224482ebcf914b9FA9E312036B377e26B676E534 | Participant   | https://kroschke.de/.well-known/participantKroschke.json                 |
 | Brinkhaus GmbH                      | 0xD580c01E2f503287006138a94eBBc537Fe7eBD25 | Participant   | https://delta-dao.com/.well-known/participantBrinkhausGmbH.json          |
