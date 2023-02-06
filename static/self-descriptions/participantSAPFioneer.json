@@ -1,0 +1,87 @@
+{
+  "selfDescriptionCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://registry.gaia-x.eu/v2206/api/shape"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "LegalPerson"
+    ],
+    "id": "https://delta-dao.com/.well-known/participantSAPFioneer.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2023-02-03T09:00:00.000Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantSAPFioneer.json",
+      "gx-participant:legalName": "SAP Fioneer GmbH",
+      "gx-participant:registrationNumber": [
+        {
+          "gx-participant:registrationNumberType": "leiCode",
+          "gx-participant:registrationNumberNumber": "39120052GCF4PK83ON81"
+        },
+        {
+          "gx-participant:registrationNumberType": "EUID",
+          "gx-participant:registrationNumberNumber": "DEB8535.HRB741301"
+        },
+        {
+          "gx-participant:registrationNumberType": "local",
+          "gx-participant:registrationNumberNumber": "HRB741301"
+        },
+        {
+          "gx-participant:registrationNumberType": "vatID",
+          "gx-participant:registrationNumberNumber": "DE342249285"
+        }
+      ],
+      "gx-participant:blockchainAccountId": [
+        {
+          "gx-participant:blockchainAccountId": "0xEEe803bEFd2B4f229E57523Edb11CDE38DD1a23E"
+        }
+      ],
+      "gx-participant:headquarterAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-BW",
+        "gx-participant:streetAddress": "Dietmar-Hopp-Allee 14",
+        "gx-participant:postalCode": "69190",
+        "gx-participant:locality": "Walldorf"
+      },
+      "gx-participant:legalAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-BW",
+        "gx-participant:streetAddress": "Dietmar-Hopp-Allee 14",
+        "gx-participant:postalCode": "69190",
+        "gx-participant:locality": "Walldorf"
+      },
+      "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T15:56:21.352Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:delta-dao.com",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..qMGKfbFs6wP20MCXsOQyyYSR7-xLTCfvImYgyhLzkiWbMn6WNGYeRSeBs3ypF-__XPqzTn5eiLrnsMhMYsJiYYtC7Ao5wThht3ONNiXdWI8vTmWbXwZpgcW_doAIdONCedx7tikJLbDdIykOBKnoGYGrxz3Yja0cfqha7hCGN6WxSRdpv6HXDJNOATt95qjHk8KrUffbzh4XJkNOve2cBgWKgkbiSX0hJ_n2tiicgNGPiC-mLQDqSyEF1-pezpf7RQ6RyBmSfoCl2OeYSxiWJ4yuOPWS0-wr603pe3SCE1BIZrM4noHsEg_n-kRZqGIPAbQHKBraBVwa-uRNyJRyaA"
+    }
+  },
+  "complianceCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "ParticipantCredential"
+    ],
+    "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675526198800",
+    "issuer": "did:web:compliance.gaia-x.eu",
+    "issuanceDate": "2023-02-04T15:56:38.800Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantSAPFioneer.json",
+      "hash": "000f93beb616d81b6ffed337f883860d091f2677d09e542a2c15448e5a5682a3"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T15:56:38.800Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..PdfdnqlaW09QN3r_yO0QMe1yDG7-F0kNCGu8YAbHLsBBJEcv5Ts7SqcqpYQEQlvFZI6z2hhmRygpYMndJ8YSb0qDXSSAE-J-atDHSdTueng1mgIXV_M40V8v6PyYFeSEYJ-RPzqzziv5C8TWRTP5D2xlJGZJvKifBEQl2ByBvdaHHuhH3d8AfCs2IagHAWYjmDObmyA8fcWZjPVRpC1V-wm4vZXadzmmBPun8u5eVnQWFTf5rzQUl3euq2irKNjzxeF5HzXBIaB-5EW_w5cdaK93de0bFQ4y8L4UniVLfz9EyjGZyjhjFQb9Cx9qxLpoaAeaKEzJRCCYtKG2cvUMcA",
+      "verificationMethod": "did:web:compliance.gaia-x.eu"
+    }
+  }
+}
