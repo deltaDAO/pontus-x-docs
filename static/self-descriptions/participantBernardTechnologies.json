@@ -1,0 +1,83 @@
+{
+  "selfDescriptionCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://registry.gaia-x.eu/v2206/api/shape"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "LegalPerson"
+    ],
+    "id": "https://delta-dao.com/.well-known/participantBernardTechnologies.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2023-02-03T09:00:00.000Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantBernardTechnologies.json",
+      "gx-participant:legalName": "Bernard Technologies GmbH",
+      "gx-participant:registrationNumber": [
+        {
+          "gx-participant:registrationNumberType": "local",
+          "gx-participant:registrationNumberNumber": "HRB 243269"
+        },
+        {
+          "gx-participant:registrationNumberType": "vatID",
+          "gx-participant:registrationNumberNumber": "DE321601995"
+        },
+        {
+          "gx-participant:registrationNumberType": "EORI",
+          "gx-participant:registrationNumberNumber": "DE845043863601279"
+        }
+      ],
+      "gx-participant:blockchainAccountId": [
+        {
+          "gx-participant:blockchainAccountId": "0x5101ea56E29f5dc03285809b6157f0588ff255D0"
+        }
+      ],
+      "gx-participant:headquarterAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-BY",
+        "gx-participant:streetAddress": "Josef-Felder-Str. 53",
+        "gx-participant:postalCode": "81241",
+        "gx-participant:locality": "München"
+      },
+      "gx-participant:legalAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-BY",
+        "gx-participant:streetAddress": "Josef-Felder-Str. 53",
+        "gx-participant:postalCode": "81241",
+        "gx-participant:locality": "München"
+      },
+      "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T14:55:38.008Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:delta-dao.com",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..rfTOb7KtuRx81crWVk3qhBKNH-8k6KPqVy33iiQ187fRuS0N5mLw9rZl0u-lyIsuP963q02414P_bkpRei9GYse54yxrMQs6ya1XVKyHMnFEqtCNX5FUzAbAXYfDjVh9zWoDRvCpM7zHATbf5Z2r9SQeE8bS6X2yKyDUHifmw4LadQ07sPk_QaZ3anT8AL7MjxKLU_8A5UdRN5QjK1WeNNLSSRwgHJKFp_zeRnxfS6_Lme7QO2zf8sZhPKGbRMU_KvhjlCfBE9SIWUSek0IuNVo_gwcLb6RwmQ1SMQskHmTSh78Mqo2HqHbDsSvDIteYjdDy_FrVmPgN5lfJ4yQxJg"
+    }
+  },
+  "complianceCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "ParticipantCredential"
+    ],
+    "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675522556307",
+    "issuer": "did:web:compliance.gaia-x.eu",
+    "issuanceDate": "2023-02-04T14:55:56.307Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantBernardTechnologies.json",
+      "hash": "c28e5d41abd7a2f4fdba89ce4cb20ffdf26e7f4722ca29f8c61e493e55dfc310"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T14:55:56.307Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..K3U_CRCN6-62IQ9MlZ5xVUyhZmInuu2D5eJa0UmtTU1co3mq0wIJBEsUme48thLfS0FIFRvdLzTZQ5X98jdpRKZ2Y6uyTXDriVXf9np_Qrn-drU_EGadvgsueKfe8J4yHJATboh0KBeizlds7JiYTizdywablve4HPlTE-H5Jic7_ZlfvfM2eJ1dt2pMvtnrUxQI5WqsNvX6hVhyJna5qUeH4Go2U7q9q0cJyS2JaIfBOze6WEsj1_qxUsx9G34C13H0lVjJr0zbhYHgDhXAQAJAKeJJLNH4jKaZc3_Bo6ZRji91T9Wr-v6rTNgyvPGDd-7uYbaMd4ky9prngGBOdw",
+      "verificationMethod": "did:web:compliance.gaia-x.eu"
+    }
+  }
+}
