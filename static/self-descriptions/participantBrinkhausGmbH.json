@@ -1,0 +1,79 @@
+{
+  "selfDescriptionCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://registry.gaia-x.eu/v2206/api/shape"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "LegalPerson"
+    ],
+    "id": "https://delta-dao.com/.well-known/participantBrinkhausGmbH.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2023-02-03T09:00:00.000Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantBrinkhausGmbH.json",
+      "gx-participant:legalName": "Brinkhaus GmbH",
+      "gx-participant:registrationNumber": [
+        {
+          "gx-participant:registrationNumberType": "vatID",
+          "gx-participant:registrationNumberNumber": "DE327832140"
+        },
+        {
+          "gx-participant:registrationNumberType": "local",
+          "gx-participant:registrationNumberNumber": "HRB 219360"
+        }
+      ],
+      "gx-participant:blockchainAccountId": [
+        {
+          "gx-participant:blockchainAccountId": "0xD580c01E2f503287006138a94eBBc537Fe7eBD25"
+        }
+      ],
+      "gx-participant:headquarterAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-NI",
+        "gx-participant:streetAddress": "Schneekoppenweg 6",
+        "gx-participant:postalCode": "30916",
+        "gx-participant:locality": "Isernhagen"
+      },
+      "gx-participant:legalAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-NI",
+        "gx-participant:streetAddress": "Schneekoppenweg 6",
+        "gx-participant:postalCode": "30916",
+        "gx-participant:locality": "Isernhagen"
+      },
+      "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T15:37:57.007Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:delta-dao.com",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..HsKPfc26IhxJqmtOXSuUR-igq0lLj-EwB2-8RioD6FXx7CKj0IgUjj6oOMAiS6-fiIIZJ8sRtqp9CKVQTF7FPRJJU6J4fXPFh6_4b_uurQBGr0PHsoVk0vsmOdeEdV85LrD2p9szJk3rMPKkef1lmFMg0mrRkQoBfRJMnckUeTcFgYnzSC2h3Fv2HsUoJobL55keytTnBBg9h8MU3AEIuFMVWo4rK0uzsqxGfVmo3thRyEmkE30wZJDRb1pg7JK53w8hsgHQv3phEoA1AHlc3FftGCVrakKt6T4LWoGrMbkHd5Zs1tah57cwOIw6ytmEf7sRmzoCq4ZR_O3zuCmzDw"
+    }
+  },
+  "complianceCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "ParticipantCredential"
+    ],
+    "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675525095462",
+    "issuer": "did:web:compliance.gaia-x.eu",
+    "issuanceDate": "2023-02-04T15:38:15.462Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantBrinkhausGmbH.json",
+      "hash": "6c5b6afb410cd00e4105389a8a3299cc842859efb6c76e074ba4b3bed5655fa6"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T15:38:15.462Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Pv4rD_FlXL99-nRB5p1ivz-mWSuSkltGdW_lTpseFUwS1F9oazywyDY_KDkSjd87jXshx2P6gHEcU1diXw_ZllB2iS_5P4HI0GTGFuNazP8Na5CZBDnrbxqksxnwvnzZOUK0WIe_ICBDYpGatM6-Y8ZxSORoEvXqtXe9iJhu4gGpme9S7qqpX3X3MUQb7WyTYgjMbNU5C54eWyKLKM_eH2IhVDSO1t-j8hoyGW8srIMnG1DxyFMPhxSbVyOmUBVMf-fZAkaDekIhLFGB_V0A2Q1oKtNPexcJrflP_-EWUbY1v4P7ZGCmN2vbONIZTT_3pPUJcexn0dak1lpPADhb3A",
+      "verificationMethod": "did:web:compliance.gaia-x.eu"
+    }
+  }
+}
