@@ -1,0 +1,75 @@
+{
+  "selfDescriptionCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://registry.gaia-x.eu/v2206/api/shape"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "LegalPerson"
+    ],
+    "id": "https://delta-dao.com/.well-known/participantVicomtech.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2023-02-03T09:00:00.000Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantVicomtech.json",
+      "gx-participant:legalName": "Fundación Centro de Tecnologías de Interacción Visual y Comunicaciones Vicomtech",
+      "gx-participant:registrationNumber": [
+        {
+          "gx-participant:registrationNumberType": "vatID",
+          "gx-participant:registrationNumberNumber": "ESG75051912"
+        }
+      ],
+      "gx-participant:blockchainAccountId": [
+        {
+          "gx-participant:blockchainAccountId": "0xb500BfE3d89b5D6b0d2b91841c3A3aD568Cb0FdC"
+        }
+      ],
+      "gx-participant:headquarterAddress": {
+        "gx-participant:addressCountryCode": "ES",
+        "gx-participant:addressCode": "ES-PV",
+        "gx-participant:streetAddress": "Paseo Mikeletegi 57",
+        "gx-participant:postalCode": "20009",
+        "gx-participant:locality": "San Sebastian"
+      },
+      "gx-participant:legalAddress": {
+        "gx-participant:addressCountryCode": "ES",
+        "gx-participant:addressCode": "ES-PV",
+        "gx-participant:streetAddress": "Paseo Mikeletegi 57",
+        "gx-participant:postalCode": "20009",
+        "gx-participant:locality": "San Sebastian"
+      },
+      "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T15:13:15.371Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:delta-dao.com",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Rf7wakF3-AiAEB8kC0qM81PfQh8P1uaSlJiSX7RcWMxgGwYz3DfjxRZwKxBsil4JTMUkeD08Gd0kxtnvIyF1B3tNKxQPBUIWDLn4UMKbVeqmXfucdXbFbupYQO-MkpM2Rh7tXBx_PqzON6HjD4ZHtzRbTtjrRjHeVOiQlVR0Sqa-AUbmAlO2OmefQJ4Ls8myNE4_1pBJZkJp3PQum4WYiH6VX0yWVfqqB4s3FYPO0QqeiSzFsB-NqCon0IF9bJWBGOvI_Hc70MrCyW3GAR7LnV3nktGlikaOxX8hRcGeRPHYNa8d_v6RmgzUXIROvPP-Ly6Cf4gNRjBr2WczlSS9ng"
+    }
+  },
+  "complianceCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "ParticipantCredential"
+    ],
+    "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675523613482",
+    "issuer": "did:web:compliance.gaia-x.eu",
+    "issuanceDate": "2023-02-04T15:13:33.482Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantVicomtech.json",
+      "hash": "7ac7251ddfe380c5fb613eae9fc7c6b5ae228077c6a4b7e382ec7ac12ab558e9"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T15:13:33.482Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ZQhvJl5byFy7ToHhjdTsjut1XQevizufrj8V4-dmzXmNH4mrsbkK-C6xYjJrWS2iC-0BnqfFtsYuussXEL7mIlvl_DIby8fXoRvuYaWkYk1OgO9Y7Bl5903vM1--2BsGrbrwuXcJiz_FS1er89Jm0hTlBlQVRFdc38TS0x2OCRbMIURb8at-oBydXLZTtEnepP244LJvFU3eFzFKE1ZsWqfw700oitUr9o6dYSTmslBrn5T5KGUO_69WpkOn8JwUdhWQbvztfAA7KOdNubKv7l-Q-scb5lAhK1h2SVhzQC-Lp4OMxQBFLYaN3JT9ynPUreVvEbUVgv8h5s0r4_EBTQ",
+      "verificationMethod": "did:web:compliance.gaia-x.eu"
+    }
+  }
+}
