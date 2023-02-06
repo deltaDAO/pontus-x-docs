@@ -1,0 +1,83 @@
+{
+  "selfDescriptionCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://registry.gaia-x.eu/v2206/api/shape"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "LegalPerson"
+    ],
+    "id": "https://delta-dao.com/.well-known/participantKroschke.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2023-02-03T09:00:00.000Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantKroschke.json",
+      "gx-participant:legalName": "Christoph Kroschke GmbH",
+      "gx-participant:registrationNumber": [
+        {
+          "gx-participant:registrationNumberType": "leiCode",
+          "gx-participant:registrationNumberNumber": "529900TZT1B62QTQIS86"
+        },
+        {
+          "gx-participant:registrationNumberType": "local",
+          "gx-participant:registrationNumberNumber": "HRB9417HL"
+        },
+        {
+          "gx-participant:registrationNumberType": "vatID",
+          "gx-participant:registrationNumberNumber": "DE811887896"
+        }
+      ],
+      "gx-participant:blockchainAccountId": [
+        {
+          "gx-participant:blockchainAccountId": "0x224482ebcf914b9FA9E312036B377e26B676E534"
+        }
+      ],
+      "gx-participant:headquarterAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-SH",
+        "gx-participant:streetAddress": "Ladestrasse 1",
+        "gx-participant:postalCode": "22926",
+        "gx-participant:locality": "Ahrensburg"
+      },
+      "gx-participant:legalAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-SH",
+        "gx-participant:streetAddress": "Ladestrasse 1",
+        "gx-participant:postalCode": "22926",
+        "gx-participant:locality": "Ahrensburg"
+      },
+      "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T15:36:30.121Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:delta-dao.com",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..IH3zSwouoWJXbAzgR1QpOrZVZCAc4m5Su7Dp2m088jusdWe5Ti0BJviuhSwO-mfnN9nHmh0vz3UUGf640mZSabnLHUKZ1iO-eVw66t9R1HM7Pri6c6IrJzpEkFiI6ylVzVMedCIyur337dblmzvkBC57czHMsBuE09jOJmGuaETHTAAfIe8KZg2xlpvwmTfK7NGVfu2YQgHg_zYBwLqNA-FG5HSYJ_KjQNFjvkKy6lvYMmJnMFBFYmXGRxaaebm1D6c5Ku86biW1nXGXCuVpVJaQtCN3DDwEl0l-v5M4uOO25C8yTv0h4aAMpfogEc0qTXH5JW2k3S_HmOZU1aLCAg"
+    }
+  },
+  "complianceCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "ParticipantCredential"
+    ],
+    "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675525009121",
+    "issuer": "did:web:compliance.gaia-x.eu",
+    "issuanceDate": "2023-02-04T15:36:49.121Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantKroschke.json",
+      "hash": "31b91c8105910a3fcab14c85a0f5644650791e9839a75d6d8eeb44e4074d2ecf"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T15:36:49.121Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..L4azUYIR9r1xYwGE1PLYxpvFMsW-_bW5EhfGzRYlvMnNAvYA_SL-Ie6wMv_3zKbm5cv2XjzvU82Fj1eRe6sQA7R2wB-Y74jiTSFuXctg6Uf4R1CXqHV3ZrOSCATLHgvgqsI8woIvKrKEP82IWW_wPxwVfR9W4-jXN7u3BsQL-W2xyhhLXHu6qEwHM7sQmqnV1D0dHn704SkTZyxR9iiwKEcxEAUkZm12kpgj475E7W8ZaZhWpIbP9IzbWN-Y6-ii-t_p5AOSEpXjpuVJ9-OU3_1Cig5L9s4eJ_0lrOT-JgIvduuQIPUAghUpiGz4kKNfsaXChKQuc-M0KdcLE7Is-g",
+      "verificationMethod": "did:web:compliance.gaia-x.eu"
+    }
+  }
+}
