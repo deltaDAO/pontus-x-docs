@@ -1,0 +1,83 @@
+{
+  "selfDescriptionCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://registry.gaia-x.eu/v2206/api/shape"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "LegalPerson"
+    ],
+    "id": "https://delta-dao.com/.well-known/participantDFKI.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2023-02-03T09:00:00.000Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantDFKI.json",
+      "gx-participant:legalName": "Deutsches Forschungszentrum für Künstliche Intelligenz GmbH",
+      "gx-participant:registrationNumber": [
+        {
+          "gx-participant:registrationNumberType": "leiCode",
+          "gx-participant:registrationNumberNumber": "3912001EOIALNFMEBT29"
+        },
+        {
+          "gx-participant:registrationNumberType": "local",
+          "gx-participant:registrationNumberNumber": "HRB 2313"
+        },
+        {
+          "gx-participant:registrationNumberType": "vatID",
+          "gx-participant:registrationNumberNumber": "DE 148 646 973"
+        }
+      ],
+      "gx-participant:blockchainAccountId": [
+        {
+          "gx-participant:blockchainAccountId": "0x8B7f2b75B7F87D3125C8B0eDB85639B441BBcE21"
+        }
+      ],
+      "gx-participant:headquarterAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-RP",
+        "gx-participant:streetAddress": "Trippstadter Str. 122",
+        "gx-participant:postalCode": "67663",
+        "gx-participant:locality": "Kaiserslautern"
+      },
+      "gx-participant:legalAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-RP",
+        "gx-participant:streetAddress": "Trippstadter Str. 122",
+        "gx-participant:postalCode": "67663",
+        "gx-participant:locality": "Kaiserslautern"
+      },
+      "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T15:05:12.806Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:delta-dao.com",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..R3a3RBTwtzcDCzDcc5BhhIgdd3EnapNCHyvCMlcfvU-1AabbmAyFmVebPlKBPvWxAWK4uApgmSQU9P3MFSDeGFdPX9105217CCXamubUm0jzBQeZM_xvSYTjlQg7LMDYMBZoBfMFYStbHtEHolJBAp1kcXDsuTazQ8bf3Exq8MPV2s4x-91I1-C0wHtGW3mRAaL2gHLFSvnhhRo8Pn2g8DY2MsX3yqJykesjOYirRo06_XJog5oj2WwI44xVWxzlCD1FVT4WI5PsAZcvQrk9DGAm0ALi36GQcUHFfeKbsHMb1HLZ40ZQd6v0Oyao0_AWk2MjVufHXA-6SJyDVGxNJw"
+    }
+  },
+  "complianceCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "ParticipantCredential"
+    ],
+    "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675523130758",
+    "issuer": "did:web:compliance.gaia-x.eu",
+    "issuanceDate": "2023-02-04T15:05:30.758Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantDFKI.json",
+      "hash": "e637a25a8224d963e957cfa9c4e35dd99da2dfc637e252b95961ddb0f2826c6e"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T15:05:30.758Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..oQ76RDnqWgOE-S_hpDME8VVA_nrRSBmfuzg3DRbMKQ1YGtS1vnhRWKMKhanblE5yJlKVC1ZW9k9p3Yh1YLN5mSbUhN3b0J7S5b_PIWuRH4jYnKJq4tWu_awDiTw2jhUXjnBrF76pM-L-TdCDTQGMZ42NbOjNgoHbG4Jxs_QUQWmb_VQRgHLTK5t0l-2RfnbgaYs5FeukE9EdxANABc9SSrPd6LAPEUE3adOpRTkGy90W3sTxX9C_wp0qA1gENTNJGAPygPh8WTIwNWlqG2q_-JEh_gbORekOKgArNFYJA48SulRxWNqeRzF_MO1oHjs8n5m012YCGbRIrmnz7c_0fg",
+      "verificationMethod": "did:web:compliance.gaia-x.eu"
+    }
+  }
+}
