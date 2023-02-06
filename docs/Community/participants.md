@@ -40,9 +40,10 @@ title: Current Participants
 | Craftworks                          | 0x9dfbda23b65efB1c836828D74a96eB8528A60f3C | Participant   | https://craftworks.euprogigant.io/sd/participant.json                |
 | Concircle Österreich GmbH           | 0xb2AF8b92bFaC5299Cb6EDEf16150BFD1d4d26a93 | Participant   | https://delta-dao.com/.well-known/participantConcircleAustria.json   |
 | Software AG                         | 0xa702032E187E6A53EAddC28a735B414220712689 | Participant   | https://sagresearch.de/.well-known/participantSoftwareAG.json        |
-| DENSO AUTOMOTIVE Deutschland GmbH   | 0x2b92BF0496B7B41ea2d723325DDE96651795c784 | Participant   |                                                                      |
+| DENSO AUTOMOTIVE Deutschland GmbH   | 0x2b92BF0496B7B41ea2d723325DDE96651795c784 | Participant   | https://delta-dao.com/.well-known/participantDenso.json              |
+| DENSO AUTOMOTIVE Deutschland GmbH   | 0xe761F8e33c71D08A9323Cb2c711aB4Fae2634276 | Participant   | https://delta-dao.com/.well-known/participantDenso.json              |
 | Struggle Creative Oy                | 0x895975869261A215813e33568a295F94A3F301ed | Participant   | https://delta-dao.com/.well-known/participantStruggle.json           |
-| Sphereon                            |                                            | Participant   |                                                                      |
+| Sphereon                            | 0xDa4fc9E82Ac4E44207a1f74137493D3437D80761 | Participant   |                                                                      |
 | Austrian Institute of Technology    | 0xfc739f2F91921eb710878ad2Ca38C147a784C96f | Participant   | https://delta-dao.com/.well-known/participant.json                   |
 | acatech                             | 0xF62bF6371Ee020Cb2164Ac3C338514DBbb93A0D4 | Participant   | https://delta-dao.com/.well-known/participantAcatech.json            |
 | Spanish Ministry of Economic Affairs and Digital Transformation| 0x6E1cE3530A12F89cF567788C132454E5dC7D3cCE |Participant| https://delta-dao.com/.well-known/participantspanishministryofeconomicaffairs.json.json |
