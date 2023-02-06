@@ -1,0 +1,83 @@
+{
+  "selfDescriptionCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://registry.gaia-x.eu/v2206/api/shape"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "LegalPerson"
+    ],
+    "id": "https://delta-dao.com/.well-known/participantNeueTechnologie.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2023-02-03T09:00:00.000Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantNeueTechnologie.json",
+      "gx-participant:legalName": "NT Neue Technologie AG",
+      "gx-participant:registrationNumber": [
+        {
+          "gx-participant:registrationNumberType": "leiCode",
+          "gx-participant:registrationNumberNumber": "391200ZZA2IHYVE9PE62"
+        },
+        {
+          "gx-participant:registrationNumberType": "EUID",
+          "gx-participant:registrationNumberNumber": "DEY1206.HRB111895"
+        },
+        {
+          "gx-participant:registrationNumberType": "local",
+          "gx-participant:registrationNumberNumber": "HRB 111895"
+        }
+      ],
+      "gx-participant:blockchainAccountId": [
+        {
+          "gx-participant:blockchainAccountId": "0xb828bA1850aA11daA1890896573Aa6008221A671"
+        }
+      ],
+      "gx-participant:headquarterAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-TH",
+        "gx-participant:streetAddress": "Peterstrasse 1",
+        "gx-participant:postalCode": "99084",
+        "gx-participant:locality": "Erfurt"
+      },
+      "gx-participant:legalAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-TH",
+        "gx-participant:streetAddress": "Peterstrasse 1",
+        "gx-participant:postalCode": "99084",
+        "gx-participant:locality": "Erfurt"
+      },
+      "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T15:59:20.897Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:delta-dao.com",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..FGB_kSCBlN6fVQdNEXw5V2w3UghjCpyAPbXa4ZLs1gHHt8KCkh8LmwI7-BdH-PctdtbYYkLONzCGYsjui7j5uB2-7ID1qnKhomLSm144zmVW6wq5oy4NLQnvKvkIkuu1Nc9kUASqW_1WQZvxHDsfjsmeAMkm5r96Ex-EK_aY7OntpLQsvtpcrnASWtCnqxiIUQuttT_IjeO1bi4jqxzaNnYxwV7N7WVsh1nKTyko-wBdli0I0j5OCUmSECEyMUT-lyD1FwsVL-Edq4_n81Fm9r1bB3n8XyThoezNs3-9BVArCkOLgcUA3pyIojN_dn_wfZBTYIodpRfTYWOdakeaIQ"
+    }
+  },
+  "complianceCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "ParticipantCredential"
+    ],
+    "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675526377934",
+    "issuer": "did:web:compliance.gaia-x.eu",
+    "issuanceDate": "2023-02-04T15:59:37.934Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantNeueTechnologie.json",
+      "hash": "b2794563ab45458201c49209df3e56d136af81fd2ab745716352c86a8087b8de"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T15:59:37.934Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..MyDPFw4EcvWITxqf37wyh8Qf4WoRGUGWZbX5dsyNZu-07lQoVJ4qdehFnCTvvWO-g32CLgVsWJ0cQ8O8G0BiX1LscbDkH3i06KssqiJDSdgzsaN7FxvC8hfsDQlKH7prG5J4Umc4ycIR5z9iEilTWkuzNpB7PfmN8X3pp2XNQege8WfpSJou-6QQocUKeUGwZ3RAfzITxNPJdfg3wJZWR18qgHH_l_PrVV3KG2e8UC1Hk3zWgPSQ75ySTixYFJdTi7zaP8gDOYHLwGuuFyI9LegAQuDsnL8o6WI_Rl7Ocmgm-GA8gNcBTjs4eSfYmsYvhgkyz-KJ_2tuXC-1NetscA",
+      "verificationMethod": "did:web:compliance.gaia-x.eu"
+    }
+  }
+}
