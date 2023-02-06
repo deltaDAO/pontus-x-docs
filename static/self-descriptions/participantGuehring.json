@@ -1,0 +1,79 @@
+{
+  "selfDescriptionCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://registry.gaia-x.eu/v2206/api/shape"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "LegalPerson"
+    ],
+    "id": "https://delta-dao.com/.well-known/participantGuehring.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2023-02-03T09:00:00.000Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantGuehring.json",
+      "gx-participant:legalName": "Gühring KG",
+      "gx-participant:registrationNumber": [
+        {
+          "gx-participant:registrationNumberType": "leiCode",
+          "gx-participant:registrationNumberNumber": "529900BE49RD9BY60A71"
+        },
+        {
+          "gx-participant:registrationNumberType": "vatID",
+          "gx-participant:registrationNumberNumber": "DE144838902"
+        }
+      ],
+      "gx-participant:blockchainAccountId": [
+        {
+          "gx-participant:blockchainAccountId": "0x4B107057aB8278c7d9436bf76230d16e5F7BaD16"
+        }
+      ],
+      "gx-participant:headquarterAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-BW",
+        "gx-participant:streetAddress": "Herderstraße 50-54",
+        "gx-participant:postalCode": "72458",
+        "gx-participant:locality": "Albstadt"
+      },
+      "gx-participant:legalAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-BW",
+        "gx-participant:streetAddress": "Herderstraße 50-54",
+        "gx-participant:postalCode": "72458",
+        "gx-participant:locality": "Albstadt"
+      },
+      "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T15:45:20.565Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:delta-dao.com",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..q-fftKAxHVMteR_pGm89K0TICGP-nfX52-WQdSUPJ6ZnkXHVwoev-CvKbUnP_D8FluQ5GKsFA9G-alVIC97YITf8105u7SsBVEnsB6S-aqkn04m2ynbiw4v88Jh4l4iilyrhZ4a8x8k4gzGGpj16yUoV4r8rqI7TJvckCxiFX1nrgM-kkPGISNltWOxBHoYchA0IOVdMFCwVF0D7gii3focMakue0n6DWPum_-g0gckAs4d6mJWJsy8hV9v0ecr12mA3T-8S7-rzy3rlWGAM2KmisBNa3rap2wvsRyBALMyJiixQwrvZ0j8yDIjyrAMumnNIYHimPzbU2nJN-z7JYA"
+    }
+  },
+  "complianceCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "ParticipantCredential"
+    ],
+    "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675525537950",
+    "issuer": "did:web:compliance.gaia-x.eu",
+    "issuanceDate": "2023-02-04T15:45:37.950Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantGuehring.json",
+      "hash": "ab370b116f70cd092544e83f536366f3cdc36c2e64cb5725274124715a8b9d07"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T15:45:37.950Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..FU0mt0Y_3i66l47WKzA5HGzcVIYFmTBb5ur7YAofAE-U3QamKJ6O6AgpIQ3g2aHy_62zM913_Bfh8UXj7X5_XZXejXjmK5DIVzX64-LuTK7XR59UnXCRv-WBXT3dUkzjQxmfE3bTcq11XqjyZiPGoqleERg1CjhoYkRy6Ag2X1VY2CEEPsqiZQf_B5acg_saex9tY7yVaCay6NrGakSQx0pQITv7FQ9AuMYVQhByEI1KJ0ANMUqPIp82Lf3sINIDqmZLBbyXuvayt5OZXzfD0eNZhoUq3eTcUQdFX-Vim001egQPYtpuF51TVRdD_YD8Yghrq-krLwVV_SaNDPcJuA",
+      "verificationMethod": "did:web:compliance.gaia-x.eu"
+    }
+  }
+}
