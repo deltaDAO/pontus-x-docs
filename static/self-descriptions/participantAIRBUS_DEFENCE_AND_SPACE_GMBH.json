@@ -1,0 +1,99 @@
+{
+  "selfDescriptionCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://registry.gaia-x.eu/v2206/api/shape"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "LegalPerson"
+    ],
+    "id": "https://delta-dao.com/.well-known/participantAIRBUS_DEFENCE_AND_SPACE_GMBH.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2023-02-03T09:00:00.000Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantAIRBUS_DEFENCE_AND_SPACE_GMBH.json",
+      "gx-participant:legalName": "AIRBUS DEFENCE AND SPACE GMBH",
+      "gx-participant:registrationNumber": [
+        {
+          "gx-participant:registrationNumberType": "leiCode",
+          "gx-participant:registrationNumberNumber": "529900OFZBZWJFOYDZ63"
+        }
+      ],
+      "gx-participant:blockchainAccountId": [
+        {
+          "gx-participant:blockchainAccountId": "0xa2199E3f60fC244037Efd5A77714CC05F604F855"
+        }
+      ],
+      "gx-participant:headquarterAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-TH",
+        "gx-participant:streetAddress": "WILLY-MESSERSCHMITT-STR. 1",
+        "gx-participant:postalCode": "82024",
+        "gx-participant:locality": "TAUFKIRCHEN"
+      },
+      "gx-participant:legalAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-TH",
+        "gx-participant:streetAddress": "WILLY-MESSERSCHMITT-STR. 1",
+        "gx-participant:postalCode": "82024",
+        "gx-participant:locality": "TAUFKIRCHEN"
+      },
+      "gx-participant:parentOrganisation": {
+        "gx-participant:legalName": "AIRBUS SE",
+        "gx-participant:registrationNumber": [
+          {
+            "gx-participant:registrationNumberType": "leiCode",
+            "gx-participant:registrationNumberNumber": "MINO79WLOO247M1IL051"
+          }
+        ],
+        "gx-participant:headquarterAddress": {
+          "gx-participant:addressCountryCode": "NL",
+          "gx-participant:addressCode": "NL-ZH",
+          "gx-participant:streetAddress": "MENDELWEG 30",
+          "gx-participant:postalCode": "2333CS",
+          "gx-participant:locality": "LEIDEN"
+        },
+        "gx-participant:legalAddress": {
+          "gx-participant:addressCountryCode": "NL",
+          "gx-participant:addressCode": "NL-ZH",
+          "gx-participant:streetAddress": "MENDELWEG 30",
+          "gx-participant:postalCode": "2333CS",
+          "gx-participant:locality": "LEIDEN"
+        },
+        "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+      },
+      "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T14:23:35.610Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:delta-dao.com",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..paOBK69aAX026kMwH6uU5h5iwvoo4gG1KHBC2N-ItfdSKflv3-Xy1hxfUiGZvh0HYOLuqvh08VkUvsM4FwF46-9B6BGyVb_FEIbnw4hVDkhIvBe-bMc-9exRytYXwhLgbinS1uskuzuITkuhLX8oqb_jQ-Z2OF20DuxI3VbrCqnURrYvSf_JDST97EpZTKrxO4o1kpqlCKGOiHrwkfGbYzUGFF8y14DPh_YRdnttHfNONSp4oov0mfaXSe9UdaSAxsUKfvV_p2RxZlCdN9H79LMIOnTJ4anQKaQAmksaldiCo441TdrqMr3nh6A18hDmISbf-Vb5U-NKPpeC_hLG-g"
+    }
+  },
+  "complianceCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "ParticipantCredential"
+    ],
+    "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675520633459",
+    "issuer": "did:web:compliance.gaia-x.eu",
+    "issuanceDate": "2023-02-04T14:23:53.459Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantAIRBUS_DEFENCE_AND_SPACE_GMBH.json",
+      "hash": "519a22e1e29646d52d8132eef540eae8fac32e62e746daa18f5f0d1fa63b0743"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T14:23:53.459Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..b622HUnewcFrArczTdtS0PzPT-ShiRKPXhkk9ieIOkIKr62xtEJ0dgnir5eiIA6Ec2KNRSdBfbpEd4fZCpJUeRK46KSbjec2_4hOytE1VsoAOFb01dIbiJQKVRSa4ZQRl7EvNhub9uz-oNZyGNGOMzdC1mBygm5_3Gkczg-FRIxoXjAhkEDvlvI1vd5Js-2QOurFJAl4YlyzadnAckp8ASPRgvZ7scTYlDt8swta5VeLBdnNbjFtLvCbhe8C0q4_5kTkY7rDr3X2GJCo2fqmuweSZAa4_Nh5-gWTMBVdqFoBdH1EFIoLS19DajYHfzPPRyxkmWpku2w3dTaoxz_v3A",
+      "verificationMethod": "did:web:compliance.gaia-x.eu"
+    }
+  }
+}
