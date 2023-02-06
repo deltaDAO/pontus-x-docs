@@ -1,0 +1,99 @@
+{
+  "selfDescriptionCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://registry.gaia-x.eu/v2206/api/shape"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "LegalPerson"
+    ],
+    "id": "https://delta-dao.com/.well-known/participantHLRS.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2023-02-03T09:00:00.000Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantHLRS.json",
+      "gx-participant:legalName": "Höchstleistungsrechenzentrum Stuttgart",
+      "gx-participant:registrationNumber": [
+        {
+          "gx-participant:registrationNumberType": "vatID",
+          "gx-participant:registrationNumberNumber": "DE147794196"
+        }
+      ],
+      "gx-participant:blockchainAccountId": [
+        {
+          "gx-participant:blockchainAccountId": "0x6bF77769e84045a9EAC64573e70a5562457C52ad"
+        }
+      ],
+      "gx-participant:headquarterAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-BW",
+        "gx-participant:streetAddress": "Nobelstr. 19",
+        "gx-participant:postalCode": "70569",
+        "gx-participant:locality": "Stuttgart"
+      },
+      "gx-participant:legalAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-BW",
+        "gx-participant:streetAddress": "Nobelstr. 19",
+        "gx-participant:postalCode": "70569",
+        "gx-participant:locality": "Stuttgart"
+      },
+      "gx-participant:parentOrganisation": {
+        "gx-participant:legalName": "Universität Stuttgart",
+        "gx-participant:registrationNumber": [
+          {
+            "gx-participant:registrationNumberType": "vatID",
+            "gx-participant:registrationNumberNumber": "DE147794196"
+          }
+        ],
+        "gx-participant:headquarterAddress": {
+          "gx-participant:addressCountryCode": "DE",
+          "gx-participant:addressCode": "DE-BW",
+          "gx-participant:streetAddress": "Keplerstraße 7",
+          "gx-participant:postalCode": "70174",
+          "gx-participant:locality": "Stuttgart"
+        },
+        "gx-participant:legalAddress": {
+          "gx-participant:addressCountryCode": "DE",
+          "gx-participant:addressCode": "DE-BW",
+          "gx-participant:streetAddress": "Keplerstraße 7",
+          "gx-participant:postalCode": "70174",
+          "gx-participant:locality": "Stuttgart"
+        },
+        "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+      },
+      "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T13:59:56.408Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:delta-dao.com",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..itkaZHOgxNI8EHKyEs_q9B3s2TTnIvCKMHYirXLsbq9Ildy0dg2YVB2FDN3SJ3TJ40F7rrNuCFgO4D7btPfyzSd29PpItq82aNBnOVf3oyv9QtW7PxRF_nXlHSd_TdOWIjDkFLpW9T6x4GNqYq78ZpPJaNaW9D8-2xFx5oSYQyA8X9cfXeuI7Jwf3LxX7TxjD5-vwkZxylmgmYjQtBuxzlRZklbzpNylJ99hBaIvimsAVputEMu5mfb03nOcV_c1jRHYnNj69KO6wSLcEy5OQ8BYpiOVuRWEVbf6RgpR3uNOM1dBLLoYIVd_CJl-jV51f9r7wOiov8ldoz4ojRJFmQ"
+    }
+  },
+  "complianceCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "ParticipantCredential"
+    ],
+    "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675519215427",
+    "issuer": "did:web:compliance.gaia-x.eu",
+    "issuanceDate": "2023-02-04T14:00:15.427Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantHLRS.json",
+      "hash": "7aa78f962c8c446791f5de067890b9f2689303937b67c1c033b5f6aafb9f809c"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-04T14:00:15.427Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..LtlLcPZEZcP9zfev1AmjCKLVGEuks2_BgOm7hQYe0heVq8kJn0m8B4NVOryGTD_878ATldqngRv5HvNGXSWOW5NFV0OPw1KptHHmxyomK5WIdSO2FOtcChjhaVTDqfx1T8-wx-KTsYEie4fEJ50tAW1kbJ6UGa0-LkTYRhgRFxquaT3ociz8Hq7cT7wPtMRp4DZGCyldS4jTKWEeWnLKCxh8-nqSR9cCkJ5sH1f5kKPSmqrHvHkNYUP85665pyXK_VtUbmfOCcxaOGow9Uculo1G9pPTcoHROtzTi9_tDulCc2HV9csRIBh4a5A20DqDPrF7tFOqOiEzZj3ifmEBHg",
+      "verificationMethod": "did:web:compliance.gaia-x.eu"
+    }
+  }
+}
