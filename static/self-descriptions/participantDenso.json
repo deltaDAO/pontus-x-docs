@@ -1,0 +1,99 @@
+{
+  "selfDescriptionCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://registry.gaia-x.eu/v2206/api/shape"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "LegalPerson"
+    ],
+    "id": "https://delta-dao.com/.well-known/participantDenso.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2022-11-12T23:23:23.235Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantDenso.json",
+      "gx-participant:legalName": "DENSO AUTOMOTIVE Deutschland GmbH",
+      "gx-participant:website": "https://www.denso.com/",
+      "gx-participant:registrationNumber": {
+        "gx-participant:registrationNumberType": "EUID",
+        "gx-participant:registrationNumberNumber": "DED2601V.HRB72576"
+      },
+      "gx-participant:blockchainAccountId": [
+        {
+          "gx-participant:blockchainAccountId": "0x2b92BF0496B7B41ea2d723325DDE96651795c784"
+        },
+        {
+          "gx-participant:blockchainAccountId": "0xe761F8e33c71D08A9323Cb2c711aB4Fae2634276"
+        }
+      ],
+      "gx-participant:headquarterAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-BY",
+        "gx-participant:streetAddress": "Freisinger Str. 21-23",
+        "gx-participant:postalCode": "85386",
+        "gx-participant:locality": "Munich"
+      },
+      "gx-participant:legalAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-BY",
+        "gx-participant:streetAddress": "Freisinger Str. 21-23",
+        "gx-participant:postalCode": "85386",
+        "gx-participant:locality": "Munich"
+      },
+      "gx-participant:parentOrganisation": {
+        "gx-participant:legalName": "DENSO Corporation",
+        "gx-participant:registrationNumber": {
+          "gx-participant:registrationNumberType": "leiCode",
+          "gx-participant:registrationNumberNumber": "549300RYPA10CQM3QK38"
+        },
+        "gx-participant:headquarterAddress": {
+          "gx-participant:addressCountryCode": "JP",
+          "gx-participant:addressCode": "JP-23",
+          "gx-participant:streetAddress": "1-1, Showa-cho",
+          "gx-participant:postalCode": "448 8661",
+          "gx-participant:locality": "Kariya"
+        },
+        "gx-participant:legalAddress": {
+          "gx-participant:addressCountryCode": "JP",
+          "gx-participant:addressCode": "JP-23",
+          "gx-participant:streetAddress": "1-1, Showa-cho",
+          "gx-participant:postalCode": "448 8661",
+          "gx-participant:locality": "Kariya"
+        },
+        "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+      },
+      "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2022-11-12T22:28:58.582Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:delta-dao.com",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..sTlDkLIXabO2sLShuC7vP0ImFXRK7cgKEBPb7GVt4mlS6MdW7zq6uEky7CQog1UKqMYneeURvodPwaJNHLyLLRtEuKETtL18Vv-BQl4g5hYpTBfo2m6JOUkdXtdaDQjTNotH9xkChXLgCHtpxXyWFtYWOtlIJJ4we44otLGea99fMQRHkpceAvNs437ShXan3vnYbarnCbWaQGvbOfozaOo9Zq8Gwjgmh8wgYUsJw-lQURPYahGb3fzW3SVRTob0TcAVeQXQunhgT8cT5RyK121rT_Kb5AriM980z2__eIrJr1dJE1nFssH3aSrvnIoIgLiCMc-qk73ZrpZaqwFtGQ"
+    }
+  },
+  "complianceCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "ParticipantCredential"
+    ],
+    "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1668292144486",
+    "issuer": "did:web:compliance.gaia-x.eu",
+    "issuanceDate": "2022-11-12T22:29:04.486Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantDenso.json",
+      "hash": "7d2a73372ef38063ebecf7468a6a64304c1010c183f34055a225751df981f9cb"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2022-11-12T22:29:04.486Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..MoSfLkVa4oUQ-kJNOCIKjCDYqVediXkByWufx1_iw1e1CtFqvxg7Xo7HTLf7zVB7p-GaZfU7JJsyFybtHHKbIKDY9Djk5zT-P5UI1Utb1-5LGbfRlggjvJ2-G5-4kYSHcX2cSSRnfNS1BTTppwnbTCXILQWdKe27qwH8rcFj78p_I4nqIliuHlLVjwLSCMxd3BL90Xh7VkM0wdlbPUx9YIFeIu-9vLftdYp_q-cDKA758e2ENmzJihK4jbWzaFKWpuKChx9GD2PoOkdJ3tsabnnACi-RM2wacoWJ04Zh483CvONs3GJogYRSDEFT9rGKmF6FXOU0pnyC9l3BeWNgVQ",
+      "verificationMethod": "did:web:compliance.gaia-x.eu"
+    }
+  }
+}
