@@ -8,19 +8,43 @@ title: Current Participants
 
 | Participant                         | Public Address                             | Status        | Gaia-X Participant Self-Description                                  |
 | ----------------------------------- | ------------------------------------------ | ------------- | -------------------------------------------------------------------- |
+| deltaDAO AG                         | 0x628677D9A9d93a913182fa04893Da0ce4E6570Ee | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0x8d4198E9af22863d4269dDA6a41eF2BfA187AbAc | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0xC0E3B447c1e7B22769952E89389Ef2cD9B812Cc5 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0xBf252dD5b3a31A50Db34113e12517b21D143AC52 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0x0bd21cF4Da78f74c483a1109ac3A30794FBd556B | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0x9c26685b6E8e2997d9aAf3f1a642f1b1b3dB9580 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0xd0ea08826FA10eEaA3871a6AE680E5f15149F355 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
 | deltaDAO AG                         | 0x4C84a36fCDb7Bc750294A7f3B5ad5CA8F74C4A52 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
-| deltaDAO AG                         | 0xa76Fa6837A6ffc9F123F2193717A5965c68B0cbA | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0x68C24FA5b2319C81b34f248d1f928601D2E5246B | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
 | deltaDAO AG                         | 0x2859d961a6dBa6e7d30b2d383Af468edb4E7F4f6 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
 | deltaDAO AG                         | 0xaBaf56FC1bB6b4FF9fA4378C3C8723d2B2444324 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
-| deltaDAO AG                         | 0x68C24FA5b2319C81b34f248d1f928601D2E5246B | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0x0a7B96885b28deDE4a6887CA1150E36edb385BeE | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0xDF1c35c3d5178e9d98043b35a6737Bd861c191c9 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0x01e66950353400E93AEe7F041C0303103E2ef5Ab | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0x862E3fe199723945a38871dE4F736f1233589CE5 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0xFDC7BEc0aED8a584577fd59CbF56805eE8c976B3 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0x5f525cd29377DC2155C2AbCDaC0Ce45e630318b7 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0x3a69B365769a9dAb67865Ca5530c4B1D5259bCb7 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0x97870c129abc9877b66534e49f152585D6Ca3655 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0x1Ad061ad839f82C05767dACd2B5ab384E72B45a5 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0xFd4b5ae43f2aA446b02209098438890d3998cC9F | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0x732BF4fA8E57200621b0e1acbe8855c238823016 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
 | deltaDAO AG                         | 0xa76Fa6837A6ffc9F123F2193717A5965c68B0cbA | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
 | deltaDAO AG                         | 0xFaeb57c16D5E9A9f06c8c5dB12796f5a432Eb7d6 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
 | deltaDAO AG                         | 0xb501FDaad0F0863C4c72f7EB9Abc23965DCa973d | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0xF62bF6371Ee020Cb2164Ac3C338514DBbb93A0D4 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0x4C84a36fCDb7Bc750294A7f3B5ad5CA8F74C4A52 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0x2859d961a6dBa6e7d30b2d383Af468edb4E7F4f6 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
 | PTW - TU Darmstadt                  | 0x4A806a4851472F7cFd579d3FF5465F03c3c2B5d4 | Federator     | https://ptw.tu-darmstadt.euprogigant.io/sd/participant.json          |
+| PTW - TU Darmstadt                  | 0x21CF19e1FaF3A62f82B432f82152e8c5C0FdBdaF | Federator     | https://ptw.tu-darmstadt.euprogigant.io/sd/participant.json          |
+| PTW - TU Darmstadt                  | 0x9f4ceE0eBD03a1e9E4DcffaF876873d7a3e9595c | Federator     | https://ptw.tu-darmstadt.euprogigant.io/sd/participant.json          |
+| PTW - TU Darmstadt                  | 0x6E7bec8715955B6Cc90A5A1767cd981b90C5a245 | Federator     | https://ptw.tu-darmstadt.euprogigant.io/sd/participant.json          |
 | IONOS Cloud                         | 0x81336c245712DbF0E971de5463173bCaA9826d84 | Federator     | https://delta-dao.com/.well-known/participantIONOS.json              |
 | Exoscale                            | 0x56eA3Cc92144Db3bA2bdE25131F40c7B98F7eD32 | Federator     | https://a1.digital.euprogigant.io/sd/participant.json                |
 | Wobcom                              | 0x9Dc6aDA184fc98012D74F1C4f3f223183A4745D4 | Federator     | https://delta-dao.com/.well-known/participantWobcom.json             |
 | Arsys                               | 0x0337b320DEfAddd9aDbC518f8A9cee30b606d15b | Federator     | https://arlabdevelopments.com/.well-known/ArsysParticipant.json      |
+| Arsys                               | 0xD7b90d6476091F6bc4CAaC40180FB300351fAb9F | Federator     | https://arlabdevelopments.com/.well-known/ArsysParticipant.json      |
 | State Library of Berlin             | 0xF20113edd04d98A64AD2A003B836677E1c9aACAD | Federator     | https://delta-dao.com/.well-known/participantStateLibraryBerlin.json |
 | University of Lleida                | 0x62078F05Eb4450272D7E492F3660835826906822 | Federator     | https://delta-dao.com/.well-known/participantUniversitydeLleida.json |
 | Materna SE                          | 0xf596D17C4a3A5c92c4721627B9e5E5064651BF46 | Participant   | https://delta-dao.com/.well-known/participantMaterna.json            |
@@ -34,20 +58,22 @@ title: Current Participants
 | SINTEF                              | 0x7DF1674a1e3449778eEB324652d3FF3Cb5046753 | Participant   |                                                                      |
 | Peaq                                | 0xe3Df4851c094f5F6F1AC9AbfA4FC2075276195Ec | Participant   | https://delta-dao.com/.well-known/participantPeaq.json               |
 | Datarella                           | 0xB21282F443EB0D490819d98F2976758af5C979B3 | Participant   | https://delta-dao.com/.well-known/participantDatarella2.json         |
+| Datarella                           | 0x0aec046a558F13Ff18aAEc5E6f76084185358cdf | Participant   | https://delta-dao.com/.well-known/participantDatarella2.json         |
 | Bosch                               | 0x6fE8aD445AD86b3d1325F79955Ef28d6e9cb2258 | Participant   | https://delta-dao.com/.well-known/participantBosch.json              |
 | TU Dortmund                         | 0x51Decd187744bCfAD1BAb0A3E71dD68fAC0ba478 | Participant   |                                                                      |
 | RWS                                 | 0xa98A6eefbAE870b88a9C7A43f4b50066A01c93b6 | Participant   | https://delta-dao.com/.well-known/participantRijkswaterstaat.json    |
 | Craftworks                          | 0x9dfbda23b65efB1c836828D74a96eB8528A60f3C | Participant   | https://craftworks.euprogigant.io/sd/participant.json                |
 | Concircle Österreich GmbH           | 0xb2AF8b92bFaC5299Cb6EDEf16150BFD1d4d26a93 | Participant   | https://delta-dao.com/.well-known/participantConcircleAustria.json   |
 | Software AG                         | 0xa702032E187E6A53EAddC28a735B414220712689 | Participant   | https://sagresearch.de/.well-known/participantSoftwareAG.json        |
-| DENSO AUTOMOTIVE Deutschland GmbH   | 0x2b92BF0496B7B41ea2d723325DDE96651795c784 | Participant   | https://delta-dao.com/.well-known/participantDenso.json              |
-| DENSO AUTOMOTIVE Deutschland GmbH   | 0xe761F8e33c71D08A9323Cb2c711aB4Fae2634276 | Participant   | https://delta-dao.com/.well-known/participantDenso.json              |
+| DENSO AUTOMOTIVE Deutschland GmbH   | 0x2b92BF0496B7B41ea2d723325DDE96651795c784 | Participant   |                                                                      |
+| DENSO AUTOMOTIVE Deutschland GmbH   | 0xe761F8e33c71D08A9323Cb2c711aB4Fae2634276 | Participant   |                                                                      |
 | Struggle Creative Oy                | 0x895975869261A215813e33568a295F94A3F301ed | Participant   | https://delta-dao.com/.well-known/participantStruggle.json           |
 | Sphereon                            | 0xDa4fc9E82Ac4E44207a1f74137493D3437D80761 | Participant   |                                                                      |
 | Austrian Institute of Technology    | 0xfc739f2F91921eb710878ad2Ca38C147a784C96f | Participant   | https://delta-dao.com/.well-known/participant.json                   |
 | acatech                             | 0xF62bF6371Ee020Cb2164Ac3C338514DBbb93A0D4 | Participant   | https://delta-dao.com/.well-known/participantAcatech.json            |
 | Spanish Ministry of Economic Affairs and Digital Transformation| 0x6E1cE3530A12F89cF567788C132454E5dC7D3cCE |Participant| https://delta-dao.com/.well-known/participantspanishministryofeconomicaffairs.json.json |
 | ATOS                                | 0x943CaA8afCAdd2F64a7cE9E53A91d5ea0BEb40c1 | Participant   | https://delta-dao.com/.well-known/participantATOS.json               |
+| ATOS                                | 0x7A6246e02B2aA276203469Cfb839a2666520D8b5 | Participant   | https://delta-dao.com/.well-known/participantATOS.json               |
 | TU Delft                            | 0x9391291b0Df512B20810183744De8272774b6655 | Participant   | https://delta-dao.com/.well-known/participantTUDelft.json            |
 | Bigchain DB                         | 0x61DB12d8b636Cb49ea09eCa58a893dA9480E1F33 | Participant   | https://delta-dao.com/.well-known/participantBigchainDB.json         |
 | Perpetuum Progress GmbH             | 0x2ee3c4F19f90237B7C45cfAD6B5dC4b5840563Ec | Participant   | https://delta-dao.com/.well-known/participantPerpetuumProgress.json  |
@@ -114,3 +140,6 @@ title: Current Participants
 | RADIUSMEDIA KG                      | 0x37e01308d6A0E322dECc457a13E0B2b2086D84B1 | Participant   | https://delta-dao.com/.well-known/participantRadiusMedia.json            |
 | ahu GmbH Wasser Boden Geomatik      | 0x9Adf8e343ec1C7dB2B44e420bB8F4Cc51dEbFb7a | Participant   | https://delta-dao.com/.well-known/participantAhu.json                    |
 | Hochschule Offenburg (HSO)          | 0xE64872A181F0695DA0660fE0B809a89A3bA359AA | Participant   | https://delta-dao.com/.well-known/participantHSO.json                    |
+| FeltLabs                            | 0x533d456D3D5c16E6390647E2167678b7a76A4840 | Participant   |                     |
+| FeltLabs                            | 0x56e194D46fF305560f51D06cE84649C1DD91d2F8 | Participant   |                     |
+| BigchainDB GmbH                     | 0x61DB12d8b636Cb49ea09eCa58a893dA9480E1F33 | Participant   |                      |
