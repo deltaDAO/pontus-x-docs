@@ -13,7 +13,7 @@
         "issuanceDate": "2023-02-04T18:00:00.000Z",
         "credentialSubject": {
             "id": "https://delta-dao.com/.well-known/participantTSystemsInternational.json",
-            "gx-participant:legalName": "RIB Software GmbH",
+            "gx-participant:legalName": "T-Systems International GmbH",
             "gx-participant:registrationNumber": [
                 {
                     "gx-participant:registrationNumberType": "leiCode",
@@ -47,10 +47,10 @@
         },
         "proof": {
             "type": "JsonWebSignature2020",
-            "created": "2023-02-04T17:28:26.351Z",
+            "created": "2023-02-13T09:43:08.687Z",
             "proofPurpose": "assertionMethod",
             "verificationMethod": "did:web:delta-dao.com",
-            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..bNS_OH80brn6c86W0eKKbJG1nn_o6al0cVex77juuYjT3E-VfsHQyaDW8EBID2gxuRSZnk4x15dXAv-cYuirOFkoasfaBTbiA5X0VRBnAWtWCd9h6iM7HsBudd4Y9aGcL3DGxLBNZ1AJfi28VBQLrVo0dZgJ5qO3mUPFmnzLmmENIgukZc6WhITlilG8UTShlGtSaxT2L2EZL7XE1LOzfHvSnjumahyvsTo6_skyDc4D9xvF1fi9cPbU1DKY71WO0_QsrZfequ7BDPswRIc6MZIKd1BaV3YGsWIjkLeNLcc1FbTvxwQasbmEM4nWcJ3JzPJa6Rlt2-STzgz_XqatDw"
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..U6w4KgFQGeIih4E34IKgTaqpUYXkyrBoBlgOvC26nusAsR22ea1azLw0Ps6BnSrPzOPHNp8It27xq6oanZeF8YotWl_RQT5UbIqn9HiAMubl6oKTXsc5f-qVf12ruA9O7W5OwaUeyv6LnwZPZjKg5tVzYbcL-HYElzmnEduVGm_UqBUJ8BGFijei8wl5QLiGXsxs6ZAW2vltNJanYsEHuScZHD_sKdq59AgS75bgzsP_5NWvoaEhBqLycgqWFTndGDtYuC284ZEz_a1zjTDdpeEH4byVPsL0McUuA6w0E3e4LCnoH5xj989pqIsNmIcXdg_tnmxURfB4tq_8yej48w"
         }
     },
     "complianceCredential": {
@@ -61,18 +61,18 @@
             "VerifiableCredential",
             "ParticipantCredential"
         ],
-        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1675531724990",
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1676281407768",
         "issuer": "did:web:compliance.gaia-x.eu",
-        "issuanceDate": "2023-02-04T17:28:44.990Z",
+        "issuanceDate": "2023-02-13T09:43:27.768Z",
         "credentialSubject": {
             "id": "https://delta-dao.com/.well-known/participantTSystemsInternational.json",
-            "hash": "1cf1daefe0d5c49101b3220934aaef40be05e8ce97dbdf6d9bbe49bba5c2fc01"
+            "hash": "5eec2f1295db23c238a0f6cd5e09d905fb18831430e898b33fabb0e86e3b6612"
         },
         "proof": {
             "type": "JsonWebSignature2020",
-            "created": "2023-02-04T17:28:44.990Z",
+            "created": "2023-02-13T09:43:27.768Z",
             "proofPurpose": "assertionMethod",
-            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..K60-sgXgQTBPMqtkACkbScVEj3GeOsW1J7djGxs1rFN7uUizfTZ2djo63c0AcJIhWTEhpWT0_ARPYugVAzzUgX0DBKmGjdXC5zYsC9ef0CNOM-pDkQOdrHMgcsGrQErdvtjHZ5cdAFxEi7ZeLXyrPNLvLXbXAEQVDBT-iVMVoSrcKMnjqwH0y2Urdia38lranyYnfHRElhssMDNmgJFGiUQ8xaPqK8JLUf-3Idwzcxv0hzA-2PDRbt2n9l8kfWoObyeypNXSbeCrddmLa3I6ZeGv3nT31hiTbpH07v_6fX9GCCQTBc7CXPof_JjNz5wrwOkGD4JiFtEDp1n_QoFtaQ",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Is_PuHMnmMG673vFO371_NO5h2F5g64u1E9apV149fVvYo-yPQ8fGO6yKjumttuKF1DCUF8aA6mKqvrt4QuP1GtIjJAl13rLo8GzOxFoLZEN7a80T0p0Qe4t7ko7MndzmTyolYze1G-VJEWCIBqFopd5uinYkIqOMMuR0eyBx-3-uUJ5FdwT0JoNN-xNIUiyfUHWY2UguS3L5japfoDKj4B_d-nDj9XtBgKc-wiA17J1RAd-sUuLc-wc1hG6M60OGYO1MGjkneoFNNP7BzHvEx682kw4GS6l_mXCCYa5B561oiOuLu82eLtZczEP7Xabo5a262gmnpt6ND6RIvDhlA",
             "verificationMethod": "did:web:compliance.gaia-x.eu"
         }
     }
