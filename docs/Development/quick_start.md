@@ -12,8 +12,6 @@ title: Quick Start
 - Block Explorer: https://github.com/deltaDAO/blockscout
 - Ocean Contracts: https://github.com/oceanprotocol/contracts/tree/v3
 
-
-
 ## Setup MetaMask
 - Network name: GEN-X
 - New RPC URL: https://rpc.genx.minimal-gaia-x.eu
@@ -40,29 +38,29 @@ curl -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","metho
 ## Ocean Contracts v3
 
 ```json
+"OceanToken": "0x0995527d3473b3A98C471f1ED8787ACD77fBF009",
 "DTFactory": "0x325c09E2093C56AbDc86c5ccD68c77952e8034Af",
 "BFactory": "0x7da756d49DFECb750B5ABa51c04088f257c3f8B4",
 "FixedRateExchange": "0x30753E4A8aad7F8597332E813735Def5dD395028",
 "Metadata": "0xfA89407778041EF51B9e1aA16Ff85bDf908D17e6",
 "Dispenser": "0x2a39940D98A4f9D01Ff0738c8420F360435b6A59",
-"Ocean": "0x0995527d3473b3A98C471f1ED8787ACD77fBF009",
 "CommunityFeeCollector" : "0x22561fDDaa7a26f853D06262f0277Db43AEE584b"
 ```
 
 ## Ocean Contracts v4
 
 ```json
-"Ocean": "0xE945Bc2097d96B3FfB8e48bBb71ef7D3968f8597",
+"OceanToken": "0x0995527d3473b3a98c471f1ed8787acd77fbf009",
 "CommunityFeeCollector": "0x2e0C9e15A45c9884F7768BB852E7399B9153525d",
-"Router": "0xc9f83F595C763e43Ddea97426E4030D03c9FFD70",
-"FixedPrice": "0xFde80d4228B7dEf216E24f84e9BAc8458C5F232c",
-"ERC20Templates":  "0x0301E8676e8bCa960dc95b8bd93D6AAf0B2F1020", "0xB3a2c32925b730348bb5177b1F8fBD1Ac90eBe63",
-"ERC721Template": "0x9F13dE57BCf7462E6124b99C62a9F2CBc7860600",
-"Dispenser": "0x44cf54BA87fcE6882dF59ECe877a71ceaD5045a7",
-"ERC721Factory": "0x16575f77c27A3437FE1bE56AB983f1bEb0DD14B2",
+"Router": "0x7A3C9F0729AB93e4F9945221168A56eCf450187D",
+"FixedPrice": "0xAD8E7d2aFf5F5ae7c2645a52110851914eE6664b",
+"ERC20Templates":  ["0xA7D7Cb8dDd46c1B13e9Ccab2fA7D4fC5926f0348", "0x7fEcdEDaE245d3AD5ad93c6Df9603d06887786e8"],
+"ERC721Template": ["0x2CBCD3b10783378e34209B760e5A70531198f65E"],
+"Dispenser": "0x94cb8FC8719Ed09bE3D9c696d2037EA95ef68d3e[5a7",
+"ERC721Factory": "0x6cb85858183B82154921f68b434299EC4281da53",
 ```
 
-### Portal Config File (for v3)
+### Portal Config File (v3)
 
 ```javascript
 chainId: 100,
@@ -91,8 +89,14 @@ BFactory: '0x7da756d49DFECb750B5ABa51c04088f257c3f8B4'
 
 Source: https://github.com/deltaDAO/mvg-portal/blob/development/chains.config.js
 
-## Backend Components (for v3)
+## Backend Components (v3)
 
 - Provider: https://provider.genx.delta-dao.com
 - Aquarius: https://aquarius.delta-dao.com/
 - Subgraph: https://subgraph.genx.minimal-gaia-x.eu
+
+## Backend Components (v4)
+
+- Provider: https://provider.v4.genx.delta-dao.com/ 
+- Aquarius: https://aquarius.v4.delta-dao.com/
+- Subgraph: https://subgraph.v4.genx.minimal-gaia-x.eu/  
