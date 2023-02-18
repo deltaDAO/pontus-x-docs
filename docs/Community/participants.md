@@ -140,6 +140,7 @@ title: Current Participants
 | RADIUSMEDIA KG                      | 0x37e01308d6A0E322dECc457a13E0B2b2086D84B1 | Participant   | https://delta-dao.com/.well-known/participantRadiusMedia.json            |
 | ahu GmbH Wasser Boden Geomatik      | 0x9Adf8e343ec1C7dB2B44e420bB8F4Cc51dEbFb7a | Participant   | https://delta-dao.com/.well-known/participantAhu.json                    |
 | Hochschule Offenburg (HSO)          | 0xE64872A181F0695DA0660fE0B809a89A3bA359AA | Participant   | https://delta-dao.com/.well-known/participantHSO.json                    |
-| FeltLabs                            | 0x533d456D3D5c16E6390647E2167678b7a76A4840 | Participant   |                     |
-| FeltLabs                            | 0x56e194D46fF305560f51D06cE84649C1DD91d2F8 | Participant   |                     |
-| BigchainDB GmbH                     | 0x61DB12d8b636Cb49ea09eCa58a893dA9480E1F33 | Participant   |                      |
+| FeltLabs                            | 0x533d456D3D5c16E6390647E2167678b7a76A4840 | Participant   | https://delta-dao.com/.well-known/participantFeltLabs.json             |
+| FeltLabs                            | 0x56e194D46fF305560f51D06cE84649C1DD91d2F8 | Participant   | https://delta-dao.com/.well-known/participantFeltLabs.json             |
+| BigchainDB GmbH                     | 0x61DB12d8b636Cb49ea09eCa58a893dA9480E1F33 | Participant   | https://delta-dao.com/.well-known/participantBigchainDB.json             |
+| Deal ex Machina                     | 0xC8a08b33995594bfdB0ef9c18EB72da0469E396F | Participant   | https://delta-dao.com/.well-known/participantDealExMachina.json          |
