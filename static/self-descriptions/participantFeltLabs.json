@@ -1,0 +1,55 @@
+{
+    "@context": [
+        "https://www.w3.org/2018/credentials/v1",
+        "https://registry.gaia-x.eu/v2206/api/shape"
+    ],
+    "type": [
+        "VerifiableCredential",
+        "LegalPerson"
+    ],
+    "id": "https://delta-dao.com/.well-known/participantFeltLabs.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2022-12-04T01:02:35.145Z",
+    "credentialSubject": {
+        "id": "https://delta-dao.com/.well-known/participantFeltLabs.json",
+        "gx-participant:name": "Felt Labs",
+        "gx-participant:legalName": "FELT Labs PTE. LTD.",
+        "gx-participant:website": "https://feltlabs.ai/",
+        "gx-participant:registrationNumber": [
+            {
+                "gx-participant:registrationNumberType": "local",
+                "gx-participant:registrationNumberNumber": "202232949D"
+            }
+        ],
+        "gx-participant:blockchainAccountId": [
+            {
+                "gx-participant:blockchainAccountId": "0x533d456D3D5c16E6390647E2167678b7a76A4840"
+            },
+            {
+                "gx-participant:blockchainAccountId": "0x56e194D46fF305560f51D06cE84649C1DD91d2F8"
+            }
+        ],
+        "gx-participant:headquarterAddress": {
+            "gx-participant:addressCountryCode": "SG",
+            "gx-participant:addressCode": "SG-05",
+            "gx-participant:streetAddress": "160 Robinson Road, #14-04 Singapore Business Federation Center",
+            "gx-participant:postalCode": "068914",
+            "gx-participant:locality": "Singapore"
+        },
+        "gx-participant:legalAddress": {
+            "gx-participant:addressCountryCode": "SG",
+            "gx-participant:addressCode": "SG-05",
+            "gx-participant:streetAddress": "160 Robinson Road, #14-04 Singapore Business Federation Center",
+            "gx-participant:postalCode": "068914",
+            "gx-participant:locality": "Singapore"
+        },
+        "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+    },
+    "proof": {
+        "type": "JsonWebSignature2020",
+        "created": "2023-02-18T17:33:55.819Z",
+        "proofPurpose": "assertionMethod",
+        "verificationMethod": "did:web:delta-dao.com",
+        "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..NITBOymIVQeRzKLNTVzYI_tBruv98HcKYiVUfCrxFdpAdxI3DZqTJNBeiesGv_pV5cHve-Oyg85V2n1G7uz1TN0OReQ6Kf9MT2j-2haUgYc-paWHDnu8aaI5sRGFE45MJm_eQouBI2iilSPpqsd9FaggxCP3YEVYNdXRmf2DrJJv7a51d6EfyE8XRs2GYE1_51jJAWqxfkZjnee__cfrKfFkRsm-INuqW6LVKCvYgE_XEtyu0kwyPj1YjKa7c-TtqvGAE5P0DJic4yIlfvy_nolBK66B2ZRxe9pbkhszPLNlpL15775PUIE261D1TkEN1WIocRg90_PpYzTRiyZ0Fw"
+    }
+}
