@@ -1,0 +1,85 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.gaia-x.eu/v2206/api/shape"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "LegalPerson"
+        ],
+        "id": "https://delta-dao.com/.well-known/participantDeloitte.json",
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-02-20T17:25:35.145Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantDeloitte.json",
+            "gx-participant:name": "DELOITTE",
+            "gx-participant:legalName": "DELOITTE",
+            "gx-participant:website": "https://www.deloitte.com/fr",
+            "gx-participant:registrationNumber": [
+                {
+                    "gx-participant:registrationNumberType": "leiCode",
+                    "gx-participant:registrationNumberNumber": "969500Y9EJECL9E0KM90"
+                },
+                {
+                    "gx-participant:registrationNumberType": "local",
+                    "gx-participant:registrationNumberNumber": "434209797"
+                },
+                {
+                    "gx-participant:registrationNumberType": "EUID",
+                    "gx-participant:registrationNumberNumber": "FR9201.434209797"
+                }
+            ],
+            "gx-participant:blockchainAccountId": [
+                {
+                    "gx-participant:blockchainAccountId": "0x289Ff19C1e544B6E9488d5E79966491A2bAa88C9"
+                }
+            ],
+            "gx-participant:headquarterAddress": {
+                "gx-participant:addressCountryCode": "FR",
+                "gx-participant:addressCode": "FR-IDF",
+                "gx-participant:streetAddress": "Tour Majunga 6 Place de la Pyramide",
+                "gx-participant:postalCode": "92908",
+                "gx-participant:locality": "Puteaux"
+            },
+            "gx-participant:legalAddress": {
+                "gx-participant:addressCountryCode": "FR",
+                "gx-participant:addressCode": "FR-IDF",
+                "gx-participant:streetAddress": "Tour Majunga 6 Place de la Pyramide",
+                "gx-participant:postalCode": "92908",
+                "gx-participant:locality": "Puteaux"
+            },
+            "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-20T16:35:01.858Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..AupQpCFEs4NbybNOHaSDeMZ4ZEbUHPnPMHb6nwwhoEs7C0R84UmODEvqQm9bg3nkSSEPZvW3ra-h_fnLfmnKf2bQ-dEvZtkl1e5FNR_APrAc2H_d6h-VLgOpDzNstbcnSPuzf2KF9XAcl8Q90HAvN2UH6V5IQSz7cY57GQNAkw7O8_dw60j4C6ZG-2IE4d8HHbKYPSVkrx0cgheSIKtuvBflje_G29gFRYb0tjFwDBCTZozPIpVb1BXzxNB99kGr1E5TsS_0zaw2Tpc7rZ3YqAFSZAPwjmcLuzD_gvMu-qTwxsxR6dQZhhR0gn4AvqrA2uUErUKKf33FM7Skusnuyg"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ParticipantCredential"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1676910921117",
+        "issuer": "did:web:compliance.gaia-x.eu",
+        "issuanceDate": "2023-02-20T16:35:21.117Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/participantDeloitte.json",
+            "hash": "41a3cc38f9bf0f7ae1337f84589ee8ee08bcda444b68cd9d6ff8d181c234bc99"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-02-20T16:35:21.117Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..SnWb-YAShimM5NSjRMxL_E1AAglrfxKYNB75q3ILvNh60orsoFKAm2t6MWyNRXE7smcghkm-Vet4ss_oAPqKOBLPQBSSTkKaJJ7MciZmXX9ZR7fygo69_qI0JixL1VvNDlAYXLqZaALyoxtKoEqnexQeQ090W2uPTo0-pU558kfI4ilGaiPvznfiHoodjNt5MZGst_60MBeaVjLXsGNE-8RGPAENKiZYGbX1F-EgPiZD9p2SkGfa_f7VI2QPmvi3XGX1k7OpSLhTTCRvO_fDcs8DTBAe4pEmWx77sCXE7wn5oy2eju1hELulhiBvHEBP5_leg9l4K0Skzz6oTEv32g",
+            "verificationMethod": "did:web:compliance.gaia-x.eu"
+        }
+    }
+}
