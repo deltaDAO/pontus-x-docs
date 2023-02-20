@@ -144,4 +144,4 @@ title: Current Participants
 | FeltLabs                            | 0x56e194D46fF305560f51D06cE84649C1DD91d2F8 | Participant   | https://delta-dao.com/.well-known/participantFeltLabs.json               |
 | BigchainDB GmbH                     | 0x61DB12d8b636Cb49ea09eCa58a893dA9480E1F33 | Participant   | https://delta-dao.com/.well-known/participantBigchainDB.json             |
 | Deal ex Machina                     | 0xC8a08b33995594bfdB0ef9c18EB72da0469E396F | Participant   | https://delta-dao.com/.well-known/participantDealExMachina.json          |
-| Deloitte.                           | 0x289Ff19C1e544B6E9488d5E79966491A2bAa88C9 | Participant   | https://delta-dao.com/.well-known/participantDeloitte.json.              |
+| Deloitte                            | 0x289Ff19C1e544B6E9488d5E79966491A2bAa88C9 | Participant   | https://delta-dao.com/.well-known/participantDeloitte.json.              |
