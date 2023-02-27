@@ -1,0 +1,68 @@
+{
+  "selfDescriptionCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://registry.gaia-x.eu/v2206/api/shape"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "LegalPerson"
+    ],
+    "id": "https://delta-dao.com/.well-known/participantDealExMachina.json",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2023-02-18T10:40:23.235Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantDealExMachina.json",
+      "gx-participant:name": "Deal ex Machina",
+      "gx-participant:legalName": "Deal ex Machina",
+      "gx-participant:registrationNumber": {
+        "gx-participant:registrationNumberType": "local",
+        "gx-participant:registrationNumberNumber": "840215412"
+      },
+      "gx-participant:blockchainAccountId": "0xC8a08b33995594bfdB0ef9c18EB72da0469E396F",
+      "gx-participant:headquarterAddress": {
+        "gx-participant:addressCountryCode": "FR",
+        "gx-participant:addressCode": "FR-IDF",
+        "gx-participant:streetAddress": "24 rue de Clichy",
+        "gx-participant:postalCode": "75009"
+      },
+      "gx-participant:legalAddress": {
+        "gx-participant:addressCountryCode": "FR",
+        "gx-participant:addressCode": "FR-IDF",
+        "gx-participant:streetAddress": "24 rue de Clichy",
+        "gx-participant:postalCode": "75009"
+      },
+      "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-18T09:54:10.668Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:delta-dao.com",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..pS-0-Oq8uV_AxlSFggSP85Lj4RAUQhWyIiZ-bkOYpOL0tjMW-uVrBC6eGMU55hn29mwlxEMAPOgGS-I5Zpz2-8SeYWgmiEP3SD99oMoxchjBKOCmnzI6TrXsRl-aQI9SPO9SDj46_sB13D-C54pByyAnzavka7H0Lea2yFYpywebM6s7fiLsFBbVb0EVg_g7y3GB5qlXlj6D3lsSvdRXdxLDX8NhZkta-w2ZM3adrBa0C48L8PQw4INd-emJM0PXbgEAScKGYTOdMc55PaEC9xDc8LmY6LsrOzSp4qonpWvyneAEbkZL_gqxZvPXJaAez98oSEeiFnC2Owq-0Jsj2g"
+    }
+  },
+  "complianceCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "ParticipantCredential"
+    ],
+    "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1676714072415",
+    "issuer": "did:web:compliance.gaia-x.eu",
+    "issuanceDate": "2023-02-18T09:54:32.415Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantDealExMachina.json",
+      "hash": "da6003a9f7c8bd7da658d97d1abbbb3c4508acf0521a381804fdd8ce9faa38ab"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-02-18T09:54:32.415Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..eOl0IVsHYMKKyV46xi0tUBFuBt73XD5GmvXUgzwTi0pmE7eX3CEc9N09CsEwV96GLKYTdItCBz9ffjHyDKjGCFgoPtPPti_kkqXP1eopQe_Oyd4dKZxidMP4yX2Vsusvbrv2RwLZQlk6NrcTb-ImwfRexRtpKysg-1QITmKP_-RTW9WSSKX8MMXWddtRWjMHdNuJcO5kBYUKsIC103w3FQ0kj2pSF7Ayv6louMBjjHm00FnQeiVPVzd2cY4aieBxif4i61UJAyow4M_KmLbIafTUSJ-ky3ni-UUjOCyOmoKExBSttLUT-RKRgcbXy5tNW-IGhf9nN8_6cfdI1FFS8A",
+      "verificationMethod": "did:web:compliance.gaia-x.eu"
+    }
+  }
+}

@@ -1,3 +1,7 @@
+---
+sidebar_position: 2
+title: Onboarding Guide
+---
 
 # Onboarding Guide to the Gaia-X Web3 Ecosystem
 

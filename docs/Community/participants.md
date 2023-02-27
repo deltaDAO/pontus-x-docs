@@ -1,6 +1,6 @@
 ---
-sidebar_position: 2
-title: Current Participants
+sidebar_position: 4
+title: Participants
 ---
 
 
