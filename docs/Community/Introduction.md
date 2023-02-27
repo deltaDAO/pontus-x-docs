@@ -3,39 +3,44 @@ sidebar_position: 1
 title: Introduction
 ---
 
-## How to join GEN-X as a validator?
-If you are interested in joining our GEN-X network and contributing to the first federated Gaia-X ecosystem with community-driven governance,  you are welcome to contact us (contact@delta-dao.com) or any other partner from the network. As a prerequisite, you must commit to the Gaia-X Trust Framework and display W3C-compliant verifiable credentials for your identity and infrastructure. These Gaia-X compliant Self-Descriptions allow other participants of the Gaia-X Web3 ecosystem to decide if they trust you and your services. 
+# Introduction to the Gaia-X Web3 ecosystem and GEN-X Network
+This document serves as an introdcution and overview Gaia-X Web3 ecosystem and GEN-X Network
 
-If you want to learn more about Gaia-X compliance and the Gaia-X Trust Framework, you will find a great starting point [here](https://compliance.gaia-x.eu/). You can also read the basic technical requirements, including [step-by-step](https://gitlab.com/gaia-x/lab/compliance/gx-compliance) instructions on creating Gaia-X-compliant Self-Descriptions.
-Furthermore, we can recommend our [blog post](https://deltadao.medium.com/gaia-x-compliance-service-a3df1d6ffc52) on the Gaia-X Compliance Service, which gives a detailed overview of Gaia-X's signing and validation services. When all conditions are met, any validator can initiate a vote to add a new member to the GEN-X network. The current validators then vote democratically on whether to accept the new participant.
 
-## Current Members & Representatives (continuously updated)
+## What is the Gaia-X Web3 ecosystem "Pontus-X"?
 
-- deltaDAO AG, Germany, 
-- EuproGigant, represented by TU Darmstadt/EIT Manufacturing/TU Wien, Austria & Germany
-- Exoscale, Switzerland
-- Arsys, Spain
-- IONOS Cloud, Germany
-- WOBCOM, Germany
-- Staatsbibliothek zu Berlin (SBB), Germany
 
-### Gaia-X Trust Framework Participant Identification and Self-Descriptions
-- deltaDAO: https://www.delta-dao.com/.well-known/participantDeltadao.json
-- EuProGigant: https://ptw.tu-darmstadt.euprogigant.io/sd/participant.json
-- Exoscale: https://a1.digital.euprogigant.io/sd/participant.json
-- Arsys: https://arlabdevelopments.com/.well-known/ArsysParticipant.json
-- IONOS Cloud: https://delta-dao.com/.well-known/participantIONOS.json
-- WOBCOM: https://delta-dao.com/.well-known/participantWobcom.json
-- SBB: https://delta-dao.com/.well-known/participantStateLibraryBerlin.json
+The Gaia-X Web3 ecosystem "Pontus-X" is the first fully decentralized data space in Gaia-X, enabling technical data-sovereign data sharing and data monetization, while adhering to the rules of the Gaia-X Trust Framework.
 
-### Validator Set
-- deltaDAO: 0x7D765CE9B18c2B2DB8C49d663351096F2639D5aA, 0xED8dfD6Dd61222618EFE07846efe78b6CAE25933,  0x4918d64413DA7763Eb674E2aA1c6B4e6B2E29f79
-- EuProGigant: 0x2960C40843dCCC9f34F1932d10af13d3AB5B258a
-- Exoscale: 0x56eA3Cc92144Db3bA2bdE25131F40c7B98F7eD32
-- Arsys: 0x50C452ba6040f5F81E309eBF2F2b0D6A0EDd1302
-- IONOS Cloud: 0x7d0fb02DFd5537AA5F27a0320e03F1D7E2346d88
-- WOBCOM: 0x9c6a497fDc252E1D7150585EA9bDEddAE1dC53D1
-- SBB: 0x1cc0D061a75C577dB95847bE6B4f8D3Dc3c5Bf85
+It allows companies and institutions to consume and offer data services in the Gaia-X network, while remaining in control of their IP and sensitive data, thus meeting GDPR and IT-security requirements. A place to publish, discover, select, and consume data service offerings are our portals, which provide a user-interface to interact with core federation service functions.
 
-### Full nodes 
-- deltaDAO: 0xf5bFEC3a99E25931DD198585d93E3022a5EB6A20
+Within Pontus-X, you can utilize federated analysis, machine learning (ML) algorithms and AI (Artificial Intelligence) services to extract valuable information from data offerings or to offer access to your sensitive data without the risk of exposing it to unnecessary third-party or compliance risks. One of the core features of the Gaia-X Web3 ecosystem is a data access mechanism called Compute-to-Data (CtD). CtD enables data owners to grant only compute access to their data without the need to create copies in other environments you do not control. The data itself can remain with the data owner in a secured environment to minimize the risk of data-leaks.
+
+The Gaia-X Web3 ecosystem "Pontus-X" started as "Minimal Viable Gaia-X" during the first Gaia-X hackathon in 2021 and has been continuously developed and evolved since then.
+
+Today "Pontus-X" features a full set of federation services and is connected to the Gaia-X compliance service and registry. It features over 100 service offerings from all over Europe and across the Gaia-X domains.
+
+This ecosystem allows all participants to become a federator without relying on any centralized component and central point of failure and control in its stack. All participants can contribute and share the common infrastructure while any participant or federator can stop participating at any point in time, without stopping or interrupting the function of the ecosystem.
+
+## What is GEN-X?
+
+GEN-X is a community-driven Pan-European network for the Gaia-X Web3 ecosystem, a first fully decentralized data space in Gaia-X. It is owned by no one and open to everyone, entirely run and governed by Gaia-X community members dedicated to the Gaia-X Association for Data and Cloud (AISBL) Trust Framework.
+
+Early network validators for GEN-X include Arsys (Spain), deltaDAO AG (Germany), EuProGigant (Austria/Germany), Exoscale (Switzerland/Austria/Germany), IONOS Cloud (Germany), WOBCOM GmbH (Germany) and the Staatsbibliothek zu Berlin (Germany), with more to follow.
+
+
+As GEN-X is a customizable blockchain built with Polygon Edge and leveraging Polygon Supernets, it enables the creation of industry-specific data spaces that can be tailored to individual needs and use cases of consortia, SMEs, or public institutions.
+
+By providing an open and secure infrastructure for data transactions, GEN-X enables businesses and institutions to have more control over their data and how it is used, while also ensuring compliance with the Gaia-X Trust Framework. This helps to foster trust and interoperability within the Gaia-X Web3 ecosystem and allows for data spaces that can be used by multiple parties in a decentralized and autonomous manner without creating further data silos.
+
+For further information we have created a [GEN-X documentation](https://docs.genx.minimal-gaia-x.eu/docs/intro/) and also maintain an [up-to-date list](https://docs.genx.minimal-gaia-x.eu/docs/Community/participants) of participants of the network.
+
+## Why should I care at all
+
+The European data economy is expected to grow from 301 billion in 2018 to 829 billion in 2025. Data sharing and thus the effective development of AI solutions is vital for European companies and their competitiveness in the global market. Nevertheless, there are many reasons why data sharing continues to be carried out only on a small scale and with little sensitive data. Companies are concerned about losing control over their data and thus their intellectual property. Furthermore, there are high penalties for GDPR-violations. Companies do not trust data platforms that they do not control and whose participants they do not know.
+
+The Gaia-X Web3 ecosystem and Compute-to-Data solve these problems and bring trust to data spaces with its decentralized GEN-X network, which has no controlling central authority and by following the rules of the Gaia-X Trust Framework.
+
+## What are my benefits?
+
+The Gaia-X Web3 ecosystem enables data monetization of sensitive data without losing control over it. This opens a whole new range of revenue opportunities. It is irrelevant where the data is located, any source up to edge devices can be connected to the data space. An open, transparent and ecosystem in the Gaia-X network opens a significantly larger amount of data and thus many new use cases and AI solutions in many different verticals. It creates the conditions for an outburst of data within the European market.
