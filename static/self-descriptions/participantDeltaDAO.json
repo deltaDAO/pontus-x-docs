@@ -1,0 +1,212 @@
+{
+  "selfDescriptionCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "LegalPerson"
+    ],
+    "id": "did:web:delta-dao.com",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2023-03-04T15:31:37.223Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participant.json",
+      "gx-participant:name": "deltaDAO",
+      "gx-participant:legalName": "deltaDAO AG",
+      "gx-participant:website": "https://delta-dao.com",
+      "gx-participant:registrationNumber": {
+        "gx-participant:registrationNumberType": "local",
+        "gx-participant:registrationNumberNumber": "HRB170364"
+      },
+      "gx-participant:blockchainAccountId": [
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0x628677D9A9d93a913182fa04893Da0ce4E6570Ee"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0x8d4198E9af22863d4269dDA6a41eF2BfA187AbAc"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0xC0E3B447c1e7B22769952E89389Ef2cD9B812Cc5"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0xBf252dD5b3a31A50Db34113e12517b21D143AC52"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0x0bd21cF4Da78f74c483a1109ac3A30794FBd556B"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0x9c26685b6E8e2997d9aAf3f1a642f1b1b3dB9580"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0xd0ea08826FA10eEaA3871a6AE680E5f15149F355"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0x4C84a36fCDb7Bc750294A7f3B5ad5CA8F74C4A52"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0x68C24FA5b2319C81b34f248d1f928601D2E5246B"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0x2859d961a6dBa6e7d30b2d383Af468edb4E7F4f6"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0xaBaf56FC1bB6b4FF9fA4378C3C8723d2B2444324"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0x0a7B96885b28deDE4a6887CA1150E36edb385BeE"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0xDF1c35c3d5178e9d98043b35a6737Bd861c191c9"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0x01e66950353400E93AEe7F041C0303103E2ef5Ab"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0x862E3fe199723945a38871dE4F736f1233589CE5"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0xFDC7BEc0aED8a584577fd59CbF56805eE8c976B3"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0x5f525cd29377DC2155C2AbCDaC0Ce45e630318b7"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0x3a69B365769a9dAb67865Ca5530c4B1D5259bCb7"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0x97870c129abc9877b66534e49f152585D6Ca3655"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0x1Ad061ad839f82C05767dACd2B5ab384E72B45a5"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0xFd4b5ae43f2aA446b02209098438890d3998cC9F"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0x732BF4fA8E57200621b0e1acbe8855c238823016"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0xa76Fa6837A6ffc9F123F2193717A5965c68B0cbA"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0xFaeb57c16D5E9A9f06c8c5dB12796f5a432Eb7d6"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0xb501FDaad0F0863C4c72f7EB9Abc23965DCa973d"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0xF62bF6371Ee020Cb2164Ac3C338514DBbb93A0D4"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0x4C84a36fCDb7Bc750294A7f3B5ad5CA8F74C4A52"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0x2859d961a6dBa6e7d30b2d383Af468edb4E7F4f6"
+        }
+      ],
+      "gx-participant:headquarterAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-HH",
+        "gx-participant:streetAddress": "Katharinenstraße 30a",
+        "gx-participant:postalCode": "20457",
+        "gx-participant:locality": "Hamburg"
+      },
+      "gx-participant:legalAddress": {
+        "gx-participant:addressCountryCode": "DE",
+        "gx-participant:addressCode": "DE-HH",
+        "gx-participant:streetAddress": "Katharinenstraße 30a",
+        "gx-participant:postalCode": "20457",
+        "gx-participant:locality": "Hamburg"
+      },
+      "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-03-04T23:10:57.148Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:delta-dao.com",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..jLRF13V82K8HcSv5gzc9FdmZtM5zjozM3IFm5W80xTnkxxFuX7hHB4mcG4-S7rb_ofrNdUReisR2yrDKcrV_lSw9Olq8URvXFOmrg7XOTmQOG1uqodNHJw0_7Wrs9CXVJAPCpy6bWON6I2Zqgk-CjBqUP6JyPG6SQ43nO-zel4Kzbnzd6j6VFw7SozK6IKxqWOuDpQCF9lpYrGvQypdo4KEf0LdUUkMcSH7YtQk1pyt7WzKxG2dK4qvDEZDYgMrHNwi1-vTXSK_2A7L6K0V23zxBZWNFu-xuULSrQ3pqZtPGATAQW-j_7acXSpG4DdKxC4tQTbRPTawr8Aomm1eXHA"
+    }
+  },
+  "complianceCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "ParticipantCredential"
+    ],
+    "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1677971459234",
+    "issuer": "did:web:compliance.lab.gaia-x.eu::development",
+    "issuanceDate": "2023-03-04T23:10:59.234Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participant.json",
+      "hash": "b4e2179d3deb933747ec002788da9d2b576098bb4a5d3365582bd655eb5439e6"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-03-04T23:10:59.234Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..C4-UjgwhmWLrFM5mpox5fU6nyPs8ODiQwA0cV6J_Na0z_KuO5dcWkR1v1XfNwMsnQreRH8VrxIdDohVfCGxpUOm5m_dbvBn-w5E16gRtH3lSjkSadk4D7u3-6QJfbOI-uALKkuTqfGBxgN1l5vDfe7Zh9NJtwC2BF_Hist9PHNOMpxT4xQL0L0EUoIovhcvXvcSLo_4ycmRKdb5g0c7-YVW-U4imfPZbVQ18BDnyClR02fd8X6q8HRSXgGaPFI8vsREI6TW0FE57jHWZibdTi2cdkx4h5m2tXUElcuKGxvJ6V0GLHGeSK47u5KHGJ2hKDHOwwDcviaOMgZyRi3qO0A",
+      "verificationMethod": "did:web:compliance.lab.gaia-x.eu::development"
+    }
+  }
+}
