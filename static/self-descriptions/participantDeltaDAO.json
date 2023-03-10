@@ -160,6 +160,11 @@
           "gx-participant:blockchainId": "100",
           "gx-participant:blockchainName": "GEN-X",
           "gx-participant:blockchainAccountId": "0x2859d961a6dBa6e7d30b2d383Af468edb4E7F4f6"
+        },
+        {
+          "gx-participant:blockchainId": "100",
+          "gx-participant:blockchainName": "GEN-X",
+          "gx-participant:blockchainAccountId": "0x3dB4E0b1fC6072271BF51e9a0CC17E3c7C4C99f5"
         }
       ],
       "gx-participant:headquarterAddress": {
@@ -180,10 +185,10 @@
     },
     "proof": {
       "type": "JsonWebSignature2020",
-      "created": "2023-03-04T23:10:57.148Z",
+      "created": "2023-03-10T16:27:30.003Z",
       "proofPurpose": "assertionMethod",
       "verificationMethod": "did:web:delta-dao.com",
-      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..jLRF13V82K8HcSv5gzc9FdmZtM5zjozM3IFm5W80xTnkxxFuX7hHB4mcG4-S7rb_ofrNdUReisR2yrDKcrV_lSw9Olq8URvXFOmrg7XOTmQOG1uqodNHJw0_7Wrs9CXVJAPCpy6bWON6I2Zqgk-CjBqUP6JyPG6SQ43nO-zel4Kzbnzd6j6VFw7SozK6IKxqWOuDpQCF9lpYrGvQypdo4KEf0LdUUkMcSH7YtQk1pyt7WzKxG2dK4qvDEZDYgMrHNwi1-vTXSK_2A7L6K0V23zxBZWNFu-xuULSrQ3pqZtPGATAQW-j_7acXSpG4DdKxC4tQTbRPTawr8Aomm1eXHA"
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..aX428TN76-R8U_UW2u1B2sEfoTjV0xMkGL3SK9taeGUF-BFEwmze-w0cpR9dxnm41CnxvzDzjQ0728qmCAqTBl1ol9rNAKTQ5MJwBxv_5N6hDUTZ6tQlTL-QJaz9CZbCLZTg7zjUAW1vLzACC-rA2aFdExfUwcbjDyHu1IvCO212E3UWS4e6kPrNQBqVMqrPbpN79W5s5p_EM00BD2thCi5w997zsSzo3LedQ2rnF0FicW28w_qLws23JdQBOkCIc8o9dE11rv3-N_YXQ3O5A7w9qoR4sk59k9EVXJV5YJF2MkBqOWbG0CgfkDiLI5sf6H4Pu7WA8fTqJXq_O5EApA"
     }
   },
   "complianceCredential": {
@@ -194,18 +199,19 @@
       "VerifiableCredential",
       "ParticipantCredential"
     ],
-    "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1677971459234",
+    "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1678465652121",
     "issuer": "did:web:compliance.lab.gaia-x.eu::development",
-    "issuanceDate": "2023-03-04T23:10:59.234Z",
+    "issuanceDate": "2023-03-10T16:27:32.121Z",
+    "expirationDate": "2023-06-08T16:27:32.121Z",
     "credentialSubject": {
       "id": "https://delta-dao.com/.well-known/participant.json",
-      "hash": "b4e2179d3deb933747ec002788da9d2b576098bb4a5d3365582bd655eb5439e6"
+      "hash": "821ba54bd6e58f32b99b7ad0d15c3108b1305545049564669d758d8c0335f882"
     },
     "proof": {
       "type": "JsonWebSignature2020",
-      "created": "2023-03-04T23:10:59.234Z",
+      "created": "2023-03-10T16:27:32.121Z",
       "proofPurpose": "assertionMethod",
-      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..C4-UjgwhmWLrFM5mpox5fU6nyPs8ODiQwA0cV6J_Na0z_KuO5dcWkR1v1XfNwMsnQreRH8VrxIdDohVfCGxpUOm5m_dbvBn-w5E16gRtH3lSjkSadk4D7u3-6QJfbOI-uALKkuTqfGBxgN1l5vDfe7Zh9NJtwC2BF_Hist9PHNOMpxT4xQL0L0EUoIovhcvXvcSLo_4ycmRKdb5g0c7-YVW-U4imfPZbVQ18BDnyClR02fd8X6q8HRSXgGaPFI8vsREI6TW0FE57jHWZibdTi2cdkx4h5m2tXUElcuKGxvJ6V0GLHGeSK47u5KHGJ2hKDHOwwDcviaOMgZyRi3qO0A",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..t0_xzUa9bm36IQpQAX8R29eJugq5uU9sBUJspvsiPpBJuiJKua6c9DkHevIqHLC_Y_K-yp1IpxwvySkUDKW0r987-Yc2CukdKR9RDhPMueBwCGg3pN1pMxO6HB8HykYPjpWZfTXUIOJvK70aYlh_QyKMIoJ3JTxqCdIuKMpT6eYZMyWx8ulLtoM6fWJUxVfHCbWWuRrRgM4BF89FGFALxpIc5iLt8VY1luuadcaSJhsCKJAty37olDKzw5SUQWAIA8qXf4umqT6Qc35Z_lL1IXyHub1eDz5P6Wd8g0im0ZYo4C5IKJjKdk891gReuWnvN5ejKA1ufuwppyoiCWHanw",
       "verificationMethod": "did:web:compliance.lab.gaia-x.eu::development"
     }
   }
