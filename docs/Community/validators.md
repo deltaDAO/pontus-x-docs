@@ -20,7 +20,6 @@ Furthermore, we can recommend our [blog post](https://deltadao.medium.com/gaia-x
 - Staatsbibliothek zu Berlin (SBB), Germany
 - TU Wien
 - Software AG
-- 
 
 ### Gaia-X Trust Framework Participant Identification and Self-Descriptions
 - deltaDAO: https://www.delta-dao.com/.well-known/participantDeltadao.json
