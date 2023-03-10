@@ -47,6 +47,9 @@ title: Participants
 | Arsys                               | 0xD7b90d6476091F6bc4CAaC40180FB300351fAb9F | Federator     | https://arlabdevelopments.com/.well-known/ArsysParticipant.json      |
 | State Library of Berlin             | 0xF20113edd04d98A64AD2A003B836677E1c9aACAD | Federator     | https://delta-dao.com/.well-known/participantStateLibraryBerlin.json |
 | University of Lleida                | 0x62078F05Eb4450272D7E492F3660835826906822 | Federator     | https://delta-dao.com/.well-known/participantUniversitydeLleida.json |
+| Software AG                         | 0xa702032E187E6A53EAddC28a735B414220712689 | Participant   | https://sagresearch.de/.well-known/participantSoftwareAG.json        |
+| Software AG                         | 0x0a477f6297413f20C4fBc15F93e34dacE4136123 | Participant   | https://sagresearch.de/.well-known/participantSoftwareAG.json        |
+| TU Wien                             | 0x586000e6DA330E140b11a4aeEbb81963d67F336b | Participant   |                                                                      |
 | Materna SE                          | 0xf596D17C4a3A5c92c4721627B9e5E5064651BF46 | Participant   | https://delta-dao.com/.well-known/participantMaterna.json            |
 | Airbus                              | 0x3CEA8fBCbD1c745E081fD3937C18eE0b6Cc3f1b1 | Participant   | https://delta-dao.com/.well-known/participantAirbus.json             |
 | OHB                                 | 0xF8dB4a6d529a14e3E029e2b8A9279f408909Fa20 | Participant   | https://delta-dao.com/.well-known/participantOHBdigital.json         |
@@ -64,7 +67,6 @@ title: Participants
 | RWS                                 | 0xa98A6eefbAE870b88a9C7A43f4b50066A01c93b6 | Participant   | https://delta-dao.com/.well-known/participantRijkswaterstaat.json    |
 | Craftworks                          | 0x9dfbda23b65efB1c836828D74a96eB8528A60f3C | Participant   | https://craftworks.euprogigant.io/sd/participant.json                |
 | Concircle Österreich GmbH           | 0xb2AF8b92bFaC5299Cb6EDEf16150BFD1d4d26a93 | Participant   | https://delta-dao.com/.well-known/participantConcircleAustria.json   |
-| Software AG                         | 0xa702032E187E6A53EAddC28a735B414220712689 | Participant   | https://sagresearch.de/.well-known/participantSoftwareAG.json        |
 | DENSO AUTOMOTIVE Deutschland GmbH   | 0x2b92BF0496B7B41ea2d723325DDE96651795c784 | Participant   | https://delta-dao.com/.well-known/participantDenso.json              |
 | DENSO AUTOMOTIVE Deutschland GmbH   | 0xe761F8e33c71D08A9323Cb2c711aB4Fae2634276 | Participant   | https://delta-dao.com/.well-known/participantDenso.json              |
 | Struggle Creative Oy                | 0x895975869261A215813e33568a295F94A3F301ed | Participant   | https://delta-dao.com/.well-known/participantStruggle.json           |
