@@ -10,9 +10,9 @@
         ],
         "id": "https://delta-dao.com/.well-known/serviceRoadData_Ocean_2.json",
         "credentialSubject": {
-            "id": "https://delta-dao.com/.well-known/serviceRoadData_Ocean_2.json",
+            "id": "did:op:bb0d63ada2d9ab55a775d17516aaf62e41ee33a015713216aa12e68166bb1367",
             "gx-service-offering:providedBy": "https://delta-dao.com/.well-known/participantDeltaDAO.json",
-            "gx-service-offering:name": "Vehicle Data Collection Data for Road Damage Detection 1",
+            "gx-service-offering:name": "EGRFUG-22 Vehicle Data Collection Data for Road Damage Detection 2",
             "gx-service-offering:description": "This data service offering consists of imnage data for object detection and annotation.",
             "gx-service-offering:serviceModel": "subscription",
             "gx-service-offering:servicePrice": [
@@ -25,10 +25,10 @@
             "gx-service-offering:Policies": "computeToDataOnly",
             "gx-service-offering:whitelistedUsage": [
                 {
-                    "gx-service-offering:whitelistedUsageAlgorithm": "did:op:dAd9D741C9BC580a7b550dac42C9bf1aAe582B5c"
+                    "gx-service-offering:whitelistedUsageAlgorithm": "did:op:b4be1f60c197890bfebc041e66731a2c6f98f520169a9f38173c19e29353b4d0"
                 }
             ],
-            "gx-service-offering:webAddress": "https://portal.moveid.eu/asset/did:op:78f831361E1c850a16667346068f5fcAFE83F1F5",
+            "gx-service-offering:webAddress": "https://v4.minimal-gaia-x.eu/asset/did:op:bb0d63ada2d9ab55a775d17516aaf62e41ee33a015713216aa12e68166bb13675",
             "gx-service-offering:termsAndConditions": [
                 {
                     "gx-service-offering:url": "https://creativecommons.org/licenses/by/4.0/",
@@ -65,10 +65,10 @@
         "issuanceDate": "2023-03-11T16:00:00.235Z",
         "proof": {
             "type": "JsonWebSignature2020",
-            "created": "2023-03-11T17:28:59.587Z",
+            "created": "2023-03-11T21:26:26.472Z",
             "proofPurpose": "assertionMethod",
             "verificationMethod": "did:web:delta-dao.com",
-            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..X9Vf7tMdi-DkA9xAaKbXWaXZtCXA3ohng17rIoADiyKiByc9WlXRzS38yn-ApsuXc2h463lOBxoMJAHOCkCA0A8MkE-KKFKY1a_MFLX0FML0qHM8ZbrRYxCvyik3BdOGB6_6zTTWK2ChfvHhY8a5UE1PyXyVa3CQ7tchxieexLdL4dyVPmw3pui4RNY8vP7wnPPkiDk0Hl12h_Z8F_1jejTbkHIFp5mW5mc1IPUy--pwWLg8PfSCJm0awPYMhAbQp7N-OJQmYtc0xQUo02lTmDMTrjL8R_oa86d-FyiyBAKAZsHSXpzhNTrSSgUeL74pbhXmgVHOaDLJXZaNIImt5w"
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..im6adADxsSUMiZiR1a4zeNye4QmkUquUQiQ-0DtTRVXEd3Z1wniZMI6BXc4p1Tt1NLw0TxkCPWbG8T0c4wazgFmBTfQJmGnLGAlIIlxY28rWTYmysfTrIYgNT-1nyvo01qvnc0KLMXjy2r-eLP-COerCNLhUGCeWweHkhojnW1SbYSjyG7tWzhejrhGutqzuQ2aL3ZUuWGw_00P036hapx_M5HvIwr6u_Xx-iDXgdGIdhZbzbN-kEog__I81Jljo8IQ5cveqpeBU4ad5FnMD8ywho3wAeTNXsirxdrHS-VVm-auTu4JJYy_3W4OR88Dc-uRAdd0hdephKztcEygg7A"
         }
     },
     "complianceCredential": {
@@ -79,19 +79,19 @@
             "VerifiableCredential",
             "ServiceOfferingCredentialExperimental"
         ],
-        "id": "https://catalogue.gaia-x.eu/credentials/ServiceOfferingCredentialExperimental/1678555741430",
+        "id": "https://catalogue.gaia-x.eu/credentials/ServiceOfferingCredentialExperimental/1678569988169",
         "issuer": "did:web:compliance.lab.gaia-x.eu::development",
-        "issuanceDate": "2023-03-11T17:29:01.430Z",
-        "expirationDate": "2023-06-09T17:29:01.430Z",
+        "issuanceDate": "2023-03-11T21:26:28.169Z",
+        "expirationDate": "2023-06-09T21:26:28.169Z",
         "credentialSubject": {
-            "id": "https://delta-dao.com/.well-known/serviceRoadData_Ocean_2.json",
-            "hash": "427c1c0aad9e80d3097246445bb01cc3154373ba4ad86ca91a05ece0c4fc1552"
+            "id": "did:op:bb0d63ada2d9ab55a775d17516aaf62e41ee33a015713216aa12e68166bb1367",
+            "hash": "c9960446553aa3335e0c7b06916ade305a163841d4a77f6a06a796f9af198c28"
         },
         "proof": {
             "type": "JsonWebSignature2020",
-            "created": "2023-03-11T17:29:01.430Z",
+            "created": "2023-03-11T21:26:28.169Z",
             "proofPurpose": "assertionMethod",
-            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..NE3idt4hPZJGuiGf5hl8aD_AczNrgeLEYSVkSncfJg7rgHCY5Tdit0tXjHDBRDIHF09RY4AfbUIiUOqh420kPfZTWEmzwNI1qy2ohg3Q8k30NNSBZNCKmKpBpzNxrN1jjFl5Lx81TB5p5WD7GvhI-Bb81e_8XGy9m8MSWQqk_qD7Mf5T-7T9BLTlN-qo54aDQvvbNwjiCBIk7g3Rmg9ahpFkRXKEbLZl6r0xVNZiD6v8aef_wuYmGyURmt3H__yBO0iX9SOVclIWfQPt9UjurHyi4O1Ou4XmBzLfqa0FmgOWoGfdM4fQ4kCxXD0XC86TfO1N3Tv6hutKndmBfGnUtg",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ESLdAU80QVGEE4h40S24qEVkvpEQ1tM-Tio-t8hf8ZHCPcRj0LHT1kSxHvD9f0kSA5ti_UHcPBPsHajLn5DHM7Lv3edoEwWR_oIMmjQo8fDA76G2fEs88jH2zZOPjvCCwzrJwioPdz_l9-uACvpLEG4E8a3RhbIQf8k9yJ_OhUDqSUjdKdIZFYbfBik3FL-eMICk-92nFkipefDiNRMwmHbPCywwz3w77WqpJDmcSicG4QgJdw5ensH10nAn9CJgsX8hPB14tCvkgC6oBtHxffebfuK4QY77zPM_FXQopVELO4Iksu3hO-kzk2kHCBH_suRc0_LIYtAz6itwdC_pIQ",
             "verificationMethod": "did:web:compliance.lab.gaia-x.eu::development"
         }
     }

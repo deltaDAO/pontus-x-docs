@@ -8,11 +8,11 @@
             "VerifiableCredential",
             "ServiceOfferingExperimental"
         ],
-        "id": "https://delta-dao.com/.well-known/serviceRoadData_EUROe_3.json",
+        "id": "https://delta-dao.com/.well-known/serviceRoadData_EUROe_5.json",
         "credentialSubject": {
-            "id": "did:op:62e59429968920ed1384df4a3a470f064aa845a1cdc3868709bf9d9b0c9d44b9",
+            "id": "did:op:0a2de787d33a90c67f16e0ef4731173c8df0fb7df8a2140e1522175315c07725",
             "gx-service-offering:providedBy": "https://delta-dao.com/.well-known/participantDeltaDAO.json",
-            "gx-service-offering:name": "REBTUN-24 Vehicle Data Collection Data for Road Damage Detection 3",
+            "gx-service-offering:name": "CONPLA-80 Vehicle Data Collection Data for Road Damage Detection 5",
             "gx-service-offering:description": "This data service offering consists of imnage data for object detection and annotation.",
             "gx-service-offering:serviceModel": "subscription",
             "gx-service-offering:servicePrice": [
@@ -28,7 +28,7 @@
                     "gx-service-offering:whitelistedUsageAlgorithm": "did:op:b4be1f60c197890bfebc041e66731a2c6f98f520169a9f38173c19e29353b4d0"
                 }
             ],
-            "gx-service-offering:webAddress": "https://v4.minimal-gaia-x.eu/asset/did:op:62e59429968920ed1384df4a3a470f064aa845a1cdc3868709bf9d9b0c9d44b9",
+            "gx-service-offering:webAddress": "https://v4.minimal-gaia-x.eu/asset/did:op:0a2de787d33a90c67f16e0ef4731173c8df0fb7df8a2140e1522175315c07725",
             "gx-service-offering:termsAndConditions": [
                 {
                     "gx-service-offering:url": "https://creativecommons.org/licenses/by/4.0/",
@@ -65,10 +65,10 @@
         "issuanceDate": "2023-03-11T16:00:00.235Z",
         "proof": {
             "type": "JsonWebSignature2020",
-            "created": "2023-03-11T21:22:20.155Z",
+            "created": "2023-03-11T21:23:48.802Z",
             "proofPurpose": "assertionMethod",
             "verificationMethod": "did:web:delta-dao.com",
-            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..Q4absh_-7m5__X6cq4Ijv1kPdcdR01oVc0ormLEPVYbTXWRHLl6_0QICAg3HZxO_komvcOCD4jQSA4bMW4ziHnIL1yC9YE-I-vVir3RAh74Lk5fWNfZR5VC2yIOtWndz-TqShmNst_y-5jY-oKc4C5H2qxo66fnXKnFrAlwuUFLIAQDnbhC3toI983e9RUhXStyZbWcqwIRc4YPBwS3xu9Ee_3MWDH4HX7KXzEUGWsrfwTG3iy95cJOOFJzTkQcucc5aNpPmJpts9QnM4NwFK8kjZ81dUgT4MMPGW5--nZnuqIPFxuQS5sq4PpnOlKTmQnM7aURRAwa6Ss7kjIjlSQ"
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..rD0pSf5Huz4m0eLe3PogXLQ68qrKW1g2l2bSFDtIDc4i7XD9cDNrjOVXlzUM5yIUbjOgu4ZIlrQ0cWdjg1lhJo_IazV1GnhIQId3pPzTIbbR0WvaiwjFPCSjFnDHYfGtgeT2iT_h8Tx_Uj8zHhXsTZ0_4BBD614_3U-0roRhWDITCwYLySimkpwRe2f4bzwGn-6PJ5sbUfh3t6qrKO8x8o3ytnAYGJ8HK27JEBCrWeZ39WI2bsez060xlxlrW_dy3rK16qwVepKbKX80O1y8WiEVbNDh3kytVWh3jX7Dy5A_-netOxc4Bhqpjo9xUsBzIRZ4m9nrb0iuKrcDnIXCyw"
         }
     },
     "complianceCredential": {
@@ -79,19 +79,19 @@
             "VerifiableCredential",
             "ServiceOfferingCredentialExperimental"
         ],
-        "id": "https://catalogue.gaia-x.eu/credentials/ServiceOfferingCredentialExperimental/1678569741805",
+        "id": "https://catalogue.gaia-x.eu/credentials/ServiceOfferingCredentialExperimental/1678569830387",
         "issuer": "did:web:compliance.lab.gaia-x.eu::development",
-        "issuanceDate": "2023-03-11T21:22:21.805Z",
-        "expirationDate": "2023-06-09T21:22:21.805Z",
+        "issuanceDate": "2023-03-11T21:23:50.387Z",
+        "expirationDate": "2023-06-09T21:23:50.387Z",
         "credentialSubject": {
-            "id": "did:op:62e59429968920ed1384df4a3a470f064aa845a1cdc3868709bf9d9b0c9d44b9",
-            "hash": "793a0187320c93474049ce5c21656734dcb0d423ea7a0ac8f9e56d57733b3ccd"
+            "id": "did:op:0a2de787d33a90c67f16e0ef4731173c8df0fb7df8a2140e1522175315c07725",
+            "hash": "bcb3e13775befb49287c76a0a82d313de8063336f24004b241b059c1318a2b77"
         },
         "proof": {
             "type": "JsonWebSignature2020",
-            "created": "2023-03-11T21:22:21.805Z",
+            "created": "2023-03-11T21:23:50.388Z",
             "proofPurpose": "assertionMethod",
-            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..pPd39lzZroNvIXXCRTM85AvsVYL5ragWQItcVVnMg44EClT-tK2YrXkQLTs4vcm-lXK-94qYxbIrmE8o20zrNQ1Ij58uGZWbQCdd-g5jY4iRi6qOyG-AANUsxT2XmufJeySD3XUkTjFC2CSoej2-r6eWu7No3Qu99_j8mzBgFrIHB34lHD3iv7YKWtScpPpZ0-PVmId7pgcQ5BO6J1ob7v9Bsjeyt7zETR2CfG1moMStkEdGNp67V4BhtZEOFI7xlrmvcBqwK09WoLGG2blV1S_dYUbYkb4kOVAXFSfzFTnWmpmCAiSL9TYLV01ByEpNhqoq6rLTBAqGznXJxood0Q",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..uGCvRV7YyumVfmtFkiuqouFw8KR2bbivrvk8MPrASdpVw_HFUvEDLoklqkRZwDFhER0w4PjJcLAPV5RIoidlNNnOi1hIFHmplGaW0IIYOdJoNwPPPwVXEnH1RVpWQmg3qRleosAYs2d8wfbRaWrev6uPeAussjs8ZEb04Qm2R5g-J37070_qVFNplUv-qdStVkzsgQnK6YxjBmxcha3NX54ps99nZYWT9prdvOJ6WLisnGVxJGZVrl9Xes3QPT85Vi-pJeSm13zhb3y1PJ63Db5Cf73Ue1RhZj48MgOhcpBkMbnIiO6oRHor645Gec4L3Kcg7uFDBnMQvYKEcT5aog",
             "verificationMethod": "did:web:compliance.lab.gaia-x.eu::development"
         }
     }
