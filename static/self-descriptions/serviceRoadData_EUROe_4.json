@@ -1,0 +1,98 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ServiceOfferingExperimental"
+        ],
+        "id": "https://delta-dao.com/.well-known/serviceRoadData_EUROe_4.json",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/serviceRoadData_EUROe_4.json",
+            "gx-service-offering:providedBy": "https://delta-dao.com/.well-known/participantDeltaDAO.json",
+            "gx-service-offering:name": "Vehicle Data Collection Data for Road Damage Detection 1",
+            "gx-service-offering:description": "This data service offering consists of imnage data for object detection and annotation.",
+            "gx-service-offering:serviceModel": "subscription",
+            "gx-service-offering:servicePrice": [
+                {
+                    "gx-service-offering:servicePriceCurrency": "EUROe",
+                    "gx-service-offering:servicePriceValue": "1"
+                }
+            ],
+            "gx-service-offering:subscriptionDuration": "86400",
+            "gx-service-offering:Policies": "computeToDataOnly",
+            "gx-service-offering:whitelistedUsage": [
+                {
+                    "gx-service-offering:whitelistedUsageAlgorithm": "did:op:dAd9D741C9BC580a7b550dac42C9bf1aAe582B5c"
+                }
+            ],
+            "gx-service-offering:webAddress": "https://portal.moveid.eu/asset/did:op:78f831361E1c850a16667346068f5fcAFE83F1F5",
+            "gx-service-offering:termsAndConditions": [
+                {
+                    "gx-service-offering:url": "https://creativecommons.org/licenses/by/4.0/",
+                    "gx-service-offering:hash": "2edd334433cb3ff9c2904b194653d714cf42398e6af750fb44c65679a9fce6cc"
+                }
+            ],
+            "gx-service-offering:gdpr": [
+                {
+                    "gx-service-offering:imprint": "https://www.delta-dao.com/imprint/"
+                },
+                {
+                    "gx-service-offering:privacyPolicy": "https://www.delta-dao.com/privacy/"
+                }
+            ],
+            "gx-service-offering:dependsOn": [
+                "https://www.delta-dao.com/.well-known/serviceOperatorEngineEdge.json",
+                "https://www.delta-dao.com/.well-known/serviceOperatorServiceEdge.json",
+                "https://www.delta-dao.com/.well-known/serviceAccessControllerEdge.json",
+                "https://delta-dao.com/.well-known/serviceGaiaxDLTNetwork.json",
+                "https://delta-dao.com/.well-known/serviceS3Bucket.json",
+                "https://delta-dao.com/.well-known/serviceK8sClusterDeltaDAOEdge.json",
+                "https://delta-dao.com/.well-known/resourceRoadData.json"
+            ],
+            "gx-service-offering:dataProtectionRegime": [
+                "GDPR2016"
+            ],
+            "gx-service-offering:dataExport": {
+                "gx-service-offering:requestType": "email",
+                "gx-service-offering:accessType": "digital",
+                "gx-service-offering:formatType": "mime/png"
+            }
+        },
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-03-11T16:00:00.235Z",
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-03-11T17:25:34.042Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..KEgEAyHRHBV_1Z1jtKXOBQazqCj9iNwNqs0S7EBTfMkFTz6aDMiLq-lp9wKsnN_kpMa5QlLXGNKdgSzbg09fX-1OZ85Fpm_ydIlWOr8DxHBUNZXJ3bAOEq_lxB-xu1kp5KXK6UHv8TiZ1r_fEK_TVtzxs_-M8MYFpjntzKBpXIj8AE7DW3uMp96S8Y247FKP55U8YZFL8F8q-LJv1YILqtTOZvwQi_q_g15KEk182EqPe9QaJ6EZd53ZKPhec19fyaniNAD4e4e5-pNcisFyjCGqXBiAJCphGxM82SHT4_oT1HBoet7YxoKb2HdlQR26RkOQP83i4cPD-GUAy0W4oA"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ServiceOfferingCredentialExperimental"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ServiceOfferingCredentialExperimental/1678555535193",
+        "issuer": "did:web:compliance.lab.gaia-x.eu::development",
+        "issuanceDate": "2023-03-11T17:25:35.193Z",
+        "expirationDate": "2023-06-09T17:25:35.193Z",
+        "credentialSubject": {
+            "id": "https://delta-dao.com/.well-known/serviceRoadData_EUROe_4.json",
+            "hash": "22085f89b07745bc99505afb18dd0758026c4a5fe3b082a644e3de2f7e92e1df"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-03-11T17:25:35.193Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..ExksH4MfQB7E3qp0W-0lCXd5s-CX8To6Jd8LxkxYMFYAcMGO0F291Y3r_soQPu0ekOp3f2kUokGe1uZDZd7wSDU9Y8TvBJpGLhWfqqNuXq1441DF58xKSD9a0EQcBZRtOS5dVYMvch4spdATVuYDnXFOG0fEsDfnmWs_Gn6KJ3pX1QcA-jG_B7yxREwlp1Ifikvyv-S2Frqnw-wZuwr_lv-gBgfN28aYSZBI18ZL2kjz6etLcuuFNeS15OD_rqN12_H39sSygkEx6BOv6aqCjtzhyadMES6H-Mjb9oTEkyTAcIxEJ0lc7FOkIbAIzVFxz1AUvrhVc3ynRMS-X_r-xg",
+            "verificationMethod": "did:web:compliance.lab.gaia-x.eu::development"
+        }
+    }
+}
