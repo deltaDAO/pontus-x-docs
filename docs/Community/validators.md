@@ -29,7 +29,7 @@ Furthermore, we can recommend our [blog post](https://deltadao.medium.com/gaia-x
 - IONOS Cloud: https://delta-dao.com/.well-known/participantIONOS.json
 - WOBCOM: https://delta-dao.com/.well-known/participantWobcom.json
 - SBB: https://delta-dao.com/.well-known/participantStateLibraryBerlin.json
-- TU Wien:
+- TU Wien: https://delta-dao.com/.well-known/participantTUWien.json
 - Software AG: https://sagresearch.de/.well-known/participantSoftwareAG.json
 
 ### Validator Set
