@@ -1,0 +1,74 @@
+{
+  "selfDescriptionCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1",
+      "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "LegalPerson"
+    ],
+    "id": "did:web:delta-dao.com",
+    "issuer": "did:web:delta-dao.com",
+    "issuanceDate": "2023-03-09T15:31:37.223Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantTUWien.json",
+      "gx-participant:name": "TU Wien",
+      "gx-participant:legalName": "TECHNISCHE UNIVERSITÄT WIEN",
+      "gx-participant:website": "https://www.tuwien.at/",
+      "gx-participant:registrationNumber": {
+        "gx-participant:registrationNumberType": "vatID",
+        "gx-participant:registrationNumberNumber": "ATU37675002"
+      },
+      "gx-participant:blockchainAccountId": [
+        {
+          "gx-participant:blockchainAccountId": "0x586000e6DA330E140b11a4aeEbb81963d67F336b"
+        }
+      ],
+      "gx-participant:headquarterAddress": {
+        "gx-participant:addressCountryCode": "AT",
+        "gx-participant:addressCode": "AT-9",
+        "gx-participant:streetAddress": "Karlsplatz 13",
+        "gx-participant:postalCode": "1040"
+      },
+      "gx-participant:legalAddress": {
+        "gx-participant:addressCountryCode": "AT",
+        "gx-participant:addressCode": "AT-9",
+        "gx-participant:streetAddress": "Karlsplatz 13",
+        "gx-participant:postalCode": "1040"
+      },
+      "gx-participant:termsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-03-11T16:29:21.589Z",
+      "proofPurpose": "assertionMethod",
+      "verificationMethod": "did:web:delta-dao.com",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..AwZmxif30Ok2P78GEoESpsm8zeqfEnonorR47TXwUZiQernfMUGIHgYJ7HF7jc235gVAdejmk-WUYYpTAlB0yQhHe5vkEsQrhqWlmN2WXed3Vpqe1ZE2EWxLqera572XIKexRAX_XJAszb39gWOaYrlGpOu0YF-tUmD5vs_ZxIb9brc848N4mmycRzbD2mV8wuFuvs9APXmGVjljmkMEKov9jd01XHck-O6JgunF-UcnuFVFC-V13wKBc7MwHUFR-jqEB-EuczuomD_EfJZ9iLttNnqEGCAOEgNgl9Npgzi0fuBSfnnoqNsV5BPnylRZCbL_SI_6HQCQE9guT80DJw"
+    }
+  },
+  "complianceCredential": {
+    "@context": [
+      "https://www.w3.org/2018/credentials/v1"
+    ],
+    "type": [
+      "VerifiableCredential",
+      "ParticipantCredential"
+    ],
+    "id": "https://catalogue.gaia-x.eu/credentials/ParticipantCredential/1678552163525",
+    "issuer": "did:web:compliance.lab.gaia-x.eu::development",
+    "issuanceDate": "2023-03-11T16:29:23.525Z",
+    "expirationDate": "2023-06-09T16:29:23.525Z",
+    "credentialSubject": {
+      "id": "https://delta-dao.com/.well-known/participantTUWien.json",
+      "hash": "cd4c5bb3bc5963c95c5ee7032f187127e844980d927cc8904cf6564d993948ff"
+    },
+    "proof": {
+      "type": "JsonWebSignature2020",
+      "created": "2023-03-11T16:29:23.525Z",
+      "proofPurpose": "assertionMethod",
+      "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..G8bZMfgB5Yot7qozgyIn9vjvY8HMyP4LWC4RWsxdHvsG7lqEk4RekBaCzI8saHWIxtS37pYUPlNWF7IYpAn8Q6-5gkeC6N3FySCgHJiilHG_tuWEabET7RlYoKtCNt4_e50rbA_5co8W-x_yWRtfQ1-qiieSP59G2R8akqNpHAGJ-8hLlzbkoBCZGU4e_PL8f6qFTjtov79cHSEv9O0BkSz0fS8f8dN4SL4ygFlnraDsssXyYgNpXERI7MytlGMgDPXXS4W77U8gsvi2dO6Xc2VEbYlFM98dtwnHAQk8-3ADg3GokNHGdLV2y_r13Frb7fuHCzRJ6vF49k0bhWAVhQ",
+      "verificationMethod": "did:web:compliance.lab.gaia-x.eu::development"
+    }
+  }
+}
