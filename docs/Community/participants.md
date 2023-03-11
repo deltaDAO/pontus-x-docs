@@ -49,7 +49,7 @@ title: Participants
 | University of Lleida                | 0x62078F05Eb4450272D7E492F3660835826906822 | Federator     | https://delta-dao.com/.well-known/participantUniversitydeLleida.json |
 | Software AG                         | 0xa702032E187E6A53EAddC28a735B414220712689 | Participant   | https://sagresearch.de/.well-known/participantSoftwareAG.json        |
 | Software AG                         | 0x0a477f6297413f20C4fBc15F93e34dacE4136123 | Participant   | https://sagresearch.de/.well-known/participantSoftwareAG.json        |
-| TU Wien                             | 0x586000e6DA330E140b11a4aeEbb81963d67F336b | Participant   |                                                                      |
+| TU Wien                             | 0x586000e6DA330E140b11a4aeEbb81963d67F336b | Participant   | https://delta-dao.com/.well-known/participantTUWien.json             |
 | Materna SE                          | 0xf596D17C4a3A5c92c4721627B9e5E5064651BF46 | Participant   | https://delta-dao.com/.well-known/participantMaterna.json            |
 | Airbus                              | 0x3CEA8fBCbD1c745E081fD3937C18eE0b6Cc3f1b1 | Participant   | https://delta-dao.com/.well-known/participantAirbus.json             |
 | OHB                                 | 0xF8dB4a6d529a14e3E029e2b8A9279f408909Fa20 | Participant   | https://delta-dao.com/.well-known/participantOHBdigital.json         |
