@@ -1,0 +1,92 @@
+{
+    "selfDescriptionCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1",
+            "https://registry.lab.gaia-x.eu/development/api/trusted-shape-registry/v1/shapes/"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ServiceOfferingExperimental"
+        ],
+        "id": "https://delta-dao.com/.well-known/serviceGraphQLdemo_Algorithm_Free.json",
+        "credentialSubject": {
+            "id": "did:op:020543f761a65f3f6831730fa865d606f23d33c547e2c2596407208b573f10a7",
+            "gx-service-offering:providedBy": "https://delta-dao.com/.well-known/participantDeltaDAO.json",
+            "gx-service-offering:name": "GraphQL Demo - Product Quantity Computation Algorithm (FREE)",
+            "gx-service-offering:description": "Querying a PostgreSQL database for orders.",
+            "gx-service-offering:serviceModel": "subscription",
+            "gx-service-offering:servicePrice": [
+                {
+                    "gx-service-offering:servicePriceCurrency": "EUROe",
+                    "gx-service-offering:servicePriceValue": "0"
+                }
+            ],
+            "gx-service-offering:subscriptionDuration": "86400",
+            "gx-service-offering:Policies": "https://v4.minimal-gaia-x.eu/terms",
+            "gx-service-offering:webAddress": "https://v4.minimal-gaia-x.eu/asset/did:op:020543f761a65f3f6831730fa865d606f23d33c547e2c2596407208b573f10a7",
+            "gx-service-offering:termsAndConditions": [
+                {
+                    "gx-service-offering:url": "https://creativecommons.org/licenses/by/4.0/",
+                    "gx-service-offering:hash": "2edd334433cb3ff9c2904b194653d714cf42398e6af750fb44c65679a9fce6cc"
+                }
+            ],
+            "gx-service-offering:gdpr": [
+                {
+                    "gx-service-offering:imprint": "https://www.delta-dao.com/imprint/"
+                },
+                {
+                    "gx-service-offering:privacyPolicy": "https://www.delta-dao.com/privacy/"
+                }
+            ],
+            "gx-service-offering:dependsOn": [
+                "https://www.delta-dao.com/.well-known/serviceOperatorEngineEdge.json",
+                "https://www.delta-dao.com/.well-known/serviceOperatorServiceEdge.json",
+                "https://www.delta-dao.com/.well-known/serviceAccessControllerEdge.json",
+                "https://delta-dao.com/.well-known/serviceGaiaxDLTNetwork.json",
+                "https://delta-dao.com/.well-known/serviceS3BucketEdge.json",
+                "https://delta-dao.com/.well-known/serviceK8sClusterDeltaDAOEdge.json"
+            ],
+            "gx-service-offering:dataProtectionRegime": [
+                "GDPR2016"
+            ],
+            "gx-service-offering:dataExport": {
+                "gx-service-offering:requestType": "email",
+                "gx-service-offering:accessType": "digital",
+                "gx-service-offering:formatType": "mime/png"
+            }
+        },
+        "issuer": "did:web:delta-dao.com",
+        "issuanceDate": "2023-03-06T16:00:00.235Z",
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-03-12T12:55:23.703Z",
+            "proofPurpose": "assertionMethod",
+            "verificationMethod": "did:web:delta-dao.com",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..BLcBhLnpAHj5I9tdqs1lVGa1YLp3uu79M1H3jA3MqYDPjr9f7iysPjSOBH6Dg7eapWauc07jaNCor3EQKLrd1DceK2lYGRnTrQDodsOfzaRC4CgHawLpUd2r7t2Dxb7fPikJR26hrbo4GzEkJ1PPQN5oOfTR36Q0j3zBRRB7RBj30XIbrvNdyH3Auc1paZjWzceDtPbuJFrF4ERy6LWFvQS7mSo_GJUISvsOw7ngKgDZWV4rB1Z5Ny2Go2BcEODrE1DI9JazG_ZD2g_2Iv_DokNOsaG3oIKcjztTgzSfhpU-Xu_SKRWnpJeu7KT2e3alK637ByccMpBhUmPbYqGBlA"
+        }
+    },
+    "complianceCredential": {
+        "@context": [
+            "https://www.w3.org/2018/credentials/v1"
+        ],
+        "type": [
+            "VerifiableCredential",
+            "ServiceOfferingCredentialExperimental"
+        ],
+        "id": "https://catalogue.gaia-x.eu/credentials/ServiceOfferingCredentialExperimental/1678625726840",
+        "issuer": "did:web:compliance.lab.gaia-x.eu::development",
+        "issuanceDate": "2023-03-12T12:55:26.840Z",
+        "expirationDate": "2023-06-10T12:55:26.840Z",
+        "credentialSubject": {
+            "id": "did:op:020543f761a65f3f6831730fa865d606f23d33c547e2c2596407208b573f10a7",
+            "hash": "ca7f34a9bf2ce33611aca49182a2aa489d6917de2231f4f5b8bbdd2d6405be55"
+        },
+        "proof": {
+            "type": "JsonWebSignature2020",
+            "created": "2023-03-12T12:55:26.840Z",
+            "proofPurpose": "assertionMethod",
+            "jws": "eyJhbGciOiJQUzI1NiIsImI2NCI6ZmFsc2UsImNyaXQiOlsiYjY0Il19..bUWvhv0CyksQyN8BFMvIrxhWtwhrfs3QdKfmK1yBhJZk46nFRRwhVFwzxADE_6BNf2K-scHGOqEGNTJAVXnnVZ_2J7JmTlcseWZI3tfuGFO21Y7mrBxQ4_Vzl16w18wBIzkYN7Hi-vHbAXARN_4vAXgMcGMg_lUJeYqK6_hkvnQvjdBrAEtYORPjcznirLeG-_cBwRfaQhj9r_fueOLpArk_gh3fBn4ENH6FVjL8v206fRx7il8AM5V25qvP1U_Ps3NbLYJ7SfGwt0u1Zrsa1W1wDCQ5yPgxYdUklCvQ9PfaeAX1o73BBS4w_puZtsm5gHGKmoBZODDf-j1HUj0fVg",
+            "verificationMethod": "did:web:compliance.lab.gaia-x.eu::development"
+        }
+    }
+}
