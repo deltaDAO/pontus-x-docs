@@ -33,7 +33,6 @@ title: Participants
 | deltaDAO AG                         | 0xa76Fa6837A6ffc9F123F2193717A5965c68B0cbA | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
 | deltaDAO AG                         | 0xFaeb57c16D5E9A9f06c8c5dB12796f5a432Eb7d6 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
 | deltaDAO AG                         | 0xb501FDaad0F0863C4c72f7EB9Abc23965DCa973d | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
-| deltaDAO AG                         | 0xF62bF6371Ee020Cb2164Ac3C338514DBbb93A0D4 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
 | deltaDAO AG                         | 0x4C84a36fCDb7Bc750294A7f3B5ad5CA8F74C4A52 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
 | deltaDAO AG                         | 0x3dB4E0b1fC6072271BF51e9a0CC17E3c7C4C99f5 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
 | PTW - TU Darmstadt                  | 0x4A806a4851472F7cFd579d3FF5465F03c3c2B5d4 | Federator     | https://ptw.tu-darmstadt.euprogigant.io/sd/participant.json          |
