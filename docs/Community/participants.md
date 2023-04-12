@@ -146,3 +146,4 @@ title: Participants
 | BigchainDB GmbH                     | 0x61DB12d8b636Cb49ea09eCa58a893dA9480E1F33 | Participant   | https://delta-dao.com/.well-known/participantBigchainDB.json             |
 | Deal ex Machina                     | 0xC8a08b33995594bfdB0ef9c18EB72da0469E396F | Participant   | https://delta-dao.com/.well-known/participantDealExMachina.json          |
 | Deloitte                            | 0x289Ff19C1e544B6E9488d5E79966491A2bAa88C9 | Participant   | https://delta-dao.com/.well-known/participantDeloitte.json.              |
+| 3D Mapping Solutions GmbH           | 0x2650e382770A04bE0f7E362ed578FB261A60F4b3 | Participant   | tbd                                                                      |
