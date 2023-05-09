@@ -128,7 +128,7 @@ title: Participants
 | embeteco GmbH & Co. KG              | 0x7104a77Ca5FfC6D3f0840048C307d05EA3b529C0 | Participant   | https://delta-dao.com/.well-known/participantEmbeteco.json               |
 | T-Systems International GmbH        | 0x9c373e9f125497281f37AeF603fa99572856Bc38 | Participant   | https://delta-dao.com/.well-known/participantTSystemsInternational.json  |
 | IPROconsult GmbH                    | 0x8FAF0702C51c94b5848774129047d75cEe49EE87 | Participant   | https://delta-dao.com/.well-known/participantIPROconsult.json            |
-| Elektra Solar GmbH                  | 0x3EAbA16E4Ac451D85839A42eb9e7C61F157C88b7 | Participant   | https://delta-dao.com/.well-known/participantElektroSolar.json           |
+| Elektra Solar GmbH                  | 0x3EAbA16E4Ac451D85839A42eb9e7C61F157C88b7 | Participant   | https://delta-dao.com/.well-known/participantElektraSolar.json           |
 | Setlabs Research                    | 0x1c99F7C29EE0e79CAAD8E4d0Cc0b95D5Ece62294 | Participant   | https://delta-dao.com/.well-known/participantSetlabs.json                |
 | Schüßler-Plan Digital GmbH          | 0xb9C596E9eC598a865b51f3F53ae7d122B7b7a937 | Participant   | https://delta-dao.com/.well-known/participantSchuesslerPlanDigitalGmbH.json |
 | Data Machine Intelligence Solutions GmbH | 0xb7cF56a08F2B6ccF250B431125850968b7f6a950 | Participant   | https://delta-dao.com/.well-known/participantDMIS.json              |
