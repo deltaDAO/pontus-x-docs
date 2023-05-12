@@ -148,3 +148,5 @@ title: Participants
 | Deal ex Machina                     | 0xC8a08b33995594bfdB0ef9c18EB72da0469E396F | Participant   | https://delta-dao.com/.well-known/participantDealExMachina.json          |
 | Deloitte                            | 0x289Ff19C1e544B6E9488d5E79966491A2bAa88C9 | Participant   | https://delta-dao.com/.well-known/participantDeloitte.json.              |
 | 3D Mapping Solutions GmbH           | 0x2650e382770A04bE0f7E362ed578FB261A60F4b3 | Participant   | tbd                                                                      |
+| Vodafone Group Services Limited     | 0x172b3eB3BDa62e81c171d340eC4a8C70f3d044EF | Participant   | https://delta-dao.com/.well-known/participantVodafone.json               |
+| Vodafone Group Services Limited     | 0xf1F30d7048775F02139Be30067e984F2C2d1812a | Participant   | https://delta-dao.com/.well-known/participantVodafone.json               |
