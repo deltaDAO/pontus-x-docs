@@ -50,6 +50,7 @@ title: Participants
 | Software AG                         | 0x0a477f6297413f20C4fBc15F93e34dacE4136123 | Participant   | https://sagresearch.de/.well-known/participantSoftwareAG.json        |
 | TU Wien                             | 0x586000e6DA330E140b11a4aeEbb81963d67F336b | Participant   | https://delta-dao.com/.well-known/participantTUWien.json             |
 | Materna SE                          | 0xf596D17C4a3A5c92c4721627B9e5E5064651BF46 | Participant   | https://delta-dao.com/.well-known/participantMaterna.json            |
+| Materna SE                          | 0xE90e1f337cBBaeD2bf30dD66165246e477F59158 | Participant   | https://delta-dao.com/.well-known/participantMaterna.json            |
 | Airbus                              | 0x3CEA8fBCbD1c745E081fD3937C18eE0b6Cc3f1b1 | Participant   | https://delta-dao.com/.well-known/participantAirbus.json             |
 | OHB                                 | 0xF8dB4a6d529a14e3E029e2b8A9279f408909Fa20 | Participant   | https://delta-dao.com/.well-known/participantOHBdigital.json         |
 | T-Systems Multimedia Solutions GmbH | 0x48535044200dAE3FD4f5b5C3f9b077fa5c230Ef3 | Participant   | https://delta-dao.com/.well-known/participantTsystemsMMS.json        |
