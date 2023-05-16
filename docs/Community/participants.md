@@ -9,7 +9,12 @@ title: Participants
 | Participant                         | Public Address                             | Status        | Gaia-X Participant Self-Description                                  |
 | ----------------------------------- | ------------------------------------------ | ------------- | -------------------------------------------------------------------- |
 | deltaDAO AG                         | 0x628677D9A9d93a913182fa04893Da0ce4E6570Ee | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
-| deltaDAO AG                         | 0x8d4198E9af22863d4269dDA6a41eF2BfA187AbAc | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0xf8A493af0e72C2C62651Bf7b7d1a006806Fb646f | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0xf5b1E6f9a566E20de35d0C240D47F9cc08f33c0F | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0x50499814AE402563b5c34F6BD2F5C829A7693964 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0x04863f1E29Ea1aBF006fB1ecB129cAD892db0C90 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0xdA9ED09a94B1A2315e22157d75fd0b0bfC63B6Cc | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
+| deltaDAO AG                         | 0x7AF6c5F0950A37b7C25da4367E9B56C03dE8234D | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
 | deltaDAO AG                         | 0xC0E3B447c1e7B22769952E89389Ef2cD9B812Cc5 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
 | deltaDAO AG                         | 0xBf252dD5b3a31A50Db34113e12517b21D143AC52 | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
 | deltaDAO AG                         | 0x0bd21cF4Da78f74c483a1109ac3A30794FBd556B | Federator     | https://delta-dao.com/.well-known/participantdeltadao.json           |
