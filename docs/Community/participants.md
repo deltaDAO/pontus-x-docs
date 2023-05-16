@@ -50,6 +50,21 @@ title: Participants
 | Arsys                               | 0x0337b320DEfAddd9aDbC518f8A9cee30b606d15b | Federator     | https://arlabdevelopments.com/.well-known/ArsysParticipant.json      |
 | Arsys                               | 0xD7b90d6476091F6bc4CAaC40180FB300351fAb9F | Federator     | https://arlabdevelopments.com/.well-known/ArsysParticipant.json      |
 | State Library of Berlin             | 0xF20113edd04d98A64AD2A003B836677E1c9aACAD | Federator     | https://delta-dao.com/.well-known/participantStateLibraryBerlin.json |
+| State Library of Berlin             | 0x0279F7D611e8745BA16A4F1e83B752f8fc173870 | Federator     | https://delta-dao.com/.well-known/participantStateLibraryBerlin.json |
+| State Library of Berlin             | 0x6B33b4Cc1CAa5b49bB2752D23B9B78e524e17654 | Federator     | https://delta-dao.com/.well-known/participantStateLibraryBerlin.json |
+| State Library of Berlin             | 0x23035d7E3cddc44b345eBF9DDDA2e1aaeCeeEeA1 | Federator     | https://delta-dao.com/.well-known/participantStateLibraryBerlin.json |
+| State Library of Berlin             | 0xb98B9304860Be2a90F86CFa738dbedEb6C6AdF98 | Federator     | https://delta-dao.com/.well-known/participantStateLibraryBerlin.json |
+| State Library of Berlin             | 0xE098a4DE67034a17b23CDfB7E81C49296361974F | Federator     | https://delta-dao.com/.well-known/participantStateLibraryBerlin.json |
+| State Library of Berlin             | 0x67c39F79B1e5430104bCc4009A6210EAeB2672Bf | Federator     | https://delta-dao.com/.well-known/participantStateLibraryBerlin.json |
+| State Library of Berlin             | 0xEF193A800e956b9fF1c379B7Ac3C55FCA38aDB15 | Federator     | https://delta-dao.com/.well-known/participantStateLibraryBerlin.json |
+| State Library of Berlin             | 0x8337649C1d86ab41d42ef91E303B814f9FfEC04d | Federator     | https://delta-dao.com/.well-known/participantStateLibraryBerlin.json |
+| State Library of Berlin             | 0xC309b5Cd4833315D495F8616A1B957E6c3F0Cc0b | Federator     | https://delta-dao.com/.well-known/participantStateLibraryBerlin.json |
+| State Library of Berlin             | 0x04707912117fb09c68F48BDC15Cf78F50501fF92 | Federator     | https://delta-dao.com/.well-known/participantStateLibraryBerlin.json |
+| State Library of Berlin             | 0x92DCe2e6b29863CF190c520B81CB4153f2642a49 | Federator     | https://delta-dao.com/.well-known/participantStateLibraryBerlin.json |
+| State Library of Berlin             | 0xD274318C312174eb7CCe872eE415b7398c8dA2be | Federator     | https://delta-dao.com/.well-known/participantStateLibraryBerlin.json |
+| State Library of Berlin             | 0x2E32B0e4e20C7A4162A6455b4A12e01D09472556 | Federator     | https://delta-dao.com/.well-known/participantStateLibraryBerlin.json |
+| State Library of Berlin             | 0x4d7fE037831F077583a259B6437E542EffD6f2cD | Federator     | https://delta-dao.com/.well-known/participantStateLibraryBerlin.json |
+| State Library of Berlin             | 0xdf89102cDd2ccA60E88e480C6D609FB3bfFD4d54 | Federator     | https://delta-dao.com/.well-known/participantStateLibraryBerlin.json |
 | University of Lleida                | 0x62078F05Eb4450272D7E492F3660835826906822 | Federator     | https://delta-dao.com/.well-known/participantUniversitydeLleida.json |
 | Software AG                         | 0xa702032E187E6A53EAddC28a735B414220712689 | Participant   | https://sagresearch.de/.well-known/participantSoftwareAG.json        |
 | Software AG                         | 0x0a477f6297413f20C4fBc15F93e34dacE4136123 | Participant   | https://sagresearch.de/.well-known/participantSoftwareAG.json        |
