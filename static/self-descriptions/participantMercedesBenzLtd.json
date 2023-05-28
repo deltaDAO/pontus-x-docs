@@ -1,0 +1,45 @@
+{
+    "id": "did:web:mercedes-benz.com.sg",
+    "type": "gx:LegalParticipant",
+    "gx:name": "Mercedes-Benz",
+    "gx:legalName": "Mercedes-Benz Singapore Pte. Ltd.",
+    "gx:website": "https://delta-dao.com",
+    "gx:credentialURL": "https://delta-dao.com/.well-known/participantMercedesBenzLtd.json",
+    "gx:legalRegistrationNumber": [
+        {
+            "gx:leiCode": "529900WXQHJ0H1LO4939"
+        }
+    ],
+    "gx:headquarterAddress": {
+        "gx:countrySubdivisionCode": "SG-05",
+        "gx:addressCountryCode": "SG",
+        "gx:streetAddress": "1 Gateway Drive, #15-01 Westgate Tower",
+        "gx:postalCode": "608531",
+        "gx:locality": "Singapore"
+    },
+    "gx:legalAddress": {
+        "gx:countrySubdivisionCode": "SG-05",
+        "gx:addressCountryCode": "SG",
+        "gx:streetAddress": "1 Gateway Drive, #15-01 Westgate Tower",
+        "gx:postalCode": "608531",
+        "gx:locality": "Singapore"
+    },
+    "gx-terms-and-conditions:gaiaxTermsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700",
+    "gx:blockchainAccountId": [
+        {
+            "gx:blockchainId": "100",
+            "gx:blockchainName": "GEN-X",
+            "gx:blockchainAccountId": "0x203C7AA993EED06932FA327a192de9A8370b5Ab4"
+        },
+        {
+            "gx:blockchainId": "100",
+            "gx:blockchainName": "GEN-X",
+            "gx:blockchainAccountId": "0x4d6240C7Ef355a2E85c13B26A49A35908ce853E5"
+        },
+        {
+            "gx:blockchainId": "100",
+            "gx:blockchainName": "GEN-X",
+            "gx:blockchainAccountId": "0x2E33C6014222A47585605F8379a1877eaaF0ec13"
+        }
+    ]
+}
