@@ -1,0 +1,35 @@
+{
+    "id": "did:web:braunschweig.de",
+    "type": "gx:LegalParticipant",
+    "gx:name": "Feuerwehr Braunschweig",
+    "gx:legalName": "Feuerwehr Braunschweig",
+    "gx:website": "https://www.braunschweig.de/leben/gesundheit/feuerwehr/index.php",
+    "gx:credentialURL": "https://delta-dao.com/.well-known/participantFWBS.json",
+    "gx:legalRegistrationNumber": [
+        {
+            "gx:vatID": "DE114878770"
+        }
+    ],
+    "gx:headquarterAddress": {
+        "gx:countrySubdivisionCode": "DE-NI",
+        "gx:addressCountryCode": "DE",
+        "gx:streetAddress": "Feuerwehrstraße 12",
+        "gx:postalCode": "38124",
+        "gx:locality": "Braunschweig"
+    },
+    "gx:legalAddress": {
+        "gx:countrySubdivisionCode": "DE-NI",
+        "gx:addressCountryCode": "DE",
+        "gx:streetAddress": "Feuerwehrstraße 12",
+        "gx:postalCode": "38124",
+        "gx:locality": "Braunschweig"
+    },
+    "gx-terms-and-conditions:gaiaxTermsAndConditions": "70c1d713215f95191a11d38fe2341faed27d19e083917bc8732ca4fea4976700",
+    "gx:blockchainAccountId": [
+        {
+            "gx:blockchainId": "100",
+            "gx:blockchainName": "GEN-X",
+            "gx:blockchainAccountId": "0xc21854fC5B997afa00c75b5098842a61F6E18e5B"
+        }
+    ]
+}
