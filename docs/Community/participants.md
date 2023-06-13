@@ -171,3 +171,4 @@ title: Participants
 | 3D Mapping Solutions GmbH           | 0x2650e382770A04bE0f7E362ed578FB261A60F4b3 | Participant   | tbd                                                                      |
 | Vodafone Group Services Limited     | 0x172b3eB3BDa62e81c171d340eC4a8C70f3d044EF | Participant   | https://delta-dao.com/.well-known/participantVodafone.json               |
 | Vodafone Group Services Limited     | 0xf1F30d7048775F02139Be30067e984F2C2d1812a | Participant   | https://delta-dao.com/.well-known/participantVodafone.json               |
+| Feuerwehr Braunschweig              | 0xc21854fC5B997afa00c75b5098842a61F6E18e5B | Participant   | https://delta-dao.com/.well-known/participantFWBS.json.                  |
