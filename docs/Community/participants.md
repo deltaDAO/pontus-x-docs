@@ -46,7 +46,7 @@ title: Participants
 | PTW - TU Darmstadt                  | 0x6E7bec8715955B6Cc90A5A1767cd981b90C5a245 | Federator     | https://ptw.tu-darmstadt.euprogigant.io/sd/participant.json          |
 | IONOS Cloud                         | 0x81336c245712DbF0E971de5463173bCaA9826d84 | Federator     | https://delta-dao.com/.well-known/participantIONOS.json              |
 | Exoscale                            | 0x56eA3Cc92144Db3bA2bdE25131F40c7B98F7eD32 | Federator     | https://a1.digital.euprogigant.io/sd/participant.json                |
-| Wobcom                              | 0x9Dc6aDA184fc98012D74F1C4f3f223183A4745D4 | Federator     | https://delta-dao.com/.well-known/participantWobcom.json             |
+| Wobcom                              | 0x9Dc6aDA184fc98012D74F1C4f3f223183A4745D4 | Federator     | https://delta-dao.com/.well-known/2210_participant_WOBCOM.json       |
 | Arsys                               | 0x0337b320DEfAddd9aDbC518f8A9cee30b606d15b | Federator     | https://arlabdevelopments.com/.well-known/ArsysParticipant.json      |
 | Arsys                               | 0xD7b90d6476091F6bc4CAaC40180FB300351fAb9F | Federator     | https://arlabdevelopments.com/.well-known/ArsysParticipant.json      |
 | State Library of Berlin             | 0xF20113edd04d98A64AD2A003B836677E1c9aACAD | Federator     | https://delta-dao.com/.well-known/participantStateLibraryBerlin.json |
