@@ -176,3 +176,4 @@ title: Participants
 | Airbus Defense and Space GmbH 22.10 | 0xaDD9344fc33530dE1F2fb338de4Cf25f7d8a6E92 | Participant   | https://delta-dao.com/.well-known/2210_participant_AIRBUS_DS.json        |
 | Airbus Defense and Space GmbH 22.10 | 0xD9d17aC4b23222D0F9055723127acCaeeE834AD7 | Participant   | https://delta-dao.com/.well-known/2210_participant_AIRBUS_DS.json        |
 | ZARM Technik AG 22.10               | 0x81c337F4a5113E30919F588F178a361ade1D1Be2 | Participant   | https://delta-dao.com/.well-known/2210_participant_ZARM_Technik_AG.json  |
+| htw Saar 22.10                      | 0xA38E2b6fFf3d9c66270253c7fE4Dcb5B088020D5 | Participant   | https://delta-dao.com/.well-known/2210_participant_HTW_Saar.json         |
