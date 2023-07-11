@@ -167,8 +167,11 @@ title: Participants
 | FeltLabs                            | 0x56e194D46fF305560f51D06cE84649C1DD91d2F8 | Participant   | https://delta-dao.com/.well-known/participantFeltLabs.json               |
 | BigchainDB GmbH                     | 0x61DB12d8b636Cb49ea09eCa58a893dA9480E1F33 | Participant   | https://delta-dao.com/.well-known/participantBigchainDB.json             |
 | Deal ex Machina                     | 0xC8a08b33995594bfdB0ef9c18EB72da0469E396F | Participant   | https://delta-dao.com/.well-known/participantDealExMachina.json          |
-| Deloitte                            | 0x289Ff19C1e544B6E9488d5E79966491A2bAa88C9 | Participant   | https://delta-dao.com/.well-known/participantDeloitte.json.              |
+| Deloitte                            | 0x289Ff19C1e544B6E9488d5E79966491A2bAa88C9 | Participant   | https://delta-dao.com/.well-known/participantDeloitte.json               |
 | 3D Mapping Solutions GmbH           | 0x2650e382770A04bE0f7E362ed578FB261A60F4b3 | Participant   | tbd                                                                      |
 | Vodafone Group Services Limited     | 0x172b3eB3BDa62e81c171d340eC4a8C70f3d044EF | Participant   | https://delta-dao.com/.well-known/participantVodafone.json               |
 | Vodafone Group Services Limited     | 0xf1F30d7048775F02139Be30067e984F2C2d1812a | Participant   | https://delta-dao.com/.well-known/participantVodafone.json               |
-| Feuerwehr Braunschweig              | 0xc21854fC5B997afa00c75b5098842a61F6E18e5B | Participant   | https://delta-dao.com/.well-known/participantFWBS.json.                  |
+| Feuerwehr Braunschweig              | 0xc21854fC5B997afa00c75b5098842a61F6E18e5B | Participant   | https://delta-dao.com/.well-known/participantFWBS.json                   |
+| Airbus Defense and Space GmbH 22.10 | 0x3561F6126Ce77A98fdC09DA2815919d5E04879D5 | Participant   | https://delta-dao.com/.well-known/2210_participant_AIRBUS_DS.json        |
+| Airbus Defense and Space GmbH 22.10 | 0xaDD9344fc33530dE1F2fb338de4Cf25f7d8a6E92 | Participant   | https://delta-dao.com/.well-known/2210_participant_AIRBUS_DS.json        |
+| Airbus Defense and Space GmbH 22.10 | 0xD9d17aC4b23222D0F9055723127acCaeeE834AD7 | Participant   | https://delta-dao.com/.well-known/2210_participant_AIRBUS_DS.json        |
