@@ -4,7 +4,7 @@ title: Introduction
 ---
 
 # Introduction to the Pontus-X ecosystem and Pontus-X Network (GEN-X)
-This document serves as an introdcution to the Pontus-X ecosystem for [Gaia-X](https://gaia-x.eu/) and Pontus-X network (GENX).
+This document serves as an introdcution to the Pontus-X ecosystem for [Gaia-X](https://gaia-x.eu/) and Pontus-X network (GEN-X).
 
 
 ## What is the Pontus-X ecosystem for Gaia-X?
