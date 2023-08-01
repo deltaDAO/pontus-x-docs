@@ -3,8 +3,13 @@ sidebar_position: 4
 title: Participants
 ---
 
+## List of Pontus-X Participants
 
-## List of Participants (WIP)
+The list of [Pontus-X](https://www.pontus-x.eu/) participants keeps track of the onboarded and identified legal persons that are able to use the [Pontus-X ecosystem](https://www.pontus-x.eu/). It summarizes the information collected in the [Gaia-X](https://gaia-x.eu/) participant credentials that have been issued over various versions of the [Gaia-X Trust Framework](https://gaia-x.gitlab.io/policy-rules-committee/trust-framework/) and onboarding workshops with Gaia-X Hubs across Europe.
+
+Within the [Pontus-X ecosystem](https://www.pontus-x.eu/) participants are primarily identified through their public addresses which are derived from their public (and respective private) key. This information is also used for the [Pontus-X logging service](https://explorer.genx.minimal-gaia-x.eu/) and audit trails. Within the participant credentials you will find the information required by the [Gaia-X Trust Framework](https://gaia-x.gitlab.io/policy-rules-committee/trust-framework/) combined with the public address to bind identities across ecosystems together. The [Gaia-X Trust Framework](https://gaia-x.gitlab.io/policy-rules-committee/trust-framework/) currently relies on X.509 certificates and DID:WEB as part of the [W3C DID Specifications](https://www.w3.org/TR/did-core/).
+
+If you notice your a credential beeing outdated or an address missing here please let us know via contact@delta-dao.com.
 
 | Participant                         | Public Address                             | Status        | Gaia-X Participant Self-Description                                  |
 | ----------------------------------- | ------------------------------------------ | ------------- | -------------------------------------------------------------------- |
