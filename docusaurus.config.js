@@ -6,9 +6,9 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula');
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'GEN-X Network',
+  title: 'Pontus-X Documentation',
   tagline: 'Gaia-X Web3 Ecosystem',
-  url: 'https://docs.genx.minimal-gaia-x.eu/',
+  url: 'https://docs.pontus-x.eu/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
@@ -16,8 +16,8 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: 'deltadao', // Usually your GitHub org/user name.
-  projectName: 'gen-x-network', // Usually your repo name.
+  organizationName: 'deltaDAO', // Usually your GitHub org/user name.
+  projectName: 'pontus-x-docs', // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
@@ -37,14 +37,14 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://gitlab.com/web3-ecosystem/gen-x-network/-/tree/main/',
+            'https://github.com/deltaDAO/pontus-x-docs',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://gitlab.com/web3-ecosystem/gen-x-network/-/tree/main/',
+            'https://github.com/deltaDAO/pontus-x-docs',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -57,7 +57,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: 'GEN-X Network',
+        title: 'Pontus-X Documentation',
         logo: {
           alt: 'GEN-X Logo',
           src: 'img/genx_logo.png',
@@ -75,8 +75,8 @@ const config = {
             "position": "right"
           },
           {
-            href: 'https://gitlab.com/web3-ecosystem/gen-x-network/',
-            label: 'GitLab',
+            href: 'https://github.com/deltaDAO/pontus-x-docs',
+            label: 'GitHub',
             position: 'right',
           },
         ],
@@ -98,7 +98,7 @@ const config = {
             items: [
               {
                 label: 'Pontus-X Portal',
-                href: 'https://portal.minimal-gaia-x.eu/',
+                href: 'https://portal.pontus-x.eu/',
               }
             ],
           },
@@ -106,8 +106,8 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'GitLab',
-                href: 'https://gitlab.com/web3-ecosystem/gen-x-network',
+                label: 'GitHub',
+                href: 'https://github.com/deltaDAO/pontus-x-docs',
               },
             ],
           },
