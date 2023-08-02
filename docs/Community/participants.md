@@ -99,8 +99,8 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Austrian Institute of Technology    | 0xfc739f2F91921eb710878ad2Ca38C147a784C96f | Participant   | https://delta-dao.com/.well-known/participant.json                   |
 | acatech                             | 0xF62bF6371Ee020Cb2164Ac3C338514DBbb93A0D4 | Participant   | https://delta-dao.com/.well-known/participantAcatech.json            |
 | Spanish Ministry of Economic Affairs and Digital Transformation| 0x6E1cE3530A12F89cF567788C132454E5dC7D3cCE |Participant| https://delta-dao.com/.well-known/participantspanishministryofeconomicaffairs.json.json |
-| ATOS                                | 0x943CaA8afCAdd2F64a7cE9E53A91d5ea0BEb40c1 | Participant   | https://delta-dao.com/.well-known/participantATOS.json               |
-| ATOS                                | 0x7A6246e02B2aA276203469Cfb839a2666520D8b5 | Participant   | https://delta-dao.com/.well-known/participantATOS.json               |
+| Eviden Germany GmbH                 | 0x943CaA8afCAdd2F64a7cE9E53A91d5ea0BEb40c1 | Participant   | https://delta-dao.com/.well-known/participantAtosInformationTechnology.json  |
+| Eviden Germany GmbH                 | 0x7A6246e02B2aA276203469Cfb839a2666520D8b5 | Participant   | https://delta-dao.com/.well-known/participantAtosInformationTechnology.json  |
 | TU Delft                            | 0x9391291b0Df512B20810183744De8272774b6655 | Participant   | https://delta-dao.com/.well-known/participantTUDelft.json            |
 | Bigchain DB                         | 0x61DB12d8b636Cb49ea09eCa58a893dA9480E1F33 | Participant   | https://delta-dao.com/.well-known/participantBigchainDB.json         |
 | Perpetuum Progress GmbH             | 0x2ee3c4F19f90237B7C45cfAD6B5dC4b5840563Ec | Participant   | https://delta-dao.com/.well-known/participantPerpetuumProgress.json  |
@@ -121,7 +121,6 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Hochschule für angewandte Wissenschaften Kempten | 0xb11124Dfa40E44b3283068fd07bf6FdE60caf06A | Participant   | https://delta-dao.com/.well-known/participantHSKempten.json |
 | Fraunhofer-Institut für Graphische Datenverarbeitung IGD | 0x632460b14aDd90aD9430e381B4662779cC1ab7a6 | Participant   | https://delta-dao.com/.well-known/participantFraunhoferIGD.json  |
 | 52°North GmbH                       | 0x1f65110b63B6044f1E92543C09231842131798C7 | Participant   | https://delta-dao.com/.well-known/participant52north.json                |
-| Atos Information Technology GmbH    | 0x7A6246e02B2aA276203469Cfb839a2666520D8b5 | Participant   | https://delta-dao.com/.well-known/participantAtosInformationTechnology.json  |
 | TrueOcean GmbH                      | 0xDFa29AE20eac7f203DdDbe15E1830985e99143B8 | Participant   | https://delta-dao.com/.well-known/participantTrueOcean.json              |
 | Institute for Language and Speech Processing | 0xFfA05d656465568BE83B11bf274c5458AC8401AC | Participant   | https://delta-dao.com/.well-known/participantILSP.json          |
 | Vicomtech                           | 0xb500BfE3d89b5D6b0d2b91841c3A3aD568Cb0FdC | Participant   | https://delta-dao.com/.well-known/participantVicomtech.json              |
