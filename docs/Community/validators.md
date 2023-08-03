@@ -21,6 +21,8 @@ Furthermore, we can recommend our [blog post](https://deltadao.medium.com/gaia-x
 - TU Wien Pilotfabrik 4.0, Austria
 - Software AG, Austria
 - BigchainDB GmBH, Germany
+- Exaion SAS (EDF), France
+- AIRBUS Defense and Space GmbH, Germany
 
 ### Gaia-X Trust Framework Participant Identification and Self-Descriptions
 - deltaDAO: https://www.delta-dao.com/.well-known/participantDeltadao.json
@@ -32,8 +34,9 @@ Furthermore, we can recommend our [blog post](https://deltadao.medium.com/gaia-x
 - SBB: https://delta-dao.com/.well-known/participantStateLibraryBerlin.json
 - TU Wien: https://delta-dao.com/.well-known/participantTUWien.json
 - Software AG: https://sagresearch.de/.well-known/participantSoftwareAG.json
-- Exaion SAS: https://www.delta-dao.com/.well-known/participantExaion.json
 - BigchainDB: https://delta-dao.com/.well-known/participantBigchainDB.json
+- Exaion SAS: https://www.delta-dao.com/.well-known/participantExaion.json
+- AIRBUS: https://www.delta-dao.com/.well-known/2210_participant_AIRBUS_DS.json
 
 ### Validator Set
 - deltaDAO: 0x7D765CE9B18c2B2DB8C49d663351096F2639D5aA, 0xED8dfD6Dd61222618EFE07846efe78b6CAE25933,  0x4918d64413DA7763Eb674E2aA1c6B4e6B2E29f79
@@ -45,8 +48,9 @@ Furthermore, we can recommend our [blog post](https://deltadao.medium.com/gaia-x
 - SBB: 0x1cc0D061a75C577dB95847bE6B4f8D3Dc3c5Bf85
 - TU Wien: 0x586000e6DA330E140b11a4aeEbb81963d67F336b
 - Software AG: 0x0a477f6297413f20C4fBc15F93e34dacE4136123
+- BigchainDB: 0x2D7609345146CBddf3Ad48b26D8c71A3D652a594
 - Exaion SAS: 0x7244dF59313D6fc05C9a95E62486340205195Efc
-- BigchainDB: 
+- AIRBUS: 0xCBB7e8db417657431C4D88DccF06085e85d0FB9c
 
 ### Full nodes 
 - deltaDAO: 0xf5bFEC3a99E25931DD198585d93E3022a5EB6A20
