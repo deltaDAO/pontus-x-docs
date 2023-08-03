@@ -5,7 +5,7 @@ title: Introduction
 
 # Introduction to the Pontus-X ecosystem for Gaia-X
 
-This documentation serves as an introduction and onboarding guide to the Pontus-X ecosystem for Gaia-X and the Cooperants demonstrators.
+This documentation serves as an introduction and onboarding guide to the Pontus-X ecosystem for Gaia-X.
 
 ## Checklist - What is required for onboarding to the Gaia-X development ecosystem?
 - [ ] Mandatory: A modern browser that supports extensions (Chrome, Brave or Firefox)
@@ -28,11 +28,11 @@ This documentation serves as an introduction and onboarding guide to the Pontus-
   - [ ] deltaDAO or cloud service providers can offer a solution (managed)
 
 ## Results - What will you be able to do after onboarding to the Gaia-X development ecosystem?
-Consumption, publication and management of services in the ecosystem.
-Offering federation services in the ecosystem.
-Creation, verification and management of Gaia-X compliant participant and service credentials.
-Transfer of funds and settlement of business transactions in the ecosystem.
-You will be identified as participant in the ecosystem.
+- Consumption, publication and management of services in the ecosystem.
+- Offering federation services in the ecosystem.
+- Creation, verification and management of Gaia-X compliant participant and service credentials.
+- Transfer of funds and settlement of business transactions in the ecosystem.
+- You will be identified as participant in the ecosystem.
 
 ## What is the Pontus-X ecosystem for Gaia-X?
 
