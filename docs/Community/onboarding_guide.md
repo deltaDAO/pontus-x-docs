@@ -84,27 +84,19 @@ You can just follow the instructions here https://metamask.io/download/
 
 If you have set up your local MetaMask in your browser (Chromium-based or Firefox) and secured it with a password, you can import the private key we shared with you through the "import account" feature.
 
-Image: Account overview
-
-![Picture 1](../assets/community%20onboarding/community_onboarding_2.jpg)
-
-
-
-Image: Account import
-![Picture 2](../assets/community%20onboarding/community_onboarding_3.jpg)
-
-
+![MetaMask Account overview](../assets/community%20onboarding/community_onboarding_2.jpg)
+![MetaMask Account import](../assets/community%20onboarding/community_onboarding_3.jpg)
 
 
 Once you have imported the account, you can select it through the icon in the upper right corner. You can give the account a custom name instead of "Account 2" by opening the menu indicated with the three dots and opening "Account details"
 
 You can give the account a custom name instead of "Account 2" by opening the menu indicated with the three dots and opening "Account details"
 
-![Picture 3](../assets/community%20onboarding/community_onboarding_4.jpg)
+![MetaMask Account Details Menue](../assets/community%20onboarding/community_onboarding_4.jpg)
 
 When you click the pen icon you can add a custom name for this account.
 
-![Picture 4](../assets/community%20onboarding/community_onboarding_5.jpg)
+![MetaMask Account Details](../assets/community%20onboarding/community_onboarding_5.jpg)
 
 You will be able to confirm your selected account by checking the public address of this account matching the public address in your participant credential. Simply press the middle field displaying the address and it will be copied to your clipboard.
 
@@ -118,17 +110,17 @@ Furthermore, you need to select the right network "GEN-X testnet" by selecting i
 - Currency Symbol: GX
 - Block Explorer URL: https://explorer.genx.minimal-gaia-x.eu/
 
-![Picture 5](../assets/community%20onboarding/community_onboarding_6.jpg)
+![MetaMask Network Settings](../assets/community%20onboarding/community_onboarding_6.jpg)
 
 Once you have added the network, selected the right network and address, and connected to the portal you can refresh the website and you will appear as logged in. When connecting for the very first time MetaMask will ask for permission to connect to a Portal which you should accept. You can use the https://v4.minimal-gaia-x.eu/ Portal as example or any other portal.
 
 First indicator of success is the portal showing your public address and GEN-X network selection now. 
 
-![Picture 6](../assets/community%20onboarding/community_onboarding_7.jpg)
+![Portal Connection Indicator](../assets/community%20onboarding/community_onboarding_7.jpg)
 
 The wallet will also indicate this with a green dot.
 
-![Picture 7](../assets/community%20onboarding/community_onboarding_8.jpg)
+![MetaMaks Connection Indicator](../assets/community%20onboarding/community_onboarding_8.jpg)
 
 Well done, the setup is completed. 
 
@@ -139,19 +131,19 @@ Your public address will be associated with a public balance of ERC20 tokens tha
 
 If you have completed the onboarding with us and have been accepted in the ecosystem you will have received an initial balance of ERC20 tokens and the balance will be shown in your MetaMask wallet.
 
-![Picture 8](../assets/community%20onboarding/community_onboarding_9.jpg)
+![MetaMaks GX Balance](../assets/community%20onboarding/community_onboarding_9.jpg)
 
 You should now see some GX ERC20 tokens in your wallet. 0.1GX enough for many of transactions in the network. If you don't see a balance here please check your network connection, if you have selected GEN-X as network and if you selected the right public address.
 
 Other ERC20 tokens besides the basic fee token are not visible by default and you will need to add them manually. You can do so through the portal frontend under your profile section.
 
-Just open the top right menu and click "add EUROe" or "add OCEAN" to make the corresponding smart contracts known to MetaMask and to query to balances from the network.
+Just open the top right menu and click "add EUROe" (0xe974c4894996e012399dedbda0be7314a73bbff1) or "add OCEAN" to make the corresponding smart contracts known to MetaMask and to query to balances from the network.
 
-![Picture 9](../assets/community%20onboarding/community_onboarding_10.jpg)
+![Portal Import Options](../assets/community%20onboarding/community_onboarding_10.jpg)
 
 Once you confirm the dialogue then balance will appear in your wallet.
 
-![Picture 10](../assets/community%20onboarding/community_onboarding_11.jpg)
+![MetaMask Import Tokens](../assets/community%20onboarding/community_onboarding_11.jpg)
  
 ---
 
@@ -167,13 +159,13 @@ The easiest way to discover services published in the network is through the var
 
 The portal landing page will offer an overview of selected service offerings and the catalogue will show a (filtered) overview of available services (depending on the portal used).
 
-![Picture 11](../assets/community%20onboarding/community_onboarding_12.jpg)
+![Portal Assets Overview](../assets/community%20onboarding/community_onboarding_12.jpg)
 
 The service metadata summary already informs you about some important aspects of the displayed services, such as name, title, short description, price, number of consumptions/sales, the network where the service and its contracts are residing and if it is a data service for download or actually an application to be used with data. 
 
 When we inspect a service in detail more information becomes available.
 
-![Picture 12](../assets/community%20onboarding/community_onboarding_13.jpg)
+![Portal Asset Detail](../assets/community%20onboarding/community_onboarding_13.jpg)
 
 All services are identified by a unique identifier, the DID.
 
@@ -184,7 +176,7 @@ Below the owner information the access token for this service is displayed.
 You can also see if a Gaia-X compliant service credential has been added to the service and if it matches this services DID.
 
 On the righthand side you will find a summary of the costs of consumption for this services, denominated in a currency specified by the service provider, i.e. in EUROe. This currency will be used for pre-paid settlement for a subscription and the settlement must be completed before the service can be accessed during the subscription period. 
-![Picture 13](../assets/community%20onboarding/community_onboarding_14.jpg)
+![Portal Asset Consumption Detail](../assets/community%20onboarding/community_onboarding_14.jpg)
 
 This initial guide will not cover the full extend of information given here in the service details page for now.
 
@@ -199,13 +191,13 @@ To consume a selected service the following requirements must be met.
 If all conditions are met the buy button will indicate this by beeing available and not greyed out.
 
  
-![Picture 14](../assets/community%20onboarding/community_onboarding_15.jpg)
+![Portal Asset Consumption Detail](../assets/community%20onboarding/community_onboarding_15.jpg)
  
 
 If not you will receive an indication in the frontend. 
 
  
-![Picture 15](../assets/community%20onboarding/community_onboarding_16.jpg)
+![Portal Asset Consumption Detail: Not Connected](../assets/community%20onboarding/community_onboarding_16.jpg)
 
 If you want to start consumption you press the "buy" button and will be asked to sign a number of transactions to
 
@@ -217,17 +209,17 @@ If you want to start consumption you press the "buy" button and will be asked to
 The first transaction will set and approve a maximum spending cap for the following transaction that determines how much you allow to be paid for the service. This is a security feature which is not really useful for a service with a fixed price, but needs to be completed nonetheless. This will NOT increase the price of the service, even if you enter a higher number.
 
  
-![Picture 16](../assets/community%20onboarding/community_onboarding_17.jpg)
+![MetaMask EUROe Approval](../assets/community%20onboarding/community_onboarding_17.jpg)
  
 
 When you approve this transaction it will be submitted to the network and documented which will take a few seconds.
 
  
-![Picture 17](../assets/community%20onboarding/community_onboarding_18.jpg) 
+![Portal EUROe Approval](../assets/community%20onboarding/community_onboarding_18.jpg) 
 
 In the next step you will approve the transaction with the service provider to exchange currency against the access token required for the service.
 
-![Picture 18](../assets/community%20onboarding/community_onboarding_19.jpg)
+![MetaMask Transaction Details](../assets/community%20onboarding/community_onboarding_19.jpg)
 
 This transaction will induce network fees to cover the cost of federation services and infrastructure provided by federators (network validators). When approved the transaction will be submitted to the network, the exchange will be facilitated and the acquired access token will be exchanged to execute the right to use the service. This creates an audit trail entry and marks the beginning of the service subscription which is documented in the federated logging service.
 
@@ -235,11 +227,11 @@ The access controller used by the service provider will use this audit trail eve
 
 You will be able to asses the status of the transaction through the logging service and the wallet.
 
-![Picture 19](../assets/community%20onboarding/community_onboarding_20.jpg) 
+![Activity Log](../assets/community%20onboarding/community_onboarding_20.jpg) 
 
 The results of both transactions can also been seen in the Logging Explorer for the used network.
 
-![Picture 20](../assets/community%20onboarding/community_onboarding_21.jpg) 
+![Blockchain Epxlorer TX Details](../assets/community%20onboarding/community_onboarding_21.jpg) 
 
 Now the service can be consumed and results can be accessed. Please note that in the case of a Compute-to-Data process there will be a second service offering and contracting process involved and at least 5 transactions are required as two contracts with up to three parties will be stipulated.
 
@@ -247,11 +239,11 @@ Now the service can be consumed and results can be accessed. Please note that in
 
 Now the service can be consumed by the consumer which is indicated by a download button.
 
-![Picture 21](../assets/community%20onboarding/community_onboarding_22.jpg) 
+![Portal Download Asset](../assets/community%20onboarding/community_onboarding_22.jpg) 
 
 If a download is requested from the access controller designated by the service provider the identity of the consumer must be confirmed to match the identity of the party who signed the contract with the service provider. For this reason you will need to answer a signature request to prove you have control of the private key associated with the public address of the consumer.
 
-![Picture 22](../assets/community%20onboarding/community_onboarding_23.jpg) 
+![MetaMask Sign Request](../assets/community%20onboarding/community_onboarding_23.jpg) 
 
 If the signature has been verified successfully by the access controller the HTTPS download will be initiated and the file can be downloaded.
 
@@ -263,15 +255,14 @@ To access your consumption history via the GUI you can visit the "profile" secti
 
 Under the section "Downloads" you will find a full overview of all services that have been contracted for download.
 
-![Picture 23](../assets/community%20onboarding/community_onboarding_24.jpg) 
+![Portal Downloads Overview](../assets/community%20onboarding/community_onboarding_24.jpg) 
 
 Under the section "Compute Jobs" you will find a summary for all compute processes, the respective audit trails and the options to access the results of previous computations.
 
-![Picture 24](../assets/community%20onboarding/community_onboarding_25.jpg) 
+![Portal Compute Jobs Overview](../assets/community%20onboarding/community_onboarding_25.jpg) 
 
 ## Thanks for your contribution to Gaia-X, the interest in our Gaia-X Web3 ecosystem and the GEN-X network.
 
 If you need help with anything, just let us know, we are happy to assist you. Just contact [thomas@delta-dao.com](mailto:thomas@delta-dao.com) and [kai@delta-dao.com](mailto:kai@delta-dao.com) if you have questions or need help.
-
 
 If you want to get started with some additional quick links to the ecosystem and additional resources, please follow [https://docs.pontus-x.eu/docs/quick_links](https://docs.pontus-x.eu/docs/quick_links).
