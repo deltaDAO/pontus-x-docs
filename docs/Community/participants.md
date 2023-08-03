@@ -43,8 +43,20 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | deltaDAO AG 22.10                   | 0xa76Fa6837A6ffc9F123F2193717A5965c68B0cbA | Federator     | https://delta-dao.com/.well-known/participant.json                   |
 | deltaDAO AG 22.10                   | 0xFaeb57c16D5E9A9f06c8c5dB12796f5a432Eb7d6 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
 | deltaDAO AG 22.10                   | 0xb501FDaad0F0863C4c72f7EB9Abc23965DCa973d | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0x4C84a36fCDb7Bc750294A7f3B5ad5CA8F74C4A52 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
 | deltaDAO AG 22.10                   | 0x3dB4E0b1fC6072271BF51e9a0CC17E3c7C4C99f5 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
+| deltaDAO AG 22.10                   | 0xe2DD09d719Da89e5a3D0F2549c7E24566e947260 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
+| deltaDAO AG 22.10                   | 0x1072D3287A5cC513F40b425735E04355487f5F57 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
+| deltaDAO AG 22.10                   | 0x26818079Ba707b2facFfcdc41445322f0e7e3042 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
+| deltaDAO AG 22.10                   | 0x18aa7C29527E71b9F295f1bfB63e57F5a0A97282 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
+| deltaDAO AG 22.10                   | 0x8d4198E9af22863d4269dDA6a41eF2BfA187AbAc | Federator     | https://delta-dao.com/.well-known/participant.json                   |
+| deltaDAO AG 22.10                   | 0xb4026ac3562245bB0DAb9205D698Ab0410e3d723 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
+| deltaDAO AG 22.10                   | 0x24D68bFBA0fB06ccFfD21dC3a5c0B65207Bd479a | Federator     | https://delta-dao.com/.well-known/participant.json                   |
+| deltaDAO AG 22.10                   | 0xFB7Cb9F2E15F3935B22FB9846d69b46bD31edf07 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
+| deltaDAO AG 22.10                   | 0xa51815143e6C578D3c27A7b6fA6E4C1Dfcac555C | Federator     | https://delta-dao.com/.well-known/participant.json                   |
+| deltaDAO AG 22.10                   | 0x6432956a98E522F1B8a73a45245a5C6ff2c7f8f1 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
+| deltaDAO AG 22.10                   | 0xD1Cb3E73a7bC632d2279114AA2783dcaD06517ca | Federator     | https://delta-dao.com/.well-known/participant.json                   |
+| deltaDAO AG 22.10                   | 0xAEC291E9Eb4293d45a5B8aBE3549c0C7464e5C24 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
+| deltaDAO AG 22.10                   | 0x4c7BfE3D6278eb996FC13c5f748bC7b1dBe593D8 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
 | PTW - TU Darmstadt                  | 0x4A806a4851472F7cFd579d3FF5465F03c3c2B5d4 | Federator     | https://ptw.tu-darmstadt.euprogigant.io/sd/participant.json          |
 | PTW - TU Darmstadt                  | 0x21CF19e1FaF3A62f82B432f82152e8c5C0FdBdaF | Federator     | https://ptw.tu-darmstadt.euprogigant.io/sd/participant.json          |
 | PTW - TU Darmstadt                  | 0x9f4ceE0eBD03a1e9E4DcffaF876873d7a3e9595c | Federator     | https://ptw.tu-darmstadt.euprogigant.io/sd/participant.json          |
@@ -82,7 +94,6 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | IKS – Gesellschaft für Informations- und Kommunikationssysteme mbH | 0x212c355c3ce41a272606da61F661dDd2b7F8a4B1 | Participant   | https://delta-dao.com/.well-known/participantIKS.json |
 | msg David GmbH                      | 0x44C34FbBB727bDC648E65feCfF3FB9D4c85f1fe4 | Participant   | https://delta-dao.com/.well-known/participantMsgDavid.json           |
 | Detecon                             | 0x8fBF860883BB71D691053A4363030Dc1c65f7017 | Participant   | https://delta-dao.com/.well-known/participantDetecon.json            |
-| Perpetuum Progress                  | 0x2ee3c4F19f90237B7C45cfAD6B5dC4b5840563Ec | Participant   | https://delta-dao.com/.well-known/participantPerpetuumProgress.json  |
 | SINTEF                              | 0x7DF1674a1e3449778eEB324652d3FF3Cb5046753 | Participant   |                                                                      |
 | Peaq                                | 0xe3Df4851c094f5F6F1AC9AbfA4FC2075276195Ec | Participant   | https://delta-dao.com/.well-known/participantPeaq.json               |
 | Datarella 22.10                     | 0xB21282F443EB0D490819d98F2976758af5C979B3 | Participant   | https://delta-dao.com/.well-known/2210_participant_Datarella.json    |
@@ -102,7 +113,6 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Eviden Germany GmbH                 | 0x943CaA8afCAdd2F64a7cE9E53A91d5ea0BEb40c1 | Participant   | https://delta-dao.com/.well-known/participantAtosInformationTechnology.json  |
 | Eviden Germany GmbH                 | 0x7A6246e02B2aA276203469Cfb839a2666520D8b5 | Participant   | https://delta-dao.com/.well-known/participantAtosInformationTechnology.json  |
 | TU Delft                            | 0x9391291b0Df512B20810183744De8272774b6655 | Participant   | https://delta-dao.com/.well-known/participantTUDelft.json            |
-| Bigchain DB                         | 0x61DB12d8b636Cb49ea09eCa58a893dA9480E1F33 | Participant   | https://delta-dao.com/.well-known/participantBigchainDB.json         |
 | Perpetuum Progress GmbH             | 0x2ee3c4F19f90237B7C45cfAD6B5dC4b5840563Ec | Participant   | https://delta-dao.com/.well-known/participantPerpetuumProgress.json  |
 | Mercedes-Benz Singapore Pte. Ltd.   | 0x203C7AA993EED06932FA327a192de9A8370b5Ab4 | Participant   | https://www.delta-dao.com/.well-known/participantMercedesBenzLtd.json |
 | Mercedes-Benz Singapore Pte. Ltd.   | 0x4d6240C7Ef355a2E85c13B26A49A35908ce853E5 | Participant   | https://www.delta-dao.com/.well-known/participantMercedesBenzLtd.json |
