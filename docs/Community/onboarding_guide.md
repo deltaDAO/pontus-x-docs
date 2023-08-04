@@ -92,7 +92,7 @@ Once you have imported the account, you can select it through the icon in the up
 
 You can give the account a custom name instead of "Account 2" by opening the menu indicated with the three dots and opening "Account details"
 
-![MetaMask Account Details Menue](../assets/community%20onboarding/community_onboarding_4.jpg)
+![MetaMask Account Details Menu](../assets/community%20onboarding/community_onboarding_4.jpg)
 
 When you click the pen icon you can add a custom name for this account.
 
@@ -141,7 +141,7 @@ Just open the top right menu and click "add EUROe" (0xe974c4894996e012399dedbda0
 
 ![Portal Import Options](../assets/community%20onboarding/community_onboarding_10.jpg)
 
-Once you confirm the dialogue then balance will appear in your wallet.
+Once you confirm the dialogue the balance will appear in your wallet.
 
 ![MetaMask Import Tokens](../assets/community%20onboarding/community_onboarding_11.jpg)
  
@@ -231,7 +231,7 @@ You will be able to asses the status of the transaction through the logging serv
 
 The results of both transactions can also been seen in the Logging Explorer for the used network.
 
-![Blockchain Epxlorer TX Details](../assets/community%20onboarding/community_onboarding_21.jpg) 
+![Blockchain Epxlorer Transaction Details](../assets/community%20onboarding/community_onboarding_21.jpg) 
 
 Now the service can be consumed and results can be accessed. Please note that in the case of a Compute-to-Data process there will be a second service offering and contracting process involved and at least 5 transactions are required as two contracts with up to three parties will be stipulated.
 
