@@ -25,7 +25,7 @@ Furthermore, we can recommend our [blog post](https://deltadao.medium.com/gaia-x
 - AIRBUS Defense and Space GmbH, Germany
 
 ### Gaia-X Trust Framework Participant Identification and Self-Descriptions
-- deltaDAO: https://www.delta-dao.com/.well-known/participantDeltadao.json
+- deltaDAO: https://www.delta-dao.com/.well-known/participantDeltaDAO.json
 - EuProGigant: https://ptw.tu-darmstadt.euprogigant.io/sd/participant.json
 - Exoscale: https://a1.digital.euprogigant.io/sd/participant.json
 - Arsys: https://arlabdevelopments.com/.well-known/ArsysParticipant.json
