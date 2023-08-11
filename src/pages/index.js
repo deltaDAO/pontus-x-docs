@@ -1,27 +1,24 @@
 import React from 'react'
 import clsx from 'clsx'
-import Link from '@docusaurus/Link'
 import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
 import HomepageFeatures from '@site/src/components/HomepageFeatures'
+import HomepageValidators from '@site/src/components/HomepageValidators'
 
 import styles from './index.module.css'
 
 function HomepageHeader() {
   const { siteConfig } = useDocusaurusContext()
+
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className={clsx('container', styles.container)}>
-        <h1 className="hero__title">{siteConfig.title}</h1>
-        <p className="hero__subtitle">{siteConfig.tagline}</p>
-        {/* <div className={styles.buttons}>
-          <Link
-            className="button button--secondary button--lg"
-            to="/docs/intro"
-          >
-            Get started
-          </Link>
-        </div> */}
+        <h1 className={clsx('container', 'hero__title', styles.title)}>
+          {siteConfig.title}
+        </h1>
+        <p className={clsx('container', 'hero__subtitle', styles.subtitle)}>
+          {siteConfig.tagline}
+        </p>
       </div>
     </header>
   )
@@ -29,6 +26,7 @@ function HomepageHeader() {
 
 export default function Home() {
   const { siteConfig } = useDocusaurusContext()
+
   return (
     <Layout
       title={`Hello from ${siteConfig.title}`}
@@ -37,6 +35,7 @@ export default function Home() {
       <HomepageHeader />
       <main>
         <HomepageFeatures />
+        <HomepageValidators />
       </main>
     </Layout>
   )

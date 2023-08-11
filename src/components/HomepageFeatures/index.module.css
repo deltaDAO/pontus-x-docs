@@ -1,5 +1,6 @@
 .features {
   display: flex;
+  justify-content: center;
   align-items: center;
   padding-bottom: 2rem;
   width: 100%;
@@ -8,4 +9,10 @@
 .featureSvg {
   height: 50px;
   width: 50px;
+}
+
+.feature {
+  margin: auto;
+  margin-bottom: 5rem;
+  max-width: 30rem;
 }
