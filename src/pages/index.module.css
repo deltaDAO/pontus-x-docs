@@ -4,21 +4,39 @@
  */
 
 .heroBanner {
-  padding: 4rem 0;
+  padding: 0;
+
+  /* hack to fix background color overflowing the wave background image */
+  padding-bottom: 1px;
+  padding-right: 1px;
+
   text-align: center;
   position: relative;
   overflow: hidden;
+  align-items: flex-start;
   background-color: #000094;
+  background-image: var(--wave-background);
+  background-repeat: no-repeat;
+  background-position: bottom;
+  background-size: cover;
+  background-clip: content-box;
+  min-height: 700px;
 }
 
-@media screen and (max-width: 996px) {
+.container {
+  margin-top: 12rem;
+}
+
+@media screen and (max-width: 1200px) {
   .heroBanner {
-    padding: 2rem;
+    min-height: 600px;
+  }
+  .container {
+    margin-top: 10rem;
   }
 }
 
-.buttons {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+.title,
+.subtitle {
+  color: var(--home-title-color);
 }
