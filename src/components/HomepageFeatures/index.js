@@ -12,8 +12,7 @@ const FeatureList = [
     SvgLight: require('@site/static/img/rss-feed-white.svg').default,
     description: (
       <>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum dolorem
-        error commodi exercitationem? Rem illo, recusandae.
+        Stay informed on the latest developments within the Pontus-X ecosystem.
       </>
     ),
     action: {
@@ -26,10 +25,7 @@ const FeatureList = [
     Svg: require('@site/static/img/library-books.svg').default,
     SvgLight: require('@site/static/img/library-books-white.svg').default,
     description: (
-      <>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum dolorem
-        error commodi exercitationem? Rem illo, recusandae.
-      </>
+      <>Get started and discover the core features of the Pontus-X ecosystem.</>
     ),
     action: {
       title: 'Start here',
@@ -42,8 +38,8 @@ const FeatureList = [
     SvgLight: require('@site/static/img/github-mark-white.svg').default,
     description: (
       <>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Illum dolorem
-        error commodi exercitationem? Rem illo, recusandae.
+        Pontus-X is open to everyone and is entirely governed by its community
+        members. We welcome you to contribute to our documentation on GitHub!
       </>
     ),
     action: {
@@ -58,17 +54,17 @@ function Feature({ Svg, SvgLight, title, description, action }) {
 
   return (
     <div className={clsx('col col--4', styles.feature)}>
-      <div className="text--center">
+      <div className='text--center'>
         {isDarkTheme ? (
-          <SvgLight className={styles.featureSvg} role="img" />
+          <SvgLight className={styles.featureSvg} role='img' />
         ) : (
-          <Svg className={styles.featureSvg} role="img" />
+          <Svg className={styles.featureSvg} role='img' />
         )}
       </div>
-      <div className="text--center padding-horiz--md">
+      <div className='text--center padding-horiz--md'>
         <h3>{title}</h3>
         <p>{description}</p>
-        <Link className="button button--secondary button--md" to={action.link}>
+        <Link className='button button--secondary button--md' to={action.link}>
           {action.title}
         </Link>
       </div>
@@ -79,8 +75,8 @@ function Feature({ Svg, SvgLight, title, description, action }) {
 export default function HomepageFeatures() {
   return (
     <section className={clsx('container', styles.features)}>
-      <div className="container">
-        <div className="row">
+      <div className='container'>
+        <div className='row'>
           {FeatureList.map((props, idx) => (
             <Feature key={idx} {...props} />
           ))}

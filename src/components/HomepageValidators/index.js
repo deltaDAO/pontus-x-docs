@@ -22,10 +22,10 @@ export default function HomepageValidators() {
       />
       <h2>These are the Pontus-X Network validators</h2>
       <p>
-        Lorem ipsum dolor, sit amet consectetur adipisicing elit. Laudantium
-        vitae nam ullam rerum consequuntur culpa incidunt quos expedita maiores
-        perferendis sit tempore omnis id fugiat reiciendis nisi eius, accusamus
-        non?
+        The Pontus-X ecosystem brings together a multitude of companies and
+        institutions from different fields and industries. All of them are
+        committed to exploring the benefits of an open ecosystem based on the
+        rules of the Gaia-X Trust Framework.
       </p>
       <div className={styles.grid}>
         {validatorLogos.map((logo) => (
@@ -33,7 +33,7 @@ export default function HomepageValidators() {
             <img
               src={`/img/validators/${logo}`}
               className={styles.logo}
-              alt="Validator logo"
+              alt='Validator logo'
             />
           </div>
         ))}
