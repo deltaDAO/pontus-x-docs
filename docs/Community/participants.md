@@ -110,8 +110,8 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Austrian Institute of Technology    | 0xfc739f2F91921eb710878ad2Ca38C147a784C96f | Participant   | https://delta-dao.com/.well-known/participant.json                   |
 | acatech                             | 0xF62bF6371Ee020Cb2164Ac3C338514DBbb93A0D4 | Participant   | https://delta-dao.com/.well-known/participantAcatech.json            |
 | Spanish Ministry of Economic Affairs and Digital Transformation| 0x6E1cE3530A12F89cF567788C132454E5dC7D3cCE |Participant| https://delta-dao.com/.well-known/participantspanishministryofeconomicaffairs.json.json |
-| Eviden Germany GmbH                 | 0x943CaA8afCAdd2F64a7cE9E53A91d5ea0BEb40c1 | Participant   | https://delta-dao.com/.well-known/participantAtosInformationTechnology.json  |
-| Eviden Germany GmbH                 | 0x7A6246e02B2aA276203469Cfb839a2666520D8b5 | Participant   | https://delta-dao.com/.well-known/participantAtosInformationTechnology.json  |
+| Eviden Germany GmbH 22.10                | 0x943CaA8afCAdd2F64a7cE9E53A91d5ea0BEb40c1 | Participant   | https://delta-dao.com/.well-known/2210_participant_Eviden.json       |
+| Eviden Germany GmbH 22.10                | 0x7A6246e02B2aA276203469Cfb839a2666520D8b5 | Participant   | https://delta-dao.com/.well-known/2210_participant_Eviden.json       |
 | TU Delft                            | 0x9391291b0Df512B20810183744De8272774b6655 | Participant   | https://delta-dao.com/.well-known/participantTUDelft.json            |
 | Perpetuum Progress GmbH             | 0x2ee3c4F19f90237B7C45cfAD6B5dC4b5840563Ec | Participant   | https://delta-dao.com/.well-known/participantPerpetuumProgress.json  |
 | Mercedes-Benz Singapore Pte. Ltd.   | 0x203C7AA993EED06932FA327a192de9A8370b5Ab4 | Participant   | https://www.delta-dao.com/.well-known/participantMercedesBenzLtd.json |
