@@ -1,8 +1,8 @@
 // @ts-check
 // Note: type annotations allow type checking and IDEs autocompletion
 
-const lightCodeTheme = require('prism-react-renderer/themes/github');
-const darkCodeTheme = require('prism-react-renderer/themes/dracula');
+const lightCodeTheme = require('prism-react-renderer/themes/github')
+const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
@@ -36,15 +36,13 @@ const config = {
           sidebarPath: require.resolve('./sidebars.js'),
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/deltaDAO/pontus-x-docs/tree/main',
+          editUrl: 'https://github.com/deltaDAO/pontus-x-docs/tree/main',
         },
         blog: {
           showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl:
-            'https://github.com/deltaDAO/pontus-x-docs/tree/main',
+          editUrl: 'https://github.com/deltaDAO/pontus-x-docs/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -56,6 +54,15 @@ const config = {
   themeConfig:
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
+      image: 'img/preview.png',
+      metadata: [
+        { name: 'twitter:title', content: 'Pontus-X Documentation' },
+        {
+          name: 'twitter:description',
+          content:
+            'The Pan-European Pontus-X network is owned by no one and open to everyone, entirely run and governed by Gaia-X community members dedicated to the Gaia-X Trust Framework.',
+        },
+      ],
       navbar: {
         title: 'Pontus-X Documentation',
         logo: {
@@ -70,9 +77,9 @@ const config = {
             label: 'Docs',
           },
           {
-            "to": "/blog",
-            "label": "Blog",
-            "position": "right"
+            href: 'https://blog.delta-dao.com',
+            label: 'Blog',
+            position: 'right',
           },
           {
             href: 'https://github.com/deltaDAO/pontus-x-docs',
@@ -99,7 +106,7 @@ const config = {
               {
                 label: 'Pontus-X Portal',
                 href: 'https://portal.pontus-x.eu/',
-              }
+              },
             ],
           },
           {
@@ -119,6 +126,6 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-};
+}
 
-module.exports = config;
+module.exports = config

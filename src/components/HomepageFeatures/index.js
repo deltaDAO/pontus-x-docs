@@ -17,7 +17,7 @@ const FeatureList = [
     ),
     action: {
       title: 'Visit our Blog',
-      link: '/blog',
+      link: 'https://blog.delta-dao.com',
     },
   },
   {
