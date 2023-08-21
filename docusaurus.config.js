@@ -77,7 +77,7 @@ const config = {
             label: 'Docs',
           },
           {
-            to: '/blog',
+            href: 'https://blog.delta-dao.com',
             label: 'Blog',
             position: 'right',
           },
