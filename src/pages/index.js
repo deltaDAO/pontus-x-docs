@@ -25,12 +25,10 @@ function HomepageHeader() {
 }
 
 export default function Home() {
-  const { siteConfig } = useDocusaurusContext()
-
   return (
     <Layout
-      title={`Hello from ${siteConfig.title}`}
-      description="Description will go into a meta tag in <head />"
+      title="Pontus-X Documentation"
+      description="The Pan-European Pontus-X network is owned by no one and open to everyone, entirely run and governed by Gaia-X community members dedicated to the Gaia-X Trust Framework."
     >
       <HomepageHeader />
       <main>
