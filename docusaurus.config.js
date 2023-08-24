@@ -116,6 +116,10 @@ const config = {
                 label: 'GitHub',
                 href: 'https://github.com/deltaDAO/pontus-x-docs',
               },
+              {
+                label: 'Privacy',
+                href: '/privacy',
+              }
             ],
           },
         ],
