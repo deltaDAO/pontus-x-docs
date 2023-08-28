@@ -119,6 +119,10 @@ const config = {
               {
                 label: 'Privacy',
                 href: '/privacy',
+              },
+              {
+                label: 'Imprint',
+                href: '/imprint',
               }
             ],
           },
