@@ -8,6 +8,8 @@ title: Quick Links
 - Pontus-X Gaia-X Web3 Ecosystem Portal: https://portal.pontus-x.eu/
 - EuProGigant Portal: https://portal.euprogigant.io/
 - Gaia-X 4 Future Mobility moveID Portal: https://portal.moveid.eu/
+- COOPERANTS Portal: https://cooperants.pontus-x.eu/
+- Airbus Portal: https://airbus.pontus-x.eu/
 - Future Mobility Data Marketplace: https://marketplace.future-mobility-alliance.org/
 - University of Lleida Open Science Portal: https://mvg.angliru.udl.cat/
 
