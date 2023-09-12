@@ -196,4 +196,4 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | IGH Infotec AG 22.10                | 0xA933f297ca605434850419951685ACeEcE2Bc88e | Participant   | https://delta-dao.com/.well-known/2210_igh_infotec_ag.json               |
 | itemis AG 22.10                     | 0xd1E02B17524C53B337C22BF9D414bc15f933C3f0 | Participant   | https://delta-dao.com/.well-known/2210_participant_Itemis.json           |
 | inovex GmbH 22.10                   | 0x4DdaE8989871DB4fAB65d62775e20c577340F8bE | Participant   | https://delta-dao.com/.well-known/2210_participant_Inovex.json           |
-| neusta aerospace GmbH 22.10         | 0xAaeA7A824cffffFFf9Dd6EC51D7D7B0abA3f205F | Participant   | https://delta-dao.com/.well-known/2210_participant_neusta_aerospace_GmbH.json |
+| neusta aerospace GmbH 22.10         | 0xAaeA7A824cffffFFf9Dd6EC51D7D7B0abA3f205F | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_teamNeusta.json |
