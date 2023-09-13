@@ -10,6 +10,7 @@ title: Quick Links
 - Gaia-X 4 Future Mobility moveID Portal: https://portal.moveid.eu/
 - COOPERANTS Portal: https://cooperants.pontus-x.eu/
 - Airbus Portal: https://airbus.pontus-x.eu/
+- Service-Meister Portal: https://servicemeister.pontus-x.eu/
 - Future Mobility Data Marketplace: https://marketplace.future-mobility-alliance.org/
 - University of Lleida Open Science Portal: https://mvg.angliru.udl.cat/
 
