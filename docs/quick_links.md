@@ -13,11 +13,14 @@ title: Quick Links
 - Service-Meister Portal: https://servicemeister.pontus-x.eu/
 - Future Mobility Data Marketplace: https://marketplace.future-mobility-alliance.org/
 - University of Lleida Open Science Portal: https://mvg.angliru.udl.cat/
+- Berlin State Library Portal: https://sbb.pontus-x.eu/
 
 ## Pontus-X Services
+
 - Pontus-X Testnet Explorer: https://logging.genx.minimal-gaia-x.eu/
 
 ## Tools
+
 ### Nautilus
 
 Nautilus is a TypeScript based library focusing on providing a tool to interact with the ecosystem in code. You can publish, buy and consume service offerings.
@@ -28,8 +31,7 @@ Nautilus is a TypeScript based library focusing on providing a tool to interact 
 
 **NPM package:** https://www.npmjs.com/package/@deltadao/nautilus
 
-
-## Documentations 
+## Documentations
 
 ### Ocean Protocol
 
@@ -37,9 +39,6 @@ Nautilus is a TypeScript based library focusing on providing a tool to interact 
 
 **Ocean.js Github:** https://github.com/oceanprotocol/ocean.js
 
-
-
 ### EUROe (fully regulated EURO stablecoin)
 
 **Documentation:** https://dev.euroe.com/docs/Stablecoin/overview
-
