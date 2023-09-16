@@ -13,50 +13,50 @@ If you notice your a credential beeing outdated or an address missing here pleas
 
 | Participant                         | Public Address                             | Status        | Gaia-X Participant Self-Description                                  |
 | ----------------------------------- | ------------------------------------------ | ------------- | -------------------------------------------------------------------- |
-| deltaDAO AG 22.10                   | 0x628677D9A9d93a913182fa04893Da0ce4E6570Ee | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0xf8A493af0e72C2C62651Bf7b7d1a006806Fb646f | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0xf5b1E6f9a566E20de35d0C240D47F9cc08f33c0F | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0x50499814AE402563b5c34F6BD2F5C829A7693964 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0x04863f1E29Ea1aBF006fB1ecB129cAD892db0C90 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0xdA9ED09a94B1A2315e22157d75fd0b0bfC63B6Cc | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0x7AF6c5F0950A37b7C25da4367E9B56C03dE8234D | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0xC0E3B447c1e7B22769952E89389Ef2cD9B812Cc5 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0xBf252dD5b3a31A50Db34113e12517b21D143AC52 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0x0bd21cF4Da78f74c483a1109ac3A30794FBd556B | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0x9c26685b6E8e2997d9aAf3f1a642f1b1b3dB9580 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0xd0ea08826FA10eEaA3871a6AE680E5f15149F355 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0x4C84a36fCDb7Bc750294A7f3B5ad5CA8F74C4A52 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0x68C24FA5b2319C81b34f248d1f928601D2E5246B | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0x2859d961a6dBa6e7d30b2d383Af468edb4E7F4f6 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0xaBaf56FC1bB6b4FF9fA4378C3C8723d2B2444324 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0x0a7B96885b28deDE4a6887CA1150E36edb385BeE | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0xDF1c35c3d5178e9d98043b35a6737Bd861c191c9 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0x01e66950353400E93AEe7F041C0303103E2ef5Ab | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0x862E3fe199723945a38871dE4F736f1233589CE5 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0xFDC7BEc0aED8a584577fd59CbF56805eE8c976B3 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0x5f525cd29377DC2155C2AbCDaC0Ce45e630318b7 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0x3a69B365769a9dAb67865Ca5530c4B1D5259bCb7 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0x97870c129abc9877b66534e49f152585D6Ca3655 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0x1Ad061ad839f82C05767dACd2B5ab384E72B45a5 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0xFd4b5ae43f2aA446b02209098438890d3998cC9F | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0x732BF4fA8E57200621b0e1acbe8855c238823016 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0xa76Fa6837A6ffc9F123F2193717A5965c68B0cbA | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0xFaeb57c16D5E9A9f06c8c5dB12796f5a432Eb7d6 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0xb501FDaad0F0863C4c72f7EB9Abc23965DCa973d | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0x3dB4E0b1fC6072271BF51e9a0CC17E3c7C4C99f5 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0xe2DD09d719Da89e5a3D0F2549c7E24566e947260 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0x1072D3287A5cC513F40b425735E04355487f5F57 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0x26818079Ba707b2facFfcdc41445322f0e7e3042 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0x18aa7C29527E71b9F295f1bfB63e57F5a0A97282 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0x8d4198E9af22863d4269dDA6a41eF2BfA187AbAc | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0xb4026ac3562245bB0DAb9205D698Ab0410e3d723 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0x24D68bFBA0fB06ccFfD21dC3a5c0B65207Bd479a | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0xFB7Cb9F2E15F3935B22FB9846d69b46bD31edf07 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0xa51815143e6C578D3c27A7b6fA6E4C1Dfcac555C | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0x6432956a98E522F1B8a73a45245a5C6ff2c7f8f1 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0xD1Cb3E73a7bC632d2279114AA2783dcaD06517ca | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0xAEC291E9Eb4293d45a5B8aBE3549c0C7464e5C24 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
-| deltaDAO AG 22.10                   | 0x4c7BfE3D6278eb996FC13c5f748bC7b1dBe593D8 | Federator     | https://delta-dao.com/.well-known/participant.json                   |
+| deltaDAO AG 22.10                   | 0x628677D9A9d93a913182fa04893Da0ce4E6570Ee | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0xf8A493af0e72C2C62651Bf7b7d1a006806Fb646f | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0xf5b1E6f9a566E20de35d0C240D47F9cc08f33c0F | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0x50499814AE402563b5c34F6BD2F5C829A7693964 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0x04863f1E29Ea1aBF006fB1ecB129cAD892db0C90 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0xdA9ED09a94B1A2315e22157d75fd0b0bfC63B6Cc | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0x7AF6c5F0950A37b7C25da4367E9B56C03dE8234D | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0xC0E3B447c1e7B22769952E89389Ef2cD9B812Cc5 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0xBf252dD5b3a31A50Db34113e12517b21D143AC52 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0x0bd21cF4Da78f74c483a1109ac3A30794FBd556B | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0x9c26685b6E8e2997d9aAf3f1a642f1b1b3dB9580 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0xd0ea08826FA10eEaA3871a6AE680E5f15149F355 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0x4C84a36fCDb7Bc750294A7f3B5ad5CA8F74C4A52 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0x68C24FA5b2319C81b34f248d1f928601D2E5246B | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0x2859d961a6dBa6e7d30b2d383Af468edb4E7F4f6 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0xaBaf56FC1bB6b4FF9fA4378C3C8723d2B2444324 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0x0a7B96885b28deDE4a6887CA1150E36edb385BeE | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0xDF1c35c3d5178e9d98043b35a6737Bd861c191c9 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0x01e66950353400E93AEe7F041C0303103E2ef5Ab | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0x862E3fe199723945a38871dE4F736f1233589CE5 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0xFDC7BEc0aED8a584577fd59CbF56805eE8c976B3 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0x5f525cd29377DC2155C2AbCDaC0Ce45e630318b7 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0x3a69B365769a9dAb67865Ca5530c4B1D5259bCb7 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0x97870c129abc9877b66534e49f152585D6Ca3655 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0x1Ad061ad839f82C05767dACd2B5ab384E72B45a5 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0xFd4b5ae43f2aA446b02209098438890d3998cC9F | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0x732BF4fA8E57200621b0e1acbe8855c238823016 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0xa76Fa6837A6ffc9F123F2193717A5965c68B0cbA | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0xFaeb57c16D5E9A9f06c8c5dB12796f5a432Eb7d6 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0xb501FDaad0F0863C4c72f7EB9Abc23965DCa973d | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0x3dB4E0b1fC6072271BF51e9a0CC17E3c7C4C99f5 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0xe2DD09d719Da89e5a3D0F2549c7E24566e947260 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0x1072D3287A5cC513F40b425735E04355487f5F57 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0x26818079Ba707b2facFfcdc41445322f0e7e3042 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0x18aa7C29527E71b9F295f1bfB63e57F5a0A97282 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0x8d4198E9af22863d4269dDA6a41eF2BfA187AbAc | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0xb4026ac3562245bB0DAb9205D698Ab0410e3d723 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0x24D68bFBA0fB06ccFfD21dC3a5c0B65207Bd479a | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0xFB7Cb9F2E15F3935B22FB9846d69b46bD31edf07 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0xa51815143e6C578D3c27A7b6fA6E4C1Dfcac555C | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0x6432956a98E522F1B8a73a45245a5C6ff2c7f8f1 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0xD1Cb3E73a7bC632d2279114AA2783dcaD06517ca | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0xAEC291E9Eb4293d45a5B8aBE3549c0C7464e5C24 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
+| deltaDAO AG 22.10                   | 0x4c7BfE3D6278eb996FC13c5f748bC7b1dBe593D8 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant.json       |
 | PTW - TU Darmstadt                  | 0x4A806a4851472F7cFd579d3FF5465F03c3c2B5d4 | Federator     | https://ptw.tu-darmstadt.euprogigant.io/sd/participant.json          |
 | PTW - TU Darmstadt                  | 0x21CF19e1FaF3A62f82B432f82152e8c5C0FdBdaF | Federator     | https://ptw.tu-darmstadt.euprogigant.io/sd/participant.json          |
 | PTW - TU Darmstadt                  | 0x9f4ceE0eBD03a1e9E4DcffaF876873d7a3e9595c | Federator     | https://ptw.tu-darmstadt.euprogigant.io/sd/participant.json          |
@@ -89,7 +89,7 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Materna SE                          | 0xf596D17C4a3A5c92c4721627B9e5E5064651BF46 | Participant   | https://delta-dao.com/.well-known/participantMaterna.json            |
 | Materna SE                          | 0xE90e1f337cBBaeD2bf30dD66165246e477F59158 | Participant   | https://delta-dao.com/.well-known/participantMaterna.json            |
 | Airbus                              | 0x3CEA8fBCbD1c745E081fD3937C18eE0b6Cc3f1b1 | Participant   | https://delta-dao.com/.well-known/participantAirbus.json             |
-| OHB                                 | 0xF8dB4a6d529a14e3E029e2b8A9279f408909Fa20 | Participant   | https://delta-dao.com/.well-known/participantOHBdigital.json         |
+| OHB 22.10                           | 0xF8dB4a6d529a14e3E029e2b8A9279f408909Fa20 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_OHB.json   |
 | T-Systems Multimedia Solutions GmbH | 0x48535044200dAE3FD4f5b5C3f9b077fa5c230Ef3 | Participant   | https://delta-dao.com/.well-known/participantTsystemsMMS.json        |
 | IKS – Gesellschaft für Informations- und Kommunikationssysteme mbH | 0x212c355c3ce41a272606da61F661dDd2b7F8a4B1 | Participant   | https://delta-dao.com/.well-known/participantIKS.json |
 | msg David GmbH                      | 0x44C34FbBB727bDC648E65feCfF3FB9D4c85f1fe4 | Participant   | https://delta-dao.com/.well-known/participantMsgDavid.json           |
@@ -194,6 +194,8 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Centre de Visió per Computador (CVC) 22.10 | 0x3BB6944351d156fAF798f952C2838ef5bac68E40 | Participant   | https://delta-dao.com/.well-known/2210_ComputerVisionCenter.json  |
 | Freie und Hansestadt Hamburg 22.10  | 0xC09c6A1d5538E7ed135d6146241c8da11e92130B | Participant   | https://delta-dao.com/.well-known/2210_hamburg.json                      |
 | IGH Infotec AG 22.10                | 0xA933f297ca605434850419951685ACeEcE2Bc88e | Participant   | https://delta-dao.com/.well-known/2210_igh_infotec_ag.json               |
-| itemis AG 22.10                     | 0xd1E02B17524C53B337C22BF9D414bc15f933C3f0 | Participant   | https://delta-dao.com/.well-known/2210_participant_Itemis.json           |
+| itemis AG 22.10                     | 0xd1E02B17524C53B337C22BF9D414bc15f933C3f0 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_itemis.json    |
 | inovex GmbH 22.10                   | 0x4DdaE8989871DB4fAB65d62775e20c577340F8bE | Participant   | https://delta-dao.com/.well-known/2210_participant_Inovex.json           |
-| neusta aerospace GmbH 22.10         | 0xAaeA7A824cffffFFf9Dd6EC51D7D7B0abA3f205F | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_teamNeusta.json |
+| neusta aerospace GmbH 22.10         | 0xAaeA7A824cffffFFf9Dd6EC51D7D7B0abA3f205F | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_neustaAerospace.json |
+| DLR GfR mbH 22.10                   | 0xf9eaebd346E9D414f4D4210CB12e43cc226038cF | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_DLR_GfR.json   |
+| Valispace GmbH                      | 0xdbe749D939ea958aC64A5bdf163B05096E260572 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Valispace.json |
