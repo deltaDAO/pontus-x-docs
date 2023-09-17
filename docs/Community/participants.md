@@ -174,7 +174,7 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | eco - Verband der Internetwirtschaft e.V. | 0x007dB3DC8De9ae0F8AfeeBf1f7C92CcbD1A75Fd7 | Participant   | https://www.delta-dao.com/.well-known/participantEco.json              |
 | Institut für Automation und Kommunikation e. V. | 0xe70bBA7bC033Bf1Ce6Fa3328eCFAAc8966E66966 | Participant   | https://www.delta-dao.com/.well-known/participantIfak.json       |
 | Fujitsu Services GmbH               | 0xE4EE92b3a6B661b7148305Fa3A8d96062CBFAFc5 | Participant   | https://www.delta-dao.com/.well-known/participantFujitsuServices.json        |
-| RADIUSMEDIA KG                      | 0x37e01308d6A0E322dECc457a13E0B2b2086D84B1 | Participant   | https://www.delta-dao.com/.well-known/participantRadiusMedia.json            |
+| RADIUSMEDIA KG 22.10                | 0x37e01308d6A0E322dECc457a13E0B2b2086D84B1 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Radiusmedia.json   |
 | ahu GmbH Wasser Boden Geomatik      | 0x9Adf8e343ec1C7dB2B44e420bB8F4Cc51dEbFb7a | Participant   | https://www.delta-dao.com/.well-known/participantAhu.json                    |
 | Hochschule Offenburg (HSO)          | 0xE64872A181F0695DA0660fE0B809a89A3bA359AA | Participant   | https://www.delta-dao.com/.well-known/participantHSO.json                    |
 | FeltLabs                            | 0x533d456D3D5c16E6390647E2167678b7a76A4840 | Participant   | https://www.delta-dao.com/.well-known/participantFeltLabs.json               |
