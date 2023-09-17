@@ -136,7 +136,7 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Vicomtech                           | 0xb500BfE3d89b5D6b0d2b91841c3A3aD568Cb0FdC | Participant   | https://www.delta-dao.com/.well-known/participantVicomtech.json              |
 | Fraunhofer IAIS                     | 0x8BF36BEFC22a7b9c1a546139bFd4ae8420bcFf0e | Participant   | https://www.delta-dao.com/.well-known/participantFraunhoferIAIS.json         |
 | Berger Holding GmbH & Co. KG        | 0x2dB30B996C0E2990F836685Cf1A2939b3299f8e5 | Participant   | https://www.delta-dao.com/.well-known/participantBergerHolding.json          |
-| Christoph Kroschke GmbH             | 0x224482ebcf914b9FA9E312036B377e26B676E534 | Participant   | https://kroschke.de/.well-known/participantKroschke.json                 |
+| Christoph Kroschke GmbH             | 0x224482ebcf914b9FA9E312036B377e26B676E534 | Participant   | https://kroschke.de/.well-known/participantKroschke.json                     |
 | Brinkhaus GmbH                      | 0xD580c01E2f503287006138a94eBBc537Fe7eBD25 | Participant   | https://www.delta-dao.com/.well-known/participantBrinkhausGmbH.json          |
 | Gühring KG                          | 0x4B107057aB8278c7d9436bf76230d16e5F7BaD16 | Participant   | https://www.delta-dao.com/.well-known/participantGuehring.json               |
 | Fraunhofer-Institut für Werkzeugmaschinen und Umformtechnik IWU 22.10 | 0x7bf493b142AB0bb37c7f766A1585245901891685 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Fraunhofer_IWU.json  |
@@ -144,7 +144,7 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | SAP Fioneer GmbH                    | 0xEEe803bEFd2B4f229E57523Edb11CDE38DD1a23E | Participant   | https://www.delta-dao.com/.well-known/participantSAPFioneer.json             |
 | NT Neue Technologie AG              | 0xb828bA1850aA11daA1890896573Aa6008221A671 | Participant   | https://www.delta-dao.com/.well-known/participantNeueTechnologie.json        |
 | IONOS SE                            | 0x005d24698bF41c398ECF15a93455621932a6e19F | Participant   | https://www.delta-dao.com/.well-known/participantIONOS2.json                 |
-| ScopeSET GmbH                       | 0x746d4715c24fc4d26D02A558ACF98dC717C68E1e | Participant   | https://scopeset.de/.well-known/participantScopeSET.json                 |
+| ScopeSET GmbH 22.10                 | 0x746d4715c24fc4d26D02A558ACF98dC717C68E1e | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_ScopeSET.json      |
 | RIB Software GmbH                   | 0x1Bf21DCb771Aba18B1D23AA6D8a619C1AB1811a4 | Participant   | https://www.delta-dao.com/.well-known/participantRIBSoftware.json            |
 | msg DAVID GmbH                      | 0x04FEA446847c3539d35Cca0a74Cb82Da811BAfc3 | Participant   | https://www.delta-dao.com/.well-known/participantmsgDAVID_2.json             |
 | Arvato Systems GmbH                 | 0x69bF63B2Bb6A93fc4ff434595A72a4ED313E5698 | Participant   | https://www.delta-dao.com/.well-known/participantArvatoSystemsGmbH.json      |
