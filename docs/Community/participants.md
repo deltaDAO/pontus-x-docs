@@ -139,7 +139,7 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Christoph Kroschke GmbH             | 0x224482ebcf914b9FA9E312036B377e26B676E534 | Participant   | https://kroschke.de/.well-known/participantKroschke.json                 |
 | Brinkhaus GmbH                      | 0xD580c01E2f503287006138a94eBBc537Fe7eBD25 | Participant   | https://www.delta-dao.com/.well-known/participantBrinkhausGmbH.json          |
 | Gühring KG                          | 0x4B107057aB8278c7d9436bf76230d16e5F7BaD16 | Participant   | https://www.delta-dao.com/.well-known/participantGuehring.json               |
-| Fraunhofer-Institut für Werkzeugmaschinen und Umformtechnik IWU | 0x7bf493b142AB0bb37c7f766A1585245901891685 | Participant   | https://www.delta-dao.com/.well-known/participantFraunhoferIWU.json  |
+| Fraunhofer-Institut für Werkzeugmaschinen und Umformtechnik IWU 22.10 | 0x7bf493b142AB0bb37c7f766A1585245901891685 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Fraunhofer_IWU.json  |
 | imc information multimedia communication AG | 0x1c0c9211E8Ec8E0253A53880D5481e4580B62125 | Participant   | https://www.delta-dao.com/.well-known/participantIMC.json            |
 | SAP Fioneer GmbH                    | 0xEEe803bEFd2B4f229E57523Edb11CDE38DD1a23E | Participant   | https://www.delta-dao.com/.well-known/participantSAPFioneer.json             |
 | NT Neue Technologie AG              | 0xb828bA1850aA11daA1890896573Aa6008221A671 | Participant   | https://www.delta-dao.com/.well-known/participantNeueTechnologie.json        |
