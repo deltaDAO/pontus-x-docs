@@ -127,7 +127,7 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Accenture                           | 0xFd1BEC7E551fAeA6102045D720dD693c4e9C8E06 | Participant   | https://www.delta-dao.com/.well-known/participantAccenture.json           |
 | Airbus Defence and Space GmbH       | 0xa2199E3f60fC244037Efd5A77714CC05F604F855 | Participant   | https://www.delta-dao.com/.well-known/participantAIRBUS_DEFENCE_AND_SPACE_GMBH.json |
 | Bernard Technologies GmbH           | 0x5101ea56E29f5dc03285809b6157f0588ff255D0 | Participant   | https://www.delta-dao.com/.well-known/participantBernardTechnologies.json  |
-| Deutsches Forschungszentrum für Künstliche Intelligenz GmbH | 0x8B7f2b75B7F87D3125C8B0eDB85639B441BBcE21 | Participant   | https://www.delta-dao.com/.well-known/participantDFKI.json  |
+| Deutsches Forschungszentrum für Künstliche Intelligenz GmbH 22.10 | 0x8B7f2b75B7F87D3125C8B0eDB85639B441BBcE21 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_DFKI.json  |
 | Hochschule für angewandte Wissenschaften Kempten | 0xb11124Dfa40E44b3283068fd07bf6FdE60caf06A | Participant   | https://www.delta-dao.com/.well-known/participantHSKempten.json |
 | Fraunhofer-Institut für Graphische Datenverarbeitung IGD | 0x632460b14aDd90aD9430e381B4662779cC1ab7a6 | Participant   | https://www.delta-dao.com/.well-known/participantFraunhoferIGD.json  |
 | 52°North GmbH                       | 0x1f65110b63B6044f1E92543C09231842131798C7 | Participant   | https://www.delta-dao.com/.well-known/participant52north.json                |
@@ -152,7 +152,7 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | OSISM GmbH                          | 0x0763BfBcBfA0126b5A5509fB1185b7b6476BdAd8 | Participant   | https://www.delta-dao.com/.well-known/participantOSISM.json                  |
 | Netcompany-Intrasoft S.A.           | 0x54d2946677CC16E06Efd6161A4abFA17fc98Afc3 | Participant   | https://www.delta-dao.com/.well-known/participantNetcompanyInfrasoft.json    |
 | Stackable GmbH                      | 0x5880C2C30C922FE700fc079e1b6BBa7e9E7DE577 | Participant   | https://www.delta-dao.com/.well-known/participantStackable.json              |
-| FZI Forschungszentrum Informatik    | 0xc2350eA5913511A95c1aBED51de377A0b92846Be | Participant | https://delta-dao.com/.well-known/participantFZI.json                      |
+| FZI Forschungszentrum Informatik 22.10 | 0xc2350eA5913511A95c1aBED51de377A0b92846Be | Participant | https://www.delta-dao.com/.well-known/2210_gx_participant_FZI.json             |
 | ProCarement GmbH                    | 0x0c85Cd08E6643Fa3E4B75268431d19CcFC99C916 | Participant   | https://www.delta-dao.com/.well-known/participantProCarement.json            |
 | Hochschule Furtwangen University (HFU) | 0x1153265057782e8C57292CA590E50acC36037204 | Participant   | https://www.delta-dao.com/.well-known/participantFurtwangenUniversity.json |
 | Daten-Kompetenzzentrum Städte und Regionen DKSR GmbH | 0xF211efa0C51559e6730db3Ba6FE1f1D46A68BE14 | Participant   | https://www.delta-dao.com/.well-known/participantDKSR.json  |
