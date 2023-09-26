@@ -198,4 +198,5 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | inovex GmbH 22.10                   | 0x4DdaE8989871DB4fAB65d62775e20c577340F8bE | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Inovex.json    |
 | neusta aerospace GmbH 22.10         | 0xAaeA7A824cffffFFf9Dd6EC51D7D7B0abA3f205F | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_neustaAerospace.json |
 | DLR GfR mbH 22.10                   | 0xf9eaebd346E9D414f4D4210CB12e43cc226038cF | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_DLR_GfR.json   |
-| Valispace GmbH                      | 0xdbe749D939ea958aC64A5bdf163B05096E260572 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Valispace.json |
+| Valispace GmbH 22.10                | 0xdbe749D939ea958aC64A5bdf163B05096E260572 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Valispace.json |
+| grandcentrix GmbH 22.10             | 0xAE823B7a6ad5b79da6d180Dbe91E7C810abAcCA4 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_grandcentrix.json |
