@@ -13,9 +13,10 @@ title: Quick Links
 - Service-Meister Portal: https://servicemeister.pontus-x.eu/
 - Future Mobility Data Marketplace: https://marketplace.future-mobility-alliance.org/
 - University of Lleida Open Science Portal: https://mvg.angliru.udl.cat/
+- State Library of Berlin Portal: https://sbb.pontus-x.eu/
 
 ## Pontus-X Services
-- Pontus-X Testnet Explorer: https://logging.genx.minimal-gaia-x.eu/
+- Pontus-X Testnet Explorer: https://explorer.pontus-x.eu/
 
 ## Tools
 ### Nautilus
