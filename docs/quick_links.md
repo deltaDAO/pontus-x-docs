@@ -11,9 +11,9 @@ title: Quick Links
 - COOPERANTS Portal: https://cooperants.pontus-x.eu/
 - Airbus Portal: https://airbus.pontus-x.eu/
 - Service-Meister Portal: https://servicemeister.pontus-x.eu/
+- State Library of Berlin Portal: https://sbb.pontus-x.eu/
 - Future Mobility Data Marketplace: https://marketplace.future-mobility-alliance.org/
 - University of Lleida Open Science Portal: https://mvg.angliru.udl.cat/
-- State Library of Berlin Portal: https://sbb.pontus-x.eu/
 
 ## Pontus-X Services
 - Pontus-X Testnet Explorer: https://explorer.pontus-x.eu/
