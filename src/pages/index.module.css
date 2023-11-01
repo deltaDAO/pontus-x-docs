@@ -14,7 +14,7 @@
   position: relative;
   overflow: hidden;
   align-items: flex-start;
-  background-color: #000094;
+  background-color: var(--ifm-color-primary);
   background-image: var(--wave-background);
   background-repeat: no-repeat;
   background-position: bottom;
@@ -27,6 +27,23 @@
   margin-top: 12rem;
 }
 
+.container svg {
+  max-height: 3.5rem;
+  max-width: 90%;
+}
+
+@media screen and (max-width: 800px) {
+  .container svg {
+    max-height: 2.5rem;
+    max-width: 90%;
+  }
+  .title {
+    font-size: 2rem;
+  }
+  .subtitle {
+    font-size: 1.1rem;
+  }
+}
 @media screen and (max-width: 1200px) {
   .heroBanner {
     min-height: 600px;
