@@ -4,7 +4,7 @@ import useDocusaurusContext from '@docusaurus/useDocusaurusContext'
 import Layout from '@theme/Layout'
 import HomepageFeatures from '@site/src/components/HomepageFeatures'
 import HomepageValidators from '@site/src/components/HomepageValidators'
-
+import PontusXLogoWhite from '@site/static/img/pontus-x-logo-white.svg'
 import styles from './index.module.css'
 
 function HomepageHeader() {
@@ -13,8 +13,9 @@ function HomepageHeader() {
   return (
     <header className={clsx('hero hero--primary', styles.heroBanner)}>
       <div className={clsx('container', styles.container)}>
+        <PontusXLogoWhite />
         <h1 className={clsx('container', 'hero__title', styles.title)}>
-          {siteConfig.title}
+          Documentation
         </h1>
         <p className={clsx('container', 'hero__subtitle', styles.subtitle)}>
           {siteConfig.tagline}

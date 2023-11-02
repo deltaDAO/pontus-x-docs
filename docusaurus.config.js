@@ -66,8 +66,9 @@ const config = {
       navbar: {
         title: 'Pontus-X Documentation',
         logo: {
-          alt: 'GEN-X Logo',
-          src: 'img/genx_logo.png',
+          alt: 'Pontus-X Logo',
+          src: 'img/pontus-x-icon.svg',
+          srcDark: 'img/pontus-x-icon-white.svg',
         },
         items: [
           {
@@ -123,7 +124,7 @@ const config = {
               {
                 label: 'Imprint',
                 href: '/imprint',
-              }
+              },
             ],
           },
         ],
