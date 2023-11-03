@@ -7,7 +7,7 @@ const darkCodeTheme = require('prism-react-renderer/themes/dracula')
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: 'Pontus-X Documentation',
-  tagline: 'Gaia-X Web3 Ecosystem',
+  tagline: 'powered by Gaia-X',
   url: 'https://docs.pontus-x.eu/',
   baseUrl: '/',
   onBrokenLinks: 'throw',
