@@ -182,7 +182,7 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | BigchainDB GmbH                     | 0x61DB12d8b636Cb49ea09eCa58a893dA9480E1F33 | Participant   | https://www.delta-dao.com/.well-known/participantBigchainDB.json             |
 | Deal ex Machina                     | 0xC8a08b33995594bfdB0ef9c18EB72da0469E396F | Participant   | https://www.delta-dao.com/.well-known/participantDealExMachina.json          |
 | Deloitte                            | 0x289Ff19C1e544B6E9488d5E79966491A2bAa88C9 | Participant   | https://www.delta-dao.com/.well-known/participantDeloitte.json               |
-| 3D Mapping Solutions GmbH           | 0x2650e382770A04bE0f7E362ed578FB261A60F4b3 | Participant   | tbd                                                                      |
+| 3D Mapping Solutions GmbH           | 0x2650e382770A04bE0f7E362ed578FB261A60F4b3 | Participant   | tbd                                                                          |
 | Vodafone Group Services Limited     | 0x172b3eB3BDa62e81c171d340eC4a8C70f3d044EF | Participant   | https://www.delta-dao.com/.well-known/participantVodafone.json               |
 | Vodafone Group Services Limited     | 0xf1F30d7048775F02139Be30067e984F2C2d1812a | Participant   | https://www.delta-dao.com/.well-known/participantVodafone.json               |
 | Feuerwehr Braunschweig              | 0xc21854fC5B997afa00c75b5098842a61F6E18e5B | Participant   | https://www.delta-dao.com/.well-known/participantFWBS.json                   |
@@ -192,10 +192,10 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | ZARM Technik AG 22.10               | 0x81c337F4a5113E30919F588F178a361ade1D1Be2 | Participant   | https://www.delta-dao.com/.well-known/2210_participant_ZARM_Technik_AG.json  |
 | htw Saar 22.10                      | 0xA38E2b6fFf3d9c66270253c7fE4Dcb5B088020D5 | Participant   | https://www.delta-dao.com/.well-known/2210_participant_HTW_Saar.json         |
 | Centre de Visió per Computador (CVC) 22.10 | 0x3BB6944351d156fAF798f952C2838ef5bac68E40 | Participant   | https://www.delta-dao.com/.well-known/2210_ComputerVisionCenter.json  |
-| Freie und Hansestadt Hamburg 22.10  | 0xC09c6A1d5538E7ed135d6146241c8da11e92130B | Participant   | https://delta-dao.com/.well-known/2210_hamburg.json                      |
+| Freie und Hansestadt Hamburg 22.10  | 0xC09c6A1d5538E7ed135d6146241c8da11e92130B | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Hamburg.json       |
 | IGH Infotec AG 22.10                | 0xA933f297ca605434850419951685ACeEcE2Bc88e | Participant   | https://www.delta-dao.com/.well-known/2210_igh_infotec_ag.json               |
-| itemis AG 22.10                     | 0xd1E02B17524C53B337C22BF9D414bc15f933C3f0 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_itemis.json    |
-| inovex GmbH 22.10                   | 0x4DdaE8989871DB4fAB65d62775e20c577340F8bE | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Inovex.json    |
+| itemis AG 22.10                     | 0xd1E02B17524C53B337C22BF9D414bc15f933C3f0 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_itemis.json        |
+| inovex GmbH 22.10                   | 0x4DdaE8989871DB4fAB65d62775e20c577340F8bE | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Inovex.json        |
 | neusta aerospace GmbH 22.10         | 0xAaeA7A824cffffFFf9Dd6EC51D7D7B0abA3f205F | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_neustaAerospace.json |
 | DLR GfR mbH 22.10                   | 0xf9eaebd346E9D414f4D4210CB12e43cc226038cF | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_DLR_GfR.json   |
 | Valispace GmbH 22.10                | 0xdbe749D939ea958aC64A5bdf163B05096E260572 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Valispace.json |
