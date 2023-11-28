@@ -201,4 +201,4 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Valispace GmbH 22.10                | 0xdbe749D939ea958aC64A5bdf163B05096E260572 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Valispace.json     |
 | grandcentrix GmbH 22.10             | 0xAE823B7a6ad5b79da6d180Dbe91E7C810abAcCA4 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_grandcentrix.json  |
 | DIO 22.10                           | 0x2B9C7E0d7Be68ec6b519Dad050CD0A4bf130B6A4 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_DIO.json           |
-| Consorci Centre d'Estudis Porcins (CEP) 22.10 | 0x38f8c44FFaa8bE015F2DCDcD258ceBBed911840d | Participant   | https://angliru.udl.cat/.well-known/2210_CEP.json.                 |
+| Consorci Centre d'Estudis Porcins (CEP) 22.10 | 0x38f8c44FFaa8bE015F2DCDcD258ceBBed911840d | Participant   | https://angliru.udl.cat/.well-known/2210_CEP.json                  |
