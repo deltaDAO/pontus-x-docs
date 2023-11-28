@@ -152,7 +152,7 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | OSISM GmbH                          | 0x0763BfBcBfA0126b5A5509fB1185b7b6476BdAd8 | Participant   | https://www.delta-dao.com/.well-known/participantOSISM.json                  |
 | Netcompany-Intrasoft S.A.           | 0x54d2946677CC16E06Efd6161A4abFA17fc98Afc3 | Participant   | https://www.delta-dao.com/.well-known/participantNetcompanyInfrasoft.json    |
 | Stackable GmbH                      | 0x5880C2C30C922FE700fc079e1b6BBa7e9E7DE577 | Participant   | https://www.delta-dao.com/.well-known/participantStackable.json              |
-| FZI Forschungszentrum Informatik 22.10 | 0xc2350eA5913511A95c1aBED51de377A0b92846Be | Participant | https://www.delta-dao.com/.well-known/2210_gx_participant_FZI.json             |
+| FZI Forschungszentrum Informatik 22.10 | 0xc2350eA5913511A95c1aBED51de377A0b92846Be | Participant | https://www.delta-dao.com/.well-known/2210_gx_participant_FZI.json          |
 | ProCarement GmbH                    | 0x0c85Cd08E6643Fa3E4B75268431d19CcFC99C916 | Participant   | https://www.delta-dao.com/.well-known/participantProCarement.json            |
 | Hochschule Furtwangen University (HFU) | 0x1153265057782e8C57292CA590E50acC36037204 | Participant   | https://www.delta-dao.com/.well-known/participantFurtwangenUniversity.json |
 | Daten-Kompetenzzentrum Städte und Regionen DKSR GmbH | 0xF211efa0C51559e6730db3Ba6FE1f1D46A68BE14 | Participant   | https://www.delta-dao.com/.well-known/participantDKSR.json  |
@@ -197,7 +197,8 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | itemis AG 22.10                     | 0xd1E02B17524C53B337C22BF9D414bc15f933C3f0 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_itemis.json        |
 | inovex GmbH 22.10                   | 0x4DdaE8989871DB4fAB65d62775e20c577340F8bE | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Inovex.json        |
 | neusta aerospace GmbH 22.10         | 0xAaeA7A824cffffFFf9Dd6EC51D7D7B0abA3f205F | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_neustaAerospace.json |
-| DLR GfR mbH 22.10                   | 0xf9eaebd346E9D414f4D4210CB12e43cc226038cF | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_DLR_GfR.json   |
-| Valispace GmbH 22.10                | 0xdbe749D939ea958aC64A5bdf163B05096E260572 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Valispace.json |
-| grandcentrix GmbH 22.10             | 0xAE823B7a6ad5b79da6d180Dbe91E7C810abAcCA4 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_grandcentrix.json |
-| DIO 22.10                           | 0x2B9C7E0d7Be68ec6b519Dad050CD0A4bf130B6A4 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_DIO.json |
+| DLR GfR mbH 22.10                   | 0xf9eaebd346E9D414f4D4210CB12e43cc226038cF | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_DLR_GfR.json       |
+| Valispace GmbH 22.10                | 0xdbe749D939ea958aC64A5bdf163B05096E260572 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Valispace.json     |
+| grandcentrix GmbH 22.10             | 0xAE823B7a6ad5b79da6d180Dbe91E7C810abAcCA4 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_grandcentrix.json  |
+| DIO 22.10                           | 0x2B9C7E0d7Be68ec6b519Dad050CD0A4bf130B6A4 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_DIO.json           |
+| Consorci Centre d'Estudis Porcins (CEP) 22.10 | 0x38f8c44FFaa8bE015F2DCDcD258ceBBed911840d | Participant   | https://angliru.udl.cat/.well-known/2210_CEP.json                  |
