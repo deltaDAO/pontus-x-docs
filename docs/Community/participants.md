@@ -183,8 +183,6 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Deal ex Machina                     | 0xC8a08b33995594bfdB0ef9c18EB72da0469E396F | Participant   | https://www.delta-dao.com/.well-known/participantDealExMachina.json          |
 | Deloitte                            | 0x289Ff19C1e544B6E9488d5E79966491A2bAa88C9 | Participant   | https://www.delta-dao.com/.well-known/participantDeloitte.json               |
 | 3D Mapping Solutions GmbH           | 0x2650e382770A04bE0f7E362ed578FB261A60F4b3 | Participant   | tbd                                                                          |
-| Vodafone Group Services Limited     | 0x172b3eB3BDa62e81c171d340eC4a8C70f3d044EF | Participant   | https://www.delta-dao.com/.well-known/participantVodafone.json               |
-| Vodafone Group Services Limited     | 0xf1F30d7048775F02139Be30067e984F2C2d1812a | Participant   | https://www.delta-dao.com/.well-known/participantVodafone.json               |
 | Feuerwehr Braunschweig              | 0xc21854fC5B997afa00c75b5098842a61F6E18e5B | Participant   | https://www.delta-dao.com/.well-known/participantFWBS.json                   |
 | Airbus Defense and Space GmbH 22.10 | 0x3561F6126Ce77A98fdC09DA2815919d5E04879D5 | Participant   | https://www.delta-dao.com/.well-known/2210_participant_AIRBUS_DS.json        |
 | Airbus Defense and Space GmbH 22.10 | 0xaDD9344fc33530dE1F2fb338de4Cf25f7d8a6E92 | Participant   | https://www.delta-dao.com/.well-known/2210_participant_AIRBUS_DS.json        |
@@ -202,3 +200,7 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | grandcentrix GmbH 22.10             | 0xAE823B7a6ad5b79da6d180Dbe91E7C810abAcCA4 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_grandcentrix.json  |
 | DIO 22.10                           | 0x2B9C7E0d7Be68ec6b519Dad050CD0A4bf130B6A4 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_DIO.json           |
 | Consorci Centre d'Estudis Porcins (CEP) 22.10 | 0x38f8c44FFaa8bE015F2DCDcD258ceBBed911840d | Participant   | https://angliru.udl.cat/.well-known/2210_CEP.json                  |
+| Vodafone Group Services Limited     | 0x172b3eB3BDa62e81c171d340eC4a8C70f3d044EF | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Vodafone.json      |
+| Vodafone Group Services Limited     | 0xf1F30d7048775F02139Be30067e984F2C2d1812a | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Vodafone.json      |
+| Vodafone Group Services Limited     | 0x55Bde3d09a51C023E0BC206d79b3B3C1F4e39a63 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Vodafone.json      |
+
