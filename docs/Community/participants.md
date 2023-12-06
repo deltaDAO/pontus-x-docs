@@ -61,7 +61,8 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | PTW - TU Darmstadt                  | 0x21CF19e1FaF3A62f82B432f82152e8c5C0FdBdaF | Federator     | https://ptw.tu-darmstadt.euprogigant.io/sd/participant.json          |
 | PTW - TU Darmstadt                  | 0x9f4ceE0eBD03a1e9E4DcffaF876873d7a3e9595c | Federator     | https://ptw.tu-darmstadt.euprogigant.io/sd/participant.json          |
 | PTW - TU Darmstadt                  | 0x6E7bec8715955B6Cc90A5A1767cd981b90C5a245 | Federator     | https://ptw.tu-darmstadt.euprogigant.io/sd/participant.json          |
-| IONOS Cloud                         | 0x81336c245712DbF0E971de5463173bCaA9826d84 | Federator     | https://delta-dao.com/.well-known/participantIONOS.json              |
+| IONOS SE                            | 0x81336c245712DbF0E971de5463173bCaA9826d84 | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant_Ionos.json |
+| IONOS SE                            | 0x005d24698bF41c398ECF15a93455621932a6e19F | Federator     | https://www.delta-dao.com/.well-known/2210_gx_participant_Ionos.json |
 | Exoscale                            | 0x56eA3Cc92144Db3bA2bdE25131F40c7B98F7eD32 | Federator     | https://a1.digital.euprogigant.io/sd/participant.json                |
 | Wobcom 22.10                        | 0x9Dc6aDA184fc98012D74F1C4f3f223183A4745D4 | Federator     | https://www.delta-dao.com/.well-known/2210_participant_WOBCOM.json       |
 | Arsys                               | 0x0337b320DEfAddd9aDbC518f8A9cee30b606d15b | Federator     | https://arlabdevelopments.com/.well-known/ArsysParticipant.json      |
