@@ -7,6 +7,20 @@ import styles from './index.module.css'
 
 const FeatureList = [
   {
+    title: 'Portal',
+    Svg: require('@site/static/img/rss-feed.svg').default,
+    SvgLight: require('@site/static/img/rss-feed-white.svg').default,
+    description: (
+      <>
+        Enter the Pontus-X Ecosystem through the Main Portal.
+      </>
+    ),
+    action: {
+      title: 'Visit the Portal',
+      link: 'https://pontus-x.eu',
+    },
+  },
+  {
     title: 'Blog',
     Svg: require('@site/static/img/rss-feed.svg').default,
     SvgLight: require('@site/static/img/rss-feed-white.svg').default,
