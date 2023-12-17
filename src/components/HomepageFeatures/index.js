@@ -8,15 +8,15 @@ import styles from './index.module.css'
 const FeatureList = [
   {
     title: 'Portal',
-    Svg: require('@site/static/img/rss-feed.svg').default,
-    SvgLight: require('@site/static/img/rss-feed-white.svg').default,
+    Svg: require('@site/static/img/pontus-x-icon.svg').default,
+    SvgLight: require('@site/static/img/pontus-x-icon-white.svg').default,
     description: (
       <>
         Enter the Pontus-X Ecosystem through the Main Portal.
       </>
     ),
     action: {
-      title: 'Visit the Portal',
+      title: 'Visit Pontus-X Portal',
       link: 'https://pontus-x.eu',
     },
   },
