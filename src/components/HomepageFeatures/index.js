@@ -7,17 +7,17 @@ import styles from './index.module.css'
 
 const FeatureList = [
   {
-    title: 'Blog',
-    Svg: require('@site/static/img/rss-feed.svg').default,
-    SvgLight: require('@site/static/img/rss-feed-white.svg').default,
+    title: 'Portal',
+    Svg: require('@site/static/img/pontus-x-icon.svg').default,
+    SvgLight: require('@site/static/img/pontus-x-icon-white.svg').default,
     description: (
       <>
-        Stay informed on the latest developments within the Pontus-X ecosystem.
+        Enter the Pontus-X Ecosystem through the Main Portal.
       </>
     ),
     action: {
-      title: 'Visit our Blog',
-      link: 'https://blog.delta-dao.com',
+      title: 'Visit Pontus-X Portal',
+      link: 'https://pontus-x.eu',
     },
   },
   {
@@ -30,6 +30,20 @@ const FeatureList = [
     action: {
       title: 'Start here',
       link: '/docs/intro',
+    },
+  },
+  {
+    title: 'Blog',
+    Svg: require('@site/static/img/rss-feed.svg').default,
+    SvgLight: require('@site/static/img/rss-feed-white.svg').default,
+    description: (
+      <>
+        Stay informed on the latest developments within the Pontus-X ecosystem.
+      </>
+    ),
+    action: {
+      title: 'Visit our Blog',
+      link: 'https://blog.delta-dao.com',
     },
   },
   {
@@ -53,7 +67,7 @@ function Feature({ Svg, SvgLight, title, description, action }) {
   const { isDarkTheme } = useColorMode()
 
   return (
-    <div className={clsx('col col--4', styles.feature)}>
+    <div className={clsx('col col--6', styles.feature)}>
       <div className="text--center">
         {isDarkTheme ? (
           <SvgLight className={styles.featureSvg} role="img" />
