@@ -21,6 +21,18 @@ const FeatureList = [
     },
   },
   {
+    title: 'Docs',
+    Svg: require('@site/static/img/library-books.svg').default,
+    SvgLight: require('@site/static/img/library-books-white.svg').default,
+    description: (
+      <>Get started and discover the core features of the Pontus-X ecosystem.</>
+    ),
+    action: {
+      title: 'Start here',
+      link: '/docs/intro',
+    },
+  },
+  {
     title: 'Blog',
     Svg: require('@site/static/img/rss-feed.svg').default,
     SvgLight: require('@site/static/img/rss-feed-white.svg').default,
@@ -32,18 +44,6 @@ const FeatureList = [
     action: {
       title: 'Visit our Blog',
       link: 'https://blog.delta-dao.com',
-    },
-  },
-  {
-    title: 'Docs',
-    Svg: require('@site/static/img/library-books.svg').default,
-    SvgLight: require('@site/static/img/library-books-white.svg').default,
-    description: (
-      <>Get started and discover the core features of the Pontus-X ecosystem.</>
-    ),
-    action: {
-      title: 'Start here',
-      link: '/docs/intro',
     },
   },
   {
@@ -67,7 +67,7 @@ function Feature({ Svg, SvgLight, title, description, action }) {
   const { isDarkTheme } = useColorMode()
 
   return (
-    <div className={clsx('col col--4', styles.feature)}>
+    <div className={clsx('col col--6', styles.feature)}>
       <div className="text--center">
         {isDarkTheme ? (
           <SvgLight className={styles.featureSvg} role="img" />
