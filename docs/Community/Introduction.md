@@ -61,7 +61,6 @@ The [Pontus-X](https://portal.pontus-x.eu/) network is a customizable blockchain
 By providing a neutral, open, decentralized and secure infrastructure for digital transactions, the network enables businesses and institutions to have more control over their data and how it is used, while also ensuring compliance with the [Gaia-X Trust Framework](https://gaia-x.gitlab.io/policy-rules-committee/trust-framework/). This helps to foster trust and interoperability within the [Pontus-X](https://portal.pontus-x.eu/) and [Gaia-X](https://gaia-x.eu/) ecosystem and allows for data spaces that can be used by multiple parties in a decentralized and autonomous manner without creating further data silos.
 
 For further information we have created a [GEN-X documentation](https://docs.genx.minimal-gaia-x.eu/docs/intro/) and also maintain an [up-to-date list](https://docs.genx.minimal-gaia-x.eu/docs/Community/participants) of participants of the network.
-For further information we have created a documentation and also maintain an up-to-date list of participants of the network.
 
 
 ## Why do we care?
