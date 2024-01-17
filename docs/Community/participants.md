@@ -109,7 +109,7 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Struggle Creative Oy                | 0x895975869261A215813e33568a295F94A3F301ed | Participant   | https://www.delta-dao.com/.well-known/participantStruggle.json           |
 | Sphereon                            | 0xDa4fc9E82Ac4E44207a1f74137493D3437D80761 | Participant   | https://www.delta-dao.com/.well-known/participantSphereon.json.          |
 | Austrian Institute of Technology    | 0xfc739f2F91921eb710878ad2Ca38C147a784C96f | Participant   | https://www.delta-dao.com/.well-known/participant.json                   |
-| acatech                             | 0xF62bF6371Ee020Cb2164Ac3C338514DBbb93A0D4 | Participant   | https://www.delta-dao.com/.well-known/participantAcatech.json            |
+| acatech                             | 0xF62bF6371Ee020Cb2164Ac3C338514DBbb93A0D4 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_acatech.json   |
 | Spanish Ministry of Economic Affairs and Digital Transformation| 0x6E1cE3530A12F89cF567788C132454E5dC7D3cCE |Participant| https://www.delta-dao.com/.well-known/participantspanishministryofeconomicaffairs.json.json |
 | Eviden Germany GmbH 22.10                | 0x943CaA8afCAdd2F64a7cE9E53A91d5ea0BEb40c1 | Participant   | https://www.delta-dao.com/.well-known/2210_participant_Eviden.json       |
 | Eviden Germany GmbH 22.10                | 0x7A6246e02B2aA276203469Cfb839a2666520D8b5 | Participant   | https://www.delta-dao.com/.well-known/2210_participant_Eviden.json       |
