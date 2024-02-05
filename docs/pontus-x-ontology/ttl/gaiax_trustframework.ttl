@@ -1633,3 +1633,4 @@ gx:CriteriaEvidenceShape a sh:NodeShape ;
         sh:datatype xsd:string ;
         sh:maxCount 1 ;
     ] .
+
