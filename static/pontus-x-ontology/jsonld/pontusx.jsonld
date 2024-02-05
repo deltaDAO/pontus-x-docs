@@ -1,0 +1,54 @@
+{
+    "@version": 2210,
+    "gx-trustframework": {
+        "@context": {
+            "sh": "http://www.w3.org/ns/shacl#",
+            "ethon": "http://ethon.consensys.net/",
+            "rdfs": "http://www.w3.org/2000/01/rdf-schema#",
+            "rdf": "http://www.w3.org/1999/02/22-rdf-syntax-ns#",
+            "xsd": "http://www.w3.org/2001/XMLSchema#",
+            "skos": "http://www.w3.org/2004/02/skos/core#",
+            "xml": "http://www.w3.org/XML/1998/namespace"
+        },
+        "@graph": [
+            {
+                "@id": "px:LegalParticipantShape",
+                "@type": "sh:NodeShape",
+                "sh:targetClass": {
+                    "@id": "px:LegalParticipant"
+                },
+                "sh:property": [
+                    {
+                        "sh:path": {
+                            "@id": "px:AccountDataProperty"
+                        },
+                        "sh:node": {
+                            "@id": "px:AccountDataPropertyShape"
+                        },
+                        "sh:minCount": 1
+                    }
+                ]
+            },
+            {
+                "@id": "px:AccountDataPropertyShape",
+                "@type": "sh:NodeShape",
+                "sh:targetClass": {
+                    "@id": "px:AccountDataProperty"
+                },
+                "sh:message": "At least one unique public network address must be defined.",
+                "sh:property": [
+                    {
+                        "sh:path": {
+                            "@id": "px:address"
+                        },
+                        "sh:datatype": {
+                            "@id": "xsd:hexBinary"
+                        },
+                        "sh:minLength": 42,
+                        "sh:maxLength": 42
+                    }
+                ]
+            }
+        ]
+    }
+}
