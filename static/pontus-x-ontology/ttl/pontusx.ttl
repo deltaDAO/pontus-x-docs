@@ -1,0 +1,30 @@
+@prefix sh: <http://www.w3.org/ns/shacl#> .
+@prefix px: <https://docs.pontus-x.eu/pontus-x-ontology/jsonld/pontus-x#> .
+@prefix ethon: <http://ethon.consensys.net/> .
+@prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+@prefix skos <http://www.w3.org/2004/02/skos/core#> .
+@prefix xml <http://www.w3.org/XML/1998/namespace> .
+
+px:LegalParticipantShape
+    a sh:NodeShape ;
+    sh:targetClass px:LegalParticipant ;
+    sh:property
+        [
+            sh:path px:AccountDataProperty ;
+            sh:node px:AccountDataPropertyShape ;
+            sh:minCount 1 ;
+        ] .
+
+px:AccountDataPropertyShape
+    a sh:NodeShape ;
+    sh:targetClass px:AccountDataProperty ;
+    sh:message "At least one unique public network address must be defined." ;
+    sh:property
+        [
+            sh:path px:address ;
+            sh:datatype xsd:hexBinary ;
+            sh:minLength 42 ;
+            sh:maxLength 42 ;
+        ] .
