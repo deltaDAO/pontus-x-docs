@@ -87,7 +87,6 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Software AG                         | 0xa702032E187E6A53EAddC28a735B414220712689 | Participant   | https://sagresearch.de/.well-known/participantSoftwareAG.json        |
 | Software AG                         | 0x0a477f6297413f20C4fBc15F93e34dacE4136123 | Participant   | https://sagresearch.de/.well-known/participantSoftwareAG.json        |
 | Software AG                         | 0x705cCA9F011050FFA61591d873a2551d7E53ea9E | Participant   | https://sagresearch.de/.well-known/participantSoftwareAG.json        |
-
 | TU Wien                             | 0x586000e6DA330E140b11a4aeEbb81963d67F336b | Participant   | https://www.delta-dao.com/.well-known/participantTUWien.json             |
 | TU Wien                             | 0x5c0bADfeEaE06699ABa04f465D1Fc360e6D38779 | Participant   | https://www.delta-dao.com/.well-known/participantTUWien.json             |
 | Materna SE 22.10                    | 0xf596D17C4a3A5c92c4721627B9e5E5064651BF46 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Materna.json            |
