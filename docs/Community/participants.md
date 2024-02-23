@@ -86,7 +86,9 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | University of Lleida                | 0x62078F05Eb4450272D7E492F3660835826906822 | Federator     | https://www.delta-dao.com/.well-known/participantUniversitydeLleida.json |
 | Software AG                         | 0xa702032E187E6A53EAddC28a735B414220712689 | Participant   | https://sagresearch.de/.well-known/participantSoftwareAG.json        |
 | Software AG                         | 0x0a477f6297413f20C4fBc15F93e34dacE4136123 | Participant   | https://sagresearch.de/.well-known/participantSoftwareAG.json        |
+| Software AG                         | 0x705cCA9F011050FFA61591d873a2551d7E53ea9E | Participant   | https://sagresearch.de/.well-known/participantSoftwareAG.json        |
 | TU Wien                             | 0x586000e6DA330E140b11a4aeEbb81963d67F336b | Participant   | https://www.delta-dao.com/.well-known/participantTUWien.json             |
+| TU Wien                             | 0x5c0bADfeEaE06699ABa04f465D1Fc360e6D38779 | Participant   | https://www.delta-dao.com/.well-known/participantTUWien.json             |
 | Materna SE 22.10                    | 0xf596D17C4a3A5c92c4721627B9e5E5064651BF46 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Materna.json            |
 | Materna SE 22.10                    | 0xE90e1f337cBBaeD2bf30dD66165246e477F59158 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Materna.json            |
 | Airbus                              | 0x3CEA8fBCbD1c745E081fD3937C18eE0b6Cc3f1b1 | Participant   | https://www.delta-dao.com/.well-known/participantAirbus.json             |
@@ -104,6 +106,7 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | RWS                                 | 0xa98A6eefbAE870b88a9C7A43f4b50066A01c93b6 | Participant   | https://www.delta-dao.com/.well-known/participantRijkswaterstaat.json    |
 | Craftworks                          | 0x9dfbda23b65efB1c836828D74a96eB8528A60f3C | Participant   | https://craftworks.euprogigant.io/sd/participant.json                |
 | Concircle Österreich GmbH           | 0xb2AF8b92bFaC5299Cb6EDEf16150BFD1d4d26a93 | Participant   | https://www.delta-dao.com/.well-known/participantConcircleAustria.json   |
+| Concircle Österreich GmbH           | 0xB4a3ACF5308d47F3EecBa9361c5ffb5a5336e244 | Participant   | https://www.delta-dao.com/.well-known/participantConcircleAustria.json   |
 | DENSO AUTOMOTIVE Deutschland GmbH   | 0x2b92BF0496B7B41ea2d723325DDE96651795c784 | Participant   | https://www.delta-dao.com/.well-known/participantDenso.json              |
 | DENSO AUTOMOTIVE Deutschland GmbH   | 0xe761F8e33c71D08A9323Cb2c711aB4Fae2634276 | Participant   | https://www.delta-dao.com/.well-known/participantDenso.json              |
 | Struggle Creative Oy                | 0x895975869261A215813e33568a295F94A3F301ed | Participant   | https://www.delta-dao.com/.well-known/participantStruggle.json           |
@@ -140,6 +143,7 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Christoph Kroschke GmbH             | 0x224482ebcf914b9FA9E312036B377e26B676E534 | Participant   | https://kroschke.de/.well-known/participantKroschke.json                     |
 | Brinkhaus GmbH                      | 0xD580c01E2f503287006138a94eBBc537Fe7eBD25 | Participant   | https://www.delta-dao.com/.well-known/participantBrinkhausGmbH.json          |
 | Gühring KG                          | 0x4B107057aB8278c7d9436bf76230d16e5F7BaD16 | Participant   | https://www.delta-dao.com/.well-known//2210_gx_participant_Guehring.json               |
+| Gühring KG                          | 0xD9BAB8E6279CE41C2bC3f1D44ceF855235e0CdB7 | Participant   | https://www.delta-dao.com/.well-known//2210_gx_participant_Guehring.json            
 | Fraunhofer-Institut für Werkzeugmaschinen und Umformtechnik IWU 22.10 | 0x7bf493b142AB0bb37c7f766A1585245901891685 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Fraunhofer_IWU.json  |
 | imc information multimedia communication AG | 0x1c0c9211E8Ec8E0253A53880D5481e4580B62125 | Participant   | https://www.delta-dao.com/.well-known/participantIMC.json            |
 | SAP Fioneer GmbH                    | 0xEEe803bEFd2B4f229E57523Edb11CDE38DD1a23E | Participant   | https://www.delta-dao.com/.well-known/participantSAPFioneer.json             |
@@ -204,4 +208,25 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Vodafone Group Services Limited     | 0x172b3eB3BDa62e81c171d340eC4a8C70f3d044EF | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Vodafone.json      |
 | Vodafone Group Services Limited     | 0xf1F30d7048775F02139Be30067e984F2C2d1812a | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Vodafone.json      |
 | Vodafone Group Services Limited     | 0x55Bde3d09a51C023E0BC206d79b3B3C1F4e39a63 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Vodafone.json      |
-
+| Simcon kunststofftechnische Software GmbH     | 0xD7d2135341d3507b790A96D4AB1099172649853d | Participant   |
+| A1 Digital Deutschland GmbH     | 0x743DE1F7203c0321871ef2863554654aDC3d49fc | Participant   |
+| Berger Holding GmbH & Co. KG     | 0x660Efd8b8BdA4428b9021Cd83620ee765e68b15e | Participant   |
+| MUNSCH Chemie-Pumpen GmbH     | 0xC768F1b15405AB984cbAbC71987f7626fe88456d | Participant   |
+| KWS Kölle GmbH Werkzeugbau-Sonderfertigung     | 0x4309798b8ceC0a0670033A5D1DB85ad3f847741a | Participant   |
+| VSchubert Fertigungstechnik GmbH     | 0x5ed1B9eB8961fB80fe74909178Fbef1B93b95a06 | Participant   |
+| Hochschule für angewandte Wissenschaften Kempten     | 0xe1D7Cf58357Ce5dFCa2343221610138A196C0FEE | Participant   |
+| Technische Universität Darmstadt     | 0x3BF11BaC729f5fc3f063bdc78Ee105Eaa11027c7 | Participant   |
+| DMG MORI Global Marketing GmbH     | 0x7bA20648F186e5eabAf7C721bA0d2d394B1EE34d | Participant   |
+| pro-micron GmbH     | 0x4688e768E014FD60810f01ADd3339c5439Cd340C | Participant   |
+| HAIDLMAIR GmbH     | 0xF0b7e78d003fEd87A22dBc3cBaf9452AD754A601 | Participant   |
+| Covestro AG     | 0x4dB1018D90feC4bFa75c41932d5257BfFE42D4FF | Participant   |
+| VEIT Manufacturing Central gGmbH     | 0x6CF70BD79dfef2234e96fb39F4484DD6b537E817 | Participant   |
+| voestalpine AG      | 0x85eb4070C60145289babd8a5fcB8E06Dbc031Cf2 | Participant   |
+| Vodafone Group Services Limited     | 0x55Bde3d09a51C023E0BC206d79b3B3C1F4e39a63 | Participant   |
+| Vodafone Group Services Limited     | 0x55Bde3d09a51C023E0BC206d79b3B3C1F4e39a63 | Participant   |
+| Vodafone Group Services Limited     | 0x55Bde3d09a51C023E0BC206d79b3B3C1F4e39a63 | Participant   |
+| Vodafone Group Services Limited     | 0x55Bde3d09a51C023E0BC206d79b3B3C1F4e39a63 | Participant   |
+| Vodafone Group Services Limited     | 0x55Bde3d09a51C023E0BC206d79b3B3C1F4e39a63 | Participant   |
+| Vodafone Group Services Limited     | 0x55Bde3d09a51C023E0BC206d79b3B3C1F4e39a63 | Participant   |
+| Vodafone Group Services Limited     | 0x55Bde3d09a51C023E0BC206d79b3B3C1F4e39a63 | Participant   |
+| Vodafone Group Services Limited     | 0x55Bde3d09a51C023E0BC206d79b3B3C1F4e39a63 | Participant   |
