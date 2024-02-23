@@ -23,7 +23,7 @@ Make sure you have the following prerequisites ready:
 
 1. **Get the Bundle**: Each ParaTime requires a specific bundle (`.orc` extension) containing essential binaries and metadata. Refer to the Network Parameters page for a comprehensive list of ParaTimes and their corresponding bundles.
 
-2. **Installation**: Place the acquired bundle in the `runtimes` subdirectory of your node's working directory (`/node/runtimes/´) to equip your ParaTime client node with the necessary resources for interaction.
+2. **Installation**: Place the acquired bundle in the `runtimes` subdirectory of your node's working directory (`/node/runtimes/`) to equip your ParaTime client node with the necessary resources for interaction.
 
 ## Configuring the Bubblewrap Sandbox
 
@@ -31,7 +31,7 @@ ParaTime client nodes execute ParaTime binaries within a secure sandbox environm
 
 ## Customizing Your Node Configuration
 
-Craft the Configuration File: Generate a configuration file (`config.yml`) in the `/node/etc/` directory using the provided template. Be sure to replace placeholder variables with actual values like seed_node_address and runtime_orc_path for accurate node configuration.
+Craft the Configuration File: Generate a configuration file (`config.yml`) in the `/node/etc/` directory using the provided template. Be sure to replace placeholder variables with actual values, like seed_node_address and runtime_orc_path for accurate node configuration.
 
 Confidential States Configuration: If you choose to utilize SGX for confidential states, update the runtime configuration accordingly in the `config.yml` file. This step ensures compatibility and enables access to confidential data within the ParaTime environment.
 
