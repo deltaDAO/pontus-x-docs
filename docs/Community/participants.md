@@ -222,4 +222,4 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Covestro AG     | 0x4dB1018D90feC4bFa75c41932d5257BfFE42D4FF | Participant   | |
 | VEIT Manufacturing Central gGmbH     | 0x6CF70BD79dfef2234e96fb39F4484DD6b537E817 | Participant   | |
 | voestalpine AG      | 0x85eb4070C60145289babd8a5fcB8E06Dbc031Cf2 | Participant   | |
-| Vodafone Group Services Limited     | 0x55Bde3d09a51C023E0BC206d79b3B3C1F4e39a63 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_tennet.json      |
+| TenneT TSO GmbH     | 0x55Bde3d09a51C023E0BC206d79b3B3C1F4e39a63 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_tennet.json      |
