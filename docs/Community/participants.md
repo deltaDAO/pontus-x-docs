@@ -134,7 +134,7 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Deutsches Forschungszentrum für Künstliche Intelligenz GmbH 22.10 | 0x8B7f2b75B7F87D3125C8B0eDB85639B441BBcE21 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_DFKI.json  |
 | Hochschule für angewandte Wissenschaften Kempten | 0xb11124Dfa40E44b3283068fd07bf6FdE60caf06A | Participant   | https://www.delta-dao.com/.well-known/participantHSKempten.json |
 | Fraunhofer-Institut für Graphische Datenverarbeitung IGD | 0x632460b14aDd90aD9430e381B4662779cC1ab7a6 | Participant   | https://www.delta-dao.com/.well-known/participantFraunhoferIGD.json  |
-| 52°North GmbH                       | 0x1f65110b63B6044f1E92543C09231842131798C7 | Participant   | https://www.delta-dao.com/.well-known/participant52north.json                |
+| 52°North GmbH                       | 0x1f65110b63B6044f1E92543C09231842131798C7 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_52north.json                |
 | TrueOcean GmbH                      | 0xDFa29AE20eac7f203DdDbe15E1830985e99143B8 | Participant   | https://www.delta-dao.com/.well-known/participantTrueOcean.json              |
 | Institute for Language and Speech Processing | 0xFfA05d656465568BE83B11bf274c5458AC8401AC | Participant   | https://www.delta-dao.com/.well-known/participantILSP.json          |
 | Vicomtech                           | 0xb500BfE3d89b5D6b0d2b91841c3A3aD568Cb0FdC | Participant   | https://www.delta-dao.com/.well-known/participantVicomtech.json              |
