@@ -9,7 +9,7 @@ title: Quick Start
 
 - Pontus-X network docs: https://github.com/deltadao/pontus-x-docs/
 - Pontus-X portal: https://github.com/deltaDAO/mvg-portal
-- Block Explorer: TBD
+- Block Explorer: https://explorer.dev.pontus-x.eu/
 - Ocean Contracts: https://github.com/oceanprotocol/contracts/
 
 ## Setup MetaMask
@@ -17,7 +17,7 @@ title: Quick Start
 - New RPC URL: https://rpc.dev.pontus-x.eu/
 - Chain ID: 32456
 - Currency Symbol: EURO
-- Block Explorer URL: TBD
+- Block Explorer URL: https://explorer.dev.pontus-x.eu/
 
 ## Query from Nodes and Validators
 
