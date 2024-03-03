@@ -19,6 +19,15 @@ title: Quick Start
 - Currency Symbol: EURO
 - Block Explorer URL: https://explorer.dev.pontus-x.eu/
 
+## ERC20 Token Smart Contracts
+The fee token will be automatically added to your wallet when adding the network. The payment tokens need to be manually imported to be visible as your wallet balance. For this use "import token" and use the below smart contract address.
+
+| Token Name | Smart Contract Address                     | Comment           |
+|------------|--------------------------------------------|-------------------|
+| EUROe      | 0x8A4826071983655805bF4f29828577Cd6b1aC0cB | Payment Token     |
+| Ocean      | 0xdF171F74a8d3f4e2A789A566Dce9Fa4945196112 | Payment Token     |
+| EUROe      |                                            | Network Fee Token |
+
 ## Query from Nodes and Validators
 
 ### Get latest block
