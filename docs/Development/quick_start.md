@@ -17,7 +17,17 @@ title: Quick Start
 - New RPC URL: https://rpc.genx.minimal-gaia-x.eu
 - Chain ID: 100
 - Currency Symbol: GX
-- Block Explorer URL: https://explorer.genx.minimal-gaia-x.eu/
+- Block Explorer URL: https://explorer.pontus-x.eu/
+
+## GEN-X Network Token Smart Contracts
+
+The fee token will be automatically added to your wallet when adding the network. The payment tokens need to be manually imported to be visible as your wallet balance. For this use "import token" and use the below smart contract address.
+
+| Token Name | Smart Contract Address                     | Comment.          |
+|------------|--------------------------------------------|-------------------|
+| EUROe      | 0xe974c4894996E012399dEDbda0bE7314a73BBff1 | Payment Token     |
+| Ocean      | 0xdF171F74a8d3f4e2A789A566Dce9Fa4945196112 | Payment Token     |
+| GX         |                                            | Network Fee Token |
 
 ## Query from Nodes and Validators
 
