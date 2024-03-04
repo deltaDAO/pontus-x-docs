@@ -13,11 +13,11 @@ title: Quick Start
 - Ocean Contracts: https://github.com/oceanprotocol/contracts/
 
 ## Setup MetaMask
-- Network name: Pontus-X
+- Network name: Pontus-X Devnet
 - New RPC URL: https://rpc.dev.pontus-x.eu/
 - Chain ID: 32456
 - Currency Symbol: EURO
-- Block Explorer URL: https://explorer.dev.pontus-x.eu/
+- Block Explorer URL: https://explorer.dev.pontus-x.eu/testnet/pontusx
 
 ## ERC20 Token Smart Contracts
 The fee token will be automatically added to your wallet when adding the network. The payment tokens need to be manually imported to be visible as your wallet balance. For this use "import token" and use the below smart contract address.
@@ -26,7 +26,7 @@ The fee token will be automatically added to your wallet when adding the network
 |------------|--------------------------------------------|-------------------|
 | EUROe      | 0x8A4826071983655805bF4f29828577Cd6b1aC0cB | Payment Token     |
 | Ocean      | 0xdF171F74a8d3f4e2A789A566Dce9Fa4945196112 | Payment Token     |
-| EUROe      |                                            | Network Fee Token |
+| EURO       |                                            | Network Fee Token |
 
 ## Query from Nodes and Validators
 
