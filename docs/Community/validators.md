@@ -23,6 +23,7 @@ Furthermore, we can recommend our [blog post](https://deltadao.medium.com/gaia-x
 - BigchainDB GmBH, Germany
 - Exaion SAS (EDF), France
 - AIRBUS Defense and Space GmbH, Germany
+- Materna Information & Communications SE, Germany
 
 ### Gaia-X Trust Framework Participant Identification and Self-Descriptions
 - deltaDAO: https://www.delta-dao.com/.well-known/participantDeltaDAO.json
@@ -51,6 +52,7 @@ Furthermore, we can recommend our [blog post](https://deltadao.medium.com/gaia-x
 - BigchainDB: 0x2D7609345146CBddf3Ad48b26D8c71A3D652a594
 - Exaion SAS: 0x7244dF59313D6fc05C9a95E62486340205195Efc
 - AIRBUS: 0xCBB7e8db417657431C4D88DccF06085e85d0FB9c
+- Materna: 0xD9dbab2b806396651b893C04FDF73CB65bE973DC
 
 ### Full nodes 
 - deltaDAO: 0xf5bFEC3a99E25931DD198585d93E3022a5EB6A20
