@@ -225,3 +225,4 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | TenneT TSO GmbH     | 0xd1A898E2CAcEFee46245Fc9a560032793098F619 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_tennet.json      |
 | Fraunhofer-Institut für Arbeitswirtschaft und Organisation IAO     | 0x670E5512aDBE5fAD672d825800f4a4A23Be744D1 | Participant   |
 | Vodafone Deutschland GmbH     | 0x101ec86ED995eB1c468581758D11103F64c0028c | Participant   |
+| Poznan Supercomputing and Networking Center     | 0x8e9307D95f3aF50DCc655Af3EAE89B24501b848D | Participant   |
