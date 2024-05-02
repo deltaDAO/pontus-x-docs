@@ -223,6 +223,7 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | VEIT Manufacturing Central gGmbH     | 0x6CF70BD79dfef2234e96fb39F4484DD6b537E817 | Participant   | |
 | voestalpine AG      | 0x85eb4070C60145289babd8a5fcB8E06Dbc031Cf2 | Participant   | |
 | TenneT TSO GmbH     | 0xd1A898E2CAcEFee46245Fc9a560032793098F619 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_tennet.json      |
-| Fraunhofer-Institut für Arbeitswirtschaft und Organisation IAO     | 0x670E5512aDBE5fAD672d825800f4a4A23Be744D1 | Participant   |
-| Vodafone Deutschland GmbH     | 0x101ec86ED995eB1c468581758D11103F64c0028c | Participant   |
-| Poznan Supercomputing and Networking Center     | 0x8e9307D95f3aF50DCc655Af3EAE89B24501b848D | Participant   |
+| Fraunhofer-Institut für Arbeitswirtschaft und Organisation IAO     | 0x670E5512aDBE5fAD672d825800f4a4A23Be744D1 | Participant   | |
+| Vodafone Deutschland GmbH     | 0x101ec86ED995eB1c468581758D11103F64c0028c | Participant   | |
+| Poznan Supercomputing and Networking Center     | 0x8e9307D95f3aF50DCc655Af3EAE89B24501b848D | Participant   | |
+| SSC-Services GmbH     | 0x8e8D96aD41025EAFE3D4C198afca6c1eb5EB7a32 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_SSC-services.json |
