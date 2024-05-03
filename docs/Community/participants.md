@@ -142,6 +142,7 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Berger Holding GmbH & Co. KG        | 0x2dB30B996C0E2990F836685Cf1A2939b3299f8e5 | Participant   | https://www.delta-dao.com/.well-known/participantBergerHolding.json          |
 | Christoph Kroschke GmbH             | 0x224482ebcf914b9FA9E312036B377e26B676E534 | Participant   | https://kroschke.de/.well-known/participantKroschke.json                     |
 | Brinkhaus GmbH                      | 0xD580c01E2f503287006138a94eBBc537Fe7eBD25 | Participant   | https://www.delta-dao.com/.well-known/participantBrinkhausGmbH.json          |
+| Brinkhaus GmbH                      | 0xd53fd15e0FC2DFB319c3772FED817C5A29322139 | Participant   | https://www.delta-dao.com/.well-known/participantBrinkhausGmbH.json          | 
 | Gühring KG                          | 0x4B107057aB8278c7d9436bf76230d16e5F7BaD16 | Participant   | https://www.delta-dao.com/.well-known//2210_gx_participant_guehring.json               |
 | Gühring KG                          | 0xD9BAB8E6279CE41C2bC3f1D44ceF855235e0CdB7 | Participant   | https://www.delta-dao.com/.well-known//2210_gx_participant_guehring.json            
 | Fraunhofer-Institut für Werkzeugmaschinen und Umformtechnik IWU 22.10 | 0x7bf493b142AB0bb37c7f766A1585245901891685 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Fraunhofer_IWU.json  |
