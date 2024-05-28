@@ -229,3 +229,4 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Vodafone Deutschland GmbH     | 0x101ec86ED995eB1c468581758D11103F64c0028c | Participant   | |
 | Poznan Supercomputing and Networking Center     | 0x8e9307D95f3aF50DCc655Af3EAE89B24501b848D | Participant   | |
 | SSC-Services GmbH     | 0x8e8D96aD41025EAFE3D4C198afca6c1eb5EB7a32 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_SSC-services.json |
+| Shell     | 0x550B078c243b0893CCA0e1Af93C5e431d7Fd080B | Participant   |  |
