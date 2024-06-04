@@ -210,23 +210,24 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Vodafone Group Services Limited     | 0x172b3eB3BDa62e81c171d340eC4a8C70f3d044EF | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Vodafone.json      |
 | Vodafone Group Services Limited     | 0xf1F30d7048775F02139Be30067e984F2C2d1812a | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Vodafone.json      |
 | Vodafone Group Services Limited     | 0x55Bde3d09a51C023E0BC206d79b3B3C1F4e39a63 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Vodafone.json      |
-| Simcon kunststofftechnische Software GmbH     | 0xD7d2135341d3507b790A96D4AB1099172649853d | Participant   | |
-| A1 Digital Deutschland GmbH     | 0x743DE1F7203c0321871ef2863554654aDC3d49fc | Participant   | |
-| Berger Holding GmbH & Co. KG     | 0x660Efd8b8BdA4428b9021Cd83620ee765e68b15e | Participant   | |
-| MUNSCH Chemie-Pumpen GmbH     | 0xC768F1b15405AB984cbAbC71987f7626fe88456d | Participant   | |
-| KWS Kölle GmbH Werkzeugbau-Sonderfertigung     | 0x4309798b8ceC0a0670033A5D1DB85ad3f847741a | Participant   | |
-| VSchubert Fertigungstechnik GmbH     | 0x5ed1B9eB8961fB80fe74909178Fbef1B93b95a06 | Participant   | |
-| Hochschule für angewandte Wissenschaften Kempten     | 0xe1D7Cf58357Ce5dFCa2343221610138A196C0FEE | Participant   | |
-| Technische Universität Darmstadt     | 0x3BF11BaC729f5fc3f063bdc78Ee105Eaa11027c7 | Participant   | |
-| DMG MORI Global Marketing GmbH     | 0x7bA20648F186e5eabAf7C721bA0d2d394B1EE34d | Participant   | |
-| pro-micron GmbH     | 0x4688e768E014FD60810f01ADd3339c5439Cd340C | Participant   | |
-| HAIDLMAIR GmbH     | 0xF0b7e78d003fEd87A22dBc3cBaf9452AD754A601 | Participant   | |
-| Covestro AG     | 0x4dB1018D90feC4bFa75c41932d5257BfFE42D4FF | Participant   | |
-| VEIT Manufacturing Central gGmbH     | 0x6CF70BD79dfef2234e96fb39F4484DD6b537E817 | Participant   | |
-| voestalpine AG      | 0x85eb4070C60145289babd8a5fcB8E06Dbc031Cf2 | Participant   | |
-| TenneT TSO GmbH     | 0xd1A898E2CAcEFee46245Fc9a560032793098F619 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_tennet.json      |
-| Fraunhofer-Institut für Arbeitswirtschaft und Organisation IAO     | 0x670E5512aDBE5fAD672d825800f4a4A23Be744D1 | Participant   | |
-| Vodafone Deutschland GmbH     | 0x101ec86ED995eB1c468581758D11103F64c0028c | Participant   | |
-| Poznan Supercomputing and Networking Center     | 0x8e9307D95f3aF50DCc655Af3EAE89B24501b848D | Participant   | |
-| SSC-Services GmbH     | 0x8e8D96aD41025EAFE3D4C198afca6c1eb5EB7a32 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_SSC-services.json |
-| Shell     | 0x550B078c243b0893CCA0e1Af93C5e431d7Fd080B | Participant   |  |
+| Simcon kunststofftechnische Software GmbH | 0xD7d2135341d3507b790A96D4AB1099172649853d | Participant   | |
+| A1 Digital Deutschland GmbH         | 0x743DE1F7203c0321871ef2863554654aDC3d49fc | Participant   | |
+| Berger Holding GmbH & Co. KG        | 0x660Efd8b8BdA4428b9021Cd83620ee765e68b15e | Participant   | |
+| MUNSCH Chemie-Pumpen GmbH           | 0xC768F1b15405AB984cbAbC71987f7626fe88456d | Participant   | |
+| KWS Kölle GmbH Werkzeugbau-Sonderfertigung | 0x4309798b8ceC0a0670033A5D1DB85ad3f847741a | Participant | |
+| VSchubert Fertigungstechnik GmbH    | 0x5ed1B9eB8961fB80fe74909178Fbef1B93b95a06 | Participant   | |
+| Hochschule für angewandte Wissenschaften Kempten | 0xe1D7Cf58357Ce5dFCa2343221610138A196C0FEE | Participant | |
+| Technische Universität Darmstadt    | 0x3BF11BaC729f5fc3f063bdc78Ee105Eaa11027c7 | Participant   | |
+| DMG MORI Global Marketing GmbH      | 0x7bA20648F186e5eabAf7C721bA0d2d394B1EE34d | Participant   | |
+| pro-micron GmbH                     | 0x4688e768E014FD60810f01ADd3339c5439Cd340C | Participant   | |
+| HAIDLMAIR GmbH                      | 0xF0b7e78d003fEd87A22dBc3cBaf9452AD754A601 | Participant   | |
+| Covestro AG                         | 0x4dB1018D90feC4bFa75c41932d5257BfFE42D4FF | Participant   | |
+| VEIT Manufacturing Central gGmbH    | 0x6CF70BD79dfef2234e96fb39F4484DD6b537E817 | Participant   | |
+| voestalpine AG                      | 0x85eb4070C60145289babd8a5fcB8E06Dbc031Cf2 | Participant   | |
+| TenneT TSO GmbH                     | 0xd1A898E2CAcEFee46245Fc9a560032793098F619 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_tennet.json       |
+| Fraunhofer-Institut für Arbeitswirtschaft und Organisation IAO | 0x670E5512aDBE5fAD672d825800f4a4A23Be744D1 | Participant | |
+| Vodafone Deutschland GmbH           | 0x101ec86ED995eB1c468581758D11103F64c0028c | Participant   | |
+| Poznan Supercomputing and Networking Center | 0x8e9307D95f3aF50DCc655Af3EAE89B24501b848D | Participant | |
+| SSC-Services GmbH                   | 0x8e8D96aD41025EAFE3D4C198afca6c1eb5EB7a32 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_SSC-services.json |
+| Shell                               | 0x550B078c243b0893CCA0e1Af93C5e431d7Fd080B | Participant   | |
+| pro-micron GmbH                     | 0x6C09c6561618E84052204Efdd1a5844a8EA2cAd5 | Participant   | |
