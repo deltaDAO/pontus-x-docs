@@ -12,15 +12,21 @@ title: Quick Start
 - Block Explorer: https://github.com/oasisprotocol/explorer/
 - Ocean Contracts: https://github.com/oceanprotocol/contracts/
 
-## Setup MetaMask
+## Setup MetaMask for Devnet and Testnet
 
 - Network name: Pontus-X Devnet
-- New RPC URL: https://rpc.dev.pontus-x.eu/
+- RPC URL: https://rpc.dev.pontus-x.eu/
 - Chain ID: 32456
 - Currency Symbol: EUROe (Fee)
 - Block Explorer URL: https://explorer.dev.pontus-x.eu/testnet/pontusx
 
-## ERC20 Token Smart Contracts
+- Network name: Pontus-X Testnet
+- RPC URL: https://rpc.test.pontus-x.eu/
+- Chain ID: 32457
+- Currency Symbol: EUROe (Fee)
+- Block Explorer URL: https://explorer.dev.pontus-x.eu/testnet/pontusx
+
+## ERC20 Token Smart Contracts Devnet
 
 The fee token will be automatically added to your wallet when adding the network. The payment tokens need to be manually imported to be visible as your wallet balance. For this use "import token" and use the below smart contract address.
 
@@ -28,6 +34,15 @@ The fee token will be automatically added to your wallet when adding the network
 | ---------- | ------------------------------------------ | ------------- |
 | EUROe      | 0x8A4826071983655805bF4f29828577Cd6b1aC0cB | Payment Token |
 | Ocean      | 0xdF171F74a8d3f4e2A789A566Dce9Fa4945196112 | Payment Token |
+
+## ERC20 Token Smart Contracts Testnet
+
+The fee token will be automatically added to your wallet when adding the network. The payment tokens need to be manually imported to be visible as your wallet balance. For this use "import token" and use the below smart contract address.
+
+| Token Name | Smart Contract Address                     | Comment       |
+| ---------- | ------------------------------------------ | ------------- |
+| EUROe      | 0xdd0a0278f6BAF167999ccd8Aa6C11A9e2fA37F0a | Payment Token |
+| Ocean      | 0x5B190F9E2E721f8c811E4d584383E3d57b865C69 | Payment Token |
 
 **Note** that EUROe is also used as a network fee token and is not identical with the ERC-20 EUROe token.
 
@@ -47,7 +62,7 @@ curl -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","metho
 
 # Pontus-X Infrastructure
 
-## Ocean Protocol Contracts
+## Ocean Protocol Contracts Devnet
 
 ```json
 "Ocean": "0xdF171F74a8d3f4e2A789A566Dce9Fa4945196112",
@@ -61,7 +76,21 @@ curl -X POST -H "Content-Type: application/json" --data '{"jsonrpc":"2.0","metho
 "SmartWalletChecker": "0x67FEe407A6250D85C004FCCae005046DBb51eE87"
 ```
 
-### Portal Config File
+## Ocean Protocol Contracts Devnet
+
+```json
+"Ocean": "0x5B190F9E2E721f8c811E4d584383E3d57b865C69",
+"OPFCommunityFeeCollector": "0xACC8d1B2a0007951fb4ed622ACB1C4fcCAbe778D",
+"Router": "tbd",
+"FixedPrice": "0xcE0F39abB6DA2aE4d072DA78FA0A711cBB62764E",
+"ERC20Template": ["tbd", "tbd"],
+"ERC721Template": ["tbd"]
+"Dispenser": "0xaB5B68F88Bc881CAA427007559E9bbF8818026dE",
+"ERC721Factory": "0x2C4d542ff791890D9290Eec89C9348A4891A6Fd2",
+"SmartWalletChecker": "tbd"
+```
+
+### Portal Config File Devnet
 
 ```javascript
 chainId: 32456,
@@ -89,8 +118,42 @@ providerAddress: '0x68C24FA5b2319C81b34f248d1f928601D2E5246B'
 
 Source: https://github.com/deltaDAO/mvg-portal/blob/development/chains.config.js
 
-## Backend Components
+### Portal Config File Testnet
+
+```javascript
+chainId: 32457,
+isDefault: false,
+isCustom: true,
+network: 'pontusx',
+metadataCacheUri: 'https://aquarius.test.pontus-x.eu',
+nodeUri: 'https://rpc.test.pontus-x.eu',
+providerUri: 'https://provider.test.pontus-x.eu',
+subgraphUri: 'https://subgraph.test.pontus-x.eu',
+explorerUri: 'https://explorer.pontus-x.eu/testnet/pontusx',
+oceanTokenAddress: '0x5B190F9E2E721f8c811E4d584383E3d57b865C69',
+oceanTokenSymbol: 'OCEAN',
+fixedRateExchangeAddress: '0xcE0F39abB6DA2aE4d072DA78FA0A711cBB62764E',
+dispenserAddress: '0xaB5B68F88Bc881CAA427007559E9bbF8818026dE',
+startBlock: 82191,
+transactionBlockTimeout: 50,
+transactionConfirmationBlocks: 1,
+transactionPollingTimeout: 750,
+gasFeeMultiplier: 1.1,
+nftFactoryAddress: '0x2C4d542ff791890D9290Eec89C9348A4891A6Fd2',
+opfCommunityFeeCollector: '0xACC8d1B2a0007951fb4ed622ACB1C4fcCAbe778D',
+providerAddress: '0x9546d39CE3E48BC942f0be4AA9652cBe0Aff3592'
+```
+
+Source: https://github.com/deltaDAO/mvg-portal/blob/development/chains.config.js
+
+## Backend Components Devnet
 
 - Provider: [https://provider.dev.pontus-x.eu/](https://provider.dev.pontus-x.eu/)
 - Aquarius: [https://aquarius.dev.pontus-x.eu/](https://aquarius.dev.pontus-x.eu/)
 - Subgraph: [https://subgraph.dev.pontus-x.eu/](https://subgraph.dev.pontus-x.eu/)
+
+## Backend Components Testnet
+
+- Provider: [https://provider.test.pontus-x.eu](https://provider.test.pontus-x.eu)
+- Aquarius: [https://aquarius.test.pontus-x.eu](https://aquarius.test.pontus-x.eu)
+- Subgraph: [https://subgraph.test.pontus-x.eu](https://subgraph.test.pontus-x.eu)
