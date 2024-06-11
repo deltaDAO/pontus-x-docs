@@ -229,7 +229,6 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Vodafone Deutschland GmbH           | 0x101ec86ED995eB1c468581758D11103F64c0028c | Participant   | |
 | Poznan Supercomputing and Networking Center | 0x8e9307D95f3aF50DCc655Af3EAE89B24501b848D | Participant | |
 | SSC-Services GmbH                   | 0x8e8D96aD41025EAFE3D4C198afca6c1eb5EB7a32 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_SSC-services.json |
-| Shell                               | 0x550B078c243b0893CCA0e1Af93C5e431d7Fd080B | Participant   | |
 | pro-micron GmbH                     | 0x6C09c6561618E84052204Efdd1a5844a8EA2cAd5 | Participant   | |
 | Goudappel BV                        | 0x56289213416634216ff0BccF3671653863CE6aa1 | Participant   | |
 | Posedio.                            | 0x1E423FD6c2Ce13E34bF0dB8f0Ad5CCF372578C33 | Participant   | |
