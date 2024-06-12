@@ -231,4 +231,5 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | SSC-Services GmbH                   | 0x8e8D96aD41025EAFE3D4C198afca6c1eb5EB7a32 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_SSC-services.json |
 | pro-micron GmbH                     | 0x6C09c6561618E84052204Efdd1a5844a8EA2cAd5 | Participant   | |
 | Goudappel BV                        | 0x56289213416634216ff0BccF3671653863CE6aa1 | Participant   | |
-| Posedio.                            | 0x1E423FD6c2Ce13E34bF0dB8f0Ad5CCF372578C33 | Participant   | |
+| Posedio                             | 0x1E423FD6c2Ce13E34bF0dB8f0Ad5CCF372578C33 | Participant   | |
+| Deal ex Machina SAS                 | 0xD7783c77A0bd22914872BEbdFa1c00204fF9Ec50 | Participant   | |
