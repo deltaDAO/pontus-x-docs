@@ -233,3 +233,4 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Goudappel BV                        | 0x56289213416634216ff0BccF3671653863CE6aa1 | Participant   | |
 | Posedio                             | 0x1E423FD6c2Ce13E34bF0dB8f0Ad5CCF372578C33 | Participant   | |
 | Deal ex Machina SAS                 | 0xD7783c77A0bd22914872BEbdFa1c00204fF9Ec50 | Participant   | |
+| Nimbus Connected UG                 | 0x3F820b9D0A310a3C689EbC425a5D864D31bFE454 | Participant   | |
