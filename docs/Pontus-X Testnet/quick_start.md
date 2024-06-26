@@ -130,7 +130,7 @@ chainId: 32457,
 isDefault: false,
 isCustom: true,
 network: 'pontusx',
-metadataCacheUri: 'https://aquarius.test.pontus-x.eu',
+metadataCacheUri: 'https://aquarius.pontus-x.eu',
 nodeUri: 'https://rpc.test.pontus-x.eu',
 providerUri: 'https://provider.test.pontus-x.eu',
 subgraphUri: 'https://subgraph.test.pontus-x.eu',
@@ -164,5 +164,5 @@ Source: https://github.com/deltaDAO/mvg-portal/blob/development/chains.config.js
 ### Testnet
 
 - Provider: [https://provider.test.pontus-x.eu](https://provider.test.pontus-x.eu)
-- Aquarius: [https://aquarius.test.pontus-x.eu](https://aquarius.test.pontus-x.eu)
+- Aquarius: [https://aquarius.pontus-x.eu](https://aquarius.test.pontus-x.eu)
 - Subgraph: [https://subgraph.test.pontus-x.eu](https://subgraph.test.pontus-x.eu)
