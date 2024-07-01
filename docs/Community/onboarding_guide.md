@@ -102,13 +102,13 @@ You will be able to confirm your selected account by checking the public address
 
 ### Step 3: Connecting to the right network
 
-Furthermore, you need to select the right network "GEN-X testnet" by selecting it from the network field at the top of the wallet. You can add the GEN-X network manually under "settings" and "networks". For this route you need to following configuration:
+Furthermore, you need to select the right network "Pontus-X testnet" by selecting it from the network field at the top of the wallet. You can add the Pontus-X test network manually under "settings" and "networks". For this route you need to following [network configuration](https://docs.pontus-x.eu/docs/Pontus-X%20Testnet/quick_start):
 
-- Network name: GEN-X
-- New RPC URL: https://rpc.genx.minimal-gaia-x.eu\
-- Chain ID: 100
-- Currency Symbol: GX
-- Block Explorer URL: https://explorer.genx.minimal-gaia-x.eu/
+- Network name: Pontus-X TESTnet
+- New RPC URL: https://rpc.test.pontus-x.eu
+- Chain ID: 32457
+- Currency Symbol: EUROe
+- Block Explorer URL: [https://explorer.dev.pontus-x.eu/pontusx/test](https://explorer.dev.pontus-x.eu/pontusx/test)
 
 ![MetaMask Network Settings](../assets/community%20onboarding/community_onboarding_6.jpg)
 
