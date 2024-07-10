@@ -195,7 +195,7 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Airbus Defense and Space GmbH 22.10 | 0xaDD9344fc33530dE1F2fb338de4Cf25f7d8a6E92 | Participant   | https://www.delta-dao.com/.well-known/2210_participant_AIRBUS_DS.json        |
 | Airbus Defense and Space GmbH 22.10 | 0xD9d17aC4b23222D0F9055723127acCaeeE834AD7 | Participant   | https://www.delta-dao.com/.well-known/2210_participant_AIRBUS_DS.json        |
 | ZARM Technik AG 22.10               | 0x81c337F4a5113E30919F588F178a361ade1D1Be2 | Participant   | https://www.delta-dao.com/.well-known/2210_participant_ZARM_Technik_AG.json  |
-| htw Saar 22.10                      | 0xA38E2b6fFf3d9c66270253c7fE4Dcb5B088020D5 | Participant   | https://www.delta-dao.com/.well-known/2210_participant_HTW_Saar.json         |
+| htw Saar 22.10                      | 0xA38E2b6fFf3d9c66270253c7fE4Dcb5B088020D5 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_htw.json           |
 | Centre de Visió per Computador (CVC) 22.10 | 0x3BB6944351d156fAF798f952C2838ef5bac68E40 | Participant   | https://www.delta-dao.com/.well-known/2210_ComputerVisionCenter.json  |
 | Freie und Hansestadt Hamburg 22.10  | 0xC09c6A1d5538E7ed135d6146241c8da11e92130B | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_Hamburg.json       |
 | IGH Infotec AG 22.10                | 0xA933f297ca605434850419951685ACeEcE2Bc88e | Participant   | https://www.delta-dao.com/.well-known/2210_igh_infotec_ag.json               |
