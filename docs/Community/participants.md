@@ -235,3 +235,4 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Deal ex Machina SAS                 | 0xD7783c77A0bd22914872BEbdFa1c00204fF9Ec50 | Participant   | |
 | Nimbus Connected UG                 | 0x3F820b9D0A310a3C689EbC425a5D864D31bFE454 | Participant   | |
 | Secret Dummy Corp.                  | 0x25582EaCC369Fa9830394A78664337ED3eD7a367 | Participant   | |
+| TriumvirateLabs                     | 0x5C5637268bd9fD28e365B7a492e8cF9e19da8f24 | Participant   | |
