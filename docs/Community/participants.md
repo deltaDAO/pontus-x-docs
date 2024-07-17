@@ -237,3 +237,4 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Secret Dummy Corp.                  | 0x25582EaCC369Fa9830394A78664337ED3eD7a367 | Participant   | |
 | TriumvirateLabs                     | 0x5C5637268bd9fD28e365B7a492e8cF9e19da8f24 | Participant   | |
 | BEEBUCKET GmbH                      | 0xc1dF3Cd04BE1159f1b6e27Dfa04a846FAbc959dc | Participant   | |
+| Neoception GmbH                     | 0xd794CeB60d49755762C17bD7Cc5f613FE363b9F6 | Participant   | |
