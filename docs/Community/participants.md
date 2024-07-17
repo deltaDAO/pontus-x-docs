@@ -102,7 +102,7 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Peaq                                | 0xe3Df4851c094f5F6F1AC9AbfA4FC2075276195Ec | Participant   | https://www.delta-dao.com/.well-known/participantPeaq.json               |
 | Datarella 22.10                     | 0xB21282F443EB0D490819d98F2976758af5C979B3 | Participant   | https://www.delta-dao.com/.well-known/2210_participant_Datarella.json    |
 | Datarella 22.10                     | 0x0aec046a558F13Ff18aAEc5E6f76084185358cdf | Participant   | https://www.delta-dao.com/.well-known/2210_participant_Datarella.json    |
-| Bosch                               | 0x6fE8aD445AD86b3d1325F79955Ef28d6e9cb2258 | Participant   | https://www.delta-dao.com/.well-known/participantBosch.json              |
+| Robert Bosch GmbH                   | 0x6fE8aD445AD86b3d1325F79955Ef28d6e9cb2258 | Participant   | https://www.delta-dao.com/.well-known/participantBosch.json              |
 | TU Dortmund                         | 0x51Decd187744bCfAD1BAb0A3E71dD68fAC0ba478 | Participant   |                                                                      |
 | RWS                                 | 0xa98A6eefbAE870b88a9C7A43f4b50066A01c93b6 | Participant   | https://www.delta-dao.com/.well-known/participantRijkswaterstaat.json    |
 | Craftworks                          | 0x9dfbda23b65efB1c836828D74a96eB8528A60f3C | Participant   | https://craftworks.euprogigant.io/sd/participant.json                |
@@ -236,3 +236,4 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Nimbus Connected UG                 | 0x3F820b9D0A310a3C689EbC425a5D864D31bFE454 | Participant   | |
 | Secret Dummy Corp.                  | 0x25582EaCC369Fa9830394A78664337ED3eD7a367 | Participant   | |
 | TriumvirateLabs                     | 0x5C5637268bd9fD28e365B7a492e8cF9e19da8f24 | Participant   | |
+| BEEBUCKET GmbH                      | 0xc1dF3Cd04BE1159f1b6e27Dfa04a846FAbc959dc | Participant   | |
