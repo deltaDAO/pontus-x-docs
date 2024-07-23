@@ -261,3 +261,4 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | Savvy Data Systems S.L.             | 0x194Ce4c180aE0878A05D2D7FEc16716dF942B4c4 | Participant   | |
 | IDEKO S. Coop.                      | 0x28553327C3e469a2De5D53faaE2d27C0c0Fa4d1b | Participant   | |
 | PTW TU Darmstadt                    | 0xDfB0A2BDC779f6053c7ee92601D867ec03A7b47c | Participant   | |
+| Hochschule Osnabrück                | 0xb2D3015C7356Dfde2FFe3AaBf148460A03dc74A3 | Participant   | |
