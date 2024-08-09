@@ -251,7 +251,7 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | SSC-Services GmbH                   | 0x8e8D96aD41025EAFE3D4C198afca6c1eb5EB7a32 | Participant   | https://www.delta-dao.com/.well-known/2210_gx_participant_SSC-services.json |
 | pro-micron GmbH                     | 0x6C09c6561618E84052204Efdd1a5844a8EA2cAd5 | Participant   | |
 | Goudappel BV                        | 0x56289213416634216ff0BccF3671653863CE6aa1 | Participant   | |
-| Posedio                             | 0x1E423FD6c2Ce13E34bF0dB8f0Ad5CCF372578C33 | Participant   | |
+| Posedio GmbH                        | 0x1E423FD6c2Ce13E34bF0dB8f0Ad5CCF372578C33 | Participant   | |
 | Deal ex Machina SAS                 | 0xD7783c77A0bd22914872BEbdFa1c00204fF9Ec50 | Participant   | |
 | Nimbus Connected UG                 | 0x3F820b9D0A310a3C689EbC425a5D864D31bFE454 | Participant   | |
 | Secret Dummy Corp.                  | 0x25582EaCC369Fa9830394A78664337ED3eD7a367 | Participant   | |
@@ -265,7 +265,6 @@ If you notice your a credential beeing outdated or an address missing here pleas
 | FIWARE Foundation e.V.              | 0x4aADFC11088Bd53033297fDb7D97329500F34e9f | Participant   | |
 | Universität Siegen                  | 0x345d301C97eb25468fDd7eDfb1B6e9C7f0B9F784 | Participant   | |
 | Hans Berg GmbH & Co. KG             | 0xEa458168651e7D254408Ea941BAf4210de1564E1 | Participant   | |
-| Laboratory for Manufacturing Systems & Automation| 0xA6FEd8D39cF98C6f7d4c31Da790c9c94e837c3ca | Participant   | |
-Participant   | |
-| Beia Consult International                | 0xD63fFbB727dc1Bf681F727b78b5F4C738E01f6Db | 
+| Laboratory for Manufacturing Systems & Automation| 0xA6FEd8D39cF98C6f7d4c31Da790c9c94e837c3ca | Participant   |  |
+| Beia Consult International          | 0xD63fFbB727dc1Bf681F727b78b5F4C738E01f6Db | Participant | |
 | Netcompany-Intrasoft                | 0x6Ec302A62ed554878b9e7862BF1bd5cdd22d03c7 | Participant   | |
